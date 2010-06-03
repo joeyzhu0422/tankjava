@@ -6,6 +6,8 @@ import java.util.List;
 public class SpriteContainer {
 
 	public static Tank mainTank = SpriteFactory.createMainTank();
+	
+	public static ETank eTank = SpriteFactory.createETank();
 
 	public static List<Bullet> fireList = new ArrayList<Bullet>();
 }

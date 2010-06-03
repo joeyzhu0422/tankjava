@@ -1,7 +1,5 @@
 package com.joey.game.sprite;
 
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
@@ -50,7 +48,7 @@ public class Tank extends ActivityRpgSprite {
 
 	public void init() {
 		this.setPos(this.fder);
-		//this.setXy(this.x, this.y);
+		// this.setXy(this.x, this.y);
 		this.useGrid();
 		this.initClip();
 	}
@@ -152,7 +150,14 @@ public class Tank extends ActivityRpgSprite {
 		int[][] baffles = this.probe(moveDer);
 
 		for (int i = 0; i < baffles.length; i++) {
-			int type = MapFactory.getCurrentMap()[baffles[i][0]][baffles[i][1]];
+			int type = 0;
+			try {
+				type = MapFactory.getCurrentMap()[baffles[i][0]][baffles[i][1]];
+			} catch (RuntimeException e) {
+				System.out.println("i = " + i);
+				e.printStackTrace();
+			}
+
 			if (type == Constant.TYPE_ETANK || type == Constant.TYPE_HOME
 					|| type == Constant.TYPE_SEA || type == Constant.TYPE_STEEL
 					|| type == Constant.TYPE_STON || type == Constant.TYPE_TANK) {
