@@ -16,6 +16,7 @@ import com.joey.game.base.sprite.IActivityRpgSprite.MoveCallback;
 import com.joey.game.constant.Constant;
 import com.joey.game.map.MapFactory;
 import com.joey.game.sprite.Bullet;
+import com.joey.game.sprite.ETank;
 import com.joey.game.sprite.SpriteContainer;
 import com.joey.game.sprite.Tank;
 
@@ -38,13 +39,21 @@ public class TankTest {
 	static class TestFrame extends Screen {
 
 		private Tank tank;
+		private ETank eTank;
 		private LTimer lTimer = new LTimer(400);
+		private boolean flag = true;
 
 		public TestFrame() {
 			tank = SpriteContainer.mainTank;
+			eTank = SpriteContainer.eTank;
 		}
 
 		public void alter(LTimerContext timer) {
+			if (flag) {
+				eTank.ai();
+				flag = false;
+			}
+			
 			if (lTimer.action(19)) {
 				tank.move(new MoveCallback() {
 
@@ -65,6 +74,9 @@ public class TankTest {
 		public void draw(Graphics2D g) {
 			g.drawImage(tank.getOnlyMove(tank.getDer()), tank.getxValue(), tank
 					.getyValue(), null);
+
+			g.drawImage(eTank.getOnlyMove(eTank.getDer()), eTank.getxValue(),
+					eTank.getyValue(), null);
 
 			List<Bullet> fireList = SpriteContainer.fireList;
 

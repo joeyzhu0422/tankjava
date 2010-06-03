@@ -48,7 +48,12 @@ public abstract class ActivityRpgSprite extends RpgSprite implements
 	public void freeGrid() {
 		int x = this.x, y = this.y;
 		int[][] map = MapFactory.getCurrentMap();
-		map[y][x] = map[y][x + 1] = map[y + 1][x] = map[y + 1][x + 1] = 0;
+		try {
+			map[y][x] = map[y][x + 1] = map[y + 1][x] = map[y + 1][x + 1] = 0;
+		} catch (RuntimeException e) {
+			System.out.println("x =" + x + ", y = " + y);
+			e.printStackTrace();
+		}
 	}
 
 	int xd, yd = 0;
@@ -57,7 +62,7 @@ public abstract class ActivityRpgSprite extends RpgSprite implements
 		if (this.stepLocked || this.locked) {
 			return;
 		}
-		
+
 		this.der = moveDer;
 
 		xd = yd = 0;
@@ -76,19 +81,19 @@ public abstract class ActivityRpgSprite extends RpgSprite implements
 
 		switch (der) {
 		case RIGHT:
-			this.x += 1;
+			this.x = Math.min(22, this.x + 1);
 			xd = +2;
 			break;
 		case LEFT:
-			this.x -= 1;
+			this.x = Math.max(0, this.x - 1);
 			xd = -2;
 			break;
 		case UP:
-			this.y -= 1;
+			this.y = Math.max(0, this.y - 1);
 			yd = -2;
 			break;
 		case DOWN:
-			this.y += 1;
+			this.y = Math.min(22, this.y + 1);
 			yd = 2;
 			break;
 		}

@@ -1,7 +1,6 @@
 package com.joey.game.sprite;
 
 import com.joey.game.base.sprite.ActivityRpgSprite;
-import com.joey.game.base.sprite.IActivityRpgSprite.MoveCallback;
 import com.joey.game.constant.Constant;
 import com.joey.game.map.MapFactory;
 
@@ -42,16 +41,16 @@ public class Bullet extends ActivityRpgSprite {
 		switch (this.der) {
 
 		case Constant.RpgSprite.UP:
-			y -= 1;
+			y = Math.max(0, y - 1);
 			break;
 		case Constant.RpgSprite.DOWN:
-			y += 1;
+			y = Math.min(22, y + 1);
 			break;
 		case Constant.RpgSprite.LEFT:
-			x -= 1;
+			x = Math.max(0, x - 1);
 			break;
 		case Constant.RpgSprite.RIGHT:
-			x += 1;
+			x = Math.min(22, x + 1);
 			break;
 		}
 		this.setXy(x * 20, y * 20);
