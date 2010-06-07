@@ -110,7 +110,11 @@ public class Bullet extends ActivityRpgSprite {
 	}
 
 	public void explode() {
+		Explode explode = this.pTank.exp.poll();
 
+		explode.setPTank(this.pTank);
+		explode.setXy(xValue, yValue);
+		SpriteContainer.exploedQueue.offer(explode);
 	}
 
 	public void clearUi(int y, int x) {
@@ -139,8 +143,10 @@ public class Bullet extends ActivityRpgSprite {
 		}
 	}
 
-	static class Explode extends ActivityRpgSprite implements Cloneable {
+	public static class Explode extends ActivityRpgSprite implements Cloneable {
 
+		private Tank pTank;
+		
 		public Explode() {
 			super("images/explode.gif", 40, 40, 11, 2, 1);
 		}
@@ -160,6 +166,15 @@ public class Bullet extends ActivityRpgSprite {
 			return false;
 		}
 
+		public Tank getPTank() {
+			return pTank;
+		}
+
+		public void setPTank(Tank tank) {
+			pTank = tank;
+		}
+
+		
 	}
 
 }

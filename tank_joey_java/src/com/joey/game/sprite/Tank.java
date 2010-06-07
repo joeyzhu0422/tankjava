@@ -38,7 +38,7 @@ public class Tank extends ActivityRpgSprite {
 
 	private boolean reliveLocked = false;
 
-	private Queue<Bullet.Explode> exp = new LinkedBlockingQueue<Bullet.Explode>(
+	public Queue<Bullet.Explode> exp = new LinkedBlockingQueue<Bullet.Explode>(
 			clipLength);
 
 	public Tank(String fileName, int width, int height, int x, int y, int size) {
