@@ -4,7 +4,7 @@ import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.util.List;
-import java.util.Map;
+import java.util.Queue;
 
 import org.loon.framework.game.simple.GameScene;
 import org.loon.framework.game.simple.core.graphics.Deploy;
@@ -19,6 +19,7 @@ import com.joey.game.sprite.Bullet;
 import com.joey.game.sprite.ETank;
 import com.joey.game.sprite.SpriteContainer;
 import com.joey.game.sprite.Tank;
+import com.joey.game.sprite.Bullet.Explode;
 
 public class TankTest {
 
@@ -53,7 +54,7 @@ public class TankTest {
 				eTank.ai();
 				flag = false;
 			}
-			
+
 			if (lTimer.action(19)) {
 				tank.move(new MoveCallback() {
 
@@ -83,6 +84,37 @@ public class TankTest {
 			for (int i = 0; i < fireList.size(); i++) {
 				g.drawImage(fireList.get(i).getOnlyMove(0), fireList.get(i)
 						.getxValue(), fireList.get(i).getyValue(), null);
+			}
+
+			Queue<Explode> explodeQueue = SpriteContainer.exploedQueue;
+
+			final Graphics2D _g = g;
+
+			while (explodeQueue.size() > 0) {
+				final Explode explode = explodeQueue.poll();
+
+				new Thread() {
+
+					public void run() {
+
+						for (int i = 0; i < 8; i++) {
+							try {
+
+								_g
+										.drawImage(explode.getOnlyMove(i),
+												explode.getxValue(), explode
+														.getyValue(), null);
+								Thread.sleep(19);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+
+						}
+
+						explode.getPTank().exp.offer(explode);
+					}
+				}.start();
 			}
 
 			this.createMap(g);
