@@ -14,4 +14,14 @@ public class Constant {
 		
 	}
 	
+	public interface Scene {
+		
+		public int WIDTH = 450;
+		
+		public int HEIGHT = 600;
+		
+		public int CELL_LENGTH = 15;
+		
+	}
+	
 }
