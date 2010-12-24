@@ -7,6 +7,7 @@ import java.io.FileReader;
 import com.joey.base.util.ArrayUtil;
 import com.joey.base.util.ResouceUtil;
 import com.joey.base.util.StringUtil;
+import com.joey.tank.constant.Constant;
 
 public class MapLoader {
 
@@ -40,9 +41,14 @@ public class MapLoader {
 		try {
 			System.out.println("MapLoader loading ...");
 
-			File map = ResouceUtil.getResouce("config/map/map" + gate + ".map");
+			File mapFile = ResouceUtil.getResouce("config/map/map" + gate + ".map");
 
-			BufferedReader reader = new BufferedReader(new FileReader(map));
+			BufferedReader reader = new BufferedReader(new FileReader(mapFile));
+
+			int[][] obstacless = new int[Constant.Scene.WIDTH
+					/ Constant.Scene.CELL_LENGTH][];
+
+			int lineNum = 0;
 
 			while (reader.ready()) {
 				String line = reader.readLine();
@@ -50,7 +56,13 @@ public class MapLoader {
 				String[] _obstacles = StringUtil.split(line, StringUtil.EMPTY);
 
 				int[] obstacles = ArrayUtil.toInt(_obstacles);
+
+				obstacless[lineNum++] = obstacles;
 			}
+
+			map = new Map();
+			
+			map.setObjects(obstacless);
 
 			gate++;
 		} catch (Exception e) {

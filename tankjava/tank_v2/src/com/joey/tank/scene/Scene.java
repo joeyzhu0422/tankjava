@@ -9,10 +9,11 @@ import javax.swing.JFrame;
 import com.joey.tank.beans.EnemyTank;
 import com.joey.tank.beans.MainTank;
 import com.joey.tank.beans.SubTank;
+import com.joey.tank.constant.Constant;
 import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
 
-public class Scene extends JFrame implements Runnable{
+public class Scene extends JFrame implements Runnable {
 
 	private static final long serialVersionUID = 3312071826547989755L;
 
@@ -23,62 +24,61 @@ public class Scene extends JFrame implements Runnable{
 	private List<EnemyTank> enemyTankList;
 
 	private Map map;
-	
-	private int width = 500;
-	
-	private int height = 500;
+
+	private int width = Constant.Scene.WIDTH;
+
+	private int height = Constant.Scene.HEIGHT;
 
 	public Scene() {
 
 		this.setBounds(0, 0, width, height);
-		
+
 		// step.1 初始化元素
 		this.initElements();
-		
+
 		new Thread(this).start();
 
 		this.setVisible(true);
 	}
-	
+
 	private void initElements() {
-		
+
 		// step.1 创建地图
 		map = MapLoader.getMap();
-		
+
 		// step.2 创建主坦克
 		mainTank = new MainTank();
-		
+
 	}
-	
+
 	public void paint(Graphics g) {
-		
+
 		// step.1 涂上背景
 		g.setColor(Color.BLACK);
 		g.fillRect(0, 0, width, height);
-		
+
 		// step.2 绘制tank
 		mainTank.draw(g);
-		
+
 	}
-	
+
 	public void run() {
-		
+
 		while (true) {
-			
+
 			try {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+
 			System.out.println("Scene repaint...");
-			
+
 			this.repaint();
 		}
-		
-	}
 
+	}
 
 	/** setter and getter */
 	public MainTank getMainTank() {
@@ -112,6 +112,5 @@ public class Scene extends JFrame implements Runnable{
 	public void setMap(Map map) {
 		this.map = map;
 	}
-
 
 }

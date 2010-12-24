@@ -10,4 +10,6 @@ public class StringUtil {
 		// TODO
 		return str.split(regex);
 	}
+	
+	public static String[] split(String str, int cellSize)
 }
