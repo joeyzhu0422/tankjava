@@ -1,14 +1,14 @@
 package com.joey.tank.scene;
 
-import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.image.BufferedImage;
 import java.util.List;
 
 import javax.swing.JFrame;
 
-import com.joey.tank.beans.EnemyTank;
-import com.joey.tank.beans.MainTank;
-import com.joey.tank.beans.SubTank;
+import com.joey.tank.beans.tank.EnemyTank;
+import com.joey.tank.beans.tank.MainTank;
+import com.joey.tank.beans.tank.SubTank;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
@@ -29,6 +29,8 @@ public class Scene extends JFrame implements Runnable {
 
 	private int height = Constant.Scene.HEIGHT;
 
+	private BufferedImage bufferScene;
+
 	public Scene() {
 
 		this.setBounds(0, 0, width, height);
@@ -43,6 +45,9 @@ public class Scene extends JFrame implements Runnable {
 
 	private void initElements() {
 
+		bufferScene = new BufferedImage(width, height,
+				BufferedImage.TYPE_INT_RGB);
+
 		// step.1 创建地图
 		map = MapLoader.getMap();
 
@@ -53,13 +58,20 @@ public class Scene extends JFrame implements Runnable {
 
 	public void paint(Graphics g) {
 
+		Graphics bufferG = bufferScene.getGraphics();
+
 		// step.1 涂上背景
-		g.setColor(Color.BLACK);
-		g.fillRect(0, 0, width, height);
+		bufferG.setColor(Constant.Scene.SCENE_COLOR);
+		bufferG.fillRect(0, 0, width, height);
 
-		// step.2 绘制tank
-		mainTank.draw(g);
+		// step.2 地图绘制
+		map.draw(bufferG);
 
+		// step.3 绘制tank
+		mainTank.draw(bufferG);
+
+		//
+		g.drawImage(bufferScene, 0, 0, width, height, null);
 	}
 
 	public void run() {
@@ -67,13 +79,11 @@ public class Scene extends JFrame implements Runnable {
 		while (true) {
 
 			try {
-				Thread.sleep(100);
+				Thread.sleep(15);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
-			System.out.println("Scene repaint...");
 
 			this.repaint();
 		}

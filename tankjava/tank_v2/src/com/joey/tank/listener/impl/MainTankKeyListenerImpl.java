@@ -3,7 +3,7 @@ package com.joey.tank.listener.impl;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-import com.joey.tank.beans.MainTank;
+import com.joey.tank.beans.tank.MainTank;
 import com.joey.tank.constant.Constant;
 
 public class MainTankKeyListenerImpl implements KeyListener {

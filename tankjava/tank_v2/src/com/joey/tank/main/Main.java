@@ -1,6 +1,6 @@
 package com.joey.tank.main;
 
-import com.joey.tank.beans.MainTank;
+import com.joey.tank.beans.tank.MainTank;
 import com.joey.tank.listener.impl.MainTankKeyListenerImpl;
 import com.joey.tank.scene.Scene;
 
