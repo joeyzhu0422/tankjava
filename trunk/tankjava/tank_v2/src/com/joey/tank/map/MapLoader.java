@@ -53,7 +53,7 @@ public class MapLoader {
 			while (reader.ready()) {
 				String line = reader.readLine();
 
-				String[] _obstacles = StringUtil.split(line, StringUtil.EMPTY);
+				String[] _obstacles = StringUtil.split(line, 1);
 
 				int[] obstacles = ArrayUtil.toInt(_obstacles);
 
@@ -62,7 +62,7 @@ public class MapLoader {
 
 			map = new Map();
 			
-			map.setObjects(obstacless);
+			map.setModels(obstacless);
 
 			gate++;
 		} catch (Exception e) {

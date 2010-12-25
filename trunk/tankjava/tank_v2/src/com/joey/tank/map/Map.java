@@ -2,14 +2,14 @@ package com.joey.tank.map;
 
 public class Map {
 
-	private int[][] objects;
+	private int[][] models;
 
-	public int[][] getObjects() {
-		return objects;
+	public int[][] getModels() {
+		return models;
 	}
 
-	public void setObjects(int[][] objects) {
-		this.objects = objects;
+	public void setModels(int[][] models) {
+		this.models = models;
 	}
 
 }
