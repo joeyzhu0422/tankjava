@@ -41,17 +41,19 @@ public class MapLoader {
 		try {
 			System.out.println("MapLoader loading ...");
 
-			File mapFile = ResouceUtil.getResouce("config/map/map" + gate + ".map");
+			File mapFile = ResouceUtil.getResouce("config/map/map" + gate
+					+ ".map");
 
 			BufferedReader reader = new BufferedReader(new FileReader(mapFile));
 
-			int[][] obstacless = new int[Constant.Scene.WIDTH
-					/ Constant.Scene.CELL_LENGTH][];
+			int[][] obstacless = new int[Constant.Scene.HEIGHT
+					/ Constant.Scene.CELL_LENGTH][Constant.Scene.WIDTH
+					/ Constant.Scene.CELL_LENGTH];
 
 			int lineNum = 0;
 
-			while (reader.ready()) {
-				String line = reader.readLine();
+			String line = null;
+			while ((line = reader.readLine()) != null) {
 
 				String[] _obstacles = StringUtil.split(line, 1);
 
@@ -61,7 +63,7 @@ public class MapLoader {
 			}
 
 			map = new Map();
-			
+
 			map.setModels(obstacless);
 
 			gate++;
