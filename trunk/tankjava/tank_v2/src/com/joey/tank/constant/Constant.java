@@ -4,6 +4,18 @@ import java.awt.Color;
 
 public class Constant {
 
+	public interface Scene {
+
+		public int WIDTH = 450;
+
+		public int HEIGHT = 600;
+
+		public int CELL_LENGTH = 15;
+
+		public Color SCENE_COLOR = Color.BLACK;
+
+	}
+
 	public interface Tank {
 
 		public int DIRECTION_UP = 0;
@@ -14,17 +26,13 @@ public class Constant {
 
 		public int DIRECTION_RIGHT = 3;
 
-	}
+		public interface MainTank {
 
-	public interface Scene {
+			public int ORIGINAL_X = 8 * Constant.Scene.CELL_LENGTH;
 
-		public int WIDTH = 450;
+			public int ORIGINAL_Y = 37 * Constant.Scene.CELL_LENGTH;
 
-		public int HEIGHT = 600;
-
-		public int CELL_LENGTH = 15;
-		
-		public Color SCENE_COLOR = Color.BLACK;
+		}
 
 	}
 

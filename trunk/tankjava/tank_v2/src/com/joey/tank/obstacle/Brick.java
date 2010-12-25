@@ -7,7 +7,8 @@ public class Brick extends Obstacle {
 	public Brick(int x, int y) {
 
 		super(x, y);
-		this.color = Color.getHSBColor(255, 90, 8);
+		this.color = new Color(190, 80, 11);
+		this.isPass = false;
 
 	}
 
