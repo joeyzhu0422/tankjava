@@ -1,7 +1,5 @@
 package com.joey.tank.beans.obstacle;
 
-import java.awt.Graphics;
-
 import com.joey.tank.constant.Constant;
 
 public class Nothing extends Obstacle {
