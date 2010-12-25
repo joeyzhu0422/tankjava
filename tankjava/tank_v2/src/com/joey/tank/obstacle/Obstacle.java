@@ -7,6 +7,8 @@ import com.joey.tank.constant.Constant;
 
 public abstract class Obstacle extends StaticElement {
 
+	protected boolean isPass;
+
 	public Obstacle(int x, int y) {
 		this.width = Constant.Scene.CELL_LENGTH;
 		this.height = Constant.Scene.CELL_LENGTH;
@@ -14,11 +16,14 @@ public abstract class Obstacle extends StaticElement {
 		this.y = y;
 	}
 
+	public boolean isPass() {
+		return isPass;
+	}
+
 	public void draw(Graphics g) {
 
 		g.setColor(this.color);
-		g.fill3DRect(x * Constant.Scene.CELL_LENGTH, y
-				* Constant.Scene.CELL_LENGTH, width, height, true);
+		g.fill3DRect(x, y, width, height, true);
 
 	}
 }
