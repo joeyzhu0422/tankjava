@@ -23,7 +23,7 @@ public abstract class ActiviteElement extends StaticElement {
 
 	public abstract void action();
 
-	public void move() {
+	public boolean move() {
 
 		boolean isMove = moveListener.isCollide(this);
 
@@ -46,5 +46,6 @@ public abstract class ActiviteElement extends StaticElement {
 
 		}
 
+		return isMove;
 	}
 }

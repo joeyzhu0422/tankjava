@@ -5,9 +5,9 @@ import java.awt.Graphics;
 
 public abstract class StaticElement {
 
-	protected int x;
+	protected double x;
 
-	protected int y;
+	protected double y;
 
 	protected int width;
 
@@ -15,19 +15,19 @@ public abstract class StaticElement {
 
 	protected Color color;
 
-	public int getX() {
+	public double getX() {
 		return x;
 	}
 
-	public void setX(int x) {
+	public void setX(double x) {
 		this.x = x;
 	}
 
-	public int getY() {
+	public double getY() {
 		return y;
 	}
 
-	public void setY(int y) {
+	public void setY(double y) {
 		this.y = y;
 	}
 

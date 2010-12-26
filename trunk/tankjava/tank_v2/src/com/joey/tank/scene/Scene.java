@@ -6,6 +6,7 @@ import java.util.List;
 
 import javax.swing.JFrame;
 
+import com.joey.tank.beans.Bullet;
 import com.joey.tank.beans.tank.EnemyTank;
 import com.joey.tank.beans.tank.MainTank;
 import com.joey.tank.beans.tank.SubTank;
@@ -33,7 +34,7 @@ public class Scene extends JFrame implements Runnable {
 
 	public Scene() {
 
-		this.setBounds(0, 0, width , height);
+		this.setBounds(0, 0, width, height);
 
 		// step.1 初始化元素
 		this.initElements();
@@ -58,19 +59,25 @@ public class Scene extends JFrame implements Runnable {
 
 	public void paint(Graphics g) {
 
+		// step.1 双缓冲区设置
 		Graphics bufferG = bufferScene.getGraphics();
 
-		// step.1 涂上背景
+		// step.2 涂上背景
 		bufferG.setColor(Constant.Scene.SCENE_COLOR);
 		bufferG.fillRect(0, 0, width, height);
 
-		// step.2 地图绘制
+		// step.3 地图绘制
 		map.draw(bufferG);
 
-		// step.3 绘制tank
+		// step.4 绘制mainTank
 		mainTank.draw(bufferG);
 
-		//
+		// step.4-1 mainTank子弹绘制
+		for (Bullet bullet : mainTank.getFiredBulletQueue()) {
+			bullet.draw(bufferG);
+		}
+
+		// step.5 双缓冲区放置到面板
 		g.drawImage(bufferScene, 0, 0, width, height, null);
 	}
 
