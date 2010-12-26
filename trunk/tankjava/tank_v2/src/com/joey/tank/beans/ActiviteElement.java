@@ -31,16 +31,16 @@ public abstract class ActiviteElement extends StaticElement {
 
 			switch (direction) {
 			case Constant.ActiviteElement.DIRECTION_UP:
-				this.setY(this.getY() - 1);
+				this.setY(this.getY() - Constant.Scene.CELL_LENGTH);
 				break;
 			case Constant.ActiviteElement.DIRECTION_DOWN:
-				this.setY(this.getY() + 1);
+				this.setY(this.getY() + Constant.Scene.CELL_LENGTH);
 				break;
 			case Constant.ActiviteElement.DIRECTION_LEFT:
-				this.setX(this.getX() - 1);
+				this.setX(this.getX() - Constant.Scene.CELL_LENGTH);
 				break;
 			case Constant.ActiviteElement.DIRECTION_RIGHT:
-				this.setX(this.getX() + 1);
+				this.setX(this.getX() + Constant.Scene.CELL_LENGTH);
 				break;
 			}
 
