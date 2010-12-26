@@ -8,13 +8,13 @@ public class MainTank extends BaseAbstractTank {
 
 	public MainTank() {
 		this.color = Color.YELLOW;
-		this.x = Constant.Tank.MainTank.ORIGINAL_X;
-		this.y = Constant.Tank.MainTank.ORIGINAL_Y;
+		this.x = Constant.ActiviteElement.MainTank.ORIGINAL_X;
+		this.y = Constant.ActiviteElement.MainTank.ORIGINAL_Y;
 		this.width = 30;
 		this.height = 30;
 	}
 
-	public void action() throws Exception {
+	public void action() {
 		System.out.println("Main Tank is action");
 	}
 

@@ -33,7 +33,7 @@ public class Scene extends JFrame implements Runnable {
 
 	public Scene() {
 
-		this.setBounds(0, 0, width, height);
+		this.setBounds(0, 0, width , height);
 
 		// step.1 ³õÊ¼»¯ÔªËØ
 		this.initElements();

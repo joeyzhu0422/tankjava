@@ -1,9 +1,8 @@
 package com.joey.tank.beans.tank;
 
-
 public class SubTank extends BaseAbstractTank {
 
-	public void action() throws Exception {
+	public void action() {
 		System.out.println("Sub Tank is action");
 	}
 

@@ -12,11 +12,13 @@ public class Constant {
 
 		public int CELL_LENGTH = 15;
 
+		public int TOP_HEIGHT = 30;
+
 		public Color SCENE_COLOR = Color.BLACK;
 
 	}
 
-	public interface Tank {
+	public interface ActiviteElement {
 
 		public int DIRECTION_UP = 0;
 
@@ -28,9 +30,9 @@ public class Constant {
 
 		public interface MainTank {
 
-			public int ORIGINAL_X = 8 * Constant.Scene.CELL_LENGTH;
+			public int ORIGINAL_X = 8;
 
-			public int ORIGINAL_Y = 37 * Constant.Scene.CELL_LENGTH;
+			public int ORIGINAL_Y = 36;
 
 		}
 

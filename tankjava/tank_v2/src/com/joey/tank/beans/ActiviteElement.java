@@ -1,17 +1,16 @@
 package com.joey.tank.beans;
 
-import java.util.List;
-
+import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.MoveListener;
 
 public abstract class ActiviteElement extends StaticElement {
 
 	protected int direction;
 
-	protected List<MoveListener> moveListenerList;
+	protected MoveListener moveListener;
 
-	public void addMoveListener(MoveListener listener) {
-		moveListenerList.add(listener);
+	public void setMoveListener(MoveListener listener) {
+		this.moveListener = listener;
 	}
 
 	public int getDirection() {
@@ -22,5 +21,30 @@ public abstract class ActiviteElement extends StaticElement {
 		this.direction = direction;
 	}
 
-	public abstract void action() throws Exception;
+	public abstract void action();
+
+	public void move() {
+
+		boolean isMove = moveListener.isCollide(this);
+
+		if (isMove) {
+
+			switch (direction) {
+			case Constant.ActiviteElement.DIRECTION_UP:
+				this.setY(this.getY() - 1);
+				break;
+			case Constant.ActiviteElement.DIRECTION_DOWN:
+				this.setY(this.getY() + 1);
+				break;
+			case Constant.ActiviteElement.DIRECTION_LEFT:
+				this.setX(this.getX() - 1);
+				break;
+			case Constant.ActiviteElement.DIRECTION_RIGHT:
+				this.setX(this.getX() + 1);
+				break;
+			}
+
+		}
+
+	}
 }

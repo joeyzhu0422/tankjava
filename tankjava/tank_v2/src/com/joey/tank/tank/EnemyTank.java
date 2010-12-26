@@ -1,9 +1,8 @@
 package com.joey.tank.beans.tank;
 
-
 public class EnemyTank extends BaseAbstractTank {
 
-	public void action() throws Exception {
+	public void action() {
 		System.out.println("Enemy Tank is action");
 	}
 
