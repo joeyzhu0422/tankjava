@@ -37,8 +37,12 @@ public class MainTankKeyListenerImpl implements KeyListener {
 			System.out.println("Right is keyed....");
 			mainTank.setDirection(Constant.ActiviteElement.DIRECTION_RIGHT);
 			break;
+		case KeyEvent.VK_ENTER:
+			System.out.println("Main Tank fire");
+			mainTank.fire();
+			break;
 		}
-		 
+
 		mainTank.move();
 	}
 

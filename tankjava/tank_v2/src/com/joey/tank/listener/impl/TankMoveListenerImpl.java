@@ -10,10 +10,10 @@ import com.joey.tank.listener.MoveListener;
 import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
 
-public class MoveListenerImpl implements MoveListener {
+public class TankMoveListenerImpl implements MoveListener {
 
 	public boolean isCollide(ActiviteElement element) {
-		System.out.println("Move Listener isCollide");
+		System.out.println("Tank Move Listener isCollide");
 
 		Map map = MapLoader.getMap();
 
