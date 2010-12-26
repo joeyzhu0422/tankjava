@@ -9,6 +9,7 @@ import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.MoveListener;
 import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
+import com.joey.tank.util.MapUtil;
 
 public class TankMoveListenerImpl implements MoveListener {
 
@@ -29,9 +30,10 @@ public class TankMoveListenerImpl implements MoveListener {
 		switch (element.getDirection()) {
 		case Constant.ActiviteElement.DIRECTION_UP:
 			while (collideNum-- > 0) {
-				System.out.println(x);
+				System.out.println(MapUtil.toXIndex(x));
 				System.out.println(y);
-				Obstacle obstacle = map.getObstacle(x + collideNum, y - 1);
+				Obstacle obstacle = map.getObstacle(MapUtil.toXIndex(x)
+						+ collideNum, MapUtil.toYIndex(y) - 1);
 				if (null == obstacle) {
 					return false;
 				}
@@ -40,8 +42,9 @@ public class TankMoveListenerImpl implements MoveListener {
 			break;
 		case Constant.ActiviteElement.DIRECTION_DOWN:
 			while (collideNum-- > 0) {
-				Obstacle obstacle = map.getObstacle(x + collideNum, y
-						+ element.getHeight() / Constant.Scene.CELL_LENGTH);
+				Obstacle obstacle = map.getObstacle(MapUtil.toXIndex(x)
+						+ collideNum, MapUtil.toYIndex(y) + element.getHeight()
+						/ Constant.Scene.CELL_LENGTH);
 				if (null == obstacle) {
 					return false;
 				}
@@ -50,7 +53,8 @@ public class TankMoveListenerImpl implements MoveListener {
 			break;
 		case Constant.ActiviteElement.DIRECTION_LEFT:
 			while (collideNum-- > 0) {
-				Obstacle obstacle = map.getObstacle(x - 1, y + collideNum);
+				Obstacle obstacle = map.getObstacle(MapUtil.toXIndex(x) - 1, MapUtil.toYIndex(y)
+						+ collideNum);
 				if (null == obstacle) {
 					return false;
 				}
@@ -59,8 +63,10 @@ public class TankMoveListenerImpl implements MoveListener {
 			break;
 		case Constant.ActiviteElement.DIRECTION_RIGHT:
 			while (collideNum-- > 0) {
-				Obstacle obstacle = map.getObstacle(x + element.getWidth()
-						/ Constant.Scene.CELL_LENGTH, y + collideNum);
+				Obstacle obstacle = map.getObstacle(MapUtil.toXIndex(x)
+						+ element.getWidth() / Constant.Scene.CELL_LENGTH,
+						MapUtil.toYIndex(y)
+						+ collideNum);
 				if (null == obstacle) {
 					return false;
 				}

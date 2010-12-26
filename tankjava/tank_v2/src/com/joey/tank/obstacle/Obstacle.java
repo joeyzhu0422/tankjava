@@ -23,9 +23,7 @@ public abstract class Obstacle extends StaticElement {
 	public void draw(Graphics g) {
 
 		g.setColor(this.color);
-		g.fill3DRect(x * Constant.Scene.CELL_LENGTH, y
-				* Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,
-				width, height, true);
+		g.fill3DRect(x, y, width, height, true);
 
 	}
 }

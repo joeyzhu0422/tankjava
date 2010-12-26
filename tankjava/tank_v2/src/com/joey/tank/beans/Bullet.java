@@ -4,14 +4,11 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 import com.joey.tank.beans.tank.Tank;
-import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.impl.BulletMoveListenerImpl;
 
 public class Bullet extends ActiviteElement {
 
 	protected Tank tank;
-	protected int rX;
-	protected int rY;
 
 	public Bullet(Tank tank) {
 		this.setMoveListener(new BulletMoveListenerImpl());
@@ -30,11 +27,11 @@ public class Bullet extends ActiviteElement {
 		System.out.println("Bullet draw");
 
 		g.setColor(Color.WHITE);
-		g.fillRect(rX, rY + Constant.Scene.TOP_HEIGHT, width, height);
+		g.fillRect(x, y, width, height);
 	}
 
-	public void setRxy(int rX, int rY) {
-		this.rX = rX;
-		this.rY = rY;
+	public void setXy(int x, int y) {
+		this.x = x;
+		this.y = y;
 	}
 }

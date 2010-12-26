@@ -30,9 +30,10 @@ public class Constant {
 
 		public interface MainTank {
 
-			public int ORIGINAL_X = 8;
+			public int ORIGINAL_X = 8 * Constant.Scene.CELL_LENGTH;
 
-			public int ORIGINAL_Y = 36;
+			public int ORIGINAL_Y = 36 * Constant.Scene.CELL_LENGTH
+					+ Constant.Scene.TOP_HEIGHT;
 
 		}
 

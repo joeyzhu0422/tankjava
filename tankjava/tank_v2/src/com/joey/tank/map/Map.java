@@ -4,6 +4,7 @@ import java.awt.Graphics;
 
 import com.joey.tank.beans.obstacle.Obstacle;
 import com.joey.tank.beans.obstacle.ObstacleFactory;
+import com.joey.tank.constant.Constant;
 
 public class Map {
 
@@ -44,8 +45,10 @@ public class Map {
 
 			for (int j = 0; j < models[i].length; j++) {
 
-				obstacles[i][j] = ObstacleFactory.createObstacle(j, i,
-						models[i][j]);
+				obstacles[i][j] = ObstacleFactory.createObstacle(j
+						* Constant.Scene.CELL_LENGTH, i
+						* Constant.Scene.CELL_LENGTH
+						+ Constant.Scene.TOP_HEIGHT, models[i][j]);
 			}
 		}
 

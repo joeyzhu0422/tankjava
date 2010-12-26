@@ -15,6 +15,8 @@ public abstract class Tank extends ActiviteElement {
 
 	protected Queue<Bullet> firedBulletQueue = new LinkedBlockingQueue<Bullet>();
 
+	protected int barrelX, barrelY;
+
 	public Tank() {
 		setMoveListener(new TankMoveListenerImpl());
 	}
@@ -24,9 +26,7 @@ public abstract class Tank extends ActiviteElement {
 
 		g.setColor(color);
 
-		g.fillRect(x * Constant.Scene.CELL_LENGTH, y
-				* Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,
-				width, height);
+		g.fillRect(x, y, width, height);
 
 		int barrelWidth = 0, barrelHeight = 0;
 
@@ -34,35 +34,30 @@ public abstract class Tank extends ActiviteElement {
 		case Constant.ActiviteElement.DIRECTION_UP:
 			barrelWidth = width / 10;
 			barrelHeight = height / 3;
-			rBarrelX = x * Constant.Scene.CELL_LENGTH + width / 2 - barrelWidth
-					/ 2;
-			rBarrelY = y * Constant.Scene.CELL_LENGTH - barrelHeight;
+			barrelX = x + width / 2 - barrelWidth / 2;
+			barrelY = y - barrelHeight;
 			break;
 		case Constant.ActiviteElement.DIRECTION_DOWN:
 			barrelWidth = width / 10;
 			barrelHeight = height / 3;
-			rBarrelX = x * Constant.Scene.CELL_LENGTH + width / 2 - barrelWidth
-					/ 2;
-			rBarrelY = y * Constant.Scene.CELL_LENGTH + height;
+			barrelX = x + width / 2 - barrelWidth / 2;
+			barrelY = y + height;
 			break;
 		case Constant.ActiviteElement.DIRECTION_LEFT:
 			barrelHeight = width / 10;
 			barrelWidth = height / 3;
-			rBarrelX = x * Constant.Scene.CELL_LENGTH - barrelWidth;
-			rBarrelY = y * Constant.Scene.CELL_LENGTH + height / 2
-					- barrelHeight / 2;
+			barrelX = x - barrelWidth;
+			barrelY = y + height / 2 - barrelHeight / 2;
 			break;
 		case Constant.ActiviteElement.DIRECTION_RIGHT:
 			barrelHeight = width / 10;
 			barrelWidth = height / 3;
-			rBarrelX = x * Constant.Scene.CELL_LENGTH + width;
-			rBarrelY = y * Constant.Scene.CELL_LENGTH + height / 2
-					- barrelHeight / 2;
+			barrelX = x + width;
+			barrelY = y + height / 2 - barrelHeight / 2;
 			break;
 		}
 
-		g.fillRect(rBarrelX, rBarrelY + Constant.Scene.TOP_HEIGHT, barrelWidth,
-				barrelHeight);
+		g.fillRect(barrelX, barrelY, barrelWidth, barrelHeight);
 	}
 
 	public void fire() {
@@ -75,7 +70,7 @@ public abstract class Tank extends ActiviteElement {
 
 				while (bullet.move()) {
 					try {
-						Thread.sleep(150);
+						Thread.sleep(15);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
@@ -91,7 +86,7 @@ public abstract class Tank extends ActiviteElement {
 	public Bullet poll() {
 
 		Bullet bullet = preparedBulletQueue.poll();
-		bullet.setRxy(this.getRBarrelX(), this.getRBarrelY());
+		bullet.setXy(this.getBarrelX(), this.getBarrelY());
 		bullet.setDirection(this.getDirection());
 		firedBulletQueue.offer(bullet);
 
@@ -105,20 +100,12 @@ public abstract class Tank extends ActiviteElement {
 
 	}
 
-	public int getRBarrelX() {
-		return rBarrelX;
+	public int getBarrelX() {
+		return barrelX;
 	}
 
-	public void setRBarrelX(int barrelX) {
-		rBarrelX = barrelX;
-	}
-
-	public int getRBarrelY() {
-		return rBarrelY;
-	}
-
-	public void setRBarrelY(int barrelY) {
-		rBarrelY = barrelY;
+	public int getBarrelY() {
+		return barrelY;
 	}
 
 	public Queue<Bullet> getFiredBulletQueue() {
