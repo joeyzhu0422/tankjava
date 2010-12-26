@@ -12,38 +12,45 @@ public abstract class BaseAbstractTank extends ActiviteElement {
 
 		g.setColor(color);
 
-		g.fillRect(x, y, width, height);
+		g.fillRect(x * Constant.Scene.CELL_LENGTH, y
+				* Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,
+				width, height);
 
 		int barrelX = 0, barrelY = 0, barrelWidth = 0, barrelHeight = 0;
 
 		switch (direction) {
-		case Constant.Tank.DIRECTION_UP:
+		case Constant.ActiviteElement.DIRECTION_UP:
 			barrelWidth = width / 10;
 			barrelHeight = height / 3;
-			barrelX = x + width / 2 - barrelWidth / 2;
-			barrelY = y - barrelHeight;
+			barrelX = x * Constant.Scene.CELL_LENGTH + width / 2 - barrelWidth
+					/ 2;
+			barrelY = y * Constant.Scene.CELL_LENGTH - barrelHeight;
 			break;
-		case Constant.Tank.DIRECTION_DOWN:
+		case Constant.ActiviteElement.DIRECTION_DOWN:
 			barrelWidth = width / 10;
 			barrelHeight = height / 3;
-			barrelX = x + width / 2 - barrelWidth / 2;
-			barrelY = y + height;
+			barrelX = x * Constant.Scene.CELL_LENGTH + width / 2 - barrelWidth
+					/ 2;
+			barrelY = y * Constant.Scene.CELL_LENGTH + height;
 			break;
-		case Constant.Tank.DIRECTION_LEFT:
+		case Constant.ActiviteElement.DIRECTION_LEFT:
 			barrelHeight = width / 10;
 			barrelWidth = height / 3;
-			barrelX = x - barrelWidth;
-			barrelY = y + height / 2 - barrelHeight / 2;
+			barrelX = x * Constant.Scene.CELL_LENGTH - barrelWidth;
+			barrelY = y * Constant.Scene.CELL_LENGTH + height / 2
+					- barrelHeight / 2;
 			break;
-		case Constant.Tank.DIRECTION_RIGHT:
+		case Constant.ActiviteElement.DIRECTION_RIGHT:
 			barrelHeight = width / 10;
 			barrelWidth = height / 3;
-			barrelX = x + width;
-			barrelY = y + height / 2 - barrelHeight / 2;
+			barrelX = x * Constant.Scene.CELL_LENGTH + width;
+			barrelY = y * Constant.Scene.CELL_LENGTH + height / 2
+					- barrelHeight / 2;
 			break;
 		}
 
-		g.fillRect(barrelX, barrelY, barrelWidth, barrelHeight);
+		g.fillRect(barrelX, barrelY + Constant.Scene.TOP_HEIGHT, barrelWidth,
+				barrelHeight);
 	}
 
 }
