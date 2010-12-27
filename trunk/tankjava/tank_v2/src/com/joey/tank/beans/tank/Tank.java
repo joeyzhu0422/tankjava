@@ -36,7 +36,7 @@ public abstract class Tank extends ActiviteElement implements MapElement {
 
 			g.setColor(color);
 
-			g.fillRect(x, y, width, height);
+			g.fill3DRect(x, y, width, height, true);
 
 			int barrelWidth = 0, barrelHeight = 0;
 
@@ -67,12 +67,9 @@ public abstract class Tank extends ActiviteElement implements MapElement {
 				break;
 			}
 
-			System.out.println("direction : " + direction + ",barrelHeight : "
-					+ barrelHeight + ",barrelWidth : " + barrelWidth);
-
 			this.isDrawed = true;
 
-			g.fillRect(barrelX, barrelY, barrelWidth, barrelHeight);
+			g.fill3DRect(barrelX, barrelY, barrelWidth, barrelHeight, true);
 		}
 	}
 

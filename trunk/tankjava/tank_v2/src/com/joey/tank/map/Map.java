@@ -4,6 +4,7 @@ import java.awt.Graphics;
 
 import com.joey.tank.beans.MapElement;
 import com.joey.tank.beans.obstacle.ObstacleFactory;
+import com.joey.tank.beans.tank.Tank;
 import com.joey.tank.constant.Constant;
 
 public class Map {
@@ -82,7 +83,19 @@ public class Map {
 		for (int i = 0; i < mapElements.length; i++) {
 			for (int j = 0; j < mapElements[i].length; j++) {
 
-				mapElements[i][j].draw(g);
+				if (!(mapElements[i][j] instanceof Tank)) {
+					mapElements[i][j].draw(g);
+				}
+
+			}
+		}
+
+		for (int i = 0; i < mapElements.length; i++) {
+			for (int j = 0; j < mapElements[i].length; j++) {
+
+				if (mapElements[i][j] instanceof Tank) {
+					mapElements[i][j].draw(g);
+				}
 
 			}
 		}
