@@ -23,6 +23,10 @@ public class Bullet extends ActiviteElement {
 		System.out.println("Bullet is action");
 	}
 
+	public Tank getTank() {
+		return tank;
+	}
+
 	public void draw(Graphics g) {
 		System.out.println("Bullet draw");
 

@@ -40,7 +40,7 @@ public class MainTankKeyListenerImpl implements KeyListener {
 		case KeyEvent.VK_ENTER:
 			System.out.println("Main Tank fire");
 			mainTank.fire();
-			break;
+			return;
 		}
 
 		mainTank.move();

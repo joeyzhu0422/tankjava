@@ -2,6 +2,7 @@ package com.joey.tank.map;
 
 import java.awt.Graphics;
 
+import com.joey.tank.beans.MapElement;
 import com.joey.tank.beans.obstacle.Obstacle;
 import com.joey.tank.beans.obstacle.ObstacleFactory;
 import com.joey.tank.constant.Constant;
@@ -10,7 +11,7 @@ public class Map {
 
 	private int[][] models;
 
-	private Obstacle[][] obstacles;
+	private MapElement[][] mapElements;
 
 	public int[][] getModels() {
 		return models;
@@ -23,12 +24,12 @@ public class Map {
 
 	}
 
-	public Obstacle[][] getObstacles() {
-		return obstacles;
+	public MapElement[][] getMapElements() {
+		return mapElements;
 	}
 
-	public void setObstacles(Obstacle[][] obstacles) {
-		this.obstacles = obstacles;
+	public void setMapElements(MapElement[][] mapElements) {
+		this.mapElements = mapElements;
 	}
 
 	private void toElements() {
@@ -52,13 +53,13 @@ public class Map {
 			}
 		}
 
-		this.setObstacles(obstacles);
+		this.setMapElements(obstacles);
 	}
 
-	public Obstacle getObstacle(int x, int y) {
+	public MapElement getMapElement(int x, int y) {
 
 		try {
-			return obstacles[y][x];
+			return mapElements[y][x];
 		} catch (ArrayIndexOutOfBoundsException e) {
 			return null;
 		}
@@ -69,10 +70,10 @@ public class Map {
 
 		System.out.println("Map draw");
 
-		for (int i = 0; i < obstacles.length; i++) {
-			for (int j = 0; j < obstacles[i].length; j++) {
+		for (int i = 0; i < mapElements.length; i++) {
+			for (int j = 0; j < mapElements[i].length; j++) {
 
-				obstacles[i][j].draw(g);
+				mapElements[i][j].draw(g);
 
 			}
 		}
