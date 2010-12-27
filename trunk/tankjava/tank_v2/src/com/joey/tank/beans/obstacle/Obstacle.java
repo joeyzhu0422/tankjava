@@ -33,4 +33,8 @@ public abstract class Obstacle extends StaticElement implements MapElement {
 		g.fill3DRect(x, y, width, height, true);
 
 	}
+	
+	public void init() {
+		// Do Thing
+	}
 }

@@ -13,6 +13,7 @@ import com.joey.tank.beans.tank.SubTank;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
+import com.joey.tank.util.MapUtil;
 
 public class Scene extends JFrame implements Runnable {
 
@@ -55,22 +56,25 @@ public class Scene extends JFrame implements Runnable {
 		// step.2 创建主坦克
 		mainTank = new MainTank();
 
+		// step.3 放置主坦克
+		MapUtil.putMap(mainTank);
+
 	}
 
 	public void paint(Graphics g) {
 
-		// step.1 双缓冲区设置
+		// step.1 初始化元素
+		map.init();
+		
+		// step.2 双缓冲区设置
 		Graphics bufferG = bufferScene.getGraphics();
 
-		// step.2 涂上背景
+		// step.3 涂上背景
 		bufferG.setColor(Constant.Scene.SCENE_COLOR);
 		bufferG.fillRect(0, 0, width, height);
 
-		// step.3 地图绘制
+		// step.4 地图绘制
 		map.draw(bufferG);
-
-		// step.4 绘制mainTank
-		mainTank.draw(bufferG);
 
 		// step.4-1 mainTank子弹绘制
 		for (Bullet bullet : mainTank.getFiredBulletQueue()) {

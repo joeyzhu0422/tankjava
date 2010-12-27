@@ -29,9 +29,9 @@ public class TankMoveListenerImpl implements MoveListener {
 
 		switch (element.getDirection()) {
 		case Constant.ActiviteElement.DIRECTION_UP:
-			while (collideNum-- > 0) {
+			while (--collideNum >= 0) {
 				System.out.println(MapUtil.toXIndex(x));
-				System.out.println(y);
+				System.out.println(MapUtil.toYIndex(y));
 				MapElement obstacle = map.getMapElement(MapUtil.toXIndex(x)
 						+ collideNum, MapUtil.toYIndex(y) - 1);
 				if (null == obstacle) {
@@ -41,7 +41,7 @@ public class TankMoveListenerImpl implements MoveListener {
 			}
 			break;
 		case Constant.ActiviteElement.DIRECTION_DOWN:
-			while (collideNum-- > 0) {
+			while (--collideNum >= 0) {
 				MapElement obstacle = map.getMapElement(MapUtil.toXIndex(x)
 						+ collideNum, MapUtil.toYIndex(y) + element.getHeight()
 						/ Constant.Scene.CELL_LENGTH);
@@ -52,7 +52,7 @@ public class TankMoveListenerImpl implements MoveListener {
 			}
 			break;
 		case Constant.ActiviteElement.DIRECTION_LEFT:
-			while (collideNum-- > 0) {
+			while (--collideNum >= 0) {
 				MapElement obstacle = map.getMapElement(
 						MapUtil.toXIndex(x) - 1, MapUtil.toYIndex(y)
 								+ collideNum);
@@ -63,7 +63,7 @@ public class TankMoveListenerImpl implements MoveListener {
 			}
 			break;
 		case Constant.ActiviteElement.DIRECTION_RIGHT:
-			while (collideNum-- > 0) {
+			while (--collideNum >= 0) {
 				MapElement obstacle = map.getMapElement(MapUtil.toXIndex(x)
 						+ element.getWidth() / Constant.Scene.CELL_LENGTH,
 						MapUtil.toYIndex(y) + collideNum);

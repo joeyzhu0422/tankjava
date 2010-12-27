@@ -53,7 +53,11 @@ public class MapLoader {
 			int lineNum = 0;
 
 			String line = null;
-			while ((line = reader.readLine()) != null) {
+
+			int i = 1;
+			while ((line = reader.readLine()) != null && !"".equals(line)) {
+
+				System.out.println("line " + (i++) + ":" + line);
 
 				String[] _obstacles = StringUtil.split(line, 1);
 
