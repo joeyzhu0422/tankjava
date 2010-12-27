@@ -9,6 +9,12 @@ public class Brick extends Obstacle {
 		super(x, y);
 		this.color = new Color(190, 80, 11);
 		this.isPass = false;
+		this.isBulletPass = false;
+
+	}
+
+	public void bulletAction() {
+		// TODO Auto-generated method stub
 
 	}
 

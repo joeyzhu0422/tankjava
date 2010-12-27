@@ -64,6 +64,10 @@ public abstract class Tank extends ActiviteElement {
 
 		final Bullet bullet = this.poll();
 
+		if (null == bullet) {
+			return;
+		}
+
 		new Thread() {
 
 			public void run() {

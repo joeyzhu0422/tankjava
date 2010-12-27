@@ -9,8 +9,13 @@ public class Nothing extends Obstacle {
 		super(x, y);
 		this.color = Constant.Scene.SCENE_COLOR;
 		this.isPass = true;
-		
+		this.isBulletPass = true;
+
 	}
 
-	
+	public void bulletAction() {
+		// TODO Auto-generated method stub
+
+	}
+
 }
