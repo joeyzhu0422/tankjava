@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.joey.tank.beans.ActiviteElement;
-import com.joey.tank.beans.Bullet;
 import com.joey.tank.beans.MapElement;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.MoveListener;
@@ -18,14 +17,6 @@ public class BulletMoveListenerImpl implements MoveListener {
 		System.out.println("Bullet Move Listener isCollide");
 
 		Map map = MapLoader.getMap();
-
-		Bullet bullet = null;
-		if (element instanceof Bullet) {
-			bullet = (Bullet) element;
-		} else {
-			throw new RuntimeException(
-					"In BulletMoveListener, element is not instanceof Bullet");
-		}
 
 		int x = element.getX();
 		int y = element.getY();
@@ -41,39 +32,33 @@ public class BulletMoveListenerImpl implements MoveListener {
 			System.out.println(MapUtil.toXIndex(x));
 			System.out.println(y);
 			obstacle1 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y) - 1);
+					.toYIndex(y));
 			obstacle2 = map.getMapElement(MapUtil.toXIndex(x) + 1, MapUtil
-					.toYIndex(y) - 1);
+					.toYIndex(y));
 
 			break;
 		case Constant.ActiviteElement.DIRECTION_DOWN:
 
-			obstacle1 = map
-					.getMapElement(MapUtil.toXIndex(x), MapUtil.toYIndex(y)
-							+ bullet.getTank().getHeight()
-							/ Constant.Scene.CELL_LENGTH);
-			obstacle2 = map
-					.getMapElement(MapUtil.toXIndex(x) + 1, MapUtil.toYIndex(y)
-							+ bullet.getTank().getHeight()
-							/ Constant.Scene.CELL_LENGTH);
+			obstacle1 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
+					.toYIndex(y));
+			obstacle2 = map.getMapElement(MapUtil.toXIndex(x) + 1, MapUtil
+					.toYIndex(y));
 
 			break;
 		case Constant.ActiviteElement.DIRECTION_LEFT:
 
-			obstacle1 = map.getMapElement(MapUtil.toXIndex(x) - 1, MapUtil
+			obstacle1 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y));
-			obstacle2 = map.getMapElement(MapUtil.toXIndex(x) - 1, MapUtil
+			obstacle2 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y) + 1);
 
 			break;
 		case Constant.ActiviteElement.DIRECTION_RIGHT:
 
-			obstacle1 = map.getMapElement(MapUtil.toXIndex(x)
-					+ bullet.getTank().getWidth() / Constant.Scene.CELL_LENGTH,
-					MapUtil.toYIndex(y));
-			obstacle2 = map.getMapElement(MapUtil.toXIndex(x)
-					+ bullet.getTank().getWidth() / Constant.Scene.CELL_LENGTH
-					+ 1, MapUtil.toYIndex(y));
+			obstacle1 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
+					.toYIndex(y));
+			obstacle2 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
+					.toYIndex(y) + 1);
 
 			break;
 		}
@@ -84,14 +69,19 @@ public class BulletMoveListenerImpl implements MoveListener {
 		obstacleList.add(obstacle1);
 		obstacleList.add(obstacle2);
 
+		boolean isPass = true;
+
 		for (MapElement obstacle : obstacleList) {
 
 			if (!obstacle.isBulletPass()) {
-				return false;
+				obstacle.bulletAction();
+				if (isPass) {
+					isPass = obstacle.isBulletPass();
+				}
 			}
 
 		}
 
-		return true;
+		return isPass;
 	}
 }
