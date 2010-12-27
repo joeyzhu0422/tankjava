@@ -6,4 +6,8 @@ public class EnemyTank extends Tank {
 		System.out.println("Enemy Tank is action");
 	}
 
+	public void init() {
+		// Do Nothing
+	}
+
 }

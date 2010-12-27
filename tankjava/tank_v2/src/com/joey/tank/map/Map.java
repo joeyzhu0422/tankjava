@@ -65,6 +65,16 @@ public class Map {
 
 	}
 
+	public void init() {
+
+		for (int i = 0; i < mapElements.length; i++) {
+			for (int j = 0; j < mapElements[i].length; j++) {
+				mapElements[i][j].init();
+			}
+		}
+
+	}
+
 	public void draw(Graphics g) {
 
 		System.out.println("Map draw");

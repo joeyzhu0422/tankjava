@@ -6,10 +6,11 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 import com.joey.tank.beans.ActiviteElement;
 import com.joey.tank.beans.Bullet;
+import com.joey.tank.beans.MapElement;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.impl.TankMoveListenerImpl;
 
-public abstract class Tank extends ActiviteElement {
+public abstract class Tank extends ActiviteElement implements MapElement {
 
 	protected Queue<Bullet> preparedBulletQueue = new LinkedBlockingQueue<Bullet>();
 
@@ -17,47 +18,62 @@ public abstract class Tank extends ActiviteElement {
 
 	protected int barrelX, barrelY;
 
+	protected boolean isDrawed;
+
+	protected boolean isPass;
+
+	protected boolean isBulletPass;
+
 	public Tank() {
 		setMoveListener(new TankMoveListenerImpl());
+		this.isPutInMap = true;
 	}
 
 	public void draw(Graphics g) {
-		System.out.println("Tank draw");
 
-		g.setColor(color);
+		if (!isDrawed()) {
+			System.out.println("Tank draw");
 
-		g.fillRect(x, y, width, height);
+			g.setColor(color);
 
-		int barrelWidth = 0, barrelHeight = 0;
+			g.fillRect(x, y, width, height);
 
-		switch (direction) {
-		case Constant.ActiviteElement.DIRECTION_UP:
-			barrelWidth = width / 10;
-			barrelHeight = height / 3;
-			barrelX = x + width / 2 - barrelWidth / 2;
-			barrelY = y - barrelHeight;
-			break;
-		case Constant.ActiviteElement.DIRECTION_DOWN:
-			barrelWidth = width / 10;
-			barrelHeight = height / 3;
-			barrelX = x + width / 2 - barrelWidth / 2;
-			barrelY = y + height;
-			break;
-		case Constant.ActiviteElement.DIRECTION_LEFT:
-			barrelHeight = width / 10;
-			barrelWidth = height / 3;
-			barrelX = x - barrelWidth;
-			barrelY = y + height / 2 - barrelHeight / 2;
-			break;
-		case Constant.ActiviteElement.DIRECTION_RIGHT:
-			barrelHeight = width / 10;
-			barrelWidth = height / 3;
-			barrelX = x + width;
-			barrelY = y + height / 2 - barrelHeight / 2;
-			break;
+			int barrelWidth = 0, barrelHeight = 0;
+
+			switch (direction) {
+			case Constant.ActiviteElement.DIRECTION_UP:
+				barrelWidth = width / 10;
+				barrelHeight = height / 3;
+				barrelX = x + width / 2 - barrelWidth / 2;
+				barrelY = y - barrelHeight;
+				break;
+			case Constant.ActiviteElement.DIRECTION_DOWN:
+				barrelWidth = width / 10;
+				barrelHeight = height / 3;
+				barrelX = x + width / 2 - barrelWidth / 2;
+				barrelY = y + height;
+				break;
+			case Constant.ActiviteElement.DIRECTION_LEFT:
+				barrelHeight = width / 10;
+				barrelWidth = height / 3;
+				barrelX = x - barrelWidth;
+				barrelY = y + height / 2 - barrelHeight / 2;
+				break;
+			case Constant.ActiviteElement.DIRECTION_RIGHT:
+				barrelHeight = width / 10;
+				barrelWidth = height / 3;
+				barrelX = x + width;
+				barrelY = y + height / 2 - barrelHeight / 2;
+				break;
+			}
+
+			System.out.println("direction : " + direction + ",barrelHeight : "
+					+ barrelHeight + ",barrelWidth : " + barrelWidth);
+
+			this.isDrawed = true;
+
+			g.fillRect(barrelX, barrelY, barrelWidth, barrelHeight);
 		}
-
-		g.fillRect(barrelX, barrelY, barrelWidth, barrelHeight);
 	}
 
 	public void fire() {
@@ -107,12 +123,32 @@ public abstract class Tank extends ActiviteElement {
 
 	}
 
+	public void bulletAction() {
+		// TODO Auto-generated method stub
+	}
+
+	public void init() {
+		this.isDrawed = false;
+	}
+
+	public boolean isBulletPass() {
+		return isBulletPass;
+	}
+
+	public boolean isPass() {
+		return isPass;
+	}
+
 	public int getBarrelX() {
 		return barrelX;
 	}
 
 	public int getBarrelY() {
 		return barrelY;
+	}
+
+	public boolean isDrawed() {
+		return isDrawed;
 	}
 
 	public Queue<Bullet> getFiredBulletQueue() {
