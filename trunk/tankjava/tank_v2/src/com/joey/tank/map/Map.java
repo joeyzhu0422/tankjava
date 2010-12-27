@@ -3,7 +3,6 @@ package com.joey.tank.map;
 import java.awt.Graphics;
 
 import com.joey.tank.beans.MapElement;
-import com.joey.tank.beans.obstacle.Obstacle;
 import com.joey.tank.beans.obstacle.ObstacleFactory;
 import com.joey.tank.constant.Constant;
 
@@ -38,11 +37,11 @@ public class Map {
 			throw new RuntimeException("models is null");
 		}
 
-		Obstacle[][] obstacles = new Obstacle[models.length][];
+		MapElement[][] obstacles = new MapElement[models.length][];
 
 		for (int i = 0; i < models.length; i++) {
 
-			obstacles[i] = new Obstacle[models[i].length];
+			obstacles[i] = new MapElement[models[i].length];
 
 			for (int j = 0; j < models[i].length; j++) {
 

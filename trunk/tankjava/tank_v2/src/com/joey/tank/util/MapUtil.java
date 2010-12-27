@@ -16,4 +16,16 @@ public class MapUtil {
 
 	}
 
+	public static int toRealX(int x) {
+
+		return x * Constant.Scene.CELL_LENGTH;
+
+	}
+
+	public static int toRealY(int y) {
+
+		return y * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT;
+
+	}
+
 }
