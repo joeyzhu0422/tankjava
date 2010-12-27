@@ -90,6 +90,9 @@ public abstract class Tank extends ActiviteElement {
 	public Bullet poll() {
 
 		Bullet bullet = preparedBulletQueue.poll();
+		if (null == bullet) {
+			return null;
+		}
 		bullet.setXy(this.getBarrelX(), this.getBarrelY());
 		bullet.setDirection(this.getDirection());
 		firedBulletQueue.offer(bullet);
