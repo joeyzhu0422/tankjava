@@ -57,7 +57,7 @@ public class Scene extends JFrame implements Runnable {
 		mainTank = new MainTank();
 
 		// step.3 放置主坦克
-		MapUtil.putMap(mainTank);
+		MapUtil.putToMultipleLayer(mainTank);
 
 	}
 
@@ -65,7 +65,7 @@ public class Scene extends JFrame implements Runnable {
 
 		// step.1 初始化元素
 		map.init();
-		
+
 		// step.2 双缓冲区设置
 		Graphics bufferG = bufferScene.getGraphics();
 

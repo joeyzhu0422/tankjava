@@ -37,7 +37,7 @@ public abstract class ActiviteElement extends StaticElement {
 				if (this instanceof MapElement) {
 
 					MapElement mapElement = (MapElement) this;
-					MapUtil.putNothing(mapElement);
+					MapUtil.putNothingToMultipleLayer(mapElement);
 
 				}
 
@@ -63,7 +63,7 @@ public abstract class ActiviteElement extends StaticElement {
 				if (this instanceof MapElement) {
 
 					MapElement mapElement = (MapElement) this;
-					MapUtil.putMap(mapElement);
+					MapUtil.putToMultipleLayer(mapElement);
 
 				}
 

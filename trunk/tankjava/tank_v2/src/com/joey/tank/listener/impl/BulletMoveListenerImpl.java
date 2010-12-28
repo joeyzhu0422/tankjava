@@ -24,50 +24,69 @@ public class BulletMoveListenerImpl implements MoveListener {
 		// ’œ∞≠ŒÔºØ∫œ
 		List<MapElement> obstacleList = new ArrayList<MapElement>(2);
 
-		MapElement obstacle1 = null, obstacle2 = null;
+		MapElement singleObstacle1 = null, singleObstacle2 = null;
+		MapElement multipleObstacle1 = null, multipleObstacle2 = null;
 
 		switch (element.getDirection()) {
 		case Constant.ActiviteElement.DIRECTION_UP:
 
 			System.out.println(MapUtil.toXIndex(x));
 			System.out.println(y);
-			obstacle1 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
+			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y));
-			obstacle2 = map.getMapElement(MapUtil.toXIndex(x) + 1, MapUtil
+			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x) + 1,
+					MapUtil.toYIndex(y));
+			multipleObstacle1 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y));
+			multipleObstacle2 = map.getMultipleLayerElement(MapUtil.toXIndex(x) + 1,
+					MapUtil.toYIndex(y));
 
 			break;
 		case Constant.ActiviteElement.DIRECTION_DOWN:
 
-			obstacle1 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
+			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y));
-			obstacle2 = map.getMapElement(MapUtil.toXIndex(x) + 1, MapUtil
+			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x) + 1,
+					MapUtil.toYIndex(y));
+			multipleObstacle1 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y));
+			multipleObstacle2 = map.getMultipleLayerElement(MapUtil.toXIndex(x) + 1,
+					MapUtil.toYIndex(y));
 
 			break;
 		case Constant.ActiviteElement.DIRECTION_LEFT:
 
-			obstacle1 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
+			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y));
-			obstacle2 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
+			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
+					.toYIndex(y) + 1);
+			multipleObstacle1 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
+					.toYIndex(y));
+			multipleObstacle2 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y) + 1);
 
 			break;
 		case Constant.ActiviteElement.DIRECTION_RIGHT:
 
-			obstacle1 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
+			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y));
-			obstacle2 = map.getMapElement(MapUtil.toXIndex(x), MapUtil
+			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
+					.toYIndex(y) + 1);
+			multipleObstacle1 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
+					.toYIndex(y));
+			multipleObstacle2 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
 					.toYIndex(y) + 1);
 
 			break;
 		}
 
-		if (null == obstacle1 || null == obstacle2) {
+		if (null == singleObstacle1 || null == singleObstacle2) {
 			return false;
 		}
-		obstacleList.add(obstacle1);
-		obstacleList.add(obstacle2);
+		obstacleList.add(singleObstacle1);
+		obstacleList.add(singleObstacle2);
+		obstacleList.add(multipleObstacle1);
+		obstacleList.add(multipleObstacle2);
 
 		boolean isPass = true;
 

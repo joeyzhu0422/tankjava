@@ -32,45 +32,64 @@ public class TankMoveListenerImpl implements MoveListener {
 			while (--collideNum >= 0) {
 				System.out.println(MapUtil.toXIndex(x));
 				System.out.println(MapUtil.toYIndex(y));
-				MapElement obstacle = map.getMapElement(MapUtil.toXIndex(x)
+				MapElement singleObstacle = map.getSingleLayerElement(MapUtil
+						.toXIndex(x)
 						+ collideNum, MapUtil.toYIndex(y) - 1);
-				if (null == obstacle) {
+				MapElement multipleObstacle = map.getMultipleLayerElement(MapUtil
+						.toXIndex(x)
+						+ collideNum, MapUtil.toYIndex(y) - 1);
+				if (null == singleObstacle) {
 					return false;
 				}
-				obstacleList.add(obstacle);
+				obstacleList.add(singleObstacle);
+				obstacleList.add(multipleObstacle);
 			}
 			break;
 		case Constant.ActiviteElement.DIRECTION_DOWN:
 			while (--collideNum >= 0) {
-				MapElement obstacle = map.getMapElement(MapUtil.toXIndex(x)
+				MapElement singleObstacle = map.getSingleLayerElement(MapUtil
+						.toXIndex(x)
 						+ collideNum, MapUtil.toYIndex(y) + element.getHeight()
 						/ Constant.Scene.CELL_LENGTH);
-				if (null == obstacle) {
+				MapElement multipleObstacle = map.getMultipleLayerElement(MapUtil
+						.toXIndex(x)
+						+ collideNum, MapUtil.toYIndex(y) + element.getHeight()
+						/ Constant.Scene.CELL_LENGTH);
+				if (null == singleObstacle) {
 					return false;
 				}
-				obstacleList.add(obstacle);
+				obstacleList.add(singleObstacle);
+				obstacleList.add(multipleObstacle);
 			}
 			break;
 		case Constant.ActiviteElement.DIRECTION_LEFT:
 			while (--collideNum >= 0) {
-				MapElement obstacle = map.getMapElement(
-						MapUtil.toXIndex(x) - 1, MapUtil.toYIndex(y)
-								+ collideNum);
-				if (null == obstacle) {
+				MapElement singleObstacle = map.getSingleLayerElement(MapUtil
+						.toXIndex(x) - 1, MapUtil.toYIndex(y) + collideNum);
+				MapElement multipleObstacle = map.getMultipleLayerElement(MapUtil
+						.toXIndex(x) - 1, MapUtil.toYIndex(y) + collideNum);
+				if (null == singleObstacle) {
 					return false;
 				}
-				obstacleList.add(obstacle);
+				obstacleList.add(singleObstacle);
+				obstacleList.add(multipleObstacle);
 			}
 			break;
 		case Constant.ActiviteElement.DIRECTION_RIGHT:
 			while (--collideNum >= 0) {
-				MapElement obstacle = map.getMapElement(MapUtil.toXIndex(x)
+				MapElement singleObstacle = map.getSingleLayerElement(MapUtil
+						.toXIndex(x)
 						+ element.getWidth() / Constant.Scene.CELL_LENGTH,
 						MapUtil.toYIndex(y) + collideNum);
-				if (null == obstacle) {
+				MapElement multipleObstacle = map.getMultipleLayerElement(MapUtil
+						.toXIndex(x)
+						+ element.getWidth() / Constant.Scene.CELL_LENGTH,
+						MapUtil.toYIndex(y) + collideNum);
+				if (null == singleObstacle) {
 					return false;
 				}
-				obstacleList.add(obstacle);
+				obstacleList.add(singleObstacle);
+				obstacleList.add(multipleObstacle);
 			}
 			break;
 		}
