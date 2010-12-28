@@ -4,14 +4,13 @@ import java.awt.Graphics;
 
 import com.joey.tank.beans.MapElement;
 import com.joey.tank.beans.obstacle.ObstacleFactory;
-import com.joey.tank.beans.tank.Tank;
 import com.joey.tank.constant.Constant;
 
 public class Map {
 
 	private int[][] models;
 
-	private MapElement[][] mapElements;
+	private MapElement[][][] mapElements;
 
 	public int[][] getModels() {
 		return models;
@@ -24,12 +23,12 @@ public class Map {
 
 	}
 
-	public MapElement[][] getMapElements() {
-		return mapElements;
+	public MapElement[][] getMapElements(int layer) {
+		return mapElements[layer];
 	}
 
-	public void setMapElements(MapElement[][] mapElements) {
-		this.mapElements = mapElements;
+	public void setMapElements(int layer, MapElement[][] mapElements) {
+		this.mapElements[layer] = mapElements;
 	}
 
 	private void toElements() {
@@ -53,13 +52,23 @@ public class Map {
 			}
 		}
 
-		this.setMapElements(obstacles);
+		this.setMapElements(Constant.Map.SINGLE_LAYER, obstacles);
 	}
 
-	public MapElement getMapElement(int x, int y) {
+	public MapElement getSingleLayerElement(int x, int y) {
 
 		try {
-			return mapElements[y][x];
+			return mapElements[Constant.Map.SINGLE_LAYER][y][x];
+		} catch (ArrayIndexOutOfBoundsException e) {
+			return null;
+		}
+
+	}
+
+	public MapElement getMultipleLayerElement(int x, int y) {
+
+		try {
+			return mapElements[Constant.Map.MULTIPLE_LAYER][y][x];
 		} catch (ArrayIndexOutOfBoundsException e) {
 			return null;
 		}
@@ -67,10 +76,12 @@ public class Map {
 	}
 
 	public void init() {
+		
+		MapElement[][] multipleElements = this.getMapElements(Constant.Map.MULTIPLE_LAYER);
 
-		for (int i = 0; i < mapElements.length; i++) {
-			for (int j = 0; j < mapElements[i].length; j++) {
-				mapElements[i][j].init();
+		for (int i = 0; i < multipleElements.length; i++) {
+			for (int j = 0; j < multipleElements[i].length; j++) {
+				multipleElements[i][j].init();
 			}
 		}
 
@@ -80,25 +91,15 @@ public class Map {
 
 		System.out.println("Map draw");
 
-		for (int i = 0; i < mapElements.length; i++) {
-			for (int j = 0; j < mapElements[i].length; j++) {
-
-				if (!(mapElements[i][j] instanceof Tank)) {
-					mapElements[i][j].draw(g);
+		for (int x = 0; x < mapElements.length; x++) {
+			for (int y = 0; y < mapElements[x].length; y++) {
+				for (int z = 0; z < mapElements[x][y].length; z++) {
+					mapElements[x][y][z].draw(g);
 				}
-
 			}
 		}
 
-		for (int i = 0; i < mapElements.length; i++) {
-			for (int j = 0; j < mapElements[i].length; j++) {
-
-				if (mapElements[i][j] instanceof Tank) {
-					mapElements[i][j].draw(g);
-				}
-
-			}
-		}
+	
 
 	}
 }

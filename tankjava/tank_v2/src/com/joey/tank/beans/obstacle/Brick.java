@@ -2,6 +2,7 @@ package com.joey.tank.beans.obstacle;
 
 import java.awt.Color;
 
+import com.joey.tank.constant.Constant;
 import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
 import com.joey.tank.util.MapUtil;
@@ -26,7 +27,8 @@ public class Brick extends Obstacle {
 		int x = MapUtil.toXIndex(this.x);
 		int y = MapUtil.toYIndex(this.y);
 
-		map.getMapElements()[y][x] = new Nothing(this.x, this.y);
+		map.getMapElements(Constant.Map.SINGLE_LAYER)[y][x] = new Nothing(
+				this.x, this.y);
 
 	}
 }

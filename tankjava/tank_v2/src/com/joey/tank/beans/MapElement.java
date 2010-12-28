@@ -5,7 +5,7 @@ import java.awt.Graphics;
 public interface MapElement {
 
 	public void init();
-
+	
 	public void bulletAction();
 
 	public boolean isPass();

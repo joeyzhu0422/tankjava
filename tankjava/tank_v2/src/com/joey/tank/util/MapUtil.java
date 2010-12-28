@@ -31,7 +31,7 @@ public class MapUtil {
 
 	}
 
-	public static void putMap(MapElement element) {
+	public static void putToMultipleLayer(MapElement element) {
 
 		int indexX = MapUtil.toXIndex(element.getX());
 		int indexY = MapUtil.toYIndex(element.getY());
@@ -41,14 +41,14 @@ public class MapUtil {
 		while (--degreeHeight >= 0) {
 			int degreeWidth = element.getWidth() / Constant.Scene.CELL_LENGTH;
 			while (--degreeWidth >= 0) {
-				MapLoader.getMap().getMapElements()[indexY + degreeHeight][indexX
+				MapLoader.getMap().getMapElements(Constant.Map.MULTIPLE_LAYER)[indexY + degreeHeight][indexX
 						+ degreeWidth] = element;
 			}
 		}
 
 	}
 
-	public static void putNothing(MapElement element) {
+	public static void putNothingToMultipleLayer(MapElement element) {
 
 		int indexX = MapUtil.toXIndex(element.getX());
 		int indexY = MapUtil.toYIndex(element.getY());
@@ -60,7 +60,7 @@ public class MapUtil {
 			while (--degreeWidth >= 0) {
 				int y = indexY + degreeHeight;
 				int x = indexX + degreeWidth;
-				MapLoader.getMap().getMapElements()[y][x] = new Nothing(MapUtil
+				MapLoader.getMap().getMapElements(Constant.Map.MULTIPLE_LAYER)[y][x] = new Nothing(MapUtil
 						.toRealX(x), MapUtil.toRealY(y));
 			}
 		}

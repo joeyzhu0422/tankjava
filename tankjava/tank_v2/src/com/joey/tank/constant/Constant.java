@@ -47,4 +47,12 @@ public class Constant {
 
 	}
 
+	public interface Map {
+
+		public int SINGLE_LAYER = 0;
+
+		public int MULTIPLE_LAYER = 1;
+
+	}
+
 }
