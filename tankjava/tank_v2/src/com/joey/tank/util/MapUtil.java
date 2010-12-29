@@ -1,7 +1,6 @@
 package com.joey.tank.util;
 
 import com.joey.tank.beans.MapElement;
-import com.joey.tank.beans.obstacle.Nothing;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.map.MapLoader;
 
@@ -60,8 +59,7 @@ public class MapUtil {
 			while (--degreeWidth >= 0) {
 				int y = indexY + degreeHeight;
 				int x = indexX + degreeWidth;
-				MapLoader.getMap().getMapElements(Constant.Map.MULTIPLE_LAYER)[y][x] = new Nothing(MapUtil
-						.toRealX(x), MapUtil.toRealY(y));
+				MapLoader.getMap().getMapElements(Constant.Map.MULTIPLE_LAYER)[y][x] = null;
 			}
 		}
 
