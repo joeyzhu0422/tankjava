@@ -87,7 +87,7 @@ public abstract class Tank extends ActiviteElement implements MapElement {
 
 				while (bullet.move()) {
 					try {
-						Thread.sleep(15);
+						Thread.sleep(50);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
