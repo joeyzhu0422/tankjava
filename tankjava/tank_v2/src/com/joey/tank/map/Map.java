@@ -12,6 +12,8 @@ public class Map {
 
 	private MapElement[][][] mapElements;
 
+	private Object lock = new Object();
+
 	public int[][] getModels() {
 		return models;
 	}
@@ -28,6 +30,21 @@ public class Map {
 	}
 
 	public void setMapElements(int layer, MapElement[][] mapElements) {
+
+		synchronized (lock) {
+
+			if (null == this.mapElements) {
+
+				synchronized (lock) {
+
+					this.mapElements = new MapElement[2][][];
+
+				}
+
+			}
+
+		}
+
 		this.mapElements[layer] = mapElements;
 	}
 
@@ -37,22 +54,27 @@ public class Map {
 			throw new RuntimeException("models is null");
 		}
 
-		MapElement[][] obstacles = new MapElement[models.length][];
+		MapElement[][] singleLayerObstacles = new MapElement[models.length][];
+		MapElement[][] multipleLayerObstacles = new MapElement[models.length][];
 
 		for (int i = 0; i < models.length; i++) {
 
-			obstacles[i] = new MapElement[models[i].length];
+			singleLayerObstacles[i] = new MapElement[models[i].length];
+			multipleLayerObstacles[i] = new MapElement[models[i].length];
 
 			for (int j = 0; j < models[i].length; j++) {
 
-				obstacles[i][j] = ObstacleFactory.createObstacle(j
+				singleLayerObstacles[i][j] = ObstacleFactory.createObstacle(j
 						* Constant.Scene.CELL_LENGTH, i
 						* Constant.Scene.CELL_LENGTH
 						+ Constant.Scene.TOP_HEIGHT, models[i][j]);
 			}
 		}
 
-		this.setMapElements(Constant.Map.SINGLE_LAYER, obstacles);
+		this.setMapElements(Constant.Map.SINGLE_LAYER, singleLayerObstacles);
+		this
+				.setMapElements(Constant.Map.MULTIPLE_LAYER,
+						multipleLayerObstacles);
 	}
 
 	public MapElement getSingleLayerElement(int x, int y) {
@@ -76,12 +98,15 @@ public class Map {
 	}
 
 	public void init() {
-		
-		MapElement[][] multipleElements = this.getMapElements(Constant.Map.MULTIPLE_LAYER);
+
+		MapElement[][] multipleElements = this
+				.getMapElements(Constant.Map.MULTIPLE_LAYER);
 
 		for (int i = 0; i < multipleElements.length; i++) {
 			for (int j = 0; j < multipleElements[i].length; j++) {
-				multipleElements[i][j].init();
+				if (null != multipleElements[i][j]) {
+					multipleElements[i][j].init();
+				}
 			}
 		}
 
@@ -94,12 +119,12 @@ public class Map {
 		for (int x = 0; x < mapElements.length; x++) {
 			for (int y = 0; y < mapElements[x].length; y++) {
 				for (int z = 0; z < mapElements[x][y].length; z++) {
-					mapElements[x][y][z].draw(g);
+					if (null != mapElements[x][y][z]) {
+						mapElements[x][y][z].draw(g);
+					}
 				}
 			}
 		}
-
-	
 
 	}
 }
