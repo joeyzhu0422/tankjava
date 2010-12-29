@@ -32,50 +32,50 @@ public class BulletMoveListenerImpl implements MoveListener {
 
 			System.out.println(MapUtil.toXIndex(x));
 			System.out.println(y);
-			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y));
-			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x) + 1,
+			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x),
 					MapUtil.toYIndex(y));
-			multipleObstacle1 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y));
-			multipleObstacle2 = map.getMultipleLayerElement(MapUtil.toXIndex(x) + 1,
-					MapUtil.toYIndex(y));
+			singleObstacle2 = map.getSingleLayerElement(
+					MapUtil.toXIndex(x) + 1, MapUtil.toYIndex(y));
+			multipleObstacle1 = map.getMultipleLayerElement(
+					MapUtil.toXIndex(x), MapUtil.toYIndex(y));
+			multipleObstacle2 = map.getMultipleLayerElement(
+					MapUtil.toXIndex(x) + 1, MapUtil.toYIndex(y));
 
 			break;
 		case Constant.ActiviteElement.DIRECTION_DOWN:
 
-			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y));
-			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x) + 1,
+			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x),
 					MapUtil.toYIndex(y));
-			multipleObstacle1 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y));
-			multipleObstacle2 = map.getMultipleLayerElement(MapUtil.toXIndex(x) + 1,
-					MapUtil.toYIndex(y));
+			singleObstacle2 = map.getSingleLayerElement(
+					MapUtil.toXIndex(x) + 1, MapUtil.toYIndex(y));
+			multipleObstacle1 = map.getMultipleLayerElement(
+					MapUtil.toXIndex(x), MapUtil.toYIndex(y));
+			multipleObstacle2 = map.getMultipleLayerElement(
+					MapUtil.toXIndex(x) + 1, MapUtil.toYIndex(y));
 
 			break;
 		case Constant.ActiviteElement.DIRECTION_LEFT:
 
-			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y));
-			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y) + 1);
-			multipleObstacle1 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y));
-			multipleObstacle2 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y) + 1);
+			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x),
+					MapUtil.toYIndex(y));
+			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x),
+					MapUtil.toYIndex(y) + 1);
+			multipleObstacle1 = map.getMultipleLayerElement(
+					MapUtil.toXIndex(x), MapUtil.toYIndex(y));
+			multipleObstacle2 = map.getMultipleLayerElement(
+					MapUtil.toXIndex(x), MapUtil.toYIndex(y) + 1);
 
 			break;
 		case Constant.ActiviteElement.DIRECTION_RIGHT:
 
-			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y));
-			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y) + 1);
-			multipleObstacle1 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y));
-			multipleObstacle2 = map.getMultipleLayerElement(MapUtil.toXIndex(x), MapUtil
-					.toYIndex(y) + 1);
+			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x),
+					MapUtil.toYIndex(y));
+			singleObstacle2 = map.getSingleLayerElement(MapUtil.toXIndex(x),
+					MapUtil.toYIndex(y) + 1);
+			multipleObstacle1 = map.getMultipleLayerElement(
+					MapUtil.toXIndex(x), MapUtil.toYIndex(y));
+			multipleObstacle2 = map.getMultipleLayerElement(
+					MapUtil.toXIndex(x), MapUtil.toYIndex(y) + 1);
 
 			break;
 		}
@@ -92,7 +92,7 @@ public class BulletMoveListenerImpl implements MoveListener {
 
 		for (MapElement obstacle : obstacleList) {
 
-			if (!obstacle.isBulletPass()) {
+			if (null != obstacle && !obstacle.isBulletPass()) {
 				obstacle.bulletAction();
 				if (isPass) {
 					isPass = obstacle.isBulletPass();

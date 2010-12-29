@@ -35,9 +35,9 @@ public class TankMoveListenerImpl implements MoveListener {
 				MapElement singleObstacle = map.getSingleLayerElement(MapUtil
 						.toXIndex(x)
 						+ collideNum, MapUtil.toYIndex(y) - 1);
-				MapElement multipleObstacle = map.getMultipleLayerElement(MapUtil
-						.toXIndex(x)
-						+ collideNum, MapUtil.toYIndex(y) - 1);
+				MapElement multipleObstacle = map.getMultipleLayerElement(
+						MapUtil.toXIndex(x) + collideNum,
+						MapUtil.toYIndex(y) - 1);
 				if (null == singleObstacle) {
 					return false;
 				}
@@ -51,10 +51,10 @@ public class TankMoveListenerImpl implements MoveListener {
 						.toXIndex(x)
 						+ collideNum, MapUtil.toYIndex(y) + element.getHeight()
 						/ Constant.Scene.CELL_LENGTH);
-				MapElement multipleObstacle = map.getMultipleLayerElement(MapUtil
-						.toXIndex(x)
-						+ collideNum, MapUtil.toYIndex(y) + element.getHeight()
-						/ Constant.Scene.CELL_LENGTH);
+				MapElement multipleObstacle = map.getMultipleLayerElement(
+						MapUtil.toXIndex(x) + collideNum, MapUtil.toYIndex(y)
+								+ element.getHeight()
+								/ Constant.Scene.CELL_LENGTH);
 				if (null == singleObstacle) {
 					return false;
 				}
@@ -66,8 +66,9 @@ public class TankMoveListenerImpl implements MoveListener {
 			while (--collideNum >= 0) {
 				MapElement singleObstacle = map.getSingleLayerElement(MapUtil
 						.toXIndex(x) - 1, MapUtil.toYIndex(y) + collideNum);
-				MapElement multipleObstacle = map.getMultipleLayerElement(MapUtil
-						.toXIndex(x) - 1, MapUtil.toYIndex(y) + collideNum);
+				MapElement multipleObstacle = map.getMultipleLayerElement(
+						MapUtil.toXIndex(x) - 1, MapUtil.toYIndex(y)
+								+ collideNum);
 				if (null == singleObstacle) {
 					return false;
 				}
@@ -81,10 +82,11 @@ public class TankMoveListenerImpl implements MoveListener {
 						.toXIndex(x)
 						+ element.getWidth() / Constant.Scene.CELL_LENGTH,
 						MapUtil.toYIndex(y) + collideNum);
-				MapElement multipleObstacle = map.getMultipleLayerElement(MapUtil
-						.toXIndex(x)
-						+ element.getWidth() / Constant.Scene.CELL_LENGTH,
-						MapUtil.toYIndex(y) + collideNum);
+				MapElement multipleObstacle = map.getMultipleLayerElement(
+						MapUtil.toXIndex(x) + element.getWidth()
+								/ Constant.Scene.CELL_LENGTH, MapUtil
+								.toYIndex(y)
+								+ collideNum);
 				if (null == singleObstacle) {
 					return false;
 				}
@@ -96,7 +98,7 @@ public class TankMoveListenerImpl implements MoveListener {
 
 		for (MapElement obstacle : obstacleList) {
 
-			if (!obstacle.isPass()) {
+			if (null != obstacle && !obstacle.isPass()) {
 				return false;
 			}
 
