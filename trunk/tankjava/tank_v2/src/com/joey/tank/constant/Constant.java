@@ -44,6 +44,14 @@ public class Constant {
 		public int TYPE_NOTHING = 0;
 
 		public int TYPE_BRICK = 1;
+		
+		public int TYPE_SEA = 2;
+		
+		public int TYPE_STEEL = 3;
+		
+		public int TYPE_FOREST = 4;
+		
+		public int TYPE_HOME = 5;
 
 	}
 

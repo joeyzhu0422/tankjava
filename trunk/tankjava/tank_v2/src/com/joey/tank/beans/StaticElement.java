@@ -55,5 +55,5 @@ public abstract class StaticElement {
 		this.color = color;
 	}
 
-	public abstract void draw(Graphics g) throws Exception;
+	public abstract void draw(Graphics g);
 }

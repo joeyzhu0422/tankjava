@@ -6,11 +6,12 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 import com.joey.tank.beans.ActiviteElement;
 import com.joey.tank.beans.Bullet;
-import com.joey.tank.beans.MapElement;
+import com.joey.tank.beans.MultipleMapElement;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.impl.TankMoveListenerImpl;
 
-public abstract class Tank extends ActiviteElement implements MapElement {
+public abstract class Tank extends ActiviteElement implements
+		MultipleMapElement {
 
 	protected Queue<Bullet> preparedBulletQueue = new LinkedBlockingQueue<Bullet>();
 
