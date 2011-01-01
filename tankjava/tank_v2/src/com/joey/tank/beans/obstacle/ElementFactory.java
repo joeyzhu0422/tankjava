@@ -18,6 +18,15 @@ public class ElementFactory {
 		case Constant.Obstacle.TYPE_BRICK:
 			mapElement = new Brick(x, y);
 			break;
+		case Constant.Obstacle.TYPE_SEA:
+			mapElement = new Sea(x, y);
+			break;
+		case Constant.Obstacle.TYPE_STEEL:
+			mapElement = new Steel(x, y);
+			break;
+		case Constant.Obstacle.TYPE_FOREST:
+			mapElement = new Forest(x, y);
+			break;
 		case Constant.Obstacle.TYPE_HOME:
 
 			if (null == HOME) {
