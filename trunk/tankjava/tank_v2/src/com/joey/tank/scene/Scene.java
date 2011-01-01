@@ -8,9 +8,9 @@ import javax.swing.JFrame;
 
 import com.joey.tank.beans.Bullet;
 import com.joey.tank.beans.tank.EnemyTank;
-import com.joey.tank.beans.tank.MainTank;
-import com.joey.tank.beans.tank.SubTank;
+import com.joey.tank.beans.tank.TankFactory;
 import com.joey.tank.constant.Constant;
+import com.joey.tank.listener.impl.MainTankKeyListenerImpl;
 import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
 import com.joey.tank.util.MapUtil;
@@ -18,12 +18,6 @@ import com.joey.tank.util.MapUtil;
 public class Scene extends JFrame implements Runnable {
 
 	private static final long serialVersionUID = 3312071826547989755L;
-
-	private MainTank mainTank;
-
-	private SubTank subTank;
-
-	private List<EnemyTank> enemyTankList;
 
 	private Map map;
 
@@ -53,11 +47,12 @@ public class Scene extends JFrame implements Runnable {
 		// step.1 创建地图
 		map = MapLoader.getMap();
 
-		// step.2 创建主坦克
-		mainTank = new MainTank();
+		// step.2 放置主坦克
+		MapUtil.putToMultipleLayer(TankFactory.getMainTank());
 
-		// step.3 放置主坦克
-		MapUtil.putToMultipleLayer(mainTank);
+		// step.3 set key listener to scene
+		this.addKeyListener(new MainTankKeyListenerImpl(TankFactory
+				.getMainTank()));
 
 	}
 
@@ -77,7 +72,7 @@ public class Scene extends JFrame implements Runnable {
 		map.draw(bufferG);
 
 		// step.4-1 mainTank子弹绘制
-		for (Bullet bullet : mainTank.getFiredBulletQueue()) {
+		for (Bullet bullet : TankFactory.getMainTank().getFiredBulletQueue()) {
 			bullet.draw(bufferG);
 		}
 
@@ -96,42 +91,16 @@ public class Scene extends JFrame implements Runnable {
 				e.printStackTrace();
 			}
 
+			List<EnemyTank> currentEnemyTankList = TankFactory
+					.getCurrentEnemyTankList();
+
+			for (EnemyTank enemyTank : currentEnemyTankList) {
+				MapUtil.putToMultipleLayer(enemyTank);
+			}
+
 			this.repaint();
 		}
 
-	}
-
-	/** setter and getter */
-	public MainTank getMainTank() {
-		return mainTank;
-	}
-
-	public void setMainTank(MainTank mainTank) {
-		this.mainTank = mainTank;
-	}
-
-	public SubTank getSubTank() {
-		return subTank;
-	}
-
-	public void setSubTank(SubTank subTank) {
-		this.subTank = subTank;
-	}
-
-	public List<EnemyTank> getEnemyTankList() {
-		return enemyTankList;
-	}
-
-	public void setEnemyTankList(List<EnemyTank> enemyTankList) {
-		this.enemyTankList = enemyTankList;
-	}
-
-	public Map getMap() {
-		return map;
-	}
-
-	public void setMap(Map map) {
-		this.map = map;
 	}
 
 }

@@ -16,6 +16,12 @@ public class Constant {
 
 		public Color SCENE_COLOR = Color.BLACK;
 
+		// 敌坦克总数
+		public int ENEMY_TANK_NUM = 30;
+
+		// 同时存在的坦克数量
+		public int CURRENT_ENEMY_TANK_NUM = 3;
+
 	}
 
 	public interface ActiviteElement {
@@ -37,6 +43,18 @@ public class Constant {
 
 		}
 
+		public interface EnemyTank {
+
+			public int[] ORIGINAL_X_ARRAY = { 0 * Constant.Scene.CELL_LENGTH,
+					12 * Constant.Scene.CELL_LENGTH,
+					24 * Constant.Scene.CELL_LENGTH };
+
+			public int[] ORIGINAL_Y_ARRAY = {
+					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,
+					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,
+					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT };
+
+		}
 	}
 
 	public interface Obstacle {
@@ -44,13 +62,13 @@ public class Constant {
 		public int TYPE_NOTHING = 0;
 
 		public int TYPE_BRICK = 1;
-		
+
 		public int TYPE_SEA = 2;
-		
+
 		public int TYPE_STEEL = 3;
-		
+
 		public int TYPE_FOREST = 4;
-		
+
 		public int TYPE_HOME = 5;
 
 	}
