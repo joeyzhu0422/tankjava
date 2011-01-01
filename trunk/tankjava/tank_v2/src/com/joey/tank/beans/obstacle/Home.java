@@ -17,7 +17,7 @@ public class Home extends StaticElement implements MultipleMapElement {
 		this.y = y;
 		this.width = 2 * Constant.Scene.CELL_LENGTH;
 		this.height = 2 * Constant.Scene.CELL_LENGTH;
-		this.color = Color.BLUE;
+		this.color = new Color(255, 215, 000);
 
 	}
 
