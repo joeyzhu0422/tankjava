@@ -6,9 +6,9 @@ public class Constant {
 
 	public interface Scene {
 
-		public int WIDTH = 450;
+		public int WIDTH = 395;
 
-		public int HEIGHT = 600;
+		public int HEIGHT = 425;
 
 		public int CELL_LENGTH = 15;
 
@@ -30,9 +30,9 @@ public class Constant {
 
 		public interface MainTank {
 
-			public int ORIGINAL_X = 8 * Constant.Scene.CELL_LENGTH;
+			public int ORIGINAL_X = 9 * Constant.Scene.CELL_LENGTH;
 
-			public int ORIGINAL_Y = 35 * Constant.Scene.CELL_LENGTH
+			public int ORIGINAL_Y = 24 * Constant.Scene.CELL_LENGTH
 					+ Constant.Scene.TOP_HEIGHT;
 
 		}
