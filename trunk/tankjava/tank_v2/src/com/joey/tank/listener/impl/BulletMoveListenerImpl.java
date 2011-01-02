@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.joey.tank.beans.ActiviteElement;
+import com.joey.tank.beans.Bullet;
 import com.joey.tank.beans.IMapElement;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.MoveListener;
@@ -14,7 +15,7 @@ import com.joey.tank.util.MapUtil;
 public class BulletMoveListenerImpl implements MoveListener {
 
 	public boolean isCollide(ActiviteElement element) {
-//		System.out.println("Bullet Move Listener isCollide");
+// System.out.println("Bullet Move Listener isCollide");
 
 		Map map = MapLoader.getMap();
 
@@ -90,9 +91,17 @@ public class BulletMoveListenerImpl implements MoveListener {
 
 		boolean isPass = true;
 
+		Bullet bullet = null;
+		if (element instanceof Bullet) {
+			bullet = (Bullet) element;
+		} else {
+			throw new RuntimeException("In BulletMoveListener, element is not instance of Bullet");
+		}
+		
 		for (IMapElement obstacle : obstacleList) {
 
-			if (null != obstacle && !obstacle.isBulletPass()) {
+			if (null != obstacle && !obstacle.isBulletPass()
+					&& !obstacle.equals(bullet.getTank())) {
 				obstacle.bulletAction();
 				if (isPass) {
 					isPass = obstacle.isBulletPass();
