@@ -6,15 +6,21 @@ public class Constant {
 
 	public interface Scene {
 
-		public int WIDTH = 395;
+		public int TOP_HEIGHT = 50;
 
-		public int HEIGHT = 425;
+		public int DOWN_HEIGTH = 30;
+
+		public int LEFT_WIDTH = 30;
+
+		public int RIGHT_WIDTH = 50;
+
+		public int WIDTH = 395 + LEFT_WIDTH + RIGHT_WIDTH;
+
+		public int HEIGHT = 395 + TOP_HEIGHT + DOWN_HEIGTH;
 
 		public int CELL_LENGTH = 15;
 
-		public int TOP_HEIGHT = 30;
-
-		public Color SCENE_COLOR = Color.BLACK;
+		public Color SCENE_COLOR = Color.GRAY;
 
 		// µÐÌ¹¿Ë×ÜÊý
 		public int ENEMY_TANK_NUM = 30;
@@ -45,9 +51,10 @@ public class Constant {
 
 		public interface EnemyTank {
 
-			public int[] ORIGINAL_X_ARRAY = { 0 * Constant.Scene.CELL_LENGTH,
-					12 * Constant.Scene.CELL_LENGTH,
-					24 * Constant.Scene.CELL_LENGTH };
+			public int[] ORIGINAL_X_ARRAY = {
+					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.LEFT_WIDTH,
+					12 * Constant.Scene.CELL_LENGTH + Constant.Scene.LEFT_WIDTH,
+					24 * Constant.Scene.CELL_LENGTH + Constant.Scene.LEFT_WIDTH };
 
 			public int[] ORIGINAL_Y_ARRAY = {
 					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,

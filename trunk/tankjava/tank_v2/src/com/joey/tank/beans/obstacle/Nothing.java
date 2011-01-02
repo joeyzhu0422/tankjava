@@ -1,13 +1,13 @@
 package com.joey.tank.beans.obstacle;
 
-import com.joey.tank.constant.Constant;
+import java.awt.Color;
 
 public class Nothing extends Obstacle {
 
 	public Nothing(int x, int y) {
 
 		super(x, y);
-		this.color = Constant.Scene.SCENE_COLOR;
+		this.color = Color.BLACK;
 		this.isPass = true;
 		this.isBulletPass = true;
 
