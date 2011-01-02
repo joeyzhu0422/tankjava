@@ -5,6 +5,7 @@ import java.awt.Graphics;
 import com.joey.tank.beans.IMapElement;
 import com.joey.tank.beans.obstacle.ElementFactory;
 import com.joey.tank.constant.Constant;
+import com.joey.tank.util.MapUtil;
 
 public class Map {
 
@@ -64,10 +65,8 @@ public class Map {
 
 			for (int j = 0; j < models[i].length; j++) {
 
-				singleLayerObstacles[i][j] = ElementFactory.createElement(j
-						* Constant.Scene.CELL_LENGTH, i
-						* Constant.Scene.CELL_LENGTH
-						+ Constant.Scene.TOP_HEIGHT, models[i][j]);
+				singleLayerObstacles[i][j] = ElementFactory.createElement(
+						MapUtil.toRealX(j), MapUtil.toRealY(i), models[i][j]);
 			}
 		}
 
@@ -113,7 +112,7 @@ public class Map {
 
 	public void draw(Graphics g) {
 
-//		System.out.println("Map draw");
+// System.out.println("Map draw");
 
 		for (int x = 0; x < mapElements.length; x++) {
 			for (int y = 0; y < mapElements[x].length; y++) {

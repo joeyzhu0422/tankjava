@@ -46,7 +46,8 @@ public class MapLoader {
 
 			BufferedReader reader = new BufferedReader(new FileReader(mapFile));
 
-			int[][] obstacless = new int[(Constant.Scene.HEIGHT - Constant.Scene.TOP_HEIGHT)
+			int[][] obstacless = new int[(Constant.Scene.HEIGHT
+					- Constant.Scene.TOP_HEIGHT - Constant.Scene.DOWN_HEIGTH)
 					/ Constant.Scene.CELL_LENGTH][Constant.Scene.WIDTH
 					/ Constant.Scene.CELL_LENGTH];
 

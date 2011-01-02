@@ -8,7 +8,7 @@ public class MapUtil {
 
 	public static int toXIndex(int realX) {
 
-		return realX / Constant.Scene.CELL_LENGTH;
+		return (realX - Constant.Scene.LEFT_WIDTH) / Constant.Scene.CELL_LENGTH;
 
 	}
 
@@ -20,7 +20,7 @@ public class MapUtil {
 
 	public static int toRealX(int x) {
 
-		return x * Constant.Scene.CELL_LENGTH;
+		return x * Constant.Scene.CELL_LENGTH + Constant.Scene.LEFT_WIDTH;
 
 	}
 
@@ -34,14 +34,17 @@ public class MapUtil {
 
 		int indexX = MapUtil.toXIndex(element.getX());
 		int indexY = MapUtil.toYIndex(element.getY());
+		
+		System.out.println(indexX);
+		System.out.println(indexY);
 
 		int degreeHeight = element.getHeight() / Constant.Scene.CELL_LENGTH;
 
 		while (--degreeHeight >= 0) {
 			int degreeWidth = element.getWidth() / Constant.Scene.CELL_LENGTH;
 			while (--degreeWidth >= 0) {
-				MapLoader.getMap().getMapElements(Constant.Map.MULTIPLE_LAYER)[indexY + degreeHeight][indexX
-						+ degreeWidth] = element;
+				MapLoader.getMap().getMapElements(Constant.Map.MULTIPLE_LAYER)[indexY
+						+ degreeHeight][indexX + degreeWidth] = element;
 			}
 		}
 
