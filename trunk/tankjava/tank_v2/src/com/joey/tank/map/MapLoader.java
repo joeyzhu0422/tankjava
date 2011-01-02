@@ -78,7 +78,8 @@ public class MapLoader {
 		}
 	}
 
-	public static void main(String[] args) throws Exception {
-		MapLoader.loadNextMap();
+	public static int getCurrentGate() {
+		return gate - 1;
 	}
+
 }

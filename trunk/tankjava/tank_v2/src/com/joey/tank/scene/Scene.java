@@ -94,6 +94,9 @@ public class Scene extends JFrame implements Runnable {
 			this.drawSignEnemyTank(bufferG, x, y);
 
 		}
+		
+		// step.6 绘制关卡数
+		this.drawGate(bufferG);
 
 		// step.6 双缓冲区放置到面板
 		g.drawImage(bufferScene, 0, 0, width, height, null);
@@ -116,6 +119,19 @@ public class Scene extends JFrame implements Runnable {
 
 		g.fill3DRect(x, y, width, height, true);
 		g.fill3DRect(barrelX, barrelY, barrelWidth, barrelHeight, true);
+	}
+
+	private void drawGate(Graphics g) {
+
+		g.setColor(Color.BLACK);
+		
+		String gate = String.valueOf(MapLoader.getCurrentGate());
+		int x = Constant.Scene.WIDTH - Constant.Scene.RIGHT_WIDTH;
+		int y = Constant.Scene.HEIGHT - Constant.Scene.DOWN_HEIGTH
+				- Constant.Scene.TOP_HEIGHT;
+
+		g.drawString(gate, x, y);
+
 	}
 
 	public void run() {
