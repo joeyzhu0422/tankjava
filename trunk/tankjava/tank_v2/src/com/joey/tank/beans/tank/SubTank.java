@@ -10,4 +10,10 @@ public class SubTank extends Tank {
 		System.out.println("Sub Tank is action");
 	}
 
+	@Override
+	public void removeExplode() {
+		// TODO Auto-generated method stub
+
+	}
+
 }

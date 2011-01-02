@@ -62,6 +62,9 @@ public class TankFactory {
 
 		Queue<EnemyTank> enemyTankQueue = geteReserveEnemyTankQueue();
 
+		System.out.println("reserveEnemyTankQueue size is "
+				+ enemyTankQueue.size());
+
 		if (null == currentEnemyTankList) {
 
 			currentEnemyTankList = new ArrayList<EnemyTank>();
@@ -77,7 +80,9 @@ public class TankFactory {
 			for (int i = 0; i < Constant.Scene.CURRENT_ENEMY_TANK_NUM
 					- currentEnemyTankList.size(); i++) {
 
-				currentEnemyTankList.add(enemyTankQueue.poll());
+				if (enemyTankQueue.size() > 0) {
+					currentEnemyTankList.add(enemyTankQueue.poll());
+				}
 
 			}
 

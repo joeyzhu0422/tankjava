@@ -1,15 +1,15 @@
 package com.joey.tank.beans.obstacle;
 
-import com.joey.tank.beans.MapElement;
+import com.joey.tank.beans.IMapElement;
 import com.joey.tank.constant.Constant;
 
 public class ElementFactory {
 
-	private static MapElement HOME;
+	private static IMapElement HOME;
 
-	public static MapElement createElement(int x, int y, int type) {
+	public static IMapElement createElement(int x, int y, int type) {
 
-		MapElement mapElement = null;
+		IMapElement mapElement = null;
 
 		switch (type) {
 		case Constant.Obstacle.TYPE_NOTHING:

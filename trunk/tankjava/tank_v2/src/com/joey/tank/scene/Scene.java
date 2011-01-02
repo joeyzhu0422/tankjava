@@ -26,6 +26,8 @@ public class Scene extends JFrame implements Runnable {
 	private int height = Constant.Scene.HEIGHT;
 
 	private BufferedImage bufferScene;
+	
+	private boolean runFlg = true;
 
 	public Scene() {
 
@@ -82,7 +84,7 @@ public class Scene extends JFrame implements Runnable {
 
 	public void run() {
 
-		while (true) {
+		while (runFlg) {
 
 			try {
 				Thread.sleep(15);
@@ -97,8 +99,15 @@ public class Scene extends JFrame implements Runnable {
 			for (EnemyTank enemyTank : currentEnemyTankList) {
 				MapUtil.putToMultipleLayer(enemyTank);
 			}
+			
+			if (currentEnemyTankList.size() == 0) {
+				this.runFlg = false;
+				continue;
+			}
 
 			this.repaint();
+			
+			
 		}
 
 	}

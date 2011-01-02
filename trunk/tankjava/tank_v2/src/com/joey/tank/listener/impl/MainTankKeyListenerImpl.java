@@ -16,29 +16,29 @@ public class MainTankKeyListenerImpl implements KeyListener {
 
 	@Override
 	public void keyPressed(KeyEvent e) {
-		System.out.println("Main Tank Listener key Pressed");
+//		System.out.println("Main Tank Listener key Pressed");
 
 		int keyCode = e.getKeyCode();
 
 		switch (keyCode) {
 		case KeyEvent.VK_UP:
-			System.out.println("Up is keyed....");
+//			System.out.println("Up is keyed....");
 			mainTank.setDirection(Constant.ActiviteElement.DIRECTION_UP);
 			break;
 		case KeyEvent.VK_DOWN:
-			System.out.println("Down is keyed....");
+//			System.out.println("Down is keyed....");
 			mainTank.setDirection(Constant.ActiviteElement.DIRECTION_DOWN);
 			break;
 		case KeyEvent.VK_LEFT:
-			System.out.println("Left is keyed....");
+//			System.out.println("Left is keyed....");
 			mainTank.setDirection(Constant.ActiviteElement.DIRECTION_LEFT);
 			break;
 		case KeyEvent.VK_RIGHT:
-			System.out.println("Right is keyed....");
+//			System.out.println("Right is keyed....");
 			mainTank.setDirection(Constant.ActiviteElement.DIRECTION_RIGHT);
 			break;
 		case KeyEvent.VK_SPACE:
-			System.out.println("Main Tank fire");
+//			System.out.println("Main Tank fire");
 			mainTank.fire();
 			return;
 		}

@@ -1,6 +1,6 @@
 package com.joey.tank.beans;
 
-public interface MultipleMapElement extends MapElement {
+public interface IMultipleMapElement extends IMapElement {
 
 	public boolean isDrawed();
 
