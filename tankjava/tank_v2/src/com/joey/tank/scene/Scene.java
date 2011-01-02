@@ -1,8 +1,10 @@
 package com.joey.tank.scene;
 
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.util.List;
+import java.util.Queue;
 
 import javax.swing.JFrame;
 
@@ -26,7 +28,7 @@ public class Scene extends JFrame implements Runnable {
 	private int height = Constant.Scene.HEIGHT;
 
 	private BufferedImage bufferScene;
-	
+
 	private boolean runFlg = true;
 
 	public Scene() {
@@ -78,8 +80,42 @@ public class Scene extends JFrame implements Runnable {
 			bullet.draw(bufferG);
 		}
 
-		// step.5 双缓冲区放置到面板
+		// step.5 敌坦克数量表示
+		Queue<EnemyTank> reserveEnemyTankQueue = TankFactory
+				.geteReserveEnemyTankQueue();
+
+		for (int i = 0; i < reserveEnemyTankQueue.size(); i++) {
+
+			int x = Constant.Scene.WIDTH - Constant.Scene.RIGHT_WIDTH
+					+ Constant.Scene.CELL_LENGTH * (i % 2);
+			int y = Constant.Scene.TOP_HEIGHT + Constant.Scene.CELL_LENGTH
+					* (i / 2) + (i / 2) * 5;
+
+			this.drawSignEnemyTank(bufferG, x, y);
+
+		}
+
+		// step.6 双缓冲区放置到面板
 		g.drawImage(bufferScene, 0, 0, width, height, null);
+	}
+
+	// 绘制敌坦克数量标志
+	private void drawSignEnemyTank(Graphics g, int x, int y) {
+
+		int width = 15;
+		int height = 15;
+
+		g.setColor(Color.WHITE);
+
+		int barrelWidth = 0, barrelHeight = 0, barrelX = 0, barrelY = 0;
+
+		barrelWidth = width / 10;
+		barrelHeight = height / 3;
+		barrelX = x + width / 2 - barrelWidth / 2;
+		barrelY = y + height;
+
+		g.fill3DRect(x, y, width, height, true);
+		g.fill3DRect(barrelX, barrelY, barrelWidth, barrelHeight, true);
 	}
 
 	public void run() {
@@ -99,15 +135,14 @@ public class Scene extends JFrame implements Runnable {
 			for (EnemyTank enemyTank : currentEnemyTankList) {
 				MapUtil.putToMultipleLayer(enemyTank);
 			}
-			
+
 			if (currentEnemyTankList.size() == 0) {
 				this.runFlg = false;
 				continue;
 			}
 
 			this.repaint();
-			
-			
+
 		}
 
 	}
