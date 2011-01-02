@@ -2,7 +2,7 @@ package com.joey.tank.beans;
 
 import java.awt.Graphics;
 
-public interface MapElement {
+public interface IMapElement {
 
 	public void init();
 	

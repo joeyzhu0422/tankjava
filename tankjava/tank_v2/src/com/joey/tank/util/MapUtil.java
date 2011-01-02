@@ -1,6 +1,6 @@
 package com.joey.tank.util;
 
-import com.joey.tank.beans.MapElement;
+import com.joey.tank.beans.IMapElement;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.map.MapLoader;
 
@@ -30,7 +30,7 @@ public class MapUtil {
 
 	}
 
-	public static void putToMultipleLayer(MapElement element) {
+	public static void putToMultipleLayer(IMapElement element) {
 
 		int indexX = MapUtil.toXIndex(element.getX());
 		int indexY = MapUtil.toYIndex(element.getY());
@@ -47,7 +47,7 @@ public class MapUtil {
 
 	}
 
-	public static void putNothingToMultipleLayer(MapElement element) {
+	public static void putNothingToMultipleLayer(IMapElement element) {
 
 		int indexX = MapUtil.toXIndex(element.getX());
 		int indexY = MapUtil.toYIndex(element.getY());

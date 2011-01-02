@@ -1,17 +1,19 @@
 package com.joey.tank.beans.tank;
 
+import java.awt.Color;
 import java.awt.Graphics;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 import com.joey.tank.beans.ActiviteElement;
 import com.joey.tank.beans.Bullet;
-import com.joey.tank.beans.MultipleMapElement;
+import com.joey.tank.beans.IExplode;
+import com.joey.tank.beans.IMultipleMapElement;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.impl.TankMoveListenerImpl;
 
 public abstract class Tank extends ActiviteElement implements
-		MultipleMapElement {
+		IMultipleMapElement, IExplode {
 
 	protected Queue<Bullet> preparedBulletQueue = new LinkedBlockingQueue<Bullet>();
 
@@ -25,52 +27,65 @@ public abstract class Tank extends ActiviteElement implements
 
 	protected boolean isBulletPass;
 
+	protected boolean isExploded;
+
+	protected int[] diameter = { 4, 7, 12, 18, 26, 32, 32, 30, 14, 6 };
+
+	protected int currentExplodeStep = 0;
+
 	public Tank() {
 		setMoveListener(new TankMoveListenerImpl());
 		this.isPutInMap = true;
+		this.isExploded = false;
 	}
 
 	public void draw(Graphics g) {
 
 		if (!isDrawed()) {
-			System.out.println("Tank draw");
 
-			g.setColor(color);
+			if (isExploded()) {
+				this.explode(g);
+			} else {
 
-			g.fill3DRect(x, y, width, height, true);
+//				System.out.println("Tank draw");
 
-			int barrelWidth = 0, barrelHeight = 0;
+				g.setColor(color);
 
-			switch (direction) {
-			case Constant.ActiviteElement.DIRECTION_UP:
-				barrelWidth = width / 10;
-				barrelHeight = height / 3;
-				barrelX = x + width / 2 - barrelWidth / 2;
-				barrelY = y - barrelHeight;
-				break;
-			case Constant.ActiviteElement.DIRECTION_DOWN:
-				barrelWidth = width / 10;
-				barrelHeight = height / 3;
-				barrelX = x + width / 2 - barrelWidth / 2;
-				barrelY = y + height;
-				break;
-			case Constant.ActiviteElement.DIRECTION_LEFT:
-				barrelHeight = width / 10;
-				barrelWidth = height / 3;
-				barrelX = x - barrelWidth;
-				barrelY = y + height / 2 - barrelHeight / 2;
-				break;
-			case Constant.ActiviteElement.DIRECTION_RIGHT:
-				barrelHeight = width / 10;
-				barrelWidth = height / 3;
-				barrelX = x + width;
-				barrelY = y + height / 2 - barrelHeight / 2;
-				break;
+				g.fill3DRect(x, y, width, height, true);
+
+				int barrelWidth = 0, barrelHeight = 0;
+
+				switch (direction) {
+				case Constant.ActiviteElement.DIRECTION_UP:
+					barrelWidth = width / 10;
+					barrelHeight = height / 3;
+					barrelX = x + width / 2 - barrelWidth / 2;
+					barrelY = y - barrelHeight;
+					break;
+				case Constant.ActiviteElement.DIRECTION_DOWN:
+					barrelWidth = width / 10;
+					barrelHeight = height / 3;
+					barrelX = x + width / 2 - barrelWidth / 2;
+					barrelY = y + height;
+					break;
+				case Constant.ActiviteElement.DIRECTION_LEFT:
+					barrelHeight = width / 10;
+					barrelWidth = height / 3;
+					barrelX = x - barrelWidth;
+					barrelY = y + height / 2 - barrelHeight / 2;
+					break;
+				case Constant.ActiviteElement.DIRECTION_RIGHT:
+					barrelHeight = width / 10;
+					barrelWidth = height / 3;
+					barrelX = x + width;
+					barrelY = y + height / 2 - barrelHeight / 2;
+					break;
+				}
+
+				g.fill3DRect(barrelX, barrelY, barrelWidth, barrelHeight, true);
 			}
 
 			this.isDrawed = true;
-
-			g.fill3DRect(barrelX, barrelY, barrelWidth, barrelHeight, true);
 		}
 	}
 
@@ -121,8 +136,40 @@ public abstract class Tank extends ActiviteElement implements
 
 	}
 
+	public boolean isExploded() {
+		return isExploded;
+	}
+
+	public int getCurrentExplodeStep() {
+		return currentExplodeStep;
+	}
+
+	public int getTotalExplodeStep() {
+		return diameter.length;
+	}
+
+	public abstract void removeExplode();
+
+	public void explode(Graphics g) {
+		
+		System.out.println("Tank Exploding ...");
+
+		Color c = this.color;
+		g.setColor(Color.ORANGE);
+		g.fillOval(x, y, diameter[getCurrentExplodeStep()],
+				diameter[getCurrentExplodeStep()]);
+		g.setColor(c);
+		this.currentExplodeStep++;
+
+		if (getCurrentExplodeStep() > getTotalExplodeStep() - 1) {
+			System.out.println("Tank Exploded ...");
+			this.isExploded = false;
+			this.removeExplode();
+		}
+	}
+
 	public void bulletAction() {
-		// TODO Auto-generated method stub
+		this.isExploded = true;
 	}
 
 	public void init() {

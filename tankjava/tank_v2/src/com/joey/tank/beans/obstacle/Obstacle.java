@@ -2,11 +2,11 @@ package com.joey.tank.beans.obstacle;
 
 import java.awt.Graphics;
 
-import com.joey.tank.beans.MapElement;
+import com.joey.tank.beans.IMapElement;
 import com.joey.tank.beans.StaticElement;
 import com.joey.tank.constant.Constant;
 
-public abstract class Obstacle extends StaticElement implements MapElement {
+public abstract class Obstacle extends StaticElement implements IMapElement {
 
 	protected boolean isPass;
 

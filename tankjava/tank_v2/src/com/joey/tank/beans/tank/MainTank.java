@@ -24,4 +24,10 @@ public class MainTank extends Tank {
 		System.out.println("Main Tank is action");
 	}
 
+	@Override
+	public void removeExplode() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

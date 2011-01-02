@@ -4,6 +4,7 @@ import java.awt.Color;
 
 import com.joey.tank.beans.Bullet;
 import com.joey.tank.constant.Constant;
+import com.joey.tank.util.MapUtil;
 
 public class EnemyTank extends Tank {
 
@@ -26,8 +27,11 @@ public class EnemyTank extends Tank {
 	}
 
 	@Override
-	public void bulletAction() {
-		super.bulletAction();
+	public void removeExplode() {
+		
+		MapUtil.putNothingToMultipleLayer(this);
+		TankFactory.getCurrentEnemyTankList().remove(this);
+		
 	}
 
 }

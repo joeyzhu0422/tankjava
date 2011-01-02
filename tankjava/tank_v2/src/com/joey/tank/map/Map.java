@@ -2,7 +2,7 @@ package com.joey.tank.map;
 
 import java.awt.Graphics;
 
-import com.joey.tank.beans.MapElement;
+import com.joey.tank.beans.IMapElement;
 import com.joey.tank.beans.obstacle.ElementFactory;
 import com.joey.tank.constant.Constant;
 
@@ -10,7 +10,7 @@ public class Map {
 
 	private int[][] models;
 
-	private MapElement[][][] mapElements;
+	private IMapElement[][][] mapElements;
 
 	private Object lock = new Object();
 
@@ -25,11 +25,11 @@ public class Map {
 
 	}
 
-	public MapElement[][] getMapElements(int layer) {
+	public IMapElement[][] getMapElements(int layer) {
 		return mapElements[layer];
 	}
 
-	public void setMapElements(int layer, MapElement[][] mapElements) {
+	public void setMapElements(int layer, IMapElement[][] mapElements) {
 
 		synchronized (lock) {
 
@@ -37,7 +37,7 @@ public class Map {
 
 				synchronized (lock) {
 
-					this.mapElements = new MapElement[2][][];
+					this.mapElements = new IMapElement[2][][];
 
 				}
 
@@ -54,13 +54,13 @@ public class Map {
 			throw new RuntimeException("models is null");
 		}
 
-		MapElement[][] singleLayerObstacles = new MapElement[models.length][];
-		MapElement[][] multipleLayerObstacles = new MapElement[models.length][];
+		IMapElement[][] singleLayerObstacles = new IMapElement[models.length][];
+		IMapElement[][] multipleLayerObstacles = new IMapElement[models.length][];
 
 		for (int i = 0; i < models.length; i++) {
 
-			singleLayerObstacles[i] = new MapElement[models[i].length];
-			multipleLayerObstacles[i] = new MapElement[models[i].length];
+			singleLayerObstacles[i] = new IMapElement[models[i].length];
+			multipleLayerObstacles[i] = new IMapElement[models[i].length];
 
 			for (int j = 0; j < models[i].length; j++) {
 
@@ -77,7 +77,7 @@ public class Map {
 						multipleLayerObstacles);
 	}
 
-	public MapElement getSingleLayerElement(int x, int y) {
+	public IMapElement getSingleLayerElement(int x, int y) {
 
 		try {
 			return mapElements[Constant.Map.SINGLE_LAYER][y][x];
@@ -87,7 +87,7 @@ public class Map {
 
 	}
 
-	public MapElement getMultipleLayerElement(int x, int y) {
+	public IMapElement getMultipleLayerElement(int x, int y) {
 
 		try {
 			return mapElements[Constant.Map.MULTIPLE_LAYER][y][x];
@@ -113,7 +113,7 @@ public class Map {
 
 	public void draw(Graphics g) {
 
-		System.out.println("Map draw");
+//		System.out.println("Map draw");
 
 		for (int x = 0; x < mapElements.length; x++) {
 			for (int y = 0; y < mapElements[x].length; y++) {

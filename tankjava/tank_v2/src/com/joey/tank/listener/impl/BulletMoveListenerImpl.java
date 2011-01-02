@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.joey.tank.beans.ActiviteElement;
-import com.joey.tank.beans.MapElement;
+import com.joey.tank.beans.IMapElement;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.MoveListener;
 import com.joey.tank.map.Map;
@@ -14,7 +14,7 @@ import com.joey.tank.util.MapUtil;
 public class BulletMoveListenerImpl implements MoveListener {
 
 	public boolean isCollide(ActiviteElement element) {
-		System.out.println("Bullet Move Listener isCollide");
+//		System.out.println("Bullet Move Listener isCollide");
 
 		Map map = MapLoader.getMap();
 
@@ -22,10 +22,10 @@ public class BulletMoveListenerImpl implements MoveListener {
 		int y = element.getY();
 
 		// ’œ∞≠ŒÔºØ∫œ
-		List<MapElement> obstacleList = new ArrayList<MapElement>(2);
+		List<IMapElement> obstacleList = new ArrayList<IMapElement>(2);
 
-		MapElement singleObstacle1 = null, singleObstacle2 = null;
-		MapElement multipleObstacle1 = null, multipleObstacle2 = null;
+		IMapElement singleObstacle1 = null, singleObstacle2 = null;
+		IMapElement multipleObstacle1 = null, multipleObstacle2 = null;
 
 		switch (element.getDirection()) {
 		case Constant.ActiviteElement.DIRECTION_UP:
@@ -90,7 +90,7 @@ public class BulletMoveListenerImpl implements MoveListener {
 
 		boolean isPass = true;
 
-		for (MapElement obstacle : obstacleList) {
+		for (IMapElement obstacle : obstacleList) {
 
 			if (null != obstacle && !obstacle.isBulletPass()) {
 				obstacle.bulletAction();

@@ -3,11 +3,11 @@ package com.joey.tank.beans.obstacle;
 import java.awt.Color;
 import java.awt.Graphics;
 
-import com.joey.tank.beans.MultipleMapElement;
+import com.joey.tank.beans.IMultipleMapElement;
 import com.joey.tank.beans.StaticElement;
 import com.joey.tank.constant.Constant;
 
-public class Home extends StaticElement implements MultipleMapElement {
+public class Home extends StaticElement implements IMultipleMapElement {
 
 	protected boolean isDrawed;
 
