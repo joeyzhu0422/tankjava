@@ -39,7 +39,7 @@ public class TankFactory {
 		return subTank;
 	}
 
-	private static Queue<EnemyTank> geteReserveEnemyTankQueue() {
+	public static Queue<EnemyTank> geteReserveEnemyTankQueue() {
 
 		if (null == reserveEnemyTankQueue) {
 
