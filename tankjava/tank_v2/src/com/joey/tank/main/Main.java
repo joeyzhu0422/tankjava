@@ -1,7 +1,7 @@
 package com.joey.tank.main;
 
-import com.joey.tank.scene.Menu;
-import com.joey.tank.scene.Window;
+import com.joey.tank.scene.impl.Menu;
+import com.joey.tank.window.Window;
 
 public class Main {
 

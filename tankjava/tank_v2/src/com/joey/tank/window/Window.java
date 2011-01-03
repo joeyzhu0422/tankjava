@@ -1,4 +1,4 @@
-package com.joey.tank.scene;
+package com.joey.tank.window;
 
 import java.awt.Graphics;
 import java.awt.event.KeyListener;
@@ -6,6 +6,7 @@ import java.awt.event.KeyListener;
 import javax.swing.JFrame;
 
 import com.joey.tank.constant.Constant;
+import com.joey.tank.scene.IScene;
 
 public class Window extends JFrame implements Runnable {
 

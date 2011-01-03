@@ -1,4 +1,4 @@
-package com.joey.tank.scene;
+package com.joey.tank.scene.impl;
 
 import java.awt.Font;
 import java.awt.Graphics;
@@ -10,7 +10,9 @@ import java.util.List;
 
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.impl.MenuKeyListenerImpl;
+import com.joey.tank.scene.IScene;
 import com.joey.tank.util.ResouceUtil;
+import com.joey.tank.window.Window;
 
 public class Menu implements IScene {
 

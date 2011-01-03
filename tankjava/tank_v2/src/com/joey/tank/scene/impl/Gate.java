@@ -1,4 +1,4 @@
-package com.joey.tank.scene;
+package com.joey.tank.scene.impl;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -15,6 +15,7 @@ import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.impl.MainTankKeyListenerImpl;
 import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
+import com.joey.tank.scene.IScene;
 import com.joey.tank.util.MapUtil;
 
 public class Gate implements IScene {
