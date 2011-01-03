@@ -3,8 +3,8 @@ package com.joey.tank.listener.impl;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-import com.joey.tank.scene.Gate;
-import com.joey.tank.scene.Window;
+import com.joey.tank.scene.impl.Gate;
+import com.joey.tank.window.Window;
 
 public class MenuKeyListenerImpl extends KeyAdapter {
 	
