@@ -28,7 +28,7 @@ public class Bullet extends ActiviteElement {
 	}
 
 	public void draw(Graphics g) {
-//		System.out.println("Bullet draw");
+		System.out.println("Bullet draw");
 
 		g.setColor(Color.WHITE);
 		g.fillRect(x, y, width, height);
