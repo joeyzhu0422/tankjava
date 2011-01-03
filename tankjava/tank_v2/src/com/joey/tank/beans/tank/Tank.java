@@ -47,7 +47,7 @@ public abstract class Tank extends ActiviteElement implements
 				this.explode(g);
 			} else {
 
-//				System.out.println("Tank draw");
+// System.out.println("Tank draw");
 
 				g.setColor(color);
 
@@ -151,7 +151,7 @@ public abstract class Tank extends ActiviteElement implements
 	public abstract void removeExplode();
 
 	public void explode(Graphics g) {
-		
+
 		System.out.println("Tank Exploding ...");
 
 		Color c = this.color;
@@ -194,6 +194,10 @@ public abstract class Tank extends ActiviteElement implements
 
 	public boolean isDrawed() {
 		return isDrawed;
+	}
+
+	public void setDrawed(boolean isDrawed) {
+		this.isDrawed = isDrawed;
 	}
 
 	public Queue<Bullet> getFiredBulletQueue() {

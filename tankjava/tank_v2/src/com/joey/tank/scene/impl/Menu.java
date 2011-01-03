@@ -6,8 +6,10 @@ import java.awt.Image;
 import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
+import com.joey.tank.beans.tank.MainTank;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.impl.MenuKeyListenerImpl;
 import com.joey.tank.scene.IScene;
@@ -15,6 +17,8 @@ import com.joey.tank.util.ResouceUtil;
 import com.joey.tank.window.Window;
 
 public class Menu implements IScene {
+
+	protected MainTank mainTank;
 
 	protected BufferedImage bufferScene;
 
@@ -38,15 +42,27 @@ public class Menu implements IScene {
 		// step.1 双缓冲区设置
 		Graphics bufferG = bufferScene.getGraphics();
 
+		// step.2 标题图片绘制
 		Image menuImage = ResouceUtil.getMenuImage();
-
 		bufferG.drawImage(menuImage, 0, Constant.Scene.TOP_HEIGHT, null);
 
-		bufferG.setFont(new Font(Font.DIALOG_INPUT, Font.BOLD, 12));
+		// step.3 菜单绘制
+		bufferG.setFont(new Font(Font.DIALOG_INPUT, Font.BOLD, 25));
 
-		bufferG.drawString("aaa", 50, 300);
+		List<String> menuList = new LinkedList<String>();
+		menuList.add("1 Player");
+		menuList.add("2 Players");
 
-		// step.6 双缓冲区放置到面板
+		for (int i = 0; i < menuList.size(); i++) {
+			bufferG.drawString(menuList.get(i), 170, 300 + i * 40);
+		}
+
+		// step.4 选择坦克设置
+		mainTank.setDrawed(false);
+		mainTank.setDirection(Constant.ActiviteElement.DIRECTION_RIGHT);
+		mainTank.draw(bufferG);
+
+		// step.4 双缓冲区放置到面板
 		g.drawImage(bufferScene, 0, 0, width, height, null);
 
 	}
@@ -61,7 +77,8 @@ public class Menu implements IScene {
 				if (null == keyListenerList) {
 
 					keyListenerList = new ArrayList<KeyListener>();
-					keyListenerList.add(new MenuKeyListenerImpl(window));
+					keyListenerList.add(new MenuKeyListenerImpl(window,
+							mainTank));
 
 				}
 
@@ -71,13 +88,14 @@ public class Menu implements IScene {
 		return keyListenerList;
 	}
 
-	@Override
 	public void init() {
-		// TODO Auto-generated method stub
-
+		
+		mainTank = new MainTank();
+		mainTank.setX(120);
+		mainTank.setY(278);
+		
 	}
 
-	@Override
 	public void reDo() {
 		// TODO Auto-generated method stub
 

@@ -55,7 +55,7 @@ public class Window extends JFrame implements Runnable {
 	}
 
 	public void start() {
-
+		
 		this.isRunFlg = true;
 		this.scene.init();
 
