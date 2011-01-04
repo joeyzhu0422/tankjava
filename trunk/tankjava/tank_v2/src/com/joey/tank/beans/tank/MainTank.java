@@ -22,12 +22,16 @@ public class MainTank extends Tank {
 	}
 
 	public void action() {
-		System.out.println("Main Tank is action");
+//		System.out.println("Main Tank is action");
 	}
 
 	@Override
 	public void removeExplode() {
+		
+		System.out.println("Main Tank remove Explode");
 		MapUtil.putNothingToMultipleLayer(this);
+		TankFactory.removeMainTank();
+		
 	}
 
 }

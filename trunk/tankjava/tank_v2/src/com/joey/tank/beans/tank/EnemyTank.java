@@ -30,7 +30,7 @@ public class EnemyTank extends Tank {
 	public void removeExplode() {
 		
 		MapUtil.putNothingToMultipleLayer(this);
-		TankFactory.getCurrentEnemyTankList().remove(this);
+		TankFactory.removeEnemyTank(this);
 		
 	}
 

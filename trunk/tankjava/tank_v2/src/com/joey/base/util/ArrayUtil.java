@@ -7,7 +7,7 @@ public class ArrayUtil {
 		int[] ints = new int[objs.length];
 
 		for (int i = 0; i < objs.length; i++) {
-			System.out.println("objs" + objs[i]);
+//			System.out.println("objs" + objs[i]);
 			ints[i] = Integer.valueOf(objs[i]);
 		}
 

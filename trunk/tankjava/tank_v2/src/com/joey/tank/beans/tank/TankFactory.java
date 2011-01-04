@@ -10,6 +10,10 @@ import com.joey.tank.constant.Constant;
 public class TankFactory {
 
 	private static MainTank mainTank;
+	
+	private static boolean isExistMainTank = true;
+	
+	private static boolean isExistSubTank = true;
 
 	private static SubTank subTank;
 
@@ -19,7 +23,7 @@ public class TankFactory {
 
 	public static MainTank getMainTank() {
 
-		if (null == mainTank) {
+		if (null == mainTank && isExistMainTank) {
 
 			mainTank = new MainTank();
 
@@ -27,10 +31,17 @@ public class TankFactory {
 
 		return mainTank;
 	}
+	
+	public static void removeMainTank() {
+		
+		mainTank = null;
+		isExistMainTank = false;
+		
+	}
 
 	public static SubTank getSubTank() {
 
-		if (null == subTank) {
+		if (null == subTank && isExistSubTank) {
 
 			subTank = new SubTank();
 
@@ -39,6 +50,12 @@ public class TankFactory {
 		return subTank;
 	}
 
+	public static void removeSubTank() {
+		
+		subTank = null;
+		isExistSubTank = false;
+		
+	}
 	public static Queue<EnemyTank> geteReserveEnemyTankQueue() {
 
 		if (null == reserveEnemyTankQueue) {
@@ -62,8 +79,8 @@ public class TankFactory {
 
 		Queue<EnemyTank> enemyTankQueue = geteReserveEnemyTankQueue();
 
-		System.out.println("reserveEnemyTankQueue size is "
-				+ enemyTankQueue.size());
+// System.out.println("reserveEnemyTankQueue size is "
+// + enemyTankQueue.size());
 
 		if (null == currentEnemyTankList) {
 
@@ -90,5 +107,9 @@ public class TankFactory {
 
 		return currentEnemyTankList;
 
+	}
+
+	public static void removeEnemyTank(Tank tank) {
+		getCurrentEnemyTankList().remove(tank);
 	}
 }

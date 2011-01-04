@@ -48,6 +48,15 @@ public class Constant {
 					+ Constant.Scene.TOP_HEIGHT;
 
 		}
+		
+		public interface SubTank {
+			
+			public int ORIGINAL_X = 19 * Constant.Scene.CELL_LENGTH;
+
+			public int ORIGINAL_Y = 24 * Constant.Scene.CELL_LENGTH
+					+ Constant.Scene.TOP_HEIGHT;
+			
+		}
 
 		public interface EnemyTank {
 

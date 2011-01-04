@@ -39,7 +39,7 @@ public class ElementFactory {
 			throw new RuntimeException("[type: " + type + "] can not find");
 		}
 
-		System.out.println(mapElement);
+//		System.out.println(mapElement);
 
 		return mapElement;
 	}

@@ -13,6 +13,7 @@ import com.joey.tank.beans.tank.EnemyTank;
 import com.joey.tank.beans.tank.TankFactory;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.impl.MainTankKeyListenerImpl;
+import com.joey.tank.listener.impl.SubTankKeyListenerImpl;
 import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
 import com.joey.tank.scene.IScene;
@@ -28,7 +29,13 @@ public class Gate implements IScene {
 
 	protected Object lock = new Object();
 
+	protected int players;
+
 	protected boolean isRun = true;
+
+	public Gate(int players) {
+		this.players = players;
+	}
 
 	public void draw(Graphics g, int width, int height) {
 
@@ -49,8 +56,18 @@ public class Gate implements IScene {
 		map.draw(bufferG);
 
 		// step.4-1 mainTank子弹绘制
-		for (Bullet bullet : TankFactory.getMainTank().getFiredBulletQueue()) {
-			bullet.draw(bufferG);
+		if (players >= 1 && TankFactory.getMainTank() != null) {
+			for (Bullet bullet : TankFactory.getMainTank()
+					.getFiredBulletQueue()) {
+				bullet.draw(bufferG);
+			}
+		}
+
+		// step.4-2 subTank子弹绘制
+		if (players >= 2 && TankFactory.getSubTank() != null) {
+			for (Bullet bullet : TankFactory.getSubTank().getFiredBulletQueue()) {
+				bullet.draw(bufferG);
+			}
 		}
 
 		// step.5 敌坦克数量表示
@@ -81,7 +98,14 @@ public class Gate implements IScene {
 		map = MapLoader.getMap();
 
 		// step.2 放置主坦克
-		MapUtil.putToMultipleLayer(TankFactory.getMainTank());
+		if (players >= 1) {
+			MapUtil.putToMultipleLayer(TankFactory.getMainTank());
+		}
+
+		// step.3 放置副坦克
+		if (players >= 2) {
+			MapUtil.putToMultipleLayer(TankFactory.getSubTank());
+		}
 
 	}
 
@@ -127,8 +151,14 @@ public class Gate implements IScene {
 				if (null == keyListenerList) {
 
 					keyListenerList = new ArrayList<KeyListener>();
-					keyListenerList.add(new MainTankKeyListenerImpl(TankFactory
-							.getMainTank()));
+
+					if (players >= 1) {
+						keyListenerList.add(new MainTankKeyListenerImpl());
+					}
+
+					if (players >= 2) {
+						keyListenerList.add(new SubTankKeyListenerImpl());
+					}
 
 				}
 
