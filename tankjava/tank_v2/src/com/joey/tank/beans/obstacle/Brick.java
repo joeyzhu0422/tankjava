@@ -20,7 +20,7 @@ public class Brick extends Obstacle {
 
 	public void bulletAction() {
 
-		System.out.println("Brick bullet action");
+//		System.out.println("Brick bullet action");
 
 		Map map = MapLoader.getMap();
 

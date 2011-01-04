@@ -31,8 +31,8 @@ public class BulletMoveListenerImpl implements MoveListener {
 		switch (element.getDirection()) {
 		case Constant.ActiviteElement.DIRECTION_UP:
 
-			System.out.println(MapUtil.toXIndex(x));
-			System.out.println(y);
+//			System.out.println(MapUtil.toXIndex(x));
+//			System.out.println(y);
 			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x),
 					MapUtil.toYIndex(y));
 			singleObstacle2 = map.getSingleLayerElement(

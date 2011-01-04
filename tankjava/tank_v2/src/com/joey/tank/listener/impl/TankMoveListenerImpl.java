@@ -30,8 +30,8 @@ public class TankMoveListenerImpl implements MoveListener {
 		switch (element.getDirection()) {
 		case Constant.ActiviteElement.DIRECTION_UP:
 			while (--collideNum >= 0) {
-				System.out.println(MapUtil.toXIndex(x));
-				System.out.println(MapUtil.toYIndex(y));
+//				System.out.println(MapUtil.toXIndex(x));
+//				System.out.println(MapUtil.toYIndex(y));
 				IMapElement singleObstacle = map.getSingleLayerElement(MapUtil
 						.toXIndex(x)
 						+ collideNum, MapUtil.toYIndex(y) - 1);
