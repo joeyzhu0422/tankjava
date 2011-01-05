@@ -2,7 +2,6 @@ package com.joey.tank.beans;
 
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.MoveListener;
-import com.joey.tank.util.MapUtil;
 
 public abstract class ActiviteElement extends StaticElement {
 
