@@ -13,7 +13,7 @@ public class TankAi implements IAi {
 
 	public void action() {
 //		System.out.println("Tank ai action");
-		tank.fire();
+		tank.move();
 	}
 
 }

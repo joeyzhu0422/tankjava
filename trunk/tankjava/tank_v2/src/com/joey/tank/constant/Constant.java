@@ -48,14 +48,14 @@ public class Constant {
 					+ Constant.Scene.TOP_HEIGHT;
 
 		}
-		
+
 		public interface SubTank {
-			
+
 			public int ORIGINAL_X = 19 * Constant.Scene.CELL_LENGTH;
 
 			public int ORIGINAL_Y = 24 * Constant.Scene.CELL_LENGTH
 					+ Constant.Scene.TOP_HEIGHT;
-			
+
 		}
 
 		public interface EnemyTank {
@@ -69,13 +69,15 @@ public class Constant {
 					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,
 					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,
 					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT };
-			
+
 			public interface Ai {
-				
+
 				public int STATUS_FIRE = 0;
-				
+
 				public int STATUS_MOVE = 1;
-				
+
+				public int AI_SLEEP_TIME = 200;
+
 			}
 
 		}
