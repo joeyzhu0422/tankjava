@@ -1,6 +1,7 @@
 package com.joey.tank.scene.impl;
 
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
@@ -143,7 +144,8 @@ public class Gate implements IScene {
 
 	private void drawGate(Graphics g) {
 
-		g.setColor(Color.BLACK);
+		g.setColor(Color.WHITE);
+		g.setFont(new Font(Font.DIALOG_INPUT, Font.BOLD, 18));
 
 		String gate = String.valueOf(MapLoader.getCurrentGate());
 		int x = Constant.Scene.WIDTH - Constant.Scene.RIGHT_WIDTH;
