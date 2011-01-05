@@ -154,7 +154,7 @@ public abstract class Tank extends ActiviteElement implements
 
 	public void explode(Graphics g) {
 
-		System.out.println("Tank Exploding ...");
+//		System.out.println("Tank Exploding ...");
 
 		Color c = this.color;
 		g.setColor(Color.ORANGE);
@@ -164,7 +164,7 @@ public abstract class Tank extends ActiviteElement implements
 		this.currentExplodeStep++;
 
 		if (getCurrentExplodeStep() > getTotalExplodeStep() - 1) {
-			System.out.println("Tank Exploded ...");
+//			System.out.println("Tank Exploded ...");
 			this.isExploded = false;
 			this.removeExplode();
 		}

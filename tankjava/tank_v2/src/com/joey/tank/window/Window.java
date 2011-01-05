@@ -50,7 +50,7 @@ public class Window extends JFrame implements Runnable {
 		while (isRunFlg && scene.isRun()) {
 
 			try {
-				Thread.sleep(15);
+				Thread.sleep(Constant.Scene.THREAD_SLEEP_TIME);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -63,18 +63,27 @@ public class Window extends JFrame implements Runnable {
 
 	}
 
-	public void start() {
+	public void start(){
+		
 
-		this.isRunFlg = true;
-		this.scene.init();
-
-		if (null != this.scene.getKeyListenerList()) {
-			for (KeyListener listener : this.scene.getKeyListenerList()) {
-				this.addKeyListener(listener);
+			try {
+				Thread.sleep(Constant.Scene.THREAD_SLEEP_TIME);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-		}
 
-		new Thread(this).start();
+			this.isRunFlg = true;
+			this.scene.init();
+
+			if (null != this.scene.getKeyListenerList()) {
+				for (KeyListener listener : this.scene.getKeyListenerList()) {
+					this.addKeyListener(listener);
+				}
+			}
+
+			new Thread(this).start();
+
 
 	}
 

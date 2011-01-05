@@ -39,15 +39,20 @@ public class SubTank extends Tank {
 		MapUtil.putNothingToMultipleLayer(this);
 
 		// step.2 重置坦克位置
-		this.setX(Constant.ActiviteElement.SubTank.ORIGINAL_X);
-		this.setY(Constant.ActiviteElement.SubTank.ORIGINAL_Y);
-		MapUtil.putToMultipleLayer(this);
-
+		this.setX(Constant.ActiviteElement.MainTank.ORIGINAL_X);
+		this.setY(Constant.ActiviteElement.MainTank.ORIGINAL_Y);
+		this.setDirection(Constant.ActiviteElement.DIRECTION_UP);
+		
 		// step.3 爆炸参数重置
 		this.currentExplodeStep = 0;
-
+		
 		// step.4 生命 － 1
 		this.life--;
+		
+		// step.5 如果还有命，放置坦克
+		if (this.life > 0) {
+			MapUtil.putToMultipleLayer(this);
+		}
 
 	}
 

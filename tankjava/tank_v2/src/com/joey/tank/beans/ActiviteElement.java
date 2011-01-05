@@ -12,6 +12,8 @@ public abstract class ActiviteElement extends StaticElement {
 
 	protected boolean isPutInMap = false;
 
+	protected boolean isMoved = true;
+
 	public void setMoveListener(MoveListener listener) {
 		this.moveListener = listener;
 	}
@@ -28,50 +30,37 @@ public abstract class ActiviteElement extends StaticElement {
 
 	public boolean move() {
 
-		boolean isMove = moveListener.isCollide(this);
+		if (isMoved) {
 
-		if (isMove) {
+			isMoved = false;
 
-			if (isPutInMap) {
+			boolean isMove = moveListener.isCollide(this);
 
-				if (this instanceof IMapElement) {
+			if (isMove) {
 
-					IMapElement mapElement = (IMapElement) this;
-					MapUtil.putNothingToMultipleLayer(mapElement);
-
+				switch (direction) {
+				case Constant.ActiviteElement.DIRECTION_UP:
+					this.setY(this.getY() - Constant.Scene.CELL_LENGTH);
+					break;
+				case Constant.ActiviteElement.DIRECTION_DOWN:
+					this.setY(this.getY() + Constant.Scene.CELL_LENGTH);
+					break;
+				case Constant.ActiviteElement.DIRECTION_LEFT:
+					this.setX(this.getX() - Constant.Scene.CELL_LENGTH);
+					break;
+				case Constant.ActiviteElement.DIRECTION_RIGHT:
+					this.setX(this.getX() + Constant.Scene.CELL_LENGTH);
+					break;
 				}
 
 			}
 
-			switch (direction) {
-			case Constant.ActiviteElement.DIRECTION_UP:
-				this.setY(this.getY() - Constant.Scene.CELL_LENGTH);
-				break;
-			case Constant.ActiviteElement.DIRECTION_DOWN:
-				this.setY(this.getY() + Constant.Scene.CELL_LENGTH);
-				break;
-			case Constant.ActiviteElement.DIRECTION_LEFT:
-				this.setX(this.getX() - Constant.Scene.CELL_LENGTH);
-				break;
-			case Constant.ActiviteElement.DIRECTION_RIGHT:
-				this.setX(this.getX() + Constant.Scene.CELL_LENGTH);
-				break;
-			}
+			isMoved = true;
 
-			if (isPutInMap) {
-
-				if (this instanceof IMapElement) {
-
-					IMapElement mapElement = (IMapElement) this;
-					MapUtil.putToMultipleLayer(mapElement);
-
-				}
-
-			}
-
+			return isMove;
+		} else {
+			return false;
 		}
-
-		return isMove;
 	}
 
 }

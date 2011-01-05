@@ -15,15 +15,13 @@ public class Map {
 
 	private Object lock = new Object();
 
-	public int[][] getModels() {
-		return models;
-	}
-
-	public void setModels(int[][] models) {
-
+	public Map(int[][] models) {
 		this.models = models;
 		this.toElements();
+	}
 
+	public int[][] getModels() {
+		return models;
 	}
 
 	public IMapElement[][] getMapElements(int layer) {
@@ -40,6 +38,10 @@ public class Map {
 
 			}
 
+		}
+
+		if (null == mapElements[layer]) {
+			System.out.println(mapElements[layer]);
 		}
 
 		return mapElements[layer];
@@ -136,6 +138,16 @@ public class Map {
 						mapElements[x][y][z].draw(g);
 					}
 				}
+			}
+		}
+
+	}
+
+	public void cleanMultipleLayer() {
+
+		for (int i = 0; i < mapElements[Constant.Map.MULTIPLE_LAYER].length; i++) {
+			for (int j = 0; j < mapElements[Constant.Map.MULTIPLE_LAYER][i].length; j++) {
+				mapElements[Constant.Map.MULTIPLE_LAYER][i][j] = null;
 			}
 		}
 

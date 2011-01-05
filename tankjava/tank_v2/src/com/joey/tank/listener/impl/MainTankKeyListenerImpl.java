@@ -17,33 +17,35 @@ public class MainTankKeyListenerImpl implements KeyListener {
 			int keyCode = e.getKeyCode();
 
 			switch (keyCode) {
-			case KeyEvent.VK_UP:
+			case KeyEvent.VK_W:
 // System.out.println("Up is keyed....");
 				TankFactory.getMainTank().setDirection(
 						Constant.ActiviteElement.DIRECTION_UP);
-				break;
-			case KeyEvent.VK_DOWN:
+				TankFactory.getMainTank().move();
+				return;
+			case KeyEvent.VK_S:
 // System.out.println("Down is keyed....");
 				TankFactory.getMainTank().setDirection(
 						Constant.ActiviteElement.DIRECTION_DOWN);
-				break;
-			case KeyEvent.VK_LEFT:
+				TankFactory.getMainTank().move();
+				return;
+			case KeyEvent.VK_A:
 // System.out.println("Left is keyed....");
 				TankFactory.getMainTank().setDirection(
 						Constant.ActiviteElement.DIRECTION_LEFT);
-				break;
-			case KeyEvent.VK_RIGHT:
+				TankFactory.getMainTank().move();
+				return;
+			case KeyEvent.VK_D:
 // System.out.println("Right is keyed....");
 				TankFactory.getMainTank().setDirection(
 						Constant.ActiviteElement.DIRECTION_RIGHT);
-				break;
-			case KeyEvent.VK_SPACE:
+				TankFactory.getMainTank().move();
+				return;
+			case KeyEvent.VK_J:
 // System.out.println("Main Tank fire");
 				TankFactory.getMainTank().fire();
 				return;
 			}
-
-			TankFactory.getMainTank().move();
 
 		}
 	}

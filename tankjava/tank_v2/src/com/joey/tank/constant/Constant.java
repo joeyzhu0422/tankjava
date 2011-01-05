@@ -27,6 +27,8 @@ public class Constant {
 
 		// 同时存在的坦克数量
 		public int CURRENT_ENEMY_TANK_NUM = 3;
+		
+		public int THREAD_SLEEP_TIME = 15;
 
 	}
 
@@ -74,7 +76,7 @@ public class Constant {
 
 				public int STATUS_FIRE = 0;
 
-				public int AI_SLEEP_TIME = 200;
+				public int AI_SLEEP_TIME = Constant.Scene.THREAD_SLEEP_TIME * 10;
 
 			}
 

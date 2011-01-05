@@ -67,9 +67,7 @@ public class MapLoader {
 				obstacless[lineNum++] = obstacles;
 			}
 
-			map = new Map();
-
-			map.setModels(obstacless);
+			map = new Map(obstacless);
 
 			gate++;
 		} catch (Exception e) {

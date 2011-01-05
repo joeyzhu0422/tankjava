@@ -86,6 +86,10 @@ public class Gate implements IScene {
 
 		// step.4-3 敌坦克子弹绘制
 		for (EnemyTank enemyTank : TankFactory.getCurrentEnemyTankList()) {
+			if (null == enemyTank) {
+				System.out.println(enemyTank);
+			}
+
 			for (Bullet bullet : enemyTank.getFiredBulletQueue()) {
 				bullet.draw(bufferG);
 			}
@@ -247,11 +251,25 @@ public class Gate implements IScene {
 	@Override
 	public void action() {
 
+		// step.1 清空 Multiple多层地图
+		MapLoader.getMap().cleanMultipleLayer();
+
+		// step.2 敌坦克放置
 		List<EnemyTank> currentEnemyTankList = TankFactory
 				.getCurrentEnemyTankList();
 
 		for (EnemyTank enemyTank : currentEnemyTankList) {
 			MapUtil.putToMultipleLayer(enemyTank);
+		}
+
+		// step.3 主坦克放置
+		if (players >= 1) {
+			MapUtil.putToMultipleLayer(TankFactory.getMainTank());
+		}
+
+		// step.4 副坦克放置
+		if (players >= 2) {
+			MapUtil.putToMultipleLayer(TankFactory.getSubTank());
 		}
 
 		if (currentEnemyTankList.size() == 0) {
@@ -278,20 +296,25 @@ public class Gate implements IScene {
 			}
 		} else if (players == 2) {
 
-			if (null == TankFactory.getMainTank()
-					|| TankFactory.getMainTank().getLife() <= 0) {
+			int mainTankLife = 0, subTankLife = 0;
 
-				TankFactory.removeMainTank();
-
-			} else if (null == TankFactory.getSubTank()
-					|| TankFactory.getSubTank().getLife() <= 0) {
-
-				TankFactory.removeSubTank();
-
+			if (null != TankFactory.getMainTank()) {
+				mainTankLife = TankFactory.getMainTank().getLife();
 			}
 
-			this.isGamgOver = TankFactory.getMainTank().getLife() <= 0
-					&& TankFactory.getSubTank().getLife() <= 0;
+			if (mainTankLife <= 0) {
+				TankFactory.removeMainTank();
+			}
+
+			if (null != TankFactory.getSubTank()) {
+				subTankLife = TankFactory.getSubTank().getLife();
+			}
+
+			if (subTankLife <= 0) {
+				TankFactory.removeSubTank();
+			}
+
+			this.isGamgOver = mainTankLife <= 0 && subTankLife <= 0;
 
 		}
 
