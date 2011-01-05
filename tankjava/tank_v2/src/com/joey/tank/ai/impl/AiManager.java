@@ -1,5 +1,6 @@
 package com.joey.tank.ai.impl;
 
+import java.util.Calendar;
 import java.util.List;
 
 import com.joey.tank.ai.IAi;
@@ -7,35 +8,45 @@ import com.joey.tank.ai.IAiManager;
 import com.joey.tank.ai.IAiObject;
 import com.joey.tank.beans.tank.EnemyTank;
 import com.joey.tank.beans.tank.TankFactory;
+import com.joey.tank.constant.Constant;
 
 public class AiManager implements IAiManager {
 
+	private long lastTime = 0l;
+
 	public void action() {
 
-		List<EnemyTank> list = TankFactory.getCurrentEnemyTankList();
+		long thisTime = Calendar.getInstance().getTimeInMillis();
 
-		for (EnemyTank enemyTank : list) {
+		if (thisTime - Constant.ActiviteElement.EnemyTank.Ai.AI_SLEEP_TIME > lastTime) {
+			
+			lastTime = thisTime;
 
-			if (enemyTank instanceof IAiObject) {
+			List<EnemyTank> list = TankFactory.getCurrentEnemyTankList();
 
-				IAiObject aiObject = enemyTank;
+			for (EnemyTank enemyTank : list) {
 
-				IAi tankAi = aiObject.getAi();
+				if (enemyTank instanceof IAiObject) {
 
-				if (null == tankAi) {
+					IAiObject aiObject = enemyTank;
 
-					tankAi = new TankAi(enemyTank);
-					aiObject.setAi(tankAi);
+					IAi tankAi = aiObject.getAi();
 
+					if (null == tankAi) {
+
+						tankAi = new TankAi(enemyTank);
+						aiObject.setAi(tankAi);
+
+					}
+
+					tankAi.action();
+
+				} else {
+					throw new RuntimeException(
+							"In Ai Manager, enemyTank is not instanceof IAiObject");
 				}
 
-				tankAi.action();
-
-			} else {
-				throw new RuntimeException(
-						"In Ai Manager, enemyTank is not instanceof IAiObject");
 			}
-
 		}
 
 	}
