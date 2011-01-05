@@ -34,9 +34,9 @@ public class MapUtil {
 
 		int indexX = MapUtil.toXIndex(element.getX());
 		int indexY = MapUtil.toYIndex(element.getY());
-		
-//		System.out.println(indexX);
-//		System.out.println(indexY);
+
+// System.out.println(indexX);
+// System.out.println(indexY);
 
 		int degreeHeight = element.getHeight() / Constant.Scene.CELL_LENGTH;
 
@@ -45,6 +45,7 @@ public class MapUtil {
 			while (--degreeWidth >= 0) {
 				MapLoader.getMap().getMapElements(Constant.Map.MULTIPLE_LAYER)[indexY
 						+ degreeHeight][indexX + degreeWidth] = element;
+
 			}
 		}
 
