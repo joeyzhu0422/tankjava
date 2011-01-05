@@ -24,7 +24,7 @@ public class TankAi implements IAi {
 
 		} else {
 
-			tank.setDirection(random);
+			tank.setDirection(Constant.ActiviteElement.DIRECTION_LEFT);
 			tank.move();
 
 		}

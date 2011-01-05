@@ -34,9 +34,11 @@ public abstract class Tank extends ActiviteElement implements
 	protected int currentExplodeStep = 0;
 
 	public Tank() {
+		
 		setMoveListener(new TankMoveListenerImpl());
 		this.isPutInMap = true;
 		this.isExploded = false;
+		this.isPass = false;
 	}
 
 	public void draw(Graphics g) {
