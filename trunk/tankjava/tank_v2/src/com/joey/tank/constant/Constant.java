@@ -32,13 +32,13 @@ public class Constant {
 
 	public interface ActiviteElement {
 
-		public int DIRECTION_UP = 0;
+		public int DIRECTION_UP = 1;
 
-		public int DIRECTION_LEFT = 1;
+		public int DIRECTION_LEFT = 2;
 
-		public int DIRECTION_DOWN = 2;
+		public int DIRECTION_DOWN = 3;
 
-		public int DIRECTION_RIGHT = 3;
+		public int DIRECTION_RIGHT = 4;
 
 		public interface MainTank {
 

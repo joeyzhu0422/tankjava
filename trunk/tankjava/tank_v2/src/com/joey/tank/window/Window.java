@@ -56,12 +56,8 @@ public class Window extends JFrame implements Runnable {
 				e.printStackTrace();
 			}
 
-			if (isRunFlg && scene.isRun()) {
-				
-				scene.action();
-				this.repaint();
-				
-			}
+			scene.action();
+			this.repaint();
 
 		}
 
