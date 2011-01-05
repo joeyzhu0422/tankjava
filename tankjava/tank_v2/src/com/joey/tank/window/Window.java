@@ -46,7 +46,7 @@ public class Window extends JFrame implements Runnable {
 				e.printStackTrace();
 			}
 
-			scene.reDo();
+			scene.action();
 
 			this.repaint();
 

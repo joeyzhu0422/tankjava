@@ -4,6 +4,6 @@ public interface IAiManager {
 
 	public void init();
 	
-	public void reDo();
+	public void action();
 
 }

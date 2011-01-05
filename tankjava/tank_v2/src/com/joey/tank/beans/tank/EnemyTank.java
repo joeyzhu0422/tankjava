@@ -2,11 +2,15 @@ package com.joey.tank.beans.tank;
 
 import java.awt.Color;
 
+import com.joey.tank.ai.IAi;
+import com.joey.tank.ai.IAiObject;
 import com.joey.tank.beans.Bullet;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.util.MapUtil;
 
-public class EnemyTank extends Tank {
+public class EnemyTank extends Tank implements IAiObject {
+
+	protected IAi ai;
 
 	public EnemyTank(int x, int y) {
 		super();
@@ -28,10 +32,20 @@ public class EnemyTank extends Tank {
 
 	@Override
 	public void removeExplode() {
-		
+
 		MapUtil.putNothingToMultipleLayer(this);
 		TankFactory.removeEnemyTank(this);
-		
+
+	}
+
+	@Override
+	public IAi getAi() {
+		return ai;
+	}
+
+	@Override
+	public void setAi(IAi ai) {
+		this.ai = ai;
 	}
 
 }
