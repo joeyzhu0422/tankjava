@@ -109,7 +109,10 @@ public class Gate implements IScene {
 		// step.6 绘制关卡数
 		this.drawGate(bufferG);
 
-		// step.7 判断是否游戏结束
+		// step.7 剩余生命绘制
+		this.drawLife(bufferG);
+
+		// step.8 判断是否游戏结束
 		if (this.isGamgOver) {
 
 			this.drawGameOver(bufferG);
@@ -117,7 +120,7 @@ public class Gate implements IScene {
 
 		}
 
-		// step.6 双缓冲区放置到面板
+		// step.9 双缓冲区放置到面板
 		g.drawImage(bufferScene, 0, 0, width, height, null);
 	}
 
@@ -170,6 +173,33 @@ public class Gate implements IScene {
 				- Constant.Scene.TOP_HEIGHT;
 
 		g.drawString(gate, x, y);
+
+	}
+
+	private void drawLife(Graphics g) {
+
+		g.setColor(Color.WHITE);
+		g.setFont(new Font(Font.DIALOG_INPUT, Font.BOLD, 18));
+
+		int x = Constant.Scene.WIDTH - Constant.Scene.RIGHT_WIDTH;
+		int y = Constant.Scene.HEIGHT - Constant.Scene.DOWN_HEIGTH
+				- Constant.Scene.TOP_HEIGHT * 2;
+
+		if (players >= 1) {
+
+			int mainLife = null == TankFactory.getMainTank() ? 0 : TankFactory
+					.getMainTank().getLife();
+			g.drawString("1P: " + mainLife, x, y);
+
+		}
+
+		if (players >= 2) {
+
+			int subLife = null == TankFactory.getSubTank() ? 0 : TankFactory
+					.getSubTank().getLife();
+			g.drawString("2P: " + subLife, x, y + 15);
+
+		}
 
 	}
 
@@ -235,6 +265,31 @@ public class Gate implements IScene {
 		if (null != ElementFactory.getHome()
 				&& ElementFactory.getHome().isExploded()) {
 			this.isGamgOver = true;
+		}
+
+		if (players == 1) {
+
+			if (TankFactory.getMainTank().getLife() <= 0) {
+
+				TankFactory.removeMainTank();
+				this.isGamgOver = true;
+
+			}
+		} else if (players == 2) {
+
+			if (TankFactory.getMainTank().getLife() <= 0) {
+
+				TankFactory.removeMainTank();
+
+			} else if (TankFactory.getSubTank().getLife() <= 0) {
+
+				TankFactory.removeSubTank();
+
+			}
+
+			this.isGamgOver = TankFactory.getMainTank().getLife() <= 0
+					&& TankFactory.getSubTank().getLife() <= 0;
+
 		}
 
 	}
