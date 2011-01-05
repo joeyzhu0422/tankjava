@@ -12,6 +12,7 @@ import java.util.Queue;
 import com.joey.tank.ai.IAiManager;
 import com.joey.tank.ai.impl.AiManager;
 import com.joey.tank.beans.Bullet;
+import com.joey.tank.beans.obstacle.ElementFactory;
 import com.joey.tank.beans.tank.EnemyTank;
 import com.joey.tank.beans.tank.TankFactory;
 import com.joey.tank.constant.Constant;
@@ -21,6 +22,7 @@ import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
 import com.joey.tank.scene.IScene;
 import com.joey.tank.util.MapUtil;
+import com.joey.tank.window.Window;
 
 public class Gate implements IScene {
 
@@ -38,8 +40,15 @@ public class Gate implements IScene {
 
 	protected boolean isRun = true;
 
-	public Gate(int players) {
+	protected boolean isGamgOver = false;
+
+	protected Window window;
+
+	public Gate(Window window, int players) {
+
+		this.window = window;
 		this.players = players;
+
 	}
 
 	public void draw(Graphics g, int width, int height) {
@@ -100,6 +109,14 @@ public class Gate implements IScene {
 		// step.6 绘制关卡数
 		this.drawGate(bufferG);
 
+		// step.7 判断是否游戏结束
+		if (this.isGamgOver) {
+
+			this.drawGameOver(bufferG);
+			window.stop();
+
+		}
+
 		// step.6 双缓冲区放置到面板
 		g.drawImage(bufferScene, 0, 0, width, height, null);
 	}
@@ -156,6 +173,20 @@ public class Gate implements IScene {
 
 	}
 
+	private void drawGameOver(Graphics g) {
+
+		// step.1 初始化
+		g.setColor(Color.RED);
+		g.setFont(new Font(Font.DIALOG_INPUT, Font.BOLD, 25));
+
+		// step.2 game over绘制
+		int x = Constant.Scene.RIGHT_WIDTH * 3;
+		int y = Constant.Scene.TOP_HEIGHT * 3 + Constant.Scene.DOWN_HEIGTH * 3;
+
+		g.drawString("Game Over", x, y);
+
+	}
+
 	@Override
 	public List<KeyListener> getKeyListenerList() {
 
@@ -200,6 +231,12 @@ public class Gate implements IScene {
 		if (null != aiManager) {
 			aiManager.action();
 		}
+
+		if (null != ElementFactory.getHome()
+				&& ElementFactory.getHome().isExploded()) {
+			this.isGamgOver = true;
+		}
+
 	}
 
 	public boolean isRun() {

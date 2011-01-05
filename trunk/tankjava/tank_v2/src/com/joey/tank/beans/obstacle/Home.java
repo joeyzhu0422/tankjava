@@ -3,11 +3,15 @@ package com.joey.tank.beans.obstacle;
 import java.awt.Color;
 import java.awt.Graphics;
 
+import com.joey.tank.beans.IExplode;
 import com.joey.tank.beans.IMultipleMapElement;
 import com.joey.tank.beans.StaticElement;
 import com.joey.tank.constant.Constant;
 
-public class Home extends StaticElement implements IMultipleMapElement {
+public class Home extends StaticElement implements IMultipleMapElement,
+		IExplode {
+
+	protected boolean isExploed;
 
 	protected boolean isDrawed;
 
@@ -37,7 +41,10 @@ public class Home extends StaticElement implements IMultipleMapElement {
 
 	@Override
 	public void bulletAction() {
+
 		this.color = Color.GRAY;
+		this.isExploed = true;
+
 	}
 
 	@Override
@@ -53,6 +60,33 @@ public class Home extends StaticElement implements IMultipleMapElement {
 	@Override
 	public boolean isPass() {
 		return false;
+	}
+
+	@Override
+	public void explode(Graphics g) {
+		// Do Nothing
+	}
+
+	@Override
+	public int getCurrentExplodeStep() {
+		// Do Nothing
+		return 0;
+	}
+
+	@Override
+	public int getTotalExplodeStep() {
+		// Do Nothing
+		return 0;
+	}
+
+	@Override
+	public boolean isExploded() {
+		return isExploed;
+	}
+
+	@Override
+	public void removeExplode() {
+		// Do Nothing
 	}
 
 }

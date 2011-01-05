@@ -33,7 +33,7 @@ public class Window extends JFrame implements Runnable {
 
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 	}
 
 	@Override
@@ -69,8 +69,10 @@ public class Window extends JFrame implements Runnable {
 		this.isRunFlg = true;
 		this.scene.init();
 
-		for (KeyListener listener : this.scene.getKeyListenerList()) {
-			this.addKeyListener(listener);
+		if (null != this.scene.getKeyListenerList()) {
+			for (KeyListener listener : this.scene.getKeyListenerList()) {
+				this.addKeyListener(listener);
+			}
 		}
 
 		new Thread(this).start();
@@ -83,7 +85,7 @@ public class Window extends JFrame implements Runnable {
 
 	public void setScene(IScene scene) {
 
-		if (null != this.scene) {
+		if (null != this.scene && null != this.scene.getKeyListenerList()) {
 
 			for (KeyListener listener : this.scene.getKeyListenerList()) {
 				this.removeKeyListener(listener);
