@@ -15,7 +15,7 @@ import com.joey.tank.util.MapUtil;
 public class BulletMoveListenerImpl implements MoveListener {
 
 	public boolean isCollide(ActiviteElement element) {
-// System.out.println("Bullet Move Listener isCollide");
+		// System.out.println("Bullet Move Listener isCollide");
 
 		Map map = MapLoader.getMap();
 
@@ -31,8 +31,8 @@ public class BulletMoveListenerImpl implements MoveListener {
 		switch (element.getDirection()) {
 		case Constant.ActiviteElement.DIRECTION_UP:
 
-//			System.out.println(MapUtil.toXIndex(x));
-//			System.out.println(y);
+			// System.out.println(MapUtil.toXIndex(x));
+			// System.out.println(y);
 			singleObstacle1 = map.getSingleLayerElement(MapUtil.toXIndex(x),
 					MapUtil.toYIndex(y));
 			singleObstacle2 = map.getSingleLayerElement(
@@ -95,13 +95,17 @@ public class BulletMoveListenerImpl implements MoveListener {
 		if (element instanceof Bullet) {
 			bullet = (Bullet) element;
 		} else {
-			throw new RuntimeException("In BulletMoveListener, element is not instance of Bullet");
+			throw new RuntimeException(
+					"In BulletMoveListener, element is not instance of Bullet");
 		}
-		
+
 		for (IMapElement obstacle : obstacleList) {
 
-			if (null != obstacle && !obstacle.isBulletPass()
-					&& !obstacle.equals(bullet.getTank())) {
+			if (null != obstacle
+					&& !obstacle.isBulletPass()
+					&& !obstacle.getClass().getName().equals(
+							bullet.getTank().getClass().getName())) {
+
 				obstacle.bulletAction();
 				if (isPass) {
 					isPass = obstacle.isBulletPass();
