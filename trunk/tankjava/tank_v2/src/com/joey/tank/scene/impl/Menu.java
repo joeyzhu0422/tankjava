@@ -96,7 +96,7 @@ public class Menu implements IScene {
 		
 	}
 
-	public void reDo() {
+	public void action() {
 		// TODO Auto-generated method stub
 
 	}

@@ -8,7 +8,7 @@ public interface IScene {
 
 	public void init();
 
-	public void reDo();
+	public void action();
 
 	public void draw(Graphics g, int width, int height);
 

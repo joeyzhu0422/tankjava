@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
+import com.joey.tank.ai.IAiManager;
+import com.joey.tank.ai.impl.AiManager;
 import com.joey.tank.beans.Bullet;
 import com.joey.tank.beans.tank.EnemyTank;
 import com.joey.tank.beans.tank.TankFactory;
@@ -30,6 +32,8 @@ public class Gate implements IScene {
 	protected Object lock = new Object();
 
 	protected int players;
+
+	protected IAiManager aiManager;
 
 	protected boolean isRun = true;
 
@@ -66,6 +70,13 @@ public class Gate implements IScene {
 		// step.4-2 subTank子弹绘制
 		if (players >= 2 && TankFactory.getSubTank() != null) {
 			for (Bullet bullet : TankFactory.getSubTank().getFiredBulletQueue()) {
+				bullet.draw(bufferG);
+			}
+		}
+
+		// step.4-3 敌坦克子弹绘制
+		for (EnemyTank enemyTank : TankFactory.getCurrentEnemyTankList()) {
+			for (Bullet bullet : enemyTank.getFiredBulletQueue()) {
 				bullet.draw(bufferG);
 			}
 		}
@@ -107,6 +118,8 @@ public class Gate implements IScene {
 			MapUtil.putToMultipleLayer(TankFactory.getSubTank());
 		}
 
+		// step.4 创建ai管理器
+		aiManager = new AiManager();
 	}
 
 	// 绘制敌坦克数量标志
@@ -169,7 +182,7 @@ public class Gate implements IScene {
 	}
 
 	@Override
-	public void reDo() {
+	public void action() {
 
 		List<EnemyTank> currentEnemyTankList = TankFactory
 				.getCurrentEnemyTankList();
@@ -181,6 +194,8 @@ public class Gate implements IScene {
 		if (currentEnemyTankList.size() == 0) {
 			this.isRun = false;
 		}
+
+		aiManager.action();
 	}
 
 	public boolean isRun() {

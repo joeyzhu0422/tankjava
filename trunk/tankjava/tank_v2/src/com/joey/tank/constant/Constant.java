@@ -69,6 +69,14 @@ public class Constant {
 					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,
 					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT,
 					0 * Constant.Scene.CELL_LENGTH + Constant.Scene.TOP_HEIGHT };
+			
+			public interface Ai {
+				
+				public int STATUS_FIRE = 0;
+				
+				public int STATUS_MOVE = 1;
+				
+			}
 
 		}
 	}
