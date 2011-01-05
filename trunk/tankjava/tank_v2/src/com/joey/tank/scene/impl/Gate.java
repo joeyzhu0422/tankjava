@@ -193,7 +193,7 @@ public class Gate implements IScene {
 
 			int mainLife = null == TankFactory.getMainTank() ? 0 : TankFactory
 					.getMainTank().getLife();
-			g.drawString("1P: " + mainLife, x, y);
+			g.drawString("1P:" + mainLife, x, y);
 
 		}
 
@@ -201,7 +201,7 @@ public class Gate implements IScene {
 
 			int subLife = null == TankFactory.getSubTank() ? 0 : TankFactory
 					.getSubTank().getLife();
-			g.drawString("2P: " + subLife, x, y + 15);
+			g.drawString("2P:" + subLife, x, y + 15);
 
 		}
 
