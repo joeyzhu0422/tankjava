@@ -1,6 +1,8 @@
 package com.joey.tank.window;
 
+import java.awt.Dimension;
 import java.awt.Graphics;
+import java.awt.Toolkit;
 import java.awt.event.KeyListener;
 
 import javax.swing.JFrame;
@@ -21,7 +23,13 @@ public class Window extends JFrame implements Runnable {
 	protected boolean isRunFlg;
 
 	public Window() {
-		this.setBounds(0, 0, width, height);
+
+		Dimension screensize = Toolkit.getDefaultToolkit().getScreenSize();
+
+		int x = (screensize.width - width) / 2;
+		int y = (screensize.height - height) / 2;
+
+		this.setBounds(x, y, width, height);
 
 		this.setVisible(true);
 	}
@@ -55,7 +63,7 @@ public class Window extends JFrame implements Runnable {
 	}
 
 	public void start() {
-		
+
 		this.isRunFlg = true;
 		this.scene.init();
 
