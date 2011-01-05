@@ -8,6 +8,8 @@ import com.joey.tank.util.MapUtil;
 
 public class SubTank extends Tank {
 
+	private int life = 1;
+
 	public SubTank() {
 		super();
 
@@ -24,15 +26,32 @@ public class SubTank extends Tank {
 	}
 
 	public void action() {
-//		System.out.println("Sub Tank is action");
+		// System.out.println("Sub Tank is action");
 	}
 
 	@Override
 	public void removeExplode() {
-		
+
 		System.out.println("Sub Tank remove Explode");
+
+		// step.1 去除当前位置坦克
 		MapUtil.putNothingToMultipleLayer(this);
-		TankFactory.removeSubTank();
+
+		// step.2 重置坦克位置
+		this.setX(Constant.ActiviteElement.SubTank.ORIGINAL_X);
+		this.setY(Constant.ActiviteElement.SubTank.ORIGINAL_Y);
+		MapUtil.putToMultipleLayer(this);
+
+		// step.3 爆炸参数重置
+		this.currentExplodeStep = 0;
+
+		// step.4 生命 － 1
+		this.life--;
+
+	}
+
+	public int getLife() {
+		return life;
 	}
 
 }
