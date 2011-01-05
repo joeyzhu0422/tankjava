@@ -1,8 +1,8 @@
 package com.joey.tank.map;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 import com.joey.base.util.ArrayUtil;
 import com.joey.base.util.ResouceUtil;
@@ -41,10 +41,11 @@ public class MapLoader {
 		try {
 			System.out.println("MapLoader loading ...");
 
-			File mapFile = ResouceUtil.getResouce("config/map/map" + gate
-					+ ".map");
+			InputStream inputStream = ResouceUtil.getResouce("config/map/map"
+					+ gate + ".map");
 
-			BufferedReader reader = new BufferedReader(new FileReader(mapFile));
+			BufferedReader reader = new BufferedReader(new InputStreamReader(
+					inputStream));
 
 			int[][] obstacless = new int[(Constant.Scene.HEIGHT
 					- Constant.Scene.TOP_HEIGHT - Constant.Scene.DOWN_HEIGTH)

@@ -8,7 +8,7 @@ import com.joey.tank.util.MapUtil;
 
 public class MainTank extends Tank {
 
-	private int life = 1;
+	private int life = 3;
 
 	public MainTank() {
 		super();

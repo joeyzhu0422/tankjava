@@ -1,15 +1,23 @@
 package com.joey.base.util;
 
 import java.awt.Image;
-import java.awt.Toolkit;
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.imageio.ImageIO;
 
 public class ImageUtil {
 
 	public static Image getImage(String filePath) {
 
-		String classPath = ResouceUtil.class.getClassLoader().getResource("")
-				.getPath();
+		try {
+			InputStream inputStream = ResouceUtil.class.getClassLoader()
+					.getResourceAsStream(filePath);
 
-		return Toolkit.getDefaultToolkit().getImage(classPath + filePath);
+			return ImageIO.read(inputStream);
+		} catch (IOException e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 }
