@@ -32,6 +32,8 @@ public class Window extends JFrame implements Runnable {
 		this.setBounds(x, y, width, height);
 
 		this.setVisible(true);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 	}
 
 	@Override
