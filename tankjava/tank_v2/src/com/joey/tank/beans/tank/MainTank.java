@@ -17,6 +17,7 @@ public class MainTank extends Tank {
 		this.y = Constant.ActiviteElement.MainTank.ORIGINAL_Y;
 		this.width = 30;
 		this.height = 30;
+		this.direction = Constant.ActiviteElement.DIRECTION_UP;
 
 		for (int i = 0; i < 3; i++) {
 			preparedBulletQueue.add(new Bullet(this));
