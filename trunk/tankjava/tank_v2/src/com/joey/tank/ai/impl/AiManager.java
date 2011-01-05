@@ -1,5 +1,6 @@
 package com.joey.tank.ai.impl;
 
+import java.lang.ref.WeakReference;
 import java.util.Calendar;
 import java.util.List;
 
@@ -19,23 +20,27 @@ public class AiManager implements IAiManager {
 		long thisTime = Calendar.getInstance().getTimeInMillis();
 
 		if (thisTime - Constant.ActiviteElement.EnemyTank.Ai.AI_SLEEP_TIME > lastTime) {
-			
+
 			lastTime = thisTime;
 
 			List<EnemyTank> list = TankFactory.getCurrentEnemyTankList();
 
-			for (EnemyTank enemyTank : list) {
+			for (int i = 0; i < list.size(); i++) {
 
-				if (enemyTank instanceof IAiObject) {
+				WeakReference<EnemyTank> enemyTank = new WeakReference<EnemyTank>(
+						list.get(i));
 
-					IAiObject aiObject = enemyTank;
+				if (enemyTank.get() instanceof IAiObject) {
 
-					IAi tankAi = aiObject.getAi();
+					WeakReference<IAiObject> aiObject = new WeakReference<IAiObject>(
+							enemyTank.get());
+
+					IAi tankAi = aiObject.get().getAi();
 
 					if (null == tankAi) {
 
-						tankAi = new TankAi(enemyTank);
-						aiObject.setAi(tankAi);
+						tankAi = new TankAi(enemyTank.get());
+						aiObject.get().setAi(tankAi);
 
 					}
 
@@ -47,6 +52,7 @@ public class AiManager implements IAiManager {
 				}
 
 			}
+
 		}
 
 	}

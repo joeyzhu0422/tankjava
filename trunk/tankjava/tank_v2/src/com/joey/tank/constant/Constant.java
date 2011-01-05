@@ -74,8 +74,6 @@ public class Constant {
 
 				public int STATUS_FIRE = 0;
 
-				public int STATUS_MOVE = 1;
-
 				public int AI_SLEEP_TIME = 200;
 
 			}
