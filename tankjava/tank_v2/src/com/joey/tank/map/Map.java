@@ -27,6 +27,21 @@ public class Map {
 	}
 
 	public IMapElement[][] getMapElements(int layer) {
+
+		synchronized (lock) {
+
+			if (null == this.mapElements) {
+
+				synchronized (lock) {
+
+					this.mapElements = new IMapElement[2][][];
+
+				}
+
+			}
+
+		}
+
 		return mapElements[layer];
 	}
 
@@ -112,7 +127,7 @@ public class Map {
 
 	public void draw(Graphics g) {
 
-// System.out.println("Map draw");
+		// System.out.println("Map draw");
 
 		for (int x = 0; x < mapElements.length; x++) {
 			for (int y = 0; y < mapElements[x].length; y++) {

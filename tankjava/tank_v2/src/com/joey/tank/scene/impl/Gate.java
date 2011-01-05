@@ -195,7 +195,9 @@ public class Gate implements IScene {
 			this.isRun = false;
 		}
 
-		aiManager.action();
+		if (null != aiManager) {
+			aiManager.action();
+		}
 	}
 
 	public boolean isRun() {
