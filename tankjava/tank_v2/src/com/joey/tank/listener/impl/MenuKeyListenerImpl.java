@@ -42,7 +42,7 @@ public class MenuKeyListenerImpl extends KeyAdapter {
 		case KeyEvent.VK_ENTER:
 
 			this.window.stop();
-			this.window.setScene(new Gate(players));
+			this.window.setScene(new Gate(window, players));
 			this.window.start();
 
 			break;
