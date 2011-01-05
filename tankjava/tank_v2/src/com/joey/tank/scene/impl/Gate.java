@@ -269,7 +269,8 @@ public class Gate implements IScene {
 
 		if (players == 1) {
 
-			if (TankFactory.getMainTank().getLife() <= 0) {
+			if (null == TankFactory.getMainTank()
+					|| TankFactory.getMainTank().getLife() <= 0) {
 
 				TankFactory.removeMainTank();
 				this.isGamgOver = true;
@@ -277,11 +278,13 @@ public class Gate implements IScene {
 			}
 		} else if (players == 2) {
 
-			if (TankFactory.getMainTank().getLife() <= 0) {
+			if (null == TankFactory.getMainTank()
+					|| TankFactory.getMainTank().getLife() <= 0) {
 
 				TankFactory.removeMainTank();
 
-			} else if (TankFactory.getSubTank().getLife() <= 0) {
+			} else if (null == TankFactory.getSubTank()
+					|| TankFactory.getSubTank().getLife() <= 0) {
 
 				TankFactory.removeSubTank();
 
