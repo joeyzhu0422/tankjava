@@ -16,18 +16,18 @@ public class TankAi implements IAi {
 
 	public void action() {
 		// System.out.println("Tank ai action");
-		int random = new Random().nextInt(5);
-
-		if (random == Constant.ActiviteElement.EnemyTank.Ai.STATUS_FIRE) {
-
-			tank.fire();
-
-		} else {
-
-			tank.setDirection(random);
-			tank.move();
-
-		}
+//		int random = new Random().nextInt(5);
+//
+//		if (random == Constant.ActiviteElement.EnemyTank.Ai.STATUS_FIRE) {
+//
+//			tank.fire();
+//
+//		} else {
+//
+//			tank.setDirection(random);
+//			tank.move();
+//
+//		}
 
 	}
 

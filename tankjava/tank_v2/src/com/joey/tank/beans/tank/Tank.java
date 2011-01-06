@@ -19,7 +19,7 @@ public abstract class Tank extends ActiviteElement implements
 
 	protected Queue<Bullet> firedBulletQueue = new LinkedBlockingQueue<Bullet>();
 
-	protected int barrelX, barrelY;
+	protected int barrelX, barrelY, bulletX, bulletY;
 
 	protected boolean isDrawed;
 
@@ -34,7 +34,7 @@ public abstract class Tank extends ActiviteElement implements
 	protected int currentExplodeStep = 0;
 
 	public Tank() {
-		
+
 		setMoveListener(new TankMoveListenerImpl());
 		this.isPutInMap = true;
 		this.isExploded = false;
@@ -49,7 +49,7 @@ public abstract class Tank extends ActiviteElement implements
 				this.explode(g);
 			} else {
 
-// System.out.println("Tank draw");
+				// System.out.println("Tank draw");
 
 				g.setColor(color);
 
@@ -62,25 +62,33 @@ public abstract class Tank extends ActiviteElement implements
 					barrelWidth = width / 10;
 					barrelHeight = height / 3;
 					barrelX = x + width / 2 - barrelWidth / 2;
+					bulletX = barrelX;
 					barrelY = y - barrelHeight;
+					bulletY = barrelY + Constant.Scene.CELL_LENGTH;
 					break;
 				case Constant.ActiviteElement.DIRECTION_DOWN:
 					barrelWidth = width / 10;
 					barrelHeight = height / 3;
 					barrelX = x + width / 2 - barrelWidth / 2;
+					bulletX = barrelX;
 					barrelY = y + height;
+					bulletY = barrelY - Constant.Scene.CELL_LENGTH;
 					break;
 				case Constant.ActiviteElement.DIRECTION_LEFT:
 					barrelHeight = width / 10;
 					barrelWidth = height / 3;
 					barrelX = x - barrelWidth;
+					bulletX = barrelX + Constant.Scene.CELL_LENGTH;
 					barrelY = y + height / 2 - barrelHeight / 2;
+					bulletY = barrelY;
 					break;
 				case Constant.ActiviteElement.DIRECTION_RIGHT:
 					barrelHeight = width / 10;
 					barrelWidth = height / 3;
 					barrelX = x + width;
+					bulletX = barrelX - Constant.Scene.CELL_LENGTH;
 					barrelY = y + height / 2 - barrelHeight / 2;
+					bulletY = barrelY;
 					break;
 				}
 
@@ -124,7 +132,7 @@ public abstract class Tank extends ActiviteElement implements
 		if (null == bullet) {
 			return null;
 		}
-		bullet.setXy(this.getBarrelX(), this.getBarrelY());
+		bullet.setXy(this.getBulletX(), this.getBulletY());
 		bullet.setDirection(this.getDirection());
 		firedBulletQueue.offer(bullet);
 
@@ -154,7 +162,7 @@ public abstract class Tank extends ActiviteElement implements
 
 	public void explode(Graphics g) {
 
-//		System.out.println("Tank Exploding ...");
+		// System.out.println("Tank Exploding ...");
 
 		Color c = this.color;
 		g.setColor(Color.ORANGE);
@@ -164,7 +172,7 @@ public abstract class Tank extends ActiviteElement implements
 		this.currentExplodeStep++;
 
 		if (getCurrentExplodeStep() > getTotalExplodeStep() - 1) {
-//			System.out.println("Tank Exploded ...");
+			// System.out.println("Tank Exploded ...");
 			this.isExploded = false;
 			this.removeExplode();
 		}
@@ -192,6 +200,14 @@ public abstract class Tank extends ActiviteElement implements
 
 	public int getBarrelY() {
 		return barrelY;
+	}
+
+	public int getBulletX() {
+		return bulletX;
+	}
+
+	public int getBulletY() {
+		return bulletY;
 	}
 
 	public boolean isDrawed() {
