@@ -28,7 +28,7 @@ public class Constant {
 		// 同时存在的坦克数量
 		public int CURRENT_ENEMY_TANK_NUM = 3;
 		
-		public int THREAD_SLEEP_TIME = 15;
+		public int THREAD_SLEEP_TIME = 12;
 
 	}
 
