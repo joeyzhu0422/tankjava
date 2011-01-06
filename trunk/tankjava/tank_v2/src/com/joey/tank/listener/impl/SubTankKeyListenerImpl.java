@@ -3,9 +3,6 @@ package com.joey.tank.listener.impl;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-import com.joey.tank.beans.tank.TankFactory;
-import com.joey.tank.constant.Constant;
-
 public class SubTankKeyListenerImpl implements KeyListener {
 
 	@Override
