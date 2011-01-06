@@ -62,7 +62,7 @@ public abstract class Tank extends ActiviteElement implements
 					barrelWidth = width / 10;
 					barrelHeight = height / 3;
 					barrelX = x + width / 2 - barrelWidth / 2;
-					bulletX = barrelX;
+					bulletX = barrelX - barrelWidth / 2;
 					barrelY = y - barrelHeight;
 					bulletY = barrelY + Constant.Scene.CELL_LENGTH;
 					break;
@@ -70,7 +70,7 @@ public abstract class Tank extends ActiviteElement implements
 					barrelWidth = width / 10;
 					barrelHeight = height / 3;
 					barrelX = x + width / 2 - barrelWidth / 2;
-					bulletX = barrelX;
+					bulletX = barrelX - barrelWidth / 2;
 					barrelY = y + height;
 					bulletY = barrelY - Constant.Scene.CELL_LENGTH;
 					break;
@@ -80,7 +80,7 @@ public abstract class Tank extends ActiviteElement implements
 					barrelX = x - barrelWidth;
 					bulletX = barrelX + Constant.Scene.CELL_LENGTH;
 					barrelY = y + height / 2 - barrelHeight / 2;
-					bulletY = barrelY;
+					bulletY = barrelY - barrelHeight / 2;
 					break;
 				case Constant.ActiviteElement.DIRECTION_RIGHT:
 					barrelHeight = width / 10;
@@ -88,7 +88,7 @@ public abstract class Tank extends ActiviteElement implements
 					barrelX = x + width;
 					bulletX = barrelX - Constant.Scene.CELL_LENGTH;
 					barrelY = y + height / 2 - barrelHeight / 2;
-					bulletY = barrelY;
+					bulletY = barrelY - barrelHeight / 2;
 					break;
 				}
 
