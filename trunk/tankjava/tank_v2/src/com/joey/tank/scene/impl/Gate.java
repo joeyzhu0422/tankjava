@@ -18,15 +18,12 @@ import com.joey.tank.beans.tank.TankFactory;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.listener.impl.MainTankKeyListenerImpl;
 import com.joey.tank.listener.impl.SubTankKeyListenerImpl;
-import com.joey.tank.map.Map;
 import com.joey.tank.map.MapLoader;
 import com.joey.tank.scene.IScene;
 import com.joey.tank.util.MapUtil;
 import com.joey.tank.window.Window;
 
 public class Gate implements IScene {
-
-	protected Map map;
 
 	protected BufferedImage bufferScene;
 
@@ -42,6 +39,8 @@ public class Gate implements IScene {
 
 	protected boolean isGamgOver = false;
 
+	protected boolean isNext = true;
+
 	protected Window window;
 
 	public Gate(Window window, int players) {
@@ -53,23 +52,35 @@ public class Gate implements IScene {
 
 	public void draw(Graphics g, int width, int height) {
 
+		System.out.println("draw");
+
 		bufferScene = new BufferedImage(width, height,
 				BufferedImage.TYPE_INT_RGB);
 
-		// step.1 初始化元素
-		map.init();
-
-		// step.2 双缓冲区设置
+		// step.1 双缓冲区设置
 		Graphics bufferG = bufferScene.getGraphics();
 
-		// step.3 涂上背景
+		// step.2 是否还有一关
+		if (!isNext) {
+
+			this.drawYouWin(bufferG);
+			g.drawImage(bufferScene, 0, 0, width, height, null);
+			window.stop();
+			return;
+
+		}
+
+		// step.3 初始化元素
+		MapLoader.getMap().init();
+
+		// step.4 涂上背景
 		bufferG.setColor(Constant.Scene.SCENE_COLOR);
 		bufferG.fillRect(0, 0, width, height);
 
-		// step.4 地图绘制
-		map.draw(bufferG);
+		// step.5 地图绘制
+		MapLoader.getMap().draw(bufferG);
 
-		// step.4-1 mainTank子弹绘制
+		// step.5-1 mainTank子弹绘制
 		if (players >= 1 && TankFactory.getMainTank() != null) {
 			for (Bullet bullet : TankFactory.getMainTank()
 					.getFiredBulletQueue()) {
@@ -77,14 +88,14 @@ public class Gate implements IScene {
 			}
 		}
 
-		// step.4-2 subTank子弹绘制
+		// step.5-2 subTank子弹绘制
 		if (players >= 2 && TankFactory.getSubTank() != null) {
 			for (Bullet bullet : TankFactory.getSubTank().getFiredBulletQueue()) {
 				bullet.draw(bufferG);
 			}
 		}
 
-		// step.4-3 敌坦克子弹绘制
+		// step.5-3 敌坦克子弹绘制
 		for (EnemyTank enemyTank : TankFactory.getCurrentEnemyTankList()) {
 			if (null == enemyTank) {
 				System.out.println(enemyTank);
@@ -95,7 +106,7 @@ public class Gate implements IScene {
 			}
 		}
 
-		// step.5 敌坦克数量表示
+		// step.6 敌坦克数量表示
 		Queue<EnemyTank> reserveEnemyTankQueue = TankFactory
 				.geteReserveEnemyTankQueue();
 
@@ -110,13 +121,13 @@ public class Gate implements IScene {
 
 		}
 
-		// step.6 绘制关卡数
+		// step.7 绘制关卡数
 		this.drawGate(bufferG);
 
-		// step.7 剩余生命绘制
+		// step.8 剩余生命绘制
 		this.drawLife(bufferG);
 
-		// step.8 判断是否游戏结束
+		// step.9 判断是否游戏结束
 		if (this.isGamgOver) {
 
 			this.drawGameOver(bufferG);
@@ -124,14 +135,14 @@ public class Gate implements IScene {
 
 		}
 
-		// step.9 双缓冲区放置到面板
+		// step.10 双缓冲区放置到面板
 		g.drawImage(bufferScene, 0, 0, width, height, null);
 	}
 
 	public void init() {
 
 		// step.1 创建地图
-		map = MapLoader.getMap();
+		MapLoader.getMap();
 
 		// step.2 放置主坦克
 		if (players >= 1) {
@@ -221,6 +232,26 @@ public class Gate implements IScene {
 
 	}
 
+	private void drawYouWin(Graphics g) {
+
+		// step.1 初始化
+		g.setColor(Color.WHITE);
+		g.setFont(new Font(Font.DIALOG_INPUT, Font.BOLD, 25));
+
+		// step.2 game over绘制
+		int x = Constant.Scene.RIGHT_WIDTH * 3 + 10;
+		int y = Constant.Scene.TOP_HEIGHT * 3 + Constant.Scene.DOWN_HEIGTH * 3;
+
+		g.drawString("You Win", x, y);
+
+	}
+
+	private void nextGate() {
+
+		isNext = MapLoader.loadNextMap();
+
+	}
+
 	@Override
 	public List<KeyListener> getKeyListenerList() {
 
@@ -251,6 +282,8 @@ public class Gate implements IScene {
 	@Override
 	public void action() {
 
+		System.out.println("action");
+
 		// step.1 清空 Multiple多层地图
 		MapLoader.getMap().cleanMultipleLayer();
 
@@ -273,7 +306,10 @@ public class Gate implements IScene {
 		}
 
 		if (currentEnemyTankList.size() == 0) {
-			this.isRun = false;
+
+			this.nextGate();
+			TankFactory.init();
+
 		}
 
 		if (null != aiManager) {
