@@ -1,6 +1,7 @@
 package com.joey.tank.map;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
@@ -36,45 +37,53 @@ public class MapLoader {
 		return map;
 	}
 
-	public static void loadNextMap() {
+	public static boolean loadNextMap() {
 
-		try {
-			System.out.println("MapLoader loading ...");
+	
+			try {
+				System.out.println("MapLoader loading ...");
 
-			InputStream inputStream = ResouceUtil.getResouce("config/map/map"
-					+ gate + ".map");
+				InputStream inputStream = ResouceUtil.getResouce("config/map/map"
+						+ gate + ".map");
+				
+				if (null == inputStream) {
+					return false;
+				}
 
-			BufferedReader reader = new BufferedReader(new InputStreamReader(
-					inputStream));
+				BufferedReader reader = new BufferedReader(new InputStreamReader(
+						inputStream));
 
-			int[][] obstacless = new int[(Constant.Scene.HEIGHT
-					- Constant.Scene.TOP_HEIGHT - Constant.Scene.DOWN_HEIGTH)
-					/ Constant.Scene.CELL_LENGTH][Constant.Scene.WIDTH
-					/ Constant.Scene.CELL_LENGTH];
+				int[][] obstacless = new int[(Constant.Scene.HEIGHT
+						- Constant.Scene.TOP_HEIGHT - Constant.Scene.DOWN_HEIGTH)
+						/ Constant.Scene.CELL_LENGTH][Constant.Scene.WIDTH
+						/ Constant.Scene.CELL_LENGTH];
 
-			int lineNum = 0;
+				int lineNum = 0;
 
-			String line = null;
+				String line = null;
 
-			int i = 1;
-			while ((line = reader.readLine()) != null && !"".equals(line)) {
+				int i = 1;
+				while ((line = reader.readLine()) != null && !"".equals(line)) {
 
-				System.out.println("line " + (i++) + ":" + line);
+					System.out.println("line " + (i++) + ":" + line);
 
-				String[] _obstacles = StringUtil.split(line, 1);
+					String[] _obstacles = StringUtil.split(line, 1);
 
-				int[] obstacles = ArrayUtil.toInt(_obstacles);
+					int[] obstacles = ArrayUtil.toInt(_obstacles);
 
-				obstacless[lineNum++] = obstacles;
-			}
+					obstacless[lineNum++] = obstacles;
+				}
+				
+				map = new Map(obstacless);
 
-			map = new Map(obstacless);
-
-			gate++;
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+				gate++;
+				
+				return true;
+			} catch (IOException e) {
+				e.printStackTrace();
+				return false;
+			} 
+		
 	}
 
 	public static int getCurrentGate() {

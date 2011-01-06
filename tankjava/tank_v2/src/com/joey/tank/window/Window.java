@@ -56,34 +56,34 @@ public class Window extends JFrame implements Runnable {
 				e.printStackTrace();
 			}
 
-			scene.action();
-			this.repaint();
+			if (null != scene) {
+				scene.action();
+				this.repaint();
+			}
 
 		}
 
 	}
 
-	public void start(){
-		
+	public void start() {
 
-			try {
-				Thread.sleep(Constant.Scene.THREAD_SLEEP_TIME);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+		try {
+			Thread.sleep(Constant.Scene.THREAD_SLEEP_TIME);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		this.isRunFlg = true;
+		this.scene.init();
+
+		if (null != this.scene.getKeyListenerList()) {
+			for (KeyListener listener : this.scene.getKeyListenerList()) {
+				this.addKeyListener(listener);
 			}
+		}
 
-			this.isRunFlg = true;
-			this.scene.init();
-
-			if (null != this.scene.getKeyListenerList()) {
-				for (KeyListener listener : this.scene.getKeyListenerList()) {
-					this.addKeyListener(listener);
-				}
-			}
-
-			new Thread(this).start();
-
+		new Thread(this).start();
 
 	}
 

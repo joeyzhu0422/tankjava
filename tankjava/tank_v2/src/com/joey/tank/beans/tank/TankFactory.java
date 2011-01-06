@@ -10,9 +10,9 @@ import com.joey.tank.constant.Constant;
 public class TankFactory {
 
 	private static MainTank mainTank;
-	
+
 	private static boolean isExistMainTank = true;
-	
+
 	private static boolean isExistSubTank = true;
 
 	private static SubTank subTank;
@@ -31,12 +31,12 @@ public class TankFactory {
 
 		return mainTank;
 	}
-	
+
 	public static void removeMainTank() {
-		
+
 		mainTank = null;
 		isExistMainTank = false;
-		
+
 	}
 
 	public static SubTank getSubTank() {
@@ -51,31 +51,38 @@ public class TankFactory {
 	}
 
 	public static void removeSubTank() {
-		
+
 		subTank = null;
 		isExistSubTank = false;
-		
+
 	}
+
 	public static Queue<EnemyTank> geteReserveEnemyTankQueue() {
 
 		if (null == reserveEnemyTankQueue) {
-
-			reserveEnemyTankQueue = new LinkedBlockingQueue<EnemyTank>();
-
-			for (int i = 0; i < Constant.Scene.ENEMY_TANK_NUM; i++) {
-
-				int _x = Constant.ActiviteElement.EnemyTank.ORIGINAL_X_ARRAY[i % 3];
-				int _y = Constant.ActiviteElement.EnemyTank.ORIGINAL_Y_ARRAY[i % 3];
-
-				reserveEnemyTankQueue.add(new EnemyTank(_x, _y));
-			}
-
+			
+			init();
+			
 		}
 
 		return reserveEnemyTankQueue;
 	}
 
-	public static List<EnemyTank> getCurrentEnemyTankList() {
+	public static void init() {
+
+		reserveEnemyTankQueue = new LinkedBlockingQueue<EnemyTank>();
+
+		for (int i = 0; i < Constant.Scene.ENEMY_TANK_NUM; i++) {
+
+			int _x = Constant.ActiviteElement.EnemyTank.ORIGINAL_X_ARRAY[i % 3];
+			int _y = Constant.ActiviteElement.EnemyTank.ORIGINAL_Y_ARRAY[i % 3];
+
+			reserveEnemyTankQueue.add(new EnemyTank(_x, _y));
+		}
+
+	}
+
+	public static synchronized List<EnemyTank> getCurrentEnemyTankList() {
 
 		Queue<EnemyTank> enemyTankQueue = geteReserveEnemyTankQueue();
 

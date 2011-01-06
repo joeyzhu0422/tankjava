@@ -7,7 +7,7 @@ public class Forest extends Obstacle {
 	public Forest(int x, int y) {
 
 		super(x, y);
-		this.color = Color.GREEN;
+		this.color = new Color(13, 115, 6);
 		this.isPass = true;
 		this.isBulletPass = true;
 
