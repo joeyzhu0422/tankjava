@@ -4,6 +4,7 @@ import java.awt.Graphics;
 
 import com.joey.tank.beans.IMapElement;
 import com.joey.tank.beans.obstacle.ElementFactory;
+import com.joey.tank.beans.obstacle.OutSide;
 import com.joey.tank.constant.Constant;
 import com.joey.tank.util.MapUtil;
 
@@ -98,7 +99,7 @@ public class Map {
 		try {
 			return mapElements[Constant.Map.SINGLE_LAYER][y][x];
 		} catch (ArrayIndexOutOfBoundsException e) {
-			return null;
+			return new OutSide(x, y);
 		}
 
 	}
@@ -108,7 +109,7 @@ public class Map {
 		try {
 			return mapElements[Constant.Map.MULTIPLE_LAYER][y][x];
 		} catch (ArrayIndexOutOfBoundsException e) {
-			return null;
+			return new OutSide(x, y);
 		}
 
 	}

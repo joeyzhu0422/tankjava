@@ -1,3 +1,4 @@
+
 package com.joey.tank.main;
 
 import com.joey.tank.scene.impl.Menu;
@@ -11,7 +12,7 @@ public class Main {
 		Window window = new Window();
 
 		window.setScene(new Menu(window));
-		
+
 		window.start();
 	}
 }
