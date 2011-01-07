@@ -23,10 +23,10 @@ public class Constant {
 		public Color SCENE_COLOR = Color.GRAY;
 
 		// 敌坦克总数
-		public int ENEMY_TANK_NUM = 1;
+		public int ENEMY_TANK_NUM = 10;
 
 		// 同时存在的坦克数量
-		public int CURRENT_ENEMY_TANK_NUM = 1;
+		public int CURRENT_ENEMY_TANK_NUM = 3;
 		
 		public int THREAD_SLEEP_TIME = 12;
 
