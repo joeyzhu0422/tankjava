@@ -309,6 +309,7 @@ public class Gate implements IScene {
 
 			this.nextGate();
 			TankFactory.init();
+			TankFactory.getMainTank().reset();
 
 		}
 

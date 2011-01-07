@@ -40,6 +40,7 @@ public class Window extends JFrame implements Runnable {
 	public void paint(Graphics g) {
 
 		if (null != scene) {
+			scene.action();
 			scene.draw(g, width, height);
 		}
 
@@ -56,10 +57,7 @@ public class Window extends JFrame implements Runnable {
 				e.printStackTrace();
 			}
 
-			if (null != scene) {
-				scene.action();
-				this.repaint();
-			}
+			this.repaint();
 
 		}
 
