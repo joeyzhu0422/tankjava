@@ -296,12 +296,12 @@ public class Gate implements IScene {
 		}
 
 		// step.3 主坦克放置
-		if (players >= 1) {
+		if (players >= 1 && null != TankFactory.getMainTank()) {
 			MapUtil.putToMultipleLayer(TankFactory.getMainTank());
 		}
 
 		// step.4 副坦克放置
-		if (players >= 2) {
+		if (players >= 2 && null != TankFactory.getSubTank()) {
 			MapUtil.putToMultipleLayer(TankFactory.getSubTank());
 		}
 
