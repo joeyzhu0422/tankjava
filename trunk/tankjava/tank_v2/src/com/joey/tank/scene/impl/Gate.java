@@ -309,7 +309,18 @@ public class Gate implements IScene {
 
 			this.nextGate();
 			TankFactory.init();
-			TankFactory.getMainTank().reset();
+
+			if (null != TankFactory.getMainTank()) {
+
+				TankFactory.getMainTank().reset();
+
+			}
+
+			if (null != TankFactory.getSubTank()) {
+
+				TankFactory.getSubTank().reset();
+
+			}
 
 		}
 
@@ -351,7 +362,8 @@ public class Gate implements IScene {
 				TankFactory.removeSubTank();
 			}
 
-			this.isGamgOver = this.isGamgOver || (mainTankLife <= 0 && subTankLife <= 0);
+			this.isGamgOver = this.isGamgOver
+					|| (mainTankLife <= 0 && subTankLife <= 0);
 
 		}
 
