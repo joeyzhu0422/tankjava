@@ -27,19 +27,19 @@ public class MenuKeyListenerImpl extends KeyAdapter {
 		int keyCode = e.getKeyCode();
 
 		switch (keyCode) {
-		case KeyEvent.VK_UP:
+		case KeyEvent.VK_W:
 			if (players != 1) {
 				mainTank.setY(mainTank.getY() - 40);
 				players = 1;
 			}
 			break;
-		case KeyEvent.VK_DOWN:
+		case KeyEvent.VK_S:
 			if (players != 2) {
 				mainTank.setY(mainTank.getY() + 40);
 				players = 2;
 			}
 			break;
-		case KeyEvent.VK_ENTER:
+		case KeyEvent.VK_J:
 
 			this.window.stop();
 			this.window.setScene(new Gate(window, players));
