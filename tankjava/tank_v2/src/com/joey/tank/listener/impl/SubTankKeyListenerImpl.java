@@ -41,7 +41,7 @@ public class SubTankKeyListenerImpl implements KeyListener {
 						Constant.ActiviteElement.DIRECTION_RIGHT);
 				TankFactory.getSubTank().move();
 				return;
-			case KeyEvent.VK_4:
+			case KeyEvent.VK_ENTER:
 // System.out.println("Main Tank fire");
 				TankFactory.getSubTank().fire();
 				return;
