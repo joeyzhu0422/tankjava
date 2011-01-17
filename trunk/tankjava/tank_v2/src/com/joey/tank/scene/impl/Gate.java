@@ -52,7 +52,7 @@ public class Gate implements IScene {
 
 	public void draw(Graphics g, int width, int height) {
 
-		System.out.println("draw");
+		//System.out.println("draw");
 
 		bufferScene = new BufferedImage(width, height,
 				BufferedImage.TYPE_INT_RGB);
@@ -282,7 +282,7 @@ public class Gate implements IScene {
 	@Override
 	public void action() {
 
-		System.out.println("action");
+		//System.out.println("action");
 
 		// step.1 Çå¿Õ Multiple¶à²ãµØÍ¼
 		MapLoader.getMap().cleanMultipleLayer();
