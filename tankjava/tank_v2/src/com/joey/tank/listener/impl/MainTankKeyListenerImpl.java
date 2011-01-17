@@ -22,29 +22,29 @@ public class MainTankKeyListenerImpl implements KeyListener {
 				TankFactory.getMainTank().setDirection(
 						Constant.ActiviteElement.DIRECTION_UP);
 				TankFactory.getMainTank().move();
-				return;
+				break;
 			case KeyEvent.VK_S:
 // System.out.println("Down is keyed....");
 				TankFactory.getMainTank().setDirection(
 						Constant.ActiviteElement.DIRECTION_DOWN);
 				TankFactory.getMainTank().move();
-				return;
+				break;
 			case KeyEvent.VK_A:
 // System.out.println("Left is keyed....");
 				TankFactory.getMainTank().setDirection(
 						Constant.ActiviteElement.DIRECTION_LEFT);
 				TankFactory.getMainTank().move();
-				return;
+				break;
 			case KeyEvent.VK_D:
 // System.out.println("Right is keyed....");
 				TankFactory.getMainTank().setDirection(
 						Constant.ActiviteElement.DIRECTION_RIGHT);
 				TankFactory.getMainTank().move();
-				return;
+				break;
 			case KeyEvent.VK_J:
 // System.out.println("Main Tank fire");
 				TankFactory.getMainTank().fire();
-				return;
+				break;
 			}
 
 		}
@@ -52,12 +52,12 @@ public class MainTankKeyListenerImpl implements KeyListener {
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-// System.out.println("Main Tank Listener key Released");
+System.out.println("Main Tank Listener key Released" + e.getKeyCode());
 	}
 
 	@Override
 	public void keyTyped(KeyEvent e) {
-// System.out.println("Main Tank Listener key typed");
+System.out.println("Main Tank Listener key typed" + e.getKeyCode());
 	}
 
 }
