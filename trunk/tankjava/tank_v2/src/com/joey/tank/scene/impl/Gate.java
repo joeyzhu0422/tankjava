@@ -16,7 +16,8 @@ import com.joey.tank.beans.obstacle.ElementFactory;
 import com.joey.tank.beans.tank.EnemyTank;
 import com.joey.tank.beans.tank.TankFactory;
 import com.joey.tank.constant.Constant;
-import com.joey.tank.listener.impl.MainTankKeyListenerImpl;
+import com.joey.tank.listener.impl.MainTankFireListenerImpl;
+import com.joey.tank.listener.impl.MainTankMoveListenerImpl;
 import com.joey.tank.listener.impl.SubTankKeyListenerImpl;
 import com.joey.tank.map.MapLoader;
 import com.joey.tank.scene.IScene;
@@ -264,7 +265,8 @@ public class Gate implements IScene {
 					keyListenerList = new ArrayList<KeyListener>();
 
 					if (players >= 1) {
-						keyListenerList.add(new MainTankKeyListenerImpl());
+						keyListenerList.add(new MainTankMoveListenerImpl());
+						keyListenerList.add(new MainTankFireListenerImpl());
 					}
 
 					if (players >= 2) {
