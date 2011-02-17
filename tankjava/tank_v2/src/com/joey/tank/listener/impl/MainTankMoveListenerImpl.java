@@ -32,22 +32,22 @@ public class MainTankMoveListenerImpl implements KeyListener {
 
 	private void action() {
 
-		System.out.println("Before if, In move listener, key is " + _KEY
-				+ " thead' status is "
-				+ (null == _THREAD ? "thread is null" : _THREAD.isAlive()));
+//		System.out.println("Before if, In move listener, key is " + _KEY
+//				+ " thead' status is "
+//				+ (null == _THREAD ? "thread is null" : _THREAD.isAlive()));
 
 		if (null == _THREAD || !_THREAD.isAlive()) {
 
-			System.out.println("After if, In move listener, key is " + _KEY
-					+ " thead' status is "
-					+ (null == _THREAD ? "thread is null" : _THREAD.isAlive()));
+//			System.out.println("After if, In move listener, key is " + _KEY
+//					+ " thead' status is "
+//					+ (null == _THREAD ? "thread is null" : _THREAD.isAlive()));
 
 			_THREAD = new Thread() {
 				public void run() {
 					while (_KEY != -1) {
 						switch (_KEY) {
 						case KeyEvent.VK_W:
-							System.out.println("Up is keyed....");
+							//System.out.println("Up is keyed....");
 							TankFactory.getMainTank().setDirection(
 									Constant.ActiviteElement.DIRECTION_UP);
 							TankFactory.getMainTank().move();
@@ -90,7 +90,7 @@ public class MainTankMoveListenerImpl implements KeyListener {
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		System.out.println("Main Tank Listener key Released" + e.getKeyCode());
+		//System.out.println("Main Tank Listener key Released" + e.getKeyCode());
 		if (e.getKeyCode() == KeyEvent.VK_S || e.getKeyCode() == KeyEvent.VK_W
 				|| e.getKeyCode() == KeyEvent.VK_A
 				|| e.getKeyCode() == KeyEvent.VK_D) {
@@ -100,7 +100,7 @@ public class MainTankMoveListenerImpl implements KeyListener {
 
 	@Override
 	public void keyTyped(KeyEvent e) {
-		System.out.println("Main Tank Listener key typed" + e.getKeyCode());
+		//System.out.println("Main Tank Listener key typed" + e.getKeyCode());
 	}
 
 }
