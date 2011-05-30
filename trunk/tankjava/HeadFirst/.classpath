@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="strategy"/>
+	<classpathentry kind="src" path="observer"/>
+	<classpathentry kind="src" path="decoration"/>
+	<classpathentry kind="src" path="factory"/>
+	<classpathentry kind="src" path="abstractFactory"/>
+	<classpathentry kind="src" path="command"/>
+	<classpathentry kind="src" path="adapter"/>
+	<classpathentry kind="src" path="appearance"/>
+	<classpathentry kind="src" path="templates"/>
+	<classpathentry kind="src" path="iterator"/>
+	<classpathentry kind="src" path="component"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
