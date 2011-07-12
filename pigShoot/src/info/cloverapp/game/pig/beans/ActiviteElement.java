@@ -5,28 +5,26 @@ import info.cloverapp.game.pig.listener.MoveListener;
 
 public abstract class ActiviteElement extends StaticElement {
 
+	/**
+	 * 方向
+	 */
 	protected int direction;
 
+	/**
+	 * 移动监听器
+	 */
 	protected MoveListener moveListener;
 
-	protected boolean isPutInMap = false;
+	/**
+	 * 是否移动过
+	 */
+	protected volatile boolean isMoved = true;
 
-	protected boolean isMoved = true;
-
-	public void setMoveListener(MoveListener listener) {
-		this.moveListener = listener;
-	}
-
-	public int getDirection() {
-		return direction;
-	}
-
-	public void setDirection(int direction) {
-		this.direction = direction;
-	}
-
-	public abstract void action();
-
+	/**
+	 * 移动方法
+	 * 
+	 * @return boolean 当可以移动时返回true，反之，false
+	 */
 	public boolean move() {
 
 		if (isMoved) {
@@ -60,6 +58,14 @@ public abstract class ActiviteElement extends StaticElement {
 		} else {
 			return false;
 		}
+	}
+
+	public void setMoveListener(MoveListener listener) {
+		this.moveListener = listener;
+	}
+
+	public void setDirection(int direction) {
+		this.direction = direction;
 	}
 
 }
