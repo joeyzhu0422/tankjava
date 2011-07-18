@@ -14,7 +14,7 @@ public class Gate implements IScene {
 	// »º³åÇøÍ¼²ã
 	private BufferedImage bufferScene;
 
-	private Pig pig;
+	private volatile Pig pig;
 
 	@Override
 	public void action() {
@@ -34,6 +34,7 @@ public class Gate implements IScene {
 		bufferG.setColor(Color.BLACK);
 		bufferG.fillRect(0, 0, width, height);
 
+		System.out.println(pig);
 		pig.draw(bufferG);
 
 		g.drawImage(bufferScene, 0, 0, width , height, null);
@@ -55,8 +56,7 @@ public class Gate implements IScene {
 
 	@Override
 	public boolean isRun() {
-		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 }

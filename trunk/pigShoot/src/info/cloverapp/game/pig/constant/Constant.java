@@ -49,7 +49,7 @@ public class Constant {
 			public int ORIGINAL_X = Scene.SCREEN_WIDTH - WIDTH
 					+ Scene.LEFT_WIDTH;
 
-			public int ORIGINAL_Y = Scene.TOP_HEIGHT;
+			public int ORIGINAL_Y = Scene.TOP_HEIGHT + HEIGHT;
 
 		}
 
