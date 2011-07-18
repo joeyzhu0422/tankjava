@@ -18,7 +18,7 @@ public class Constant {
 
 		public int HEIGHT = 320 + TOP_HEIGHT + DOWN_HEIGTH;
 
-		public int CELL_LENGTH = 8;
+		public int CELL_LENGTH = 4;
 
 		public Color SCENE_COLOR = Color.GRAY;
 

@@ -18,8 +18,8 @@ public class Pig extends ActiviteElement{
 		super();
 		this.x = 0;
 		this.y = 0;
-		this.width = Constant.Scene.CELL_LENGTH * 4;
-		this.height = Constant.Scene.CELL_LENGTH * 4;
+		this.width = Constant.Scene.CELL_LENGTH * 8;
+		this.height = Constant.Scene.CELL_LENGTH * 8;
 		this.direction = Constant.ActiviteElement.DIRECTION_UP;
 		this.color = Color.PINK;
 	}
