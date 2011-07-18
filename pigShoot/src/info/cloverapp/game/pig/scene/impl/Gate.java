@@ -1,12 +1,19 @@
 package info.cloverapp.game.pig.scene.impl;
 
-import java.awt.Graphics;
-import java.awt.event.KeyListener;
-import java.util.List;
-
+import info.cloverapp.game.pig.beans.Pig;
 import info.cloverapp.game.pig.scene.IScene;
 
+import java.awt.Graphics;
+import java.awt.event.KeyListener;
+import java.awt.image.BufferedImage;
+import java.util.List;
+
 public class Gate implements IScene {
+
+	// ª∫≥Â«¯Õº≤„
+	private BufferedImage bufferScene;
+	
+	private Pig pig;
 
 	@Override
 	public void action() {
@@ -16,7 +23,12 @@ public class Gate implements IScene {
 
 	@Override
 	public void draw(Graphics g, int width, int height) {
-		// TODO Auto-generated method stub
+
+		bufferScene = new BufferedImage(width, height,
+				BufferedImage.TYPE_INT_RGB);
+		
+		// step.1 À´ª∫≥Â«¯…Ë÷√
+		Graphics bufferG = bufferScene.getGraphics();
 
 	}
 
@@ -28,7 +40,8 @@ public class Gate implements IScene {
 
 	@Override
 	public void init() {
-		// TODO Auto-generated method stub
+		
+		
 
 	}
 
