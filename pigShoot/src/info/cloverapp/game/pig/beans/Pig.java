@@ -16,10 +16,10 @@ public class Pig extends ActiviteElement{
 
 	public Pig() {
 		super();
-		this.x = 0;
-		this.y = 0;
-		this.width = Constant.Scene.CELL_LENGTH * 8;
-		this.height = Constant.Scene.CELL_LENGTH * 8;
+		this.x = Constant.ActiviteElement.Pig.ORIGINAL_X;
+		this.y = Constant.ActiviteElement.Pig.ORIGINAL_Y;
+		this.width = Constant.ActiviteElement.Pig.WIDTH;
+		this.height = Constant.ActiviteElement.Pig.HEIGHT;
 		this.direction = Constant.ActiviteElement.DIRECTION_UP;
 		this.color = Color.PINK;
 	}

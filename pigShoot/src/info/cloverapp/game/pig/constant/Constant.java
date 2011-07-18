@@ -14,9 +14,13 @@ public class Constant {
 
 		public int RIGHT_WIDTH = 0;
 
-		public int WIDTH = 480 + LEFT_WIDTH + RIGHT_WIDTH;
+		public int SCREEN_WIDTH = 480;
 
-		public int HEIGHT = 320 + TOP_HEIGHT + DOWN_HEIGTH;
+		public int SCREEN_HEIGHT = 320;
+
+		public int WIDTH = SCREEN_WIDTH + LEFT_WIDTH + RIGHT_WIDTH;
+
+		public int HEIGHT = SCREEN_HEIGHT + TOP_HEIGHT + DOWN_HEIGTH;
 
 		public int CELL_LENGTH = 4;
 
@@ -35,6 +39,19 @@ public class Constant {
 		public int DIRECTION_DOWN = 3;
 
 		public int DIRECTION_RIGHT = 4;
+
+		public interface Pig {
+
+			public int WIDTH = 8 * Constant.Scene.CELL_LENGTH;
+
+			public int HEIGHT = 8 * Constant.Scene.CELL_LENGTH;
+
+			public int ORIGINAL_X = Scene.SCREEN_WIDTH - WIDTH
+					+ Scene.LEFT_WIDTH;
+
+			public int ORIGINAL_Y = Scene.TOP_HEIGHT;
+
+		}
 
 	}
 
