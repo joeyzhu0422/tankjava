@@ -20,7 +20,6 @@ public class PigMoveKeyListenerImpl implements KeyListener {
 
 	@Override
 	public void keyPressed(KeyEvent e) {
-		System.out.println("Pig Listener key Pressed");
 
 		if (null != pig) {
 

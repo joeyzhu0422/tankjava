@@ -55,6 +55,16 @@ public class Constant {
 
 		}
 
+		public interface Arrow {
+
+			public int WIDTH = 4 * Scene.CELL_LENGTH;
+
+			public int HEIGHT = 1 * Scene.CELL_LENGTH;
+
+			public int SPEED = Scene.CELL_LENGTH * 2;
+
+		}
+
 	}
 
 	public interface Map {

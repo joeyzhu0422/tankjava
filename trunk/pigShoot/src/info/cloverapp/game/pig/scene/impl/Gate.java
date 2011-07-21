@@ -1,6 +1,7 @@
 package info.cloverapp.game.pig.scene.impl;
 
 import info.cloverapp.game.pig.beans.Pig;
+import info.cloverapp.game.pig.key.listener.impl.PigFireListenerImpl;
 import info.cloverapp.game.pig.key.listener.impl.PigMoveKeyListenerImpl;
 import info.cloverapp.game.pig.move.listener.impl.PigMoveListenerImpl;
 import info.cloverapp.game.pig.scene.IScene;
@@ -59,6 +60,7 @@ public class Gate implements IScene {
 					keyListenerList = new ArrayList<KeyListener>();
 
 					keyListenerList.add(new PigMoveKeyListenerImpl(pig));
+					keyListenerList.add(new PigFireListenerImpl(pig));
 
 				}
 
