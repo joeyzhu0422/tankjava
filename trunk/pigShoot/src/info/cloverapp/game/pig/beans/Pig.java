@@ -21,6 +21,7 @@ public class Pig extends ActiviteElement{
 		this.width = Constant.ActiviteElement.Pig.WIDTH;
 		this.height = Constant.ActiviteElement.Pig.HEIGHT;
 		this.direction = Constant.ActiviteElement.DIRECTION_UP;
+		this.speed = Constant.ActiviteElement.Pig.SPEED;
 		this.color = Color.PINK;
 	}
 	

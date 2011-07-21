@@ -16,6 +16,11 @@ public abstract class ActiviteElement extends StaticElement {
 	protected MoveListener moveListener;
 
 	/**
+	 * 速度 每次移动的距离
+	 */
+	protected int speed;
+
+	/**
 	 * 是否移动过
 	 */
 	protected volatile boolean isMoved = true;
@@ -26,7 +31,7 @@ public abstract class ActiviteElement extends StaticElement {
 	 * @return boolean 当可以移动时返回true，反之，false
 	 */
 	public boolean move() {
-		
+
 		System.out.println("moveing.....");
 
 		if (isMoved) {
@@ -39,16 +44,16 @@ public abstract class ActiviteElement extends StaticElement {
 
 				switch (direction) {
 				case Constant.ActiviteElement.DIRECTION_UP:
-					this.setY(this.getY() - Constant.Scene.CELL_LENGTH);
+					this.setY(this.getY() - speed);
 					break;
 				case Constant.ActiviteElement.DIRECTION_DOWN:
-					this.setY(this.getY() + Constant.Scene.CELL_LENGTH);
+					this.setY(this.getY() + speed);
 					break;
 				case Constant.ActiviteElement.DIRECTION_LEFT:
-					this.setX(this.getX() - Constant.Scene.CELL_LENGTH);
+					this.setX(this.getX() - speed);
 					break;
 				case Constant.ActiviteElement.DIRECTION_RIGHT:
-					this.setX(this.getX() + Constant.Scene.CELL_LENGTH);
+					this.setX(this.getX() + speed);
 					break;
 				}
 
@@ -59,7 +64,7 @@ public abstract class ActiviteElement extends StaticElement {
 			return isMove;
 		} else {
 			return false;
-		} 
+		}
 	}
 
 	public void setMoveListener(MoveListener listener) {
