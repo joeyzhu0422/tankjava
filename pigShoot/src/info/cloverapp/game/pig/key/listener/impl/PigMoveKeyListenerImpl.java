@@ -25,9 +25,7 @@ public class PigMoveKeyListenerImpl implements KeyListener {
 		if (null != pig) {
 
 			if (e.getKeyCode() == KeyEvent.VK_S
-					|| e.getKeyCode() == KeyEvent.VK_W
-					|| e.getKeyCode() == KeyEvent.VK_A
-					|| e.getKeyCode() == KeyEvent.VK_D) {
+					|| e.getKeyCode() == KeyEvent.VK_W) {
 
 				_KEY = e.getKeyCode();
 
@@ -56,18 +54,18 @@ public class PigMoveKeyListenerImpl implements KeyListener {
 									.setDirection(Constant.ActiviteElement.DIRECTION_DOWN);
 							pig.move();
 							break;
-						case KeyEvent.VK_A:
-							// System.out.println("Left is keyed....");
-							pig
-									.setDirection(Constant.ActiviteElement.DIRECTION_LEFT);
-							pig.move();
-							break;
-						case KeyEvent.VK_D:
-							// System.out.println("Right is keyed....");
-							pig
-									.setDirection(Constant.ActiviteElement.DIRECTION_RIGHT);
-							pig.move();
-							break;
+// case KeyEvent.VK_A:
+// // System.out.println("Left is keyed....");
+// pig
+// .setDirection(Constant.ActiviteElement.DIRECTION_LEFT);
+// pig.move();
+// break;
+// case KeyEvent.VK_D:
+// // System.out.println("Right is keyed....");
+// pig
+// .setDirection(Constant.ActiviteElement.DIRECTION_RIGHT);
+// pig.move();
+// break;
 						}
 
 						try {

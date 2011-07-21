@@ -44,12 +44,14 @@ public class Constant {
 
 			public int WIDTH = 8 * Constant.Scene.CELL_LENGTH;
 
-			public int HEIGHT = 8 * Constant.Scene.CELL_LENGTH;
+			public int HEIGHT = 8 * Scene.CELL_LENGTH;
 
 			public int ORIGINAL_X = Scene.SCREEN_WIDTH - WIDTH
 					+ Scene.LEFT_WIDTH;
 
 			public int ORIGINAL_Y = Scene.TOP_HEIGHT + HEIGHT;
+
+			public int SPEED = Scene.CELL_LENGTH * 4;
 
 		}
 

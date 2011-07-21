@@ -65,13 +65,6 @@ public class Window extends JFrame implements Runnable {
 
 	public void start() {
 
-		try {
-			Thread.sleep(Constant.Scene.THREAD_SLEEP_TIME);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
 		this.isRunFlg = true;
 		this.scene.init();
 
