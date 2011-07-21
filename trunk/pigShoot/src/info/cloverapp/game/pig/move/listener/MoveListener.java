@@ -1,4 +1,4 @@
-package info.cloverapp.game.pig.listener;
+package info.cloverapp.game.pig.move.listener;
 
 import info.cloverapp.game.pig.beans.ActiviteElement;
 
