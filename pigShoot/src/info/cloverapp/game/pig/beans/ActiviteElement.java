@@ -1,7 +1,7 @@
 package info.cloverapp.game.pig.beans;
 
 import info.cloverapp.game.pig.constant.Constant;
-import info.cloverapp.game.pig.listener.MoveListener;
+import info.cloverapp.game.pig.move.listener.MoveListener;
 
 public abstract class ActiviteElement extends StaticElement {
 
@@ -26,6 +26,8 @@ public abstract class ActiviteElement extends StaticElement {
 	 * @return boolean 当可以移动时返回true，反之，false
 	 */
 	public boolean move() {
+		
+		System.out.println("moveing.....");
 
 		if (isMoved) {
 
@@ -57,7 +59,7 @@ public abstract class ActiviteElement extends StaticElement {
 			return isMove;
 		} else {
 			return false;
-		}
+		} 
 	}
 
 	public void setMoveListener(MoveListener listener) {
