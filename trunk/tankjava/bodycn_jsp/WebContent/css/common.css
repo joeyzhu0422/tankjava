@@ -1,0 +1,40 @@
+body {
+	background: none repeat scroll 0% 0% rgb(0, 0, 0);
+	margin: 0pt;
+}
+
+#body_content {
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	overflow: hidden;
+	position: relative;
+	word-wrap: break-word;
+	background: rgb(0, 0, 0);
+	text-align: left;
+	width: 700px;
+}
+
+#nav_layer {
+	float: left;
+	margin-left: 0px;
+	position: relative;
+	width: 700px;
+	z-index: 0;
+}
+
+#body_layer {
+	margin-left: 0px;
+	position: relative;
+	width: 700px;
+	z-index: 5;
+}
+
+#footer_layer {
+	height: 40px;
+	margin-left: 0px;
+	position: relative;
+	width: 700px;
+	z-index: 15;
+}
