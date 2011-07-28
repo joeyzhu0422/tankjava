@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
 <head>
@@ -12,22 +10,22 @@
     <link rel="stylesheet" type="text/css" media="screen,print" href="css/Home/Home.css" />
     <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='css/IE.css'/><![endif]-->
     <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='css/IE8.css'/><![endif]-->
-  	<link href="css/Home/HomeMoz.css" type="text/css" rel="stylesheet" />
-  	<link rel="stylesheet" type="text/css" media="screen,print" href="css/common.css" />
-</head>
-  <body>
+    <script type="text/javascript" src="js/iWebSite.js"></script>
+    <script type="text/javascript" src="js/Home/Home.js"></script>
+  	<link href="css/Home/HomeMoz.css" type="text/css" rel="stylesheet" /></head>
+  <body style="background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0pt;" onload="onPageLoad();">
     <div style="text-align: center; ">
-      <div id="body_content">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(0, 0, 0); text-align: left; width: 700px; " id="body_content">
         
-        <!-- header -->
+          <!-- header -->
         <jsp:include page="common/header.jsp" />
         <!-- header -->
         
-        <div id="nav_layer">
+        <div style="float: left; margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
           <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
           <div style="clear: both; height: 0px; line-height: 0px; " class="spacer">&nbsp;</div>
         </div>
-        <div id="body_layer">
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
           <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
           <div style="height: 48px; width: 48px;  height: 48px; left: 214px; position: absolute; top: 371px; width: 48px; z-index: 1; " class="tinyText">
             <div style="position: relative; width: 48px; ">
@@ -102,25 +100,20 @@ exceptional design, innovation, high usage and high quality.<br /></p>
           
 
 
-          <!-- logo start -->
+           <!-- logo start -->
           <jsp:include page="common/logo.jsp" />
           <!-- logo end -->
-          
           <div style="height: 0px; line-height: 0px; " class="spacer">&nbsp;</div>
         </div>
         
-        <!-- footer start -->
+         <!-- footer start -->
         <jsp:include page="common/footer.jsp" />
         <!-- footer end -->
         
       </div>
     </div>
   
-	<div style="position: absolute; display: none; z-index: 9999;" id="livemargins_control">
-		<img src="image/Home/monitor-background-horizontal.png" style="position: absolute; left: -77px; top: -5px;" width="77" height="5" />	
-		<img src="image/Home/monitor-background-vertical.png" style="position: absolute; left: 0pt; top: -5px;" />
-		<img id="monitor-play-button" src="image/Home/monitor-play-button.png" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" style="position: absolute; left: 1px; top: 0pt; opacity: 0.5; cursor: pointer;" />
-	</div>
 
-</body>
-</html>
+
+
+<div style="position: absolute; display: none; z-index: 9999;" id="livemargins_control"><img src="image/Home/monitor-background-horizontal.png" style="position: absolute; left: -77px; top: -5px;" width="77" height="5">	<img src="image/Home/monitor-background-vertical.png" style="position: absolute; left: 0pt; top: -5px;">	<img id="monitor-play-button" src="image/Home/monitor-play-button.png" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" style="position: absolute; left: 1px; top: 0pt; opacity: 0.5; cursor: pointer;"></div></body></html>
