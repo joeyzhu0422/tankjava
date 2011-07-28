@@ -57,7 +57,8 @@ body {
 #footer_layer p {
 	float: right;
 	width: 55px;
-	padding-left: 16px;
+	text-align:left;
+	margin-right: 16px;
 	display: inline;
 }
 
