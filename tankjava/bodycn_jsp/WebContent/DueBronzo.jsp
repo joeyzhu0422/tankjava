@@ -12,6 +12,7 @@
     <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='css/IE8.css'/><![endif]-->
     <script type="text/javascript" src="js/iWebSite.js"></script>
     <script type="text/javascript" src="js/DueBronzo/DueBronzo.js"></script>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />  
   <link href="css/DueBronzo/DueBronzoMoz.css" type="text/css" rel="stylesheet"></head>
   <body style="background: none repeat scroll 0% 0% rgb(0, 0, 0); margin: 0pt;" onload="onPageLoad();">
     <div style="text-align: center; ">
