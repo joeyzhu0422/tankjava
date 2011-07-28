@@ -1,3 +1,18 @@
+a {
+	color: #D6D6D6;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #797979;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #FF2600;
+	text-decoration: underline;
+}
+
 body {
 	background: none repeat scroll 0% 0% rgb(0, 0, 0);
 	margin: 0pt;
@@ -39,71 +54,46 @@ body {
 	z-index: 15;
 }
 
-.footer1 {
-	 color: rgb(165, 165, 165);
-    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 10px;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: 12px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
+#footer_layer p {
+	float: right;
+	width: 55px;
+	padding-left: 16px;
 }
 
-.footer2 {
-	 color: rgb(255, 255, 255);
-    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 10px;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: 12px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-align: center;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
+#footer_layer .right {
+	float: right;
+	padding: 10px 26px 0 0;	
 }
 
-.footer3 {
-	color: rgb(255, 255, 255);
-    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 10px;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: 12px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-align: center;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
+#footer_layer .left {
+	float: left;
+	padding: 10px 0 0 36px;
+	width: auto;
 }
+
+#footer_layer p.left a {
+	float: left;	
+}
+
+#footer_layer p a{
+	float: right;
+	font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif;
+	font-size: 10px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 12px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	opacity: 1.00;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+}
+
