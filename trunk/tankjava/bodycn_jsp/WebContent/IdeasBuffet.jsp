@@ -17,176 +17,11 @@
   <body style="background: none repeat scroll 0% 0% rgb(0, 0, 0); margin: 0pt;" onload="onPageLoad();">
     <div style="text-align: center; ">
       <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(0, 0, 0); text-align: left; width: 700px; " id="body_content">
-        <div style="height: 115px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
-          <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
-          <div id="id1" style="height: 23px; left: 69px; position: absolute; top: 58px; width: 67px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content style_External_67_23" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style"><a class="class1" title="Products.html" href="http://www.en.mepra-online.de/Products.html"><span style="line-height: 15px; " class="style_1">Products</span></a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id2" style="height: 23px; left: 218px; position: absolute; top: 58px; width: 118px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_118_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class2" title="Hotel_Catalog_Online.html" href="http://www.en.mepra-online.de/Hotel_Catalog_Online.html">HR Catalog online</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id3" style="height: 23px; left: 342px; position: absolute; top: 58px; width: 77px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_77_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class3" title="References_Hotel-Restaurant.html" href="http://www.en.mepra-online.de/References_Hotel-Restaurant.html">References</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id4" style="height: 23px; left: 426px; position: absolute; top: 58px; width: 72px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_72_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_2"><a class="class4" title="Newsletter.html" href="http://www.en.mepra-online.de/Newsletter.html">Newsletter</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id5" style="height: 23px; left: 503px; position: absolute; top: 58px; width: 76px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_76_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class5" title="Download.html" href="http://www.en.mepra-online.de/Download.html">Download</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id6" style="height: 23px; left: 583px; position: absolute; top: 58px; width: 65px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_65_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class6" title="Contact.html" href="http://www.en.mepra-online.de/Contact.html">Contact</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id7" style="height: 23px; left: 555px; position: absolute; top: 87px; width: 93px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content style_External_93_23" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_3"><a class="class7" title="New_Products.html" href="http://www.en.mepra-online.de/New_Products.html">New Products</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id8" style="height: 23px; left: 18px; position: absolute; top: 87px; width: 72px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content style_External_72_23" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_4"><a class="class8" title="Ideas.html" href="http://www.en.mepra-online.de/Ideas.html"><span style="line-height: 15px; " class="style_2">Ideas for &gt;</span></a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id9" style="height: 23px; left: 94px; position: absolute; top: 87px; width: 64px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content style_External_64_23" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_3"><a class="class9" title="IdeasBreakfast.html" href="http://www.en.mepra-online.de/IdeasBreakfast.html">Breakfast</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id10" style="height: 23px; left: 257px; position: absolute; top: 87px; width: 72px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_72_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class10" title="IdeasRestaurant.html" href="http://www.en.mepra-online.de/IdeasRestaurant.html">Restaurant</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id11" style="height: 23px; left: 399px; position: absolute; top: 86px; width: 46px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_46_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class11" title="" href="">Buffet</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id12" style="height: 23px; left: 162px; position: absolute; top: 87px; width: 92px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_92_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_3"><a class="class12" title="IdeasRoomService.html" href="http://www.en.mepra-online.de/IdeasRoomService.html">Room-Service</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id13" style="height: 23px; left: 333px; position: absolute; top: 86px; width: 63px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_63_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class13" title="IdeasBarWine.html" href="http://www.en.mepra-online.de/IdeasBarWine.html">Bar-Wine</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id14" style="height: 23px; left: 448px; position: absolute; top: 86px; width: 55px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_55_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a class="class14" title="IdeasPizzeria.html" href="http://www.en.mepra-online.de/IdeasPizzeria.html">Pizzeria</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id15" style="height: 23px; left: 505px; position: absolute; top: 86px; width: 44px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_44_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a class="class15" title="IdeasSPA.html" href="http://www.en.mepra-online.de/IdeasSPA.html">SPA</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id16" style="height: 23px; left: 15px; position: absolute; top: 58px; width: 47px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content style_External_47_23" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">&nbsp;<a class="class16" title="http://www.en.mepra-online.de/Home.html" href="http://www.en.mepra-online.de/Home.html"><span style="line-height: 15px; " class="style_1">Home</span></a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id17" style="height: 23px; left: 142px; position: absolute; top: 58px; width: 72px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_72_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class17" title="Company.html" href="http://www.en.mepra-online.de/Company.html">Company</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+          <!-- header -->
+        <jsp:include page="common/header.jsp" />
+        <!-- header -->
+        
         <div style="float: left; margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
           <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
           <div style="clear: both; height: 0px; line-height: 0px; " class="spacer">&nbsp;</div>
@@ -413,73 +248,17 @@ standard of quality, design and innovation is extremely demanding.<br></p>
           
 
 
-          <div style="height: 51px; width: 80px;  height: 51px; left: 608px; position: absolute; top: -106px; width: 80px; z-index: 1; " class="tinyText">
-            <div style="position: relative; width: 80px; ">
-              <img src="image/IdeasBuffet/shapeimage_2.png" alt="" style="height: 51px; left: 0px; position: absolute; top: 0px; width: 80px;">
-            </div>
-          </div>
+           <!-- logo start -->
+          <jsp:include page="common/logo.jsp" />
+          <!-- logo end -->
+          
           <div style="height: 2230px; line-height: 2230px; " class="spacer">&nbsp;</div>
         </div>
-        <div style="height: 40px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
-          <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
-          <div id="id23" style="height: 23px; left: 607px; position: absolute; top: 7px; width: 73px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content style_External_73_23" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9">&nbsp;<a title="Impressum.html" href="http://www.en.mepra-online.de/Impressum.html">Impressum</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id24" style="height: 23px; left: 501px; position: absolute; top: 8px; width: 54px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_54_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_10"><a title="Pressinfo.html" href="http://www.en.mepra-online.de/Pressinfo.html">Press</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id25" style="height: 23px; left: 561px; position: absolute; top: 8px; width: 40px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content style_External_40_23" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9">&nbsp;<a title="Links.html" href="http://www.en.mepra-online.de/Links.html">Links</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id26" style="height: 23px; left: 36px; position: absolute; top: 8px; width: 202px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_202_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_10"><a onclick="window.open(this.href); return false;" title="http://www.en.mepra.eu/Home.html" href="http://www.en.mepra.eu/Home.html" onkeypress="window.open(this.href); return false;">Click here to visit our @home Division</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id27" style="height: 22px; left: 404px; position: absolute; top: 8px; width: 90px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_90_22" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 11.4px;" class="paragraph_style_10"><a class="class18" title="Dates.html" href="http://www.en.mepra-online.de/Dates.html">Exhibitions Fairs</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id28" style="height: 22px; left: 336px; position: absolute; top: 8px; width: 58px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_58_22" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_10"><a class="class19" title="Careers.html" href="http://www.en.mepra-online.de/Careers.html">Careers</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+         <!-- footer start -->
+        <jsp:include page="common/footer.jsp" />
+        <!-- footer end -->
+        
       </div>
     </div>
   
