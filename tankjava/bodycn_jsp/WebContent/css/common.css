@@ -58,6 +58,7 @@ body {
 	float: right;
 	width: 55px;
 	padding-left: 16px;
+	display: inline;
 }
 
 #footer_layer .right {
