@@ -1,4 +1,5 @@
-<!--?xml version="1.0" encoding="UTF-8"?-->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
@@ -208,7 +209,7 @@
           <div id="id21" style="height: 38px; left: 142px; position: absolute; top: 430px; width: 431px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_431_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Here is a small selection of our range &gt; see also at <a class="class19" title="IdeasBreakfast.html" href="http://www.en.mepra-online.de/IdeasBreakfast.html">„ideas for breakfast“</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Here is a small selection of our range &gt; see also at <a class="class19" title="IdeasBreakfast.html" href="http://www.en.mepra-online.de/IdeasBreakfast.html">âideas for breakfastâ</a></p>
               </div>
             </div>
           </div>
@@ -221,7 +222,7 @@
                 <p style="padding-top: 0pt; " class="paragraph_style_8">Custom made<br></p>
                 <p class="paragraph_style_8"><br></p>
                 <p class="paragraph_style_8">You may get all shapes of 
-our range covered with a coloured titanium surface of your choice. Don´t
+our range covered with a coloured titanium surface of your choice. DonÂ´t
  hesitate to come back to us with your possible requests.<br></p>
                 <p class="paragraph_style_8"><br></p>
                 <p class="paragraph_style_8">Also you may get all flatware in silverplated or golden version.<br></p>

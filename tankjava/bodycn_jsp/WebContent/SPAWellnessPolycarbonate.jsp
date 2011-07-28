@@ -1,4 +1,5 @@
-<!--?xml version="1.0" encoding="UTF-8"?-->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
@@ -77,7 +78,7 @@ or bar, a fitness center and much more, take this!</p>
           <div id="id21" style="height: 26px; left: 103px; position: absolute; top: 464px; width: 477px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_477_26" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">Here is a small selection of our range, for further details look at <a class="class19" title="IdeasSPA.html" href="http://www.en.mepra-online.de/IdeasSPA.html">„Ideas SPA“</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">Here is a small selection of our range, for further details look at <a class="class19" title="IdeasSPA.html" href="http://www.en.mepra-online.de/IdeasSPA.html">âIdeas SPAâ</a></p>
               </div>
             </div>
           </div>
