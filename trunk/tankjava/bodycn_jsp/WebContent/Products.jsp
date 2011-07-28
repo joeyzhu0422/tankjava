@@ -1,52 +1,36 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<!--?xml version="1.0" encoding="UTF-8"?-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
-
-<head>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="Generator" content="iWeb 3.0.3" />
-    <meta name="iWeb-Build" content="local-build-20110512" />
-    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
-    <meta name="viewport" content="width=700" />
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="Generator" content="iWeb 3.0.3">
+    <meta name="iWeb-Build" content="local-build-20110512">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <meta name="viewport" content="width=700">
     <title>Products</title>
-    <link rel="stylesheet" type="text/css" media="screen,print" href="css/Product/Products.css" />
+    <link rel="stylesheet" type="text/css" media="screen,print" href="css/Product/Products.css">
     <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='css/IE.css'/><![endif]-->
     <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='css/IE8.css'/><![endif]-->
     <script type="text/javascript" src="js/iWebSite.js"></script>
     <script type="text/javascript" src="js/iWebImage.js"></script>
     <script type="text/javascript" src="js/Product/Products.js"></script>
-  	<link href="Products_files/ProductsMoz.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" media="screen,print" href="css/common.css" />
-</head>
-  <body>
+  <link href="Products_files/ProductsMoz.css" type="text/css" rel="stylesheet"></head>
+  <body style="background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0pt;" onload="onPageLoad();">
     <div style="text-align: center; ">
-      <div id="body_content">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(0, 0, 0); text-align: left; width: 700px; " id="body_content">
         
-        <!-- header -->
+            <!-- header -->
         <jsp:include page="common/header.jsp" />
         <!-- header -->
         
-        <div id="nav_layer">
+        <div style="float: left; margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
           <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
           <div style="clear: both; height: 0px; line-height: 0px; " class="spacer">&nbsp;</div>
         </div>
-        <div id="body_layer">
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
           <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
           <div style="height: 179px; width: 218px;  height: 179px; left: 116px; position: absolute; top: 440px; width: 218px; z-index: 1; " class="tinyText style_SkipStroke_1 stroke_0">
-            <img src="image/Product/Room%2520Service%2520Trolley%2520Low%2520Res.jpg" alt="" style="border: medium none; height: 179px; width: 218px;" />
-          <div style="position: absolute; left: -4px; top: -4px;">
-          	<img src="image/Product/Modern_C_TL.png" style="position: absolute; left: 0px; top: 0px; width: 4px; height: 4px; z-index: auto;" />
-          	<img src="image/Product/Modern_C_BL.png" style="position: absolute; left: 0px; top: 183px; width: 4px; height: 4px; z-index: auto;" />
-          	<img src="image/Product/Modern_C_TR.png" style="position: absolute; left: 222px; top: 0px; width: 4px; height: 4px; z-index: auto;" />
-          	<img src="image/Product/Modern_C_BR.png" style="position: absolute; left: 222px; top: 183px; width: 4px; height: 4px; z-index: auto;" />
-          	<img src="image/Product/Modern_S_L.png" style="position: absolute; left: 0px; top: 4px; width: 4px; height: 179px; z-index: auto;" />
-          	<img src="image/Product/Modern_S_R.png" style="position: absolute; left: 222px; top: 4px; width: 4px; height: 179px; z-index: auto;" />
-          	<img src="image/Product/Modern_S_T.png" style="position: absolute; left: 4px; top: 0px; width: 218px; height: 4px; z-index: auto;" />
-          	<img src="image/Product/Modern_S_B.png" style="position: absolute; left: 4px; top: 183px; width: 218px; height: 4px; z-index: auto;" />
-          </div>
-         </div>
+            <img src="image/Product/Room%2520Service%2520Trolley%2520Low%2520Res.jpg" alt="" style="border: medium none; height: 179px; width: 218px;">
+          <div style="position: absolute; left: -4px; top: -4px;"><img src="image/Product/Modern_C_TL.png" style="position: absolute; left: 0px; top: 0px; width: 4px; height: 4px; z-index: auto;"><img src="image/Product/Modern_C_BL.png" style="position: absolute; left: 0px; top: 183px; width: 4px; height: 4px; z-index: auto;"><img src="image/Product/Modern_C_TR.png" style="position: absolute; left: 222px; top: 0px; width: 4px; height: 4px; z-index: auto;"><img src="image/Product/Modern_C_BR.png" style="position: absolute; left: 222px; top: 183px; width: 4px; height: 4px; z-index: auto;"><img src="image/Product/Modern_S_L.png" style="position: absolute; left: 0px; top: 4px; width: 4px; height: 179px; z-index: auto;"><img src="image/Product/Modern_S_R.png" style="position: absolute; left: 222px; top: 4px; width: 4px; height: 179px; z-index: auto;"><img src="image/Product/Modern_S_T.png" style="position: absolute; left: 4px; top: 0px; width: 218px; height: 4px; z-index: auto;"><img src="image/Product/Modern_S_B.png" style="position: absolute; left: 4px; top: 183px; width: 218px; height: 4px; z-index: auto;"></div></div>
           
 
 
@@ -192,7 +176,7 @@
           
 
 
-          <!-- logo start -->
+            <!-- logo start -->
           <jsp:include page="common/logo.jsp" />
           <!-- logo end -->
           
@@ -283,76 +267,15 @@
           </div>
           <div style="height: 1900px; line-height: 1900px; " class="spacer">&nbsp;</div>
         </div>
-        <div id="footer_layer">
-          <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
-          <div id="id33" style="height: 23px; left: 607px; position: absolute; top: 7px; width: 73px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content style_External_73_23" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_10">&nbsp;<a title="Impressum.html" href="http://www.en.mepra-online.de/Impressum.html">Impressum</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id34" style="height: 23px; left: 501px; position: absolute; top: 8px; width: 54px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_54_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_11"><a title="Pressinfo.html" href="http://www.en.mepra-online.de/Pressinfo.html">Press</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id35" style="height: 23px; left: 561px; position: absolute; top: 8px; width: 40px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content style_External_40_23" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_10">&nbsp;<a title="Links.html" href="http://www.en.mepra-online.de/Links.html">Links</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id36" style="height: 23px; left: 36px; position: absolute; top: 8px; width: 202px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_202_23" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_11"><a onclick="window.open(this.href); return false;" title="http://www.en.mepra.eu/Home.html" href="http://www.en.mepra.eu/Home.html" onkeypress="window.open(this.href); return false;">Click here to visit our @home Division</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id37" style="height: 22px; left: 404px; position: absolute; top: 8px; width: 90px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_90_22" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 11.4px;" class="paragraph_style_11"><a class="class23" title="Dates.html" href="http://www.en.mepra-online.de/Dates.html">Exhibitions Fairs</a></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id38" style="height: 22px; left: 336px; position: absolute; top: 8px; width: 58px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_58_22" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_11"><a class="class24" title="Careers.html" href="http://www.en.mepra-online.de/Careers.html">Careers</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+         <!-- footer start -->
+        <jsp:include page="common/footer.jsp" />
+        <!-- footer end -->
+        
       </div>
     </div>
   
 
 
 
-	<div style="position: absolute; display: none; z-index: 9999;" id="livemargins_control">
-		<img src="image/Product/monitor-background-horizontal.png" style="position: absolute; left: -77px; top: -5px;" width="77" height="5" />
-		<img src="image/Product/monitor-background-vertical.png" style="position: absolute; left: 0pt; top: -5px;" />
-		<img id="monitor-play-button" src="image/Product/monitor-play-button.png" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" style="position: absolute; left: 1px; top: 0pt; opacity: 0.5; cursor: pointer;" />
-	</div>
-</body>
-</html>
+<div style="position: absolute; display: none; z-index: 9999;" id="livemargins_control"><img src="image/Product/monitor-background-horizontal.png" style="position: absolute; left: -77px; top: -5px;" width="77" height="5">	<img src="image/Product/monitor-background-vertical.png" style="position: absolute; left: 0pt; top: -5px;">	<img id="monitor-play-button" src="image/Product/monitor-play-button.png" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" style="position: absolute; left: 1px; top: 0pt; opacity: 0.5; cursor: pointer;"></div></body></html>
