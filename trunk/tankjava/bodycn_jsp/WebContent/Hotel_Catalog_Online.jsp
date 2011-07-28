@@ -21,6 +21,7 @@
     <script type="text/javascript" src="js/WidgetCommon.js"></script>
     <script type="text/javascript" src="js/Paste.js"></script>
     <script type="text/javascript" src="js/Hotel_Catalog_Online/Hotel_Catalog_Online.js"></script>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />  
   <link href="css/Hotel_Catalog_Online/Hotel_Catalog_OnlineMoz.css" type="text/css" rel="stylesheet"></head>
   <body style="background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0pt;" onload="onPageLoad();" onunload="onPageUnload();">
     <div style="text-align: center; ">

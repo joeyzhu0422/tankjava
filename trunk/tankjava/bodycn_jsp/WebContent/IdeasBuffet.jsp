@@ -13,6 +13,7 @@
     <script type="text/javascript" src="js/iWebSite.js"></script>
     <script type="text/javascript" src="js/iWebImage.js"></script>
     <script type="text/javascript" src="js/IdeasBuffet/IdeasBuffet.js"></script>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />  
   <link href="css/IdeasBuffet/IdeasBuffetMoz.css" type="text/css" rel="stylesheet"></head>
   <body style="background: none repeat scroll 0% 0% rgb(0, 0, 0); margin: 0pt;" onload="onPageLoad();">
     <div style="text-align: center; ">
