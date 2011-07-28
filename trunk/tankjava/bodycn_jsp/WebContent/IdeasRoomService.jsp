@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de"><head>
 
@@ -138,7 +140,7 @@
                 <p style="padding-top: 0pt;" class="paragraph_style_8">Custom made<br></p>
                 <p class="paragraph_style_8"><br></p>
                 <p class="paragraph_style_8">You may get all shapes of 
-our range covered with a coloured titanium surface of your choice. Don´t
+our range covered with a coloured titanium surface of your choice. DonÂ´t
  hesitate to come back to us with your possible requests.<br></p>
                 <p class="paragraph_style_8"><br></p>
                 <p class="paragraph_style_8">Also you may get all flatware in silverplated or golden version.<br></p>

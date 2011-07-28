@@ -1,4 +1,5 @@
-<!--?xml version="1.0" encoding="UTF-8"?-->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
@@ -289,7 +290,7 @@ through the hands of our professionals in our own factories, <br></span></p>
           <div id="id26" style="height: 36px; left: 285px; position: absolute; top: 1576px; width: 103px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_103_36" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">„70“</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">â70â</p>
               </div>
             </div>
           </div>

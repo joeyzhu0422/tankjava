@@ -7,24 +7,24 @@
        </p>
        
         <p>
-           <a title="Careers.html" href="Careers.jsp">Careers</a>
+           <a title="Careers.html" href="Careers.jsp">职业</a>
        </p>
        
         <p>
-           <a title="Dates.html" href="Dates.jsp">Exhibitions Fairs</a>
+           <a title="Dates.html" href="Dates.jsp">展会</a>
        </p>
        
         <p>
-           <a title="Pressinfo.html" href="Pressinfo.jsp">Press</a>
+           <a title="Pressinfo.html" href="Pressinfo.jsp">媒体</a>
        </p>
        
          <p>
-           <a title="Links.html" href="Links.jsp">Links</a>
+           <a title="Links.html" href="Links.jsp">链接</a>
        </p>
        
 
        <p>
-           <a title="Impressum.html" href="Impressum.jsp">Impressum</a>
+           <a title="Impressum.html" href="Impressum.jsp">版权说明</a>
        </p>
 
 </div>

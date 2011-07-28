@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
 <head>
@@ -176,12 +178,12 @@ the world.</p>
 the first factory in 1901, directly beside the river in Lumezzane, 
 Italy. This allowed them to run machinery by use of a water mill. They 
 worked metals as subcontractors and as primary manufacturers during the 
-30’s and World War II. After the war, it was necessary to reconvert 
+30âs and World War II. After the war, it was necessary to reconvert 
 their production and the three sons of Giovanbattista founded Mepra in 
 1947. <br></p>
                 <p class="paragraph_style_7"><br></p>
                 <p class="paragraph_style_7">Mepra stands for 
-“Metallurgica Prandelli” and its founders were the three brothers 
+âMetallurgica Prandelliâ and its founders were the three brothers 
 Pietro, Felice and Giacomo. They built a new and modernized plant in the
  upper side of the valley to produce aluminum and brass flatware. These 
 raw materials were available in great quantities after the war. Each of 
@@ -201,27 +203,27 @@ following years, he became the main conduit between production and
 Sales. He became CEO in 1977 and President in 1999. In 1985, Luigi, the 
 son of Felice, joined the company. He was responsible for Marketing and 
 Accounting, and then became CEO. He has also created numerous new 
-successful products and collections. The 80’s were years of great growth
+successful products and collections. The 80âs were years of great growth
  for Mepra. For the new collections, stainless steel became combined 
 with new materials such as plastic, glass, wood and porcelain. The sale 
 results were so good that, in 1992, Mepra decided to open a new plant 
 dedicated solely to the production of plastic. <br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">In the 90’s, in order to 
-respond to the most refined customer’s needs, Mepra developed a network 
+                <p class="paragraph_style_7">In the 90âs, in order to 
+respond to the most refined customerâs needs, Mepra developed a network 
 of cooperation with some of the most influential designers including 
 Angelo Mangiarotti and a host of other young talented avant-garde 
 designers who still work for the company full-time or on a project 
 basis. <br></p>
                 <p class="paragraph_style_7"><br></p>
                 <p class="paragraph_style_7">Today, Research and 
-Development costs represent about 8% of the turnover – one of the 
+Development costs represent about 8% of the turnover â one of the 
 highest ratios in our industry. This investment spawns creativity, 
 design and utmost quality in everything we do. From the quality of the 
 raw materials we use, to the thickness to the flawless finishing these 
 are all signatures of Mepra. <br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_7">At Mepra, we bring you three generations of Italian tradition, design, lifestyle and “Made in Italy”.</p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_7">At Mepra, we bring you three generations of Italian tradition, design, lifestyle and âMade in Italyâ.</p>
               </div>
             </div>
           </div>
