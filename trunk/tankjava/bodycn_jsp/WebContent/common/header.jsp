@@ -34,11 +34,11 @@
 		 </p>
 	
 	     <p>
-	     	<a title="Newsletter.html" href="Newsletter.jsp">新闻通讯</a>
+	     	<a title="Newsletter.html" href="http://www.en.mepra-online.de/Newsletter.html">新闻通讯</a>
 	     </p>
 	
 	     <p>
-	     	<a title="Download.html" href="Download.jsp">下载</a>
+	     	<a title="Download.html" href="http://www.en.mepra-online.de/Download.html">下载</a>
 	     </p>
 	
 	     <p>

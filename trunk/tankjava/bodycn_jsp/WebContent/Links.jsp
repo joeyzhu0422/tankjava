@@ -82,7 +82,7 @@
           <div id="id21" style="height: 28px; left: 14px; position: absolute; top: 414px; width: 668px; z-index: 1;" class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_668_28" style="padding: 0px;">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><a onclick="window.open(this.href); return false;" title="http://www.katjabremkamp.com/besteck_13.html" href="http://www.katjabremkamp.com/besteck_13.html" onkeypress="window.open(this.href); return false;" class="class20">Designer Katja Bremkamp - MEPRA Flatware âKATJAâ</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><a onclick="window.open(this.href); return false;" title="http://www.katjabremkamp.com/besteck_13.html" href="http://www.katjabremkamp.com/besteck_13.html" onkeypress="window.open(this.href); return false;" class="class20">Designer Katja Bremkamp - MEPRA Flatware „KATJA“</a></p>
               </div>
             </div>
           </div>
