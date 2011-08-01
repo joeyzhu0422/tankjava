@@ -46,6 +46,7 @@
 	     </p>
      </div>
 
+     <br clear="all" />
      
 	 <div>
 	 
