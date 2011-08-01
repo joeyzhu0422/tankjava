@@ -159,7 +159,7 @@ standard of quality, design and innovation is extremely demanding.<br></p>
           <div id="id21" style="height: 38px; left: 51px; position: absolute; top: 52px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Products.html" href="http://www.en.mepra-online.de/Products.html">back to products</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Products.html" href="Products.jsp">back to products</a></p>
               </div>
             </div>
           </div>

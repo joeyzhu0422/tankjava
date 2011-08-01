@@ -24,8 +24,6 @@
     <script type="text/javascript" src="js/iWebSite.js"></script>
     <script type="text/javascript" src="js/iWebImage.js"></script>
     <script type="text/javascript" src="js/iWebMediaGrid.js"></script>
-    <script type="text/javascript" src="js/WidgetCommon.js"></script>
-    <script type="text/javascript" src="js/Paste.js"></script>
     <link href="css/common.css" type="text/css" rel="stylesheet" />  
     <script type="text/javascript" src="js/References_Hotel-Restaurant/References_Hotel-Restaurant.js"></script>
   <link href="css/References_Hotel-Restaurant/References_Hotel-RestaurantMoz.css" type="text/css" rel="stylesheet">
@@ -44,13 +42,12 @@
         </div>
         <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5;" id="body_layer">
           <div style="height: 0px; line-height: 0px;" class="bumper">&nbsp;</div>
-          <div style="height: 51px; left: 659px; position: absolute; top: -279px; width: 80px; z-index: 1;" class="tinyText">
-            <div style="position: relative; width: 80px;">
-              <img src="image/References_Hotel-Restaurant/shapeimage_1.png" alt="" style="height: 51px; left: 0px; position: absolute; top: 0px; width: 80px;">
+          
+		  <div class="tinyText" style="height: 400px; width: 700px;  height: 400px; left: 0px; position: absolute; top: 0px; width: 700px; z-index: 1; ">
+            <div style="position: relative; width: 700px; ">
+              <img style="height: 400px; left: 0px; position: absolute; top: 0px; width: 700px; " alt="" src="image/References_Hotel-Restaurant/shapeimage_2.png">
             </div>
           </div>
-          
-
 
           <!-- logo start -->
           <jsp:include page="common/logo.jsp" />
@@ -77,13 +74,10 @@
           </div>
           <div class="com-apple-iweb-widget-HTMLRegion" id="widget0" style="height: 868px; left: 45px; opacity: 1; position: absolute; top: 420px; width: 604px; z-index: 1;">
             <script type="text/javascript"><!--//--><![CDATA[//><!--
-    var widget0_htmlMarkupURL = ".//image/References_Hotel-Restaurant/widget0_markup.html";
+    var widget0_htmlMarkupURL = "http://www.en.mepra-online.de/References_Hotel-Restaurant_files/widget0_markup.html";
 //--><!]]></script>
-            <div id="widget0-htmlRegion" class="html_region_widget"><div style="" class="HTMLRegionSnippetView" id="widget0-html-snippet"><iframe id="widget0-frame" src="image/References_Hotel-Restaurant/widget0_markup.htm" style="width: 100%; height: 100%;" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0" scrolling="no">&lt;/frame&gt;</iframe></div><div style="display: none;" class="HTMLRegionStatusView" id="widget0-default-image-status"><table class="StatusMessageTable"><tbody><tr><td><img src="image/References_Hotel-Restaurant/HTMLRegionWorldMap.png" id="widget0-default-image-status-badge" width="198" height="94"></td></tr></tbody></table><img src="image/References_Hotel-Restaurant/Translucent-Overlay.png" style="position: absolute; top: 0px; left: -48px;" id="widget0-default-image-status-overlay" width="700" height="286"></div></div>
+            <div id="widget0-htmlRegion" class="html_region_widget"><div style="" class="HTMLRegionSnippetView" id="widget0-html-snippet"><iframe id="widget0-frame" src="http://www.en.mepra-online.de/References_Hotel-Restaurant_files/widget0_markup.html" style="width: 604px; height: 868px;" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0" scrolling="no">&lt;/frame&gt;</iframe></div><div style="display: none;" class="HTMLRegionStatusView" id="widget0-default-image-status"><table class="StatusMessageTable"><tbody><tr><td><img src="image/References_Hotel-Restaurant/HTMLRegionWorldMap.png" id="widget0-default-image-status-badge" width="198" height="94"></td></tr></tbody></table><img src="image/References_Hotel-Restaurant/Translucent-Overlay.png" style="position: absolute; top: 0px; left: -48px;" id="widget0-default-image-status-overlay" width="700" height="286"></div></div>
           </div>
-          <script type="text/javascript"><!--//--><![CDATA[//><!--
-new Paste('widget0', 'Scripts/Widgets/HTMLRegion', 'Scripts/Widgets/SharedResources', '.', {"emptyLook": false});
-//--><!]]></script>
           <div style="height: 51px; left: 608px; position: absolute; top: -106px; width: 80px; z-index: 1;" class="tinyText">
             <div style="position: relative; width: 80px;">
               <img src="image/References_Hotel-Restaurant/shapeimage_3.png" alt="" style="height: 51px; left: 0px; position: absolute; top: 0px; width: 80px;">

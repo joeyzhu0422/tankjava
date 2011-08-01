@@ -69,7 +69,7 @@
           <div id="id18" style="height: 23px; left: 534px; position: absolute; top: 483px; width: 133px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_133_23" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class18" title="IdeasBarWine.html" href="http://www.en.mepra-online.de/IdeasBarWine.html">Ideas for Bar &amp; Wine</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class18" title="IdeasBarWine.html" href="IdeasBarWine.jsp">Ideas for Bar &amp; Wine</a></p>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@
           <div id="id19" style="height: 23px; left: 532px; position: absolute; top: 673px; width: 148px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_148_23" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class19" title="IdeasSPA.html" href="http://www.en.mepra-online.de/IdeasSPA.html">Ideas for SPA Wellness</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class19" title="IdeasSPA.html" href="IdeasSPA.jsp">Ideas for SPA Wellness</a></p>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@
           <div id="id20" style="height: 23px; left: 534px; position: absolute; top: 31px; width: 153px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_153_23" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class20" title="IdeasRoomService.html" href="http://www.en.mepra-online.de/IdeasRoomService.html">Ideas for Room-Service</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class20" title="IdeasRoomService.html" href="IdeasRoomService.jsp">Ideas for Room-Service</a></p>
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@
           <div id="id21" style="height: 23px; left: 37px; position: absolute; top: 389px; width: 141px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_141_23" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class21" title="IdeasRestaurant.html" href="http://www.en.mepra-online.de/IdeasRestaurant.html">Ideas for Restaurant</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class21" title="IdeasRestaurant.html" href="IdeasRestaurant.jsp">Ideas for Restaurant</a></p>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@
           <div id="id22" style="height: 23px; left: 540px; position: absolute; top: 999px; width: 131px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_131_23" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7"><a class="class22" title="IdeasPizzeria.html" href="http://www.en.mepra-online.de/IdeasPizzeria.html">Ideas for Pizzeria</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7"><a class="class22" title="IdeasPizzeria.html" href="IdeasPizzeria.jsp">Ideas for Pizzeria</a></p>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@
           <div id="id23" style="height: 23px; left: 39px; position: absolute; top: 31px; width: 133px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_133_23" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class23" title="IdeasBreakfast.html" href="http://www.en.mepra-online.de/IdeasBreakfast.html">Ideas for Breakfast</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class23" title="IdeasBreakfast.html" href="IdeasBreakfast.jsp">Ideas for Breakfast</a></p>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@
           <div id="id24" style="height: 26px; left: 43px; position: absolute; top: 727px; width: 109px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_109_26" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class24" title="IdeasBuffet.html" href="http://www.en.mepra-online.de/IdeasBuffet.html">Ideas for Buffet</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class24" title="IdeasBuffet.html" href="IdeasBuffet.jsp">Ideas for Buffet</a></p>
               </div>
             </div>
           </div>

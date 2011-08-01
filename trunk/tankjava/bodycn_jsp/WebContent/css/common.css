@@ -3,12 +3,12 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
+a:visited, a.yellow:visited, a.orange:visited {
 	color: #797979;
 	text-decoration: underline;
 }
 
-a:hover {
+a:hover, a.yellow:hover, a.orange:hover {
 	color: #FF2600;
 	text-decoration: underline;
 }
@@ -22,7 +22,7 @@ a.orange {
 }
 
 body {
-	background: none repeat scroll 0% 0% #FFF;
+	background: none repeat scroll 0% 0% #000;
 	margin: 0pt;
 }
 

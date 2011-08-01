@@ -56,23 +56,23 @@
 	     <p>
 	      	<a class="yellow" title="IdeasBreakfast.html" href="IdeasBreakfast.jsp">早餐</a>
 	     </p>
-	
-	     <p>
-	      	<a class="yellow" title="IdeasRestaurant.html" href="IdeasRestaurant.jsp">餐厅</a>
-		 </p>
-	
-		 <p>
-		  	<a class="yellow" title="IdeasBuffet.html" href="IdeasBuffet.jsp">自助餐</a>
-		 </p>
-	          
-		 <p>
+	     
+	      <p>
 		  	<a class="yellow" title="IdeasRoomService.html" href="IdeasRoomService.jsp">客房服务</a>
 		 </p>
 	
 	     <p>
+	      	<a class="yellow" title="IdeasRestaurant.html" href="IdeasRestaurant.jsp">餐厅</a>
+		 </p>
+		  	
+	     <p>
 	      	<a class="yellow" title="IdeasBarWine.html" href="IdeasBarWine.jsp">酒吧</a>
 	     </p>
 	
+		 <p>
+		  	<a class="yellow" title="IdeasBuffet.html" href="IdeasBuffet.jsp">自助餐</a>
+		 </p>
+
 	     <p>
 	      	<a class="yellow" title="IdeasPizzeria.html" href="IdeasPizzeria.jsp">比萨店</a>
 	     </p>

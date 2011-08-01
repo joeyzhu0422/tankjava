@@ -209,7 +209,7 @@
           <div id="id29" style="height: 68px; left: 53px; position: absolute; top: 16px; width: 78px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_68" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_9"><a class="class18" title="Room-Service-Trolleys.html" href="http://www.en.mepra-online.de/Room-Service-Trolleys.html">leads to Room-Service-Trolleys</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_9"><a class="class18" title="Room-Service-Trolleys.html" href="Room-Service-Trolleys.jsp">leads to Room-Service-Trolleys</a></p>
               </div>
             </div>
           </div>

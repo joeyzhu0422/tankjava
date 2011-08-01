@@ -97,7 +97,7 @@
           <div id="id21" style="height: 214px; left: 226px; position: absolute; top: 258px; width: 445px; z-index: 1;" class="style_SkipStroke_3 shape-with-text stroke_1">
             <div class="text-content graphic_textbox_layout_style_default_External_443_212" style="padding: 1px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_9">Lo stage Ã¨ un'importante periodo ...<br></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_9">Lo stage è un'importante periodo ...<br></p>
                 <p class="paragraph_style_10">&nbsp;<br></p>
                 <p class="paragraph_style_11"><br></p>
                 <p class="paragraph_style_11">.... di transizione tra la
