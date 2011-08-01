@@ -330,7 +330,7 @@
           <div id="id36" style="height: 50px; left: 61px; position: absolute; top: 201px; width: 78px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_50" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class20" title="ViewsSizes.html" href="http://www.en.mepra-online.de/ViewsSizes.html">Sizes &amp; views</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class20" title="ViewsSizes.html" href="ViewsSizes.jsp">Sizes &amp; views</a></p>
               </div>
             </div>
           </div>
@@ -340,7 +340,7 @@
           <div id="id37" style="height: 68px; left: 61px; position: absolute; top: 384px; width: 78px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_68" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class21" title="IdeasRoomService.html" href="http://www.en.mepra-online.de/IdeasRoomService.html">leads to other Room Service Products</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class21" title="IdeasRoomService.html" href="IdeasRoomService.jsp">leads to other Room Service Products</a></p>
               </div>
             </div>
           </div>
@@ -350,7 +350,7 @@
           <div id="id38" style="height: 38px; left: 51px; position: absolute; top: 27px; width: 78px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_1"><a class="class22" title="Products.html" href="http://www.en.mepra-online.de/Products.html">back to products</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_1"><a class="class22" title="Products.html" href="Products.jsp">back to products</a></p>
               </div>
             </div>
           </div>

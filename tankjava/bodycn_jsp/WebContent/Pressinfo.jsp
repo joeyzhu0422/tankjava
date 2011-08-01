@@ -24,9 +24,6 @@
     <script type="text/javascript" src="js/iWebSite.js"></script>
     <script type="text/javascript" src="js/iWebImage.js"></script>
     <script type="text/javascript" src="js/iWebMediaGrid.js"></script>
-    <script type="text/javascript" src="js/WidgetCommon.js"></script>
-    <script type="text/javascript" src="js/Paste.js"></script>
-    <script type="text/javascript" src="js/Pressinfo/Pressinfo.js"></script>
     <link href="css/common.css" type="text/css" rel="stylesheet" />
   <link href="css/Pressinfo/PressinfoMoz.css" type="text/css" rel="stylesheet">
 </head>
@@ -51,9 +48,9 @@
           </div>
           <div class="com-apple-iweb-widget-HTMLRegion" id="widget0" style="height: 425px; left: 48px; opacity: 1; position: absolute; top: 277px; width: 600px; z-index: 1;">
             <script type="text/javascript"><!--//--><![CDATA[//><!--
-    var widget0_htmlMarkupURL = ".//image/Pressinfo/widget0_markup.html";
+    var widget0_htmlMarkupURL = "http://www.en.mepra-online.de/Pressinfo_files/widget0_markup.html";
 //--><!]]></script>
-            <div id="widget0-htmlRegion" class="html_region_widget"><div style="" class="HTMLRegionSnippetView" id="widget0-html-snippet"><iframe id="widget0-frame" src="image/Pressinfo/widget0_markup.htm" style="width: 100%; height: 100%;" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0" scrolling="no">&lt;/frame&gt;</iframe></div><div style="display: none;" class="HTMLRegionStatusView" id="widget0-default-image-status"><table class="StatusMessageTable"><tbody><tr><td><img src="image/Pressinfo/HTMLRegionWorldMap.png" id="widget0-default-image-status-badge" width="198" height="94"></td></tr></tbody></table><img src="image/Pressinfo/Translucent-Overlay.png" style="position: absolute; top: -73.5px; left: -50px;" id="widget0-default-image-status-overlay" width="700" height="286"></div></div>
+            <div id="widget0-htmlRegion" class="html_region_widget"><div style="" class="HTMLRegionSnippetView" id="widget0-html-snippet"><iframe id="widget0-frame" src="http://www.en.mepra-online.de/Pressinfo_files/widget0_markup.html" style="width: 600px; height: 425px;" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0" scrolling="no">&lt;/frame&gt;</iframe></div><div style="display: none;" class="HTMLRegionStatusView" id="widget0-default-image-status"><table class="StatusMessageTable"><tbody><tr><td><img src="image/Pressinfo/HTMLRegionWorldMap.png" id="widget0-default-image-status-badge" width="198" height="94"></td></tr></tbody></table><img src="image/Pressinfo/Translucent-Overlay.png" style="position: absolute; top: -73.5px; left: -50px;" id="widget0-default-image-status-overlay" width="700" height="286"></div></div>
           </div>
           <script type="text/javascript"><!--//--><![CDATA[//><!--
 new Paste('widget0', 'Scripts/Widgets/HTMLRegion', 'Scripts/Widgets/SharedResources', '.', {"emptyLook": false});

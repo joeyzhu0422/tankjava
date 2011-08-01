@@ -140,6 +140,12 @@ want to show an individual style of Italian fashion- &amp; eating-style.
             <img src="image/IdeasPizzeria/Avanguardia%2520Ice%2520korrigiertLR.jpg" alt="" style="border: medium none; height: 490px; width: 284px;">
           </div>
           
+          <div class="tinyText" style="height: 490px; width: 314px;  height: 490px; left: 333px; position: absolute; top: 1437px; width: 314px; z-index: 1; ">
+            <div style="position: relative; width: 314px; ">
+              <img style="height: 490px; left: 0px; position: absolute; top: 0px; width: 314px; " alt="" src="image/IdeasPizzeria/shapeimage_4.png">
+            </div>
+          </div>
+          
 
 
            <!-- logo start -->

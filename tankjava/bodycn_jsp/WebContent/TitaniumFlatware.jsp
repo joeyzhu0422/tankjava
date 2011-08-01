@@ -247,7 +247,7 @@ possible requests.<br></p>
           <div id="id30" style="height: 23px; left: 48px; position: absolute; top: 33px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Flatware.html" href="http://www.en.mepra-online.de/Flatware.html">Flatware</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Flatware.html" href="Flatware.jsp">Flatware</a></p>
               </div>
             </div>
           </div>
@@ -266,7 +266,7 @@ possible requests.<br></p>
 
 
           <div style="height: 33px; width: 55px;  height: 33px; left: 56px; position: absolute; top: 115px; width: 55px; z-index: 1; " class="tinyText style_SkipStroke_4 shadow_0"><canvas style="position: absolute; top: -3px; left: -3px;" height="43" width="64"></canvas>
-            <a href="http://www.en.mepra-online.de/TheLuxuryArtMepra.html" title="TheLuxuryArtMepra.html"><img src="image/TitaniumFlatware/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 34px; width: 55px; opacity: 0;"></a>
+            <a href="TheLuxuryArtMepra.jsp" title="TheLuxuryArtMepra.html"><img src="image/TitaniumFlatware/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 34px; width: 55px; opacity: 0;"></a>
           </div>
           
 
@@ -274,8 +274,8 @@ possible requests.<br></p>
           <div id="id32" style="height: 38px; left: 47px; position: absolute; top: 150px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="http://www.en.mepra-online.de/FantasiaColours.html">Fantasia<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="http://www.en.mepra-online.de/FantasiaColours.html">Colours</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="FantasiaColours.jsp">Fantasia<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="FantasiaColours.jsp">Colours</a></p>
               </div>
             </div>
           </div>

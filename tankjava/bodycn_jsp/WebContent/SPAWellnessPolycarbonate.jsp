@@ -68,7 +68,7 @@ or bar, a fitness center and much more, take this!</p>
           <div id="id20" style="height: 38px; left: 51px; position: absolute; top: 52px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Products.html" href="http://www.en.mepra-online.de/Products.html">back to products</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Products.html" href="Products.jsp">back to products</a></p>
               </div>
             </div>
           </div>
@@ -117,7 +117,11 @@ or bar, a fitness center and much more, take this!</p>
             </div>
           <div style="position: absolute; left: -4px; top: -4px;"><img src="image/SPAWellnessPolycarbonate/Modern_C_TL_5.png" style="position: absolute; left: 0px; top: 0px; width: 4px; height: 4px; z-index: auto;"><img src="image/SPAWellnessPolycarbonate/Modern_C_BL_5.png" style="position: absolute; left: 0px; top: 414px; width: 4px; height: 4px; z-index: auto;"><img src="image/SPAWellnessPolycarbonate/Modern_C_TR_5.png" style="position: absolute; left: 280px; top: 0px; width: 4px; height: 4px; z-index: auto;"><img src="image/SPAWellnessPolycarbonate/Modern_C_BR_5.png" style="position: absolute; left: 280px; top: 414px; width: 4px; height: 4px; z-index: auto;"><img src="image/SPAWellnessPolycarbonate/Modern_S_L_5.png" style="position: absolute; left: 0px; top: 4px; width: 4px; height: 410px; z-index: auto;"><img src="image/SPAWellnessPolycarbonate/Modern_S_R_5.png" style="position: absolute; left: 280px; top: 4px; width: 4px; height: 410px; z-index: auto;"><img src="image/SPAWellnessPolycarbonate/Modern_S_T_5.png" style="position: absolute; left: 4px; top: 0px; width: 276px; height: 4px; z-index: auto;"><img src="image/SPAWellnessPolycarbonate/Modern_S_B_5.png" style="position: absolute; left: 4px; top: 414px; width: 276px; height: 4px; z-index: auto;"></div></div>
           
-
+		  <div class="tinyText" style="height: 418px; width: 276px;  height: 418px; left: 362px; position: absolute; top: 1399px; width: 276px; z-index: 1; ">
+            <div style="position: relative; width: 276px; ">
+              <img style="height: 418px; left: 0px; position: absolute; top: 0px; width: 276px; " alt="" src="image/SPAWellnessPolycarbonate/shapeimage_4.png">
+            </div>
+          </div>
  
           <!-- logo start -->
           <jsp:include page="common/logo.jsp" />
