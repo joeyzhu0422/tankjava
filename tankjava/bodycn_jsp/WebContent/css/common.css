@@ -31,6 +31,29 @@ body {
 	width: 700px;
 }
 
+#header_layer {
+	height: 115px;
+	margin-left: 0px;
+	position: relative;
+	width: 700px;
+	z-index: 10;
+}
+
+#header_layer div {
+	width: 700px;
+}
+
+#header_layer .logo {
+	height: 51px;
+	float: right;
+	width: 80px;
+}
+
+#header_layer div p {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
 #nav_layer {
 	float: left;
 	margin-left: 0px;
@@ -56,10 +79,10 @@ body {
 
 #footer_layer p {
 	float: left;
-	text-align:left;
+	text-align: left;
 	margin-right: 16px;
 	display: inline;
-	padding: 10px 12px 0 0;	
+	padding: 10px 12px 0 0;
 }
 
 #footer_layer .left {
@@ -68,12 +91,13 @@ body {
 }
 
 #footer_layer p.left a {
-	float: left;	
+	float: left;
 }
 
-#footer_layer p a{
+#footer_layer p a {
 	float: left;
-	font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif;
+	font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif
+		;
 	font-size: 10px;
 	font-stretch: normal;
 	font-style: normal;
@@ -92,4 +116,3 @@ body {
 	text-indent: 0px;
 	text-transform: none;
 }
-
