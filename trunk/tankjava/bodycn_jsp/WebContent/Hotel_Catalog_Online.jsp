@@ -24,7 +24,7 @@
     <script type="text/javascript" src="js/Hotel_Catalog_Online/Hotel_Catalog_Online.js"></script>
     <link href="css/common.css" type="text/css" rel="stylesheet" />  
   <link href="css/Hotel_Catalog_Online/Hotel_Catalog_OnlineMoz.css" type="text/css" rel="stylesheet"></head>
-  <body style="background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0pt;" onload="onPageLoad();" onunload="onPageUnload();">
+  <body onload="onPageLoad();" onunload="onPageUnload();">
     <div style="text-align: center; ">
       <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(0, 0, 0); text-align: left; width: 700px; " id="body_content">
         

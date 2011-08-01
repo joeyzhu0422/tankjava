@@ -28,7 +28,9 @@
     <script type="text/javascript" src="js/Paste.js"></script>
     <link href="css/common.css" type="text/css" rel="stylesheet" />  
     <script type="text/javascript" src="js/References_Hotel-Restaurant/References_Hotel-Restaurant.js"></script>
-  <link href="css/References_Hotel-Restaurant/References_Hotel-RestaurantMoz.css" type="text/css" rel="stylesheet"></head><body style="background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0pt;" onload="onPageLoad();" onunload="onPageUnload();">
+  <link href="css/References_Hotel-Restaurant/References_Hotel-RestaurantMoz.css" type="text/css" rel="stylesheet">
+</head>
+<body onload="onPageLoad();" onunload="onPageUnload();">
     <div style="text-align: center;">
       <div style="margin: 0px auto; overflow: hidden; position: relative; word-wrap: break-word; background: none repeat scroll 0% 0% rgb(0, 0, 0); text-align: left; width: 700px;" id="body_content">
         
