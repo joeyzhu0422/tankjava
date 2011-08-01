@@ -3,7 +3,7 @@
 <div id="footer_layer">
 
 	   <p class="left">
-           <a onclick="window.open(this.href); return false;" title="http://www.en.mepra.eu/Home.html" href="Home.jsp" onkeypress="window.open(this.href); return false;">Click here to visit our @home Division</a>
+           <a onclick="window.open(this.href); return false;" title="http://www.en.mepra.eu/Home.html" href="Home.jsp" onkeypress="window.open(this.href); return false;">点击访问我们的家居系列产品</a>
        </p>
        
         <p>
