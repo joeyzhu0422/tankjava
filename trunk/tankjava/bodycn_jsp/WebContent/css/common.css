@@ -14,7 +14,7 @@ a:hover {
 }
 
 body {
-	background: none repeat scroll 0% 0% rgb(0, 0, 0);
+	background: none repeat scroll 0% 0% #FFF;
 	margin: 0pt;
 }
 
@@ -41,17 +41,21 @@ body {
 
 #header_layer div {
 	width: 700px;
+	padding: 0 0 0 20px;
 }
 
 #header_layer .logo {
 	height: 51px;
 	float: right;
 	width: 80px;
+	margin: 9px 12px 0 0;
 }
 
 #header_layer div p {
 	float: left;
-	margin: 0 20px 0 0;
+	padding: 0 32px 0 0;
+	padding: 0 24px 0 0\9;
+	margin: 0;
 }
 
 #nav_layer {
