@@ -1,5 +1,6 @@
 package info.cloverapp.game.pig.scene.impl;
 
+import info.cloverapp.game.pig.beans.Arrow;
 import info.cloverapp.game.pig.beans.Pig;
 import info.cloverapp.game.pig.key.listener.impl.PigFireListenerImpl;
 import info.cloverapp.game.pig.key.listener.impl.PigMoveKeyListenerImpl;
@@ -12,6 +13,7 @@ import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Queue;
 
 public class Gate implements IScene {
 
@@ -43,6 +45,13 @@ public class Gate implements IScene {
 		bufferG.fillRect(0, 0, width, height);
 
 		pig.draw(bufferG);
+		
+		// step.2 »­¼ý
+		Queue<Arrow> firedQueue = pig.firedQueue;
+		
+		for (Arrow arrow : firedQueue) {
+			arrow.draw(bufferG);
+		}
 
 		g.drawImage(bufferScene, 0, 0, width, height, null);
 

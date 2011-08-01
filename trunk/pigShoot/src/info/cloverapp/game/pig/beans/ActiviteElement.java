@@ -32,7 +32,7 @@ public abstract class ActiviteElement extends StaticElement {
 	 */
 	public boolean move() {
 
-		System.out.println("moveing.....");
+		//System.out.println("moveing.....");
 
 		if (isMoved) {
 

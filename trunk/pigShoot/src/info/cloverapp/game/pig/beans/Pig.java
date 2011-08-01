@@ -16,9 +16,9 @@ import java.util.concurrent.LinkedBlockingQueue;
  */
 public class Pig extends ActiviteElement {
 
-	protected Queue<Arrow> preparedBulletQueue = new LinkedBlockingQueue<Arrow>();
+	protected Queue<Arrow> preparedQueue = new LinkedBlockingQueue<Arrow>();
 
-	protected Queue<Arrow> firedBulletQueue = new LinkedBlockingQueue<Arrow>();
+	public Queue<Arrow> firedQueue = new LinkedBlockingQueue<Arrow>();
 
 	public Pig() {
 		super();
@@ -29,6 +29,10 @@ public class Pig extends ActiviteElement {
 		this.direction = Constant.ActiviteElement.DIRECTION_UP;
 		this.speed = Constant.ActiviteElement.Pig.SPEED;
 		this.color = Color.PINK;
+
+		for (int i = 0; i < 3; i++) {
+			preparedQueue.add(new Arrow(this));
+		}
 	}
 
 	@Override
@@ -40,14 +44,14 @@ public class Pig extends ActiviteElement {
 	}
 
 	public void fire() {
-		
-		System.out.println("firing...");
 
 		final Arrow arrow = this.poll();
 
 		if (null == arrow) {
 			return;
 		}
+		
+		System.out.println("firing...");
 
 		new Thread() {
 
@@ -70,21 +74,21 @@ public class Pig extends ActiviteElement {
 
 	public Arrow poll() {
 
-		Arrow arrow = preparedBulletQueue.poll();
+		Arrow arrow = preparedQueue.poll();
 		if (null == arrow) {
 			return null;
 		}
 		arrow.setXy(x, y);
 		arrow.setDirection(Constant.ActiviteElement.DIRECTION_LEFT);
-		firedBulletQueue.offer(arrow);
+		firedQueue.offer(arrow);
 
 		return arrow;
 	}
 
 	public void put(Arrow arrow) {
 
-		firedBulletQueue.remove(arrow);
-		preparedBulletQueue.offer(arrow);
+		firedQueue.remove(arrow);
+		preparedQueue.offer(arrow);
 
 	}
 
