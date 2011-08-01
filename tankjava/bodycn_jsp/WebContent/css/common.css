@@ -13,6 +13,14 @@ a:hover {
 	text-decoration: underline;
 }
 
+a.yellow {
+	color: #FFFB00;
+}
+
+a.orange {
+	color: #FF4C00;
+}
+
 body {
 	background: none repeat scroll 0% 0% #FFF;
 	margin: 0pt;
@@ -42,6 +50,8 @@ body {
 #header_layer div {
 	width: 700px;
 	padding: 0 0 0 20px;
+	margin: 0 0 30px 0;
+	margin: 0 0 12px 0\9;
 }
 
 #header_layer .logo {
@@ -49,13 +59,25 @@ body {
 	float: right;
 	width: 80px;
 	margin: 9px 12px 0 0;
+	padding: 0;
 }
 
 #header_layer div p {
 	float: left;
-	padding: 0 32px 0 0;
-	padding: 0 24px 0 0\9;
+	padding: 0 37px 0 0;
+	padding: 0 30px 0 0\9;
 	margin: 0;
+}
+
+#header_layer div p a {
+	font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif;
+	font-size: 13px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 15px;
 }
 
 #nav_layer {

@@ -45,46 +45,44 @@
 	     	<a title="Contact.html" href="Contact.jsp">联系我们</a>
 	     </p>
      </div>
-
-     <br clear="all" />
      
 	 <div>
 	 
 	    
 		 <p>
-		  	<a title="Ideas.html" href="Ideas.jsp">灵感 &gt;</a>
+		  	<a class="yellow" title="Ideas.html" href="Ideas.jsp">灵感 &gt;</a>
 		 </p>
 	
 	     <p>
-	      	<a title="IdeasBreakfast.html" href="IdeasBreakfast.jsp">早餐</a>
+	      	<a class="yellow" title="IdeasBreakfast.html" href="IdeasBreakfast.jsp">早餐</a>
 	     </p>
 	
 	     <p>
-	      	<a title="IdeasRestaurant.html" href="IdeasRestaurant.jsp">餐厅</a>
+	      	<a class="yellow" title="IdeasRestaurant.html" href="IdeasRestaurant.jsp">餐厅</a>
 		 </p>
 	
 		 <p>
-		  	<a title="IdeasBuffet.html" href="IdeasBuffet.jsp">自助餐</a>
+		  	<a class="yellow" title="IdeasBuffet.html" href="IdeasBuffet.jsp">自助餐</a>
 		 </p>
 	          
 		 <p>
-		  	<a title="IdeasRoomService.html" href="IdeasRoomService.jsp">客房服务</a>
+		  	<a class="yellow" title="IdeasRoomService.html" href="IdeasRoomService.jsp">客房服务</a>
 		 </p>
 	
 	     <p>
-	      	<a title="IdeasBarWine.html" href="IdeasBarWine.jsp">酒吧</a>
+	      	<a class="yellow" title="IdeasBarWine.html" href="IdeasBarWine.jsp">酒吧</a>
 	     </p>
 	
 	     <p>
-	      	<a title="IdeasPizzeria.html" href="IdeasPizzeria.jsp">比萨店</a>
+	      	<a class="yellow" title="IdeasPizzeria.html" href="IdeasPizzeria.jsp">比萨店</a>
 	     </p>
 	          
 		 <p>
-		  	<a title="IdeasSPA.html" href="IdeasSPA.jsp">会所</a>
+		  	<a class="yellow" title="IdeasSPA.html" href="IdeasSPA.jsp">会所</a>
 		 </p>
 	  
 	  	 <p>
-	      	<a title="New_Products.html" href="New_Products.jsp">新品</a>
+	      	<a class="orange" title="New_Products.html" href="New_Products.jsp">新品</a>
 	     </p>
 	          
 	  
