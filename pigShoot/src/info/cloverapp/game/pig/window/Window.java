@@ -18,7 +18,7 @@ public class Window extends JFrame implements Runnable {
 
 	protected int height = Constant.Scene.HEIGHT;
 
-	protected IScene scene;
+	protected volatile IScene scene;
 
 	protected boolean isRunFlg;
 
