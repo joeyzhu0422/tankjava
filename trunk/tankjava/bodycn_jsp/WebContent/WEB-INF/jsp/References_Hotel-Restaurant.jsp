@@ -27,7 +27,7 @@
           <div id="id18" style="height: 48px; left: 6px; position: absolute; top: 339px; width: 680px; z-index: 1;" class="style_SkipStroke_1 shape-with-text">
             <div class="text-content graphic_shape_layout_style_default_External_680_48" style="padding: 0px;">
               <div class="graphic_shape_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">In many countries of the world satisfied customers</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">Mepra的优质服务已遍布全球多个国家。</p>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@
           <div id="id19" style="height: 41px; left: 16px; position: absolute; top: 13px; width: 620px; z-index: 1;" class="style_SkipStroke_1 shape-with-text">
             <div class="text-content graphic_shape_layout_style_default_External_620_41" style="padding: 0px;">
               <div class="graphic_shape_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7"><a onclick="window.open(this.href); return false;" title="http://www.kamehagrand.com" href="http://www.kamehagrand.com/" onkeypress="window.open(this.href); return false;" class="class18">...for example KAMEHA GRAND BONN</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7"><a onclick="window.open(this.href); return false;" title="http://www.kamehagrand.com" href="http://www.kamehagrand.com/" onkeypress="window.open(this.href); return false;" class="class18">...KAMEHA GRAND BONN 范例</a></p>
               </div>
             </div>
           </div>
