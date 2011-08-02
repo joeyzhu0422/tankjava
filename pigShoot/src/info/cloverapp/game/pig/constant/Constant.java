@@ -26,7 +26,7 @@ public class Constant {
 
 		public Color SCENE_COLOR = Color.GRAY;
 
-		public int THREAD_SLEEP_TIME = 12;
+		public int THREAD_SLEEP_TIME = 50;
 
 	}
 
