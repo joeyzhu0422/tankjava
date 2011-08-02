@@ -29,7 +29,23 @@
 
 
 	<!-- header -->
-	<definition name="header.html" template="/common/header.jsp" />
+	<definition name="header" template="/WEB-INF/jsp/common/header.jsp" />
+	<definition name="footer" template="/WEB-INF/jsp/common/footer.jsp" />
+	
+	<definition name="standard" template="/WEB-INF/jsp/layout/layout.jsp">
+		<put-attribute name="header" value="header" />
+		<put-attribute name="footer" value="footer" />
+	</definition>
+	
+	<definition name="Home.html" extends="standard">
+		<put-attribute name="title" value="Home" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Home.jsp" />
+	</definition>
+	
+	<definition name="Products.html" extends="standard">
+		<put-attribute name="title" value="Products" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Products.jsp" />
+	</definition>
 
 
 </tiles-definitions>
