@@ -63,15 +63,13 @@
           <div style="margin-left: 30px; margin-top: 432px; position: relative; width: 632px; z-index: 1; " class="style_SkipStroke_1 shape-with-text flowDefining">
             <div class="text-content style_External_632_204" style="padding: 0px; ">
               <div class="style_3">
-                <p style="padding-top: 0pt; " class="paragraph_style_6">Welcome to our Hotel &amp; Restaurant Company<br /></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6">欢迎访问我们公司网页<br /></p>
                 <p class="paragraph_style_7"><br /></p>
-                <p class="paragraph_style_7">Let yourself be inspired by our products. <br /></p>
-                <p class="paragraph_style_7">As one of the leading international manufacturers we supply the best<br /></p>
-                <p class="paragraph_style_7">hotels, restaurants, airlines, cruise lines in more than 50 countries all over the world.<br /></p>
+                <p class="paragraph_style_7">希望我们的产品能带给您更多灵感。<br /></p>
+                <p class="paragraph_style_7">作为全球领先的酒店及餐厅用品制造商，我们已<br /></p>
+                <p class="paragraph_style_7">与全球50多个国家的顶级酒店、餐厅、航空服务、游艇保持良好合作。<br /></p>
                 <p class="paragraph_style_8"><br /></p>
-                <p class="paragraph_style_7">MEPRA sets standards. The 
-products stand out in comparison with the global competition through 
-exceptional design, innovation, high usage and high quality.<br /></p>
+                <p class="paragraph_style_7">MEPRA 产品堪称经典，其在外观设计、工艺创新及高质量使用功能方面位于全球顶级行列。<br /></p>
               </div>
               <div style="height: 61px; line-height: 61px; " class="tinyText">&nbsp;</div>
             </div>

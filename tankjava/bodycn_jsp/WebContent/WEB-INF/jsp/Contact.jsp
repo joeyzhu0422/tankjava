@@ -29,7 +29,7 @@
           <div id="id18" style="height: 89px; left: 15px; position: absolute; top: 346px; width: 644px; z-index: 1;" class="style_SkipStroke_1 shape-with-text">
             <div class="text-content style_External_644_89" style="padding: 0px;">
               <div class="style_3">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">MEPRA- Hotel-Restaurant Distribution </p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">MEPRA - 酒店- 零售- 分销</p>
               </div>
             </div>
           </div>
