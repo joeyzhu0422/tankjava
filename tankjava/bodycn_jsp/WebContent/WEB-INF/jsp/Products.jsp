@@ -28,8 +28,8 @@
           <div id="id18" style="height: 38px; left: 6px; position: absolute; top: 491px; width: 106px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_106_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_5"><a title="Trolleys.html" href="Trolleys.jsp">Trolleys - Bar- <br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a title="Trolleys.html" href="Trolleys.jsp">&amp; Servingtrolleys</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_5"><a title="Trolleys.html" href="Trolleys.html">Trolleys - Bar- <br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a title="Trolleys.html" href="Trolleys.html">&amp; Servingtrolleys</a></p>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
           <div id="id19" style="height: 38px; left: 18px; position: absolute; top: 695px; width: 92px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_92_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="AccessoiresColour.html" href="AccessoiresColour.jsp">Accessoires Colour</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="AccessoiresColour.html" href="AccessoiresColour.html">Accessoires Colour</a></p>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
           <div id="id20" style="height: 23px; left: 27px; position: absolute; top: 350px; width: 80px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_80_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="Winecoolers.html" href="Winecoolers.jsp">Winecoolers</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="Winecoolers.html" href="Winecoolers.html">Winecoolers</a></p>
               </div>
             </div>
           </div>
@@ -65,8 +65,8 @@
           <div id="id21" style="height: 38px; left: 579px; position: absolute; top: 633px; width: 99px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_99_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_5"><a title="SPAWellnessPolycarbonate.html" href="SPAWellnessPolycarbonate.jsp">SPA - Wellness<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a title="SPAWellnessPolycarbonate.html" href="SPAWellnessPolycarbonate.jsp">Polycarbonate</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_5"><a title="SPAWellnessPolycarbonate.html" href="SPAWellnessPolycarbonate.html">SPA - Wellness<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a title="SPAWellnessPolycarbonate.html" href="SPAWellnessPolycarbonate.html">Polycarbonate</a></p>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@
           <div id="id22" style="height: 38px; left: 579px; position: absolute; top: 1448px; width: 92px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_92_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a title="SpecialManufacturing.html" href="SpecialManufacturing.jsp">Customized items</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a title="SpecialManufacturing.html" href="SpecialManufacturing.html">Customized items</a></p>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@
           <div id="id24" style="height: 26px; left: 574px; position: absolute; top: 800px; width: 102px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_102_26" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="ChafingDishes.html" href="ChafingDishes.jsp">Chafing Dishes</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="ChafingDishes.html" href="ChafingDishes.html">Chafing Dishes</a></p>
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@
           <div id="id25" style="height: 25px; left: 20px; position: absolute; top: 838px; width: 83px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_83_25" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="CoffeeTea.html" href="CoffeeTea.jsp">Coffee &amp; Tea</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="CoffeeTea.html" href="CoffeeTea.html">Coffee &amp; Tea</a></p>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@
           <div id="id26" style="height: 38px; left: 579px; position: absolute; top: 90px; width: 92px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_92_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9"><a title="ServingAccessoires.html" href="ServingAccessoires.jsp">Serving Accessoires</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9"><a title="ServingAccessoires.html" href="ServingAccessoires.html">Serving Accessoires</a></p>
               </div>
             </div>
           </div>
@@ -161,16 +161,10 @@
           
 
 
-            <!-- logo start -->
-          <jsp:include page="common/logo.jsp" />
-          <!-- logo end -->
-          
-
-
           <div id="id27" style="height: 23px; left: 29px; position: absolute; top: 80px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a class="class18" title="Flatware.html" href="Flatware.jsp">Flatware</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a class="class18" title="Flatware.html" href="Flatware.html">Flatware</a></p>
               </div>
             </div>
           </div>
@@ -180,8 +174,8 @@
           <div id="id28" style="height: 38px; left: 29px; position: absolute; top: 114px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_5"><a class="class19" title="TitaniumFlatware.html" href="TitaniumFlatware.jsp">Titanium<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a class="class20" title="TitaniumFlatware.html" href="TitaniumFlatware.jsp">Flatware</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_5"><a class="class19" title="TitaniumFlatware.html" href="TitaniumFlatware.html">Titanium<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a class="class20" title="TitaniumFlatware.html" href="TitaniumFlatware.html">Flatware</a></p>
               </div>
             </div>
           </div>
@@ -189,7 +183,7 @@
 
 
           <div style="height: 33px; width: 55px;  height: 33px; left: 37px; position: absolute; top: 162px; width: 55px; z-index: 1; " class="tinyText style_SkipStroke_3 shadow_1"><canvas style="position: absolute; top: -3px; left: -3px;" height="43" width="64"></canvas>
-            <a href="TheLuxuryArtMepra.jsp" title="TheLuxuryArtMepra.html"><img src="image/Product/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 34px; width: 55px; opacity: 0;"></a>
+            <a href="TheLuxuryArtMepra.html" title="TheLuxuryArtMepra.html"><img src="image/Product/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 34px; width: 55px; opacity: 0;"></a>
           </div>
           
 
@@ -197,8 +191,8 @@
           <div id="id29" style="height: 38px; left: 28px; position: absolute; top: 197px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="FantasiaColours.jsp">Fantasia<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="FantasiaColours.jsp">Colours</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="FantasiaColours.html">Fantasia<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="FantasiaColours.html">Colours</a></p>
               </div>
             </div>
           </div>
@@ -220,7 +214,7 @@
           <div id="id30" style="height: 23px; left: 20px; position: absolute; top: 1233px; width: 91px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_91_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="DueOroIce.html" href="DueOroIce.jsp">Due Oro Ice</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="DueOroIce.html" href="DueOroIce.html">Due Oro Ice</a></p>
               </div>
             </div>
           </div>
@@ -230,7 +224,7 @@
           <div id="id31" style="height: 23px; left: 12px; position: absolute; top: 1465px; width: 91px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_91_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="DueBronzo.html" href="DueBronzo.jsp">Due Bronzo</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="DueBronzo.html" href="DueBronzo.html">Due Bronzo</a></p>
               </div>
             </div>
           </div>
@@ -246,7 +240,7 @@
           <div id="id32" style="height: 23px; left: 577px; position: absolute; top: 1112px; width: 91px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_91_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="DueOroNero.html" href="DueOroNero.jsp">Due Oro Nero</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a title="DueOroNero.html" href="DueOroNero.html">Due Oro Nero</a></p>
               </div>
             </div>
           </div>
