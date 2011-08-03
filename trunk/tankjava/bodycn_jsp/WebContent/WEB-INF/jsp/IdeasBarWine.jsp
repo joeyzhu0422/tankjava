@@ -15,7 +15,7 @@
           <div id="id18" style="height: 45px; left: 53px; position: absolute; top: 262px; width: 282px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_282_45" style="padding: 0px; width: 296.1px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 32.3px;" class="paragraph_style_6">Ideas for Bar &amp; Wine</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 32.3px;" class="paragraph_style_6">为您的酒吧增添灵感</p>
               </div>
             </div>
           </div>
@@ -25,13 +25,11 @@
           <div id="id19" style="height: 143px; left: 81px; position: absolute; top: 2073px; width: 528px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_528_143" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_7">Custom made<br></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_7">量身定做<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">You may get all shapes of 
-our range covered with a coloured titanium surface of your choice. DonÂ´t
- hesitate to come back to us with your possible requests.<br></p>
+                <p class="paragraph_style_7">您选择的所有中意产品，其表面都附有一层彩色钛膜。赶快来MEPRA选择你喜欢的产品吧！<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">Also you may get all flatware in silverplated or golden version.<br></p>
+                <p class="paragraph_style_7">同时，您还可选择镀银或者镀金的刀叉和匙。<br></p>
               </div>
             </div>
           </div>
@@ -47,10 +45,7 @@ our range covered with a coloured titanium surface of your choice. DonÂ´t
           <div id="id20" style="height: 84px; left: 52px; position: absolute; top: 307px; width: 299px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_299_84" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 19px;" class="paragraph_style_8">MEPRA
- offers a huge selection of products for bar &amp; wine, numerous 
-varieties of wine and sparkling wine coolers, ice buckets, trays, 
-glasses, stirrers, shakers, trolleys, and much more ...</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 19px;" class="paragraph_style_8">MEPRA 为您提供种类齐全的酒具，式样丰富，各种冷却器、冰桶、托盘、玻璃杯、搅拌棒、推车、混合器及其他更多产品选择。</p>
               </div>
             </div>
           </div>
@@ -298,7 +293,7 @@ glasses, stirrers, shakers, trolleys, and much more ...</p>
           <div id="id22" style="height: 29px; left: 46px; position: absolute; top: 411px; width: 234px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_234_29" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_9">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_9">以下是我们的部分产品。</p>
               </div>
             </div>
           </div>

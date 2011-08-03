@@ -39,7 +39,7 @@
           <div id="id18" style="height: 41px; left: 55px; position: absolute; top: 79px; width: 620px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
             <div class="text-content style_External_620_41" style="padding: 0px; ">
               <div class="style_3">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">Actual Hotel &amp; Restaurant Catalogs online </p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">酒店&零售在线目录册 </p>
               </div>
             </div>
           </div>
@@ -49,8 +49,8 @@
           <div id="id19" style="height: 53px; left: 50px; position: absolute; top: 129px; width: 598px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_598_53" style="padding: 0px; ">
               <div class="style_4">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">Here you can view the actual catalogs page by page, Hotel &amp; Restaurant and Luxury Art catalog online. <br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_7">For fullscreen-view please click each in the center of the catalogs.</p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">您可在此详尽的浏览我们的目录册，综合目录册及奢侈工艺品目录册在线版。<br></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_7">全屏浏览请点击目录中间的指示标签。</p>
               </div>
             </div>
           </div>

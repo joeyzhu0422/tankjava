@@ -13,7 +13,7 @@
           <div id="id18" style="height: 45px; left: 53px; position: absolute; top: 262px; width: 282px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_282_45" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">Ideas for Restaurant</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">为您的餐厅增添灵感</p>
               </div>
             </div>
           </div>
@@ -23,13 +23,11 @@
           <div id="id19" style="height: 143px; left: 81px; position: absolute; top: 2073px; width: 528px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_528_143" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_7">Custom made<br></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_7">量身定做<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">You may get all shapes of 
-our range covered with a coloured titanium surface of your choice. DonÂ´t
- hesitate to come back to us with your possible requests.<br></p>
+                <p class="paragraph_style_7">您选择的所有中意产品，其表面都附有一层彩色钛膜。赶快来MEPRA选择你喜欢的产品吧！<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">Also you may get all flatware in silverplated or golden version.<br></p>
+                <p class="paragraph_style_7">此外，MEPRA所有产品有镀银或镀金系列供您选择。<br></p>
               </div>
             </div>
           </div>
@@ -39,7 +37,7 @@ our range covered with a coloured titanium surface of your choice. DonÂ´t
           <div id="id20" style="height: 26px; left: 47px; position: absolute; top: 482px; width: 234px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_234_26" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_8">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_8">以下是我们的部分产品。</p>
               </div>
             </div>
           </div>
@@ -49,15 +47,10 @@ our range covered with a coloured titanium surface of your choice. DonÂ´t
           <div id="id21" style="height: 158px; left: 53px; position: absolute; top: 307px; width: 322px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_322_158" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_9">In
- the international fine dining scene MEPRA products are the first 
-choice. - The prevailing standard of quality, design and innovation is 
-extremely demanding.<br></p>
-                <p class="paragraph_style_9">MEPRA will more than fulfill these high standards. We produce&nbsp; all products in own factories in northern Italy.<br></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_9">在精致的餐桌上，MEPRA将是您的首选。- 质量上乘、设计优美和创意无限，无疑是您的理想之选。<br></p>
+                <p class="paragraph_style_9">MEPRA满足您各种高端精致的品味需求。Mepra生产加工厂设在意大利北部。<br></p>
                 <p class="paragraph_style_9"><br></p>
-                <p style="padding-bottom: 0pt;" class="paragraph_style_9">By
- using our equipment menus and banquets lead customers to a distinctive 
-and lasting experience. Profit from our knowledge and competition!</p>
+                <p style="padding-bottom: 0pt;" class="paragraph_style_9">选择使用MEPRA产品款待客人，它将为您带来与众不同的感受。Mepra将倾注所有竞争优势来换取您的青睐。</p>
               </div>
             </div>
           </div>

@@ -15,7 +15,7 @@
           <div id="id18" style="height: 41px; left: 53px; position: absolute; top: 212px; width: 301px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_301_41" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Ideas for Pizzeria</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">为您的比萨店增添灵感</p>
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@
           <div id="id19" style="height: 23px; left: 53px; position: absolute; top: 510px; width: 228px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_228_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">以下是我们的部分产品</p>
               </div>
             </div>
           </div>
@@ -35,11 +35,8 @@
           <div id="id20" style="height: 162px; left: 53px; position: absolute; top: 294px; width: 291px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_291_162" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9">Pizzerias
- have special demands. They need knives, which cut Pizzas even after 
-many thousand times of use perfectly. Often there are Pizzerias, which 
-want to show an individual style of Italian fashion- &amp; eating-style.
- - Decide for MEPRA proposals, which show Italian lifestyle how it is.</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9">比萨店比其他店有特殊要求，他们需要切比萨成千上万次但仍然无比锋利的刀具。通常，比萨店会让让顾客体验到意大利风尚-饮食文化。所以，
+选择MEPRA，为您打造完美的意大利风情比萨店。</p>
               </div>
             </div>
           </div>
