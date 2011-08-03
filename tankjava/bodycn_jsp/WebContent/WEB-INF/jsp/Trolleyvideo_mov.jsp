@@ -44,7 +44,7 @@
           </div>
           <script type="text/javascript"><!--
 writeMovie1();
---></script><object id="id20" type="video/quicktime" data="image/Trolleyvideo_mov/Trolleyvideo.htm" style="height: 241px; left: 72px; position: absolute; top: 97px; width: 300px; z-index: 1;" width="300" height="241"><param name="src" value="Media/Trolleyvideo.mov"><param name="controller" value="true"><param name="autoplay" value="false"><param name="scale" value="tofit"><param name="volume" value="100"><param name="loop" value="false"></object>
+--></script><object id="id20" type="video/quicktime" data="http://www.en.mepra-online.de/Media/Trolleyvideo.mov" style="height: 241px; left: 72px; position: absolute; top: 97px; width: 300px; z-index: 1;" width="300" height="241"><param name="src" value="Media/Trolleyvideo.mov"><param name="controller" value="true"><param name="autoplay" value="false"><param name="scale" value="tofit"><param name="volume" value="100"><param name="loop" value="false"></object>
           
 
 
