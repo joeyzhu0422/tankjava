@@ -270,7 +270,7 @@
           <div id="id19" style="height: 41px; left: 52px; position: absolute; top: 255px; width: 305px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_305_41" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">Ideas for Breakfast</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">为您的早餐增添灵感</p>
               </div>
             </div>
           </div>
@@ -280,9 +280,9 @@
           <div id="id20" style="height: 87px; left: 53px; position: absolute; top: 310px; width: 315px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_315_87" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_7">Whether in stainless steel or silver plated,&nbsp; you cover the whole spectrum BREAKFAST competently.<br></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_7">不论是不锈钢质或者镀银系列，选择MEPRA，您可轻松获得所需全套早餐餐具。<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p style="padding-bottom: 0pt;" class="paragraph_style_7">Here, too, you participate from our knowledge, quality and experience.</p>
+                <p style="padding-bottom: 0pt;" class="paragraph_style_7">您与MEPRA的合作，促使我们不断积累知识与经验并不断提高产品质量。</p>
               </div>
             </div>
           </div>
@@ -292,7 +292,7 @@
           <div id="id21" style="height: 25px; left: 54px; position: absolute; top: 409px; width: 234px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_234_25" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">以下是我们的部分产品</p>
               </div>
             </div>
           </div>

@@ -15,7 +15,7 @@
           <div id="id18" style="height: 41px; left: 53px; position: absolute; top: 262px; width: 323px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_323_41" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">Ideas for SPA Wellness</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">为您的会所增加灵感</p>
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@
           <div id="id19" style="height: 23px; left: 53px; position: absolute; top: 510px; width: 228px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_228_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">以下是我们的部分产品</p>
               </div>
             </div>
           </div>
@@ -65,24 +65,24 @@
           <div id="id20" style="height: 368px; left: 363px; position: absolute; top: 1436px; width: 285px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content style_External_285_368" style="padding: 0px; ">
               <div class="style">
-                <p style="padding-top: 0pt; " class="paragraph_style_8">Here the designy polycarbonate collection of MEPRA<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_8">左图展示MEPRA聚碳酸酯设计系列产品<br></p>
                 <p class="paragraph_style_8"><br></p>
                 <p class="paragraph_style_8"><br></p>
-                <p class="paragraph_style_9">All parts of the collection are<br></p>
+                <p class="paragraph_style_9">该系列产品每个部分<br></p>
                 <p class="paragraph_style_9"><br></p>
-                <p class="paragraph_style_9">- Unbreakable (no broken glass and splinters<br></p>
-                <p class="paragraph_style_9">- microwave safe &amp; dishwasher safe, stackable<br></p>
-                <p class="paragraph_style_9">- Flame retardant<br></p>
-                <p class="paragraph_style_9">- Available in over 10 fashionable colors.<br></p>
+                <p class="paragraph_style_9">- 不易碎 （不易碎玻璃及碎片）<br></p>
+                <p class="paragraph_style_9">- 适用于微波炉及洗碗机，可堆叠<br></p>
+                <p class="paragraph_style_9">- 具阻燃性<br></p>
+                <p class="paragraph_style_9">- 有10种颜色可供选择。<br></p>
                 <p class="paragraph_style_9"><br></p>
-                <p class="paragraph_style_9">Do your guests and customers a favour with these practical and stylish products.<br></p>
-                <p class="paragraph_style_9"><br></p>
-                <p class="paragraph_style_9"><br></p>
+                <p class="paragraph_style_9">您的客人或客户是否也倾心于这些既实用又充满时尚感的产品呢？<br></p>
                 <p class="paragraph_style_9"><br></p>
                 <p class="paragraph_style_9"><br></p>
                 <p class="paragraph_style_9"><br></p>
                 <p class="paragraph_style_9"><br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_9">This left the colors in which all products are available.</p>
+                <p class="paragraph_style_9"><br></p>
+                <p class="paragraph_style_9"><br></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_9">所有产品均有左图所示颜色可供选择。</p>
               </div>
             </div>
           </div>
@@ -106,14 +106,11 @@
           <div id="id21" style="height: 162px; left: 52px; position: absolute; top: 310px; width: 291px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_291_162" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_10">You are looking for unusual glasses, bowls, plates, cups,<br></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_10">您是否在寻求与众不同的玻璃杯，碗，盘子和被子<br></p>
                 <p style="line-height: 19px;" class="paragraph_style_10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- ... which cannot break?<br></p>
+ ... 哪个不会打碎？<br></p>
                 <p style="line-height: 19px;" class="paragraph_style_10"><br></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_10">For
- use in a spa area, sauna, swimming pool, a beach restaurant, terrace, 
-outdoor facilities, a golf club, a lawn restaurants, a spa, a beach bar 
-or bar, a fitness center and much more, take this!</p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_10">适用于各种会所，桑拿馆，游泳池，沙滩餐厅，阳台，室外，高尔夫俱乐部，草坪餐厅，水疗馆，海滩酒吧/酒吧，健身房等众多场合，赶快来选购吧。</p>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@
           <div id="id18" style="height: 45px; left: 53px; position: absolute; top: 262px; width: 354px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_354_45" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">Ideas for Room-Service</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">为您的客房服务增添灵感</p>
               </div>
             </div>
           </div>
@@ -107,13 +107,11 @@
           <div id="id21" style="height: 143px; left: 69px; position: absolute; top: 1576px; width: 528px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_528_143" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_8">Custom made<br></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_8">量身定制<br></p>
                 <p class="paragraph_style_8"><br></p>
-                <p class="paragraph_style_8">You may get all shapes of 
-our range covered with a coloured titanium surface of your choice. DonÂ´t
- hesitate to come back to us with your possible requests.<br></p>
+                <p class="paragraph_style_8">您选择的所有中意产品，其表面都附有一层彩色钛膜。赶快来MEPRA选择你喜欢的产品吧<br></p>
                 <p class="paragraph_style_8"><br></p>
-                <p class="paragraph_style_8">Also you may get all flatware in silverplated or golden version.<br></p>
+                <p class="paragraph_style_8">同时，您还可选择镀银或者镀金的刀叉和匙。<br></p>
               </div>
             </div>
           </div>
@@ -123,13 +121,10 @@ our range covered with a coloured titanium surface of your choice. DonÂ´t
           <div id="id22" style="height: 158px; left: 53px; position: absolute; top: 311px; width: 320px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_320_158" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_9">The
- MEPRA room service concept includes not only the right trolleys in 
-different variants, but also optionally cloches / plates with a heat 
-element. The cloches can be customized at the factory to your specific 
-plate size. By this your plates fit perfectly to the cloches.<br></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_9">MEPRA客房服务不仅包括用于不同场所的餐厅推车，还有可供选择的保温型钟形盖/盘，同时，MEPRA工厂还将根据所需，为您特别定制，使您的餐盘
+完全符合钟形盖构造。<br></p>
                 <p class="paragraph_style_9"><br></p>
-                <p class="paragraph_style_9">All other possible accessories that you need for this personal service, of course&nbsp; we offer in our program.<br></p>
+                <p class="paragraph_style_9">MEPRA还将为您提供其他个性服务所需配件。<br></p>
               </div>
             </div>
           </div>
@@ -139,7 +134,7 @@ plate size. By this your plates fit perfectly to the cloches.<br></p>
           <div id="id23" style="height: 38px; left: 47px; position: absolute; top: 482px; width: 234px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_234_38" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_10">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_10">以下是我们的部分产品。</p>
               </div>
             </div>
           </div>

@@ -14,21 +14,11 @@
           <div id="id18" style="height: 189px; left: 47px; position: absolute; top: 624px; width: 591px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_591_189" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6">"ELICA"
- is the latest MEPRA design of cutlery. "ELICA" means translated into 
-English as much as helical or spiral, and are thus consistent design 
-language of this cutlery again: an essential design feature of this 
-massive, 4mm cutlery is crafted from solid stainless steel, which runs 
-through the entire handle all the parts. This look lends the cutlery an 
-understated elegance and dynamism. Also offers this product with a 
-soulful feel and balance that can be given an idea of figures.<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6">“ELICA”是Mepra最新设计的刀具系列。“ELICA”译为螺旋，该系列的设计重点是，该刀具通体采用4mm厚度实心不锈钢材质，尽显低调奢华，
+给人以优雅曼妙的视觉享受。<br></p>
                 <p class="paragraph_style_6"><br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6">Of
- course, the 18/10 stainless steel cutlery is dishwasher safe and the 
-toughest everyday use, thanks in Italian forging technology, in the 
-demanding hotel and restaurant ideally suited. See all common 
-accessories, from the fish knife and numerous additional items are also 
-available on this model.</p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6">当然，18/10不锈钢刀具可安全机洗，随意使用且不必担心质量问题，这都归功于意大利优良的锻造技术。我们的产品是酒店及餐厅的理想选择。
+从鱼刀到其他任何配件产品，MEPRA都一应俱全。</p>
               </div>
             </div>
           </div>
@@ -50,7 +40,7 @@ available on this model.</p>
           <div id="id19" style="height: 45px; left: 417px; position: absolute; top: 36px; width: 221px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_221_45" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">New Products</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">新品</p>
               </div>
             </div>
           </div>
@@ -70,7 +60,7 @@ available on this model.</p>
           <div id="id21" style="height: 47px; left: 142px; position: absolute; top: 935px; width: 421px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_421_47" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a class="class18" title="TheLuxuryArtMepra.html" href="http://www.en.mepra-online.de/TheLuxuryArtMepra.html">The new MEPRA Collection....</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a class="class18" title="TheLuxuryArtMepra.html" href="http://www.en.mepra-online.de/TheLuxuryArtMepra.html">MEPRA新品系列赏....</a></p>
               </div>
             </div>
           </div>
@@ -86,18 +76,11 @@ available on this model.</p>
           <div id="id22" style="height: 223px; left: 58px; position: absolute; top: 1962px; width: 591px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_591_223" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6">"ATENA"
- is the other new design of MEPRA cutlery. "Atena" is solid, edgy and 
-factual. " - Looking at this new flatware you guessed the particular 
-material thickness of 4 mm stainless steel, you can see the 
-sophisticated feeling.<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6">"ATENA"是 MEPRA最新设计的刀具系列. "Atena"意为坚固、锋利和实用。看到产品，你会猜测厚度为4mm不锈钢产品的材质，同时你也会看到其
+精致复杂的设计。<br></p>
                 <p class="paragraph_style_6"><br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6">Of
- course, the 18/10 stainless steel cutlery is dishwasher safe and the 
-toughest everyday use, thanks in Italian forging technology, in the 
-demanding hotel and restaurant ideally suited. See all common 
-accessories, from the fish knife and numerous additional items are also 
-available on this model.</p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6">当然，18/10不锈钢刀具可安全机洗，随意使用且不必担心质量问题，这都归功于意大利优良的锻造技术。我们的产品是酒店及餐厅的理想选择。
+从鱼刀到其他任何配件产品，MEPRA都一应俱全。</p>
               </div>
             </div>
           </div>
