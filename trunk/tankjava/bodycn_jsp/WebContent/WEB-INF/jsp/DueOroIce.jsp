@@ -264,14 +264,10 @@
           <div id="id20" style="height: 119px; left: 17px; position: absolute; top: 303px; width: 662px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_662_119" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">A new technology<br></p>
-                <p class="paragraph_style_7">Mepra manufactured those 
-products by a new process technology, covering the entire surface of the
- cutlery permanently with a colored titanium coating the worlds first. 
-The surface of these models is 4 times as hard as stainless steel. All 
-these shapes resist the toughest handling, of course they are also 
-dishwasher safe.<br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_7">This colour looks exactly like gold, but itÂ´s as many times more resistable.</p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">全新技术<br></p>
+                <p class="paragraph_style_7">Mepra全球首次采用全新技术为产品表面添加彩色钛金涂层，且永久保留。该涂层的硬度是普通不锈钢的4倍，因此，刀刃也同样
+采用该技术添加彩色涂层。<br></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_7">该颜色与金色非常相近，但是却非常坚固耐用。</p>
               </div>
             </div>
           </div>

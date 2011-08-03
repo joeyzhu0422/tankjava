@@ -16,8 +16,8 @@
           <div id="id18" style="height: 92px; left: 134px; position: absolute; top: 327px; width: 432px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_432_92" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6">For special events, by order of kings, royalty, principalities or special clients, who want something uncommon,we manufacture <br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6">specialized products,which are inimitable and unique.</p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6">对于特殊用途，如国王及皇室使用，或者公侯将相，亦或特殊客户等需要特别产品，我们<br></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6">可以为其定制，无法被模仿且独一无二。</p>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
           <div id="id19" style="height: 53px; left: 360px; position: absolute; top: 1238px; width: 219px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_219_53" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">The flatware for the Pope, with his code of arms<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">为罗马教皇定制的餐具，上面刻有他的军队编码<br></p>
                 <p style="padding-bottom: 0pt; " class="paragraph_style_7">08.11.2009 </p>
               </div>
             </div>
@@ -94,7 +94,7 @@
           <div id="id20" style="height: 38px; left: 87px; position: absolute; top: 1452px; width: 219px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_219_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Titanium golden covered 3-layer pot with laser engraving</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">3层式钛金表面，激光雕刻</p>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@
           <div id="id21" style="height: 53px; left: 364px; position: absolute; top: 1565px; width: 219px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_219_53" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a class="class18" title="TheLuxuryArtMepra.html" href="http://www.en.mepra-online.de/TheLuxuryArtMepra.html">Some of these models were selected also for the MEPRA Luxury Art Collection</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a class="class18" title="TheLuxuryArtMepra.html" href="http://www.en.mepra-online.de/TheLuxuryArtMepra.html">其中部分产品被选作MEPRA奢华艺术展品</a></p>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
           <div id="id22" style="height: 26px; left: 232px; position: absolute; top: 454px; width: 226px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_226_26" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">以下是我们的部分产品</p>
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@
           <div id="id24" style="height: 75px; left: 329px; position: absolute; top: 36px; width: 338px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_338_75" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9">Customized Items</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9">客户定制</p>
               </div>
             </div>
           </div>

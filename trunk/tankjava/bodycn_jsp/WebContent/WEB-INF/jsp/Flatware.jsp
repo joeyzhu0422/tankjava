@@ -204,12 +204,10 @@
           <div id="id20" style="height: 124px; left: 133px; position: absolute; top: 534px; width: 432px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_432_124" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_8"><span style="line-height: 19px;" class="style_3">From
- design to production and quality control, each item of cutlery passes 
-through the hands of our professionals in our own factories, <br></span></p>
-                <p style="line-height: 19px;" class="paragraph_style_8"><span style="line-height: 19px;" class="style_3">all with maximum attention to detail.<br></span></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_8"><span style="line-height: 19px;" class="style_3">从设计到生产再到质量控制，每件产品都从我们的技术人员手里经历严格检查。<br></span></p>
+                <p style="line-height: 19px;" class="paragraph_style_8"><span style="line-height: 19px;" class="style_3">在意大利北部，我们投入最大的精力专注于每个细节。<br></span></p>
                 <p style="line-height: 19px;" class="paragraph_style_8"><span style="line-height: 19px;" class="style_3"><br></span></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_8"><span style="line-height: 19px;" class="style_3">Numerous international design awards in the past and present year rewarded MEPRA for innovation.</span></p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_8"><span style="line-height: 19px;" class="style_3">从过去到今天，国际多项奖项均授予MEPRA创新大奖。</span></p>
               </div>
             </div>
           </div>
@@ -219,9 +217,9 @@ through the hands of our professionals in our own factories, <br></span></p>
           <div id="id21" style="height: 87px; left: 141px; position: absolute; top: 3315px; width: 417px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_417_87" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_8">Custom made<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_8">量身定制<br></p>
                 <p class="paragraph_style_9"><br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_8">You may get all flatware in silverplated or golden version</p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_8">MEPRA所有产品有镀银或镀金系列供您选择。</p>
               </div>
             </div>
           </div>
@@ -411,7 +409,7 @@ through the hands of our professionals in our own factories, <br></span></p>
           <div id="id40" style="height: 23px; left: 226px; position: absolute; top: 674px; width: 248px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_248_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">以下是我们的部分产品</p>
               </div>
             </div>
           </div>
@@ -421,7 +419,7 @@ through the hands of our professionals in our own factories, <br></span></p>
           <div id="id41" style="height: 49px; left: 483px; position: absolute; top: 37px; width: 176px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_176_49" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_10">Flatware</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_10">餐具</p>
               </div>
             </div>
           </div>
@@ -429,7 +427,7 @@ through the hands of our professionals in our own factories, <br></span></p>
           <div id="id42" style="height: 23px; left: 48px; position: absolute; top: 33px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a class="class18" title="" href="">Flatware</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a class="class18" title="" href="">餐具</a></p>
               </div>
             </div>
           </div>
@@ -439,8 +437,8 @@ through the hands of our professionals in our own factories, <br></span></p>
           <div id="id43" style="height: 38px; left: 48px; position: absolute; top: 67px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_5"><a class="class19" title="TitaniumFlatware.html" href="TitaniumFlatware.html">Titanium<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a class="class20" title="TitaniumFlatware.html" href="TitaniumFlatware.html">Flatware</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_5"><a class="class19" title="TitaniumFlatware.html" href="TitaniumFlatware.html">钛<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a class="class20" title="TitaniumFlatware.html" href="TitaniumFlatware.html">餐具</a></p>
               </div>
             </div>
           </div>
@@ -456,8 +454,8 @@ through the hands of our professionals in our own factories, <br></span></p>
           <div id="id44" style="height: 38px; left: 47px; position: absolute; top: 150px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="FantasiaColours.html">Fantasia<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="FantasiaColours.html">Colours</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="FantasiaColours.html">绚丽<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="FantasiaColours.html">色彩</a></p>
               </div>
             </div>
           </div>

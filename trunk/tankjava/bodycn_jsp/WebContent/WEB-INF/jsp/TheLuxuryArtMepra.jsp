@@ -24,8 +24,8 @@
           <div id="id19" style="height: 80px; left: 126px; position: absolute; top: 594px; width: 432px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_432_80" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">Custom made products in limited editions.<br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_7">Here you see very special items we manufactured for royalty and the most prestigious villas in the world.</p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">定制产品均限量销售<br></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_7">在此，您将看到MEPRA为全球皇家及尊贵的公馆特别制作的产品。</p>
               </div>
             </div>
           </div>
@@ -263,7 +263,7 @@
           <div id="id32" style="height: 38px; left: 224px; position: absolute; top: 689px; width: 219px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_219_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">以下是我们的部分产品</p>
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@
           <div id="id33" style="height: 23px; left: 48px; position: absolute; top: 33px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Flatware.html" href="Flatware.html">Flatware</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Flatware.html" href="Flatware.html">餐具</a></p>
               </div>
             </div>
           </div>
@@ -281,8 +281,8 @@
           <div id="id34" style="height: 38px; left: 48px; position: absolute; top: 67px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_1"><a class="class19" title="TitaniumFlatware.html" href="TitaniumFlatware.html">Titanium<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_1"><a class="class20" title="TitaniumFlatware.html" href="TitaniumFlatware.html">Flatware</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_1"><a class="class19" title="TitaniumFlatware.html" href="TitaniumFlatware.html">钛<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_1"><a class="class20" title="TitaniumFlatware.html" href="TitaniumFlatware.html">餐具</a></p>
               </div>
             </div>
           </div>
@@ -298,8 +298,8 @@
           <div id="id35" style="height: 38px; left: 47px; position: absolute; top: 150px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="FantasiaColours.html">Fantasia<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="FantasiaColours.html">Colours</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="FantasiaColours.html">绚丽<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="FantasiaColours.html">色彩</a></p>
               </div>
             </div>
           </div>
