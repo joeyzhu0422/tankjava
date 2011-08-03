@@ -137,15 +137,11 @@
           <div id="id20" style="height: 123px; left: 17px; position: absolute; top: 303px; width: 662px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_662_123" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_7">A new technology<br></p>
-                <p style="line-height: 19px;" class="paragraph_style_7">Mepra
- manufactured those products by a new process technology, covering the 
-entire surface of the cutlery permanently with a colored titanium 
-coating the worlds first. The surface of these models is 4 times as hard
- as stainless steel, so it is possible to provide even the blade of the 
-knife get the same color.<br></p>
-                <p style="line-height: 19px;" class="paragraph_style_7">All these shapes resist the toughest handling, of course they are also dishwasher safe.<br></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_7">This colour is bronze.</p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_7">全新技术<br></p>
+                <p style="line-height: 19px;" class="paragraph_style_7">Mepra全球首次采用全新技术为产品表面添加彩色钛金涂层，且永久保留。该涂层的硬度是普通不锈钢的4倍，因此，在刀具的刀刃也可同样
+采用该技术添加彩色涂层。<br></p>
+                <p style="line-height: 19px;" class="paragraph_style_7">所有餐具坚固耐用，满足您各种使用方法，当然也同样适用于洗碗机。<br></p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_7">此颜色为铜色。</p>
               </div>
             </div>
           </div>

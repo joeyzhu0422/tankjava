@@ -15,11 +15,8 @@
           <div id="id18" style="height: 110px; left: 258px; position: absolute; top: 258px; width: 336px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_336_110" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6">A new technology<br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6">Mepra
- received for these cutlery models, manufactured by a new process 
-technology,&nbsp; covering the entire surface of the cutlery permanently
- with a colored titanium coating, extraordinary design awards.</p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6">全新技术<br></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6">Mepra 采用全新加工技术，餐具表面可附着一层永久性彩色钛膜，设计新颖，荣获多次设计大奖。</p>
               </div>
             </div>
           </div>
@@ -48,11 +45,9 @@ technology,&nbsp; covering the entire surface of the cutlery permanently
             <div class="text-content graphic_textbox_layout_style_default_External_459_128" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
                 <p style="padding-top: 0pt; " class="paragraph_style_6">The following color versions are possible:<br></p>
-                <p class="paragraph_style_6">Black, matt gold, shiny gold, bronze color.<br></p>
-                <p class="paragraph_style_6">The surface of these models
- is 4 times as hard as stainless steel, so it is possible to provide 
-even the blade of the knife get the same color.<br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6">All these shapes resist the toughest handling, of course they are also dishwasher safe.</p>
+                <p class="paragraph_style_6">黑色  亚光金 亮金色 铜色<br></p>
+                <p class="paragraph_style_6">有色彩表面的餐具非常坚固耐用，是普通不锈钢的4倍，因此即使在刀刃上也同样可采用该项技术。<br></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6">所有的餐具可满足您各种使用方法，同样也适用于洗碗机。</p>
               </div>
             </div>
           </div>
@@ -164,14 +159,11 @@ even the blade of the knife get the same color.<br></p>
           <div id="id26" style="height: 143px; left: 141px; position: absolute; top: 1752px; width: 417px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_417_143" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_8">Custom made<br></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_8">量身定制<br></p>
                 <p style="line-height: 19px;" class="paragraph_style_8"><br></p>
-                <p style="line-height: 19px;" class="paragraph_style_8">You
- may get all shapes of our range covered with a coloured titanium 
-surface of your choice. DonÂ´t hesitate to come back to us with your 
-possible requests.<br></p>
+                <p style="line-height: 19px;" class="paragraph_style_8">您选择的所有中意产品，其表面都附有一层彩色钛膜。赶快来MEPRA选择你喜欢的产品吧！<br></p>
                 <p style="line-height: 19px;" class="paragraph_style_8"><br></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_8">Also you may get all flatware in silverplated or golden version</p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_8">此外，MEPRA所有产品有镀银或镀金系列供您选择。</p>
               </div>
             </div>
           </div>
@@ -181,7 +173,7 @@ possible requests.<br></p>
           <div id="id27" style="height: 75px; left: 418px; position: absolute; top: 27px; width: 273px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_273_75" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9">Titanium Flatware</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9">钛餐具</p>
               </div>
             </div>
           </div>
@@ -221,7 +213,7 @@ possible requests.<br></p>
           <div id="id30" style="height: 23px; left: 48px; position: absolute; top: 33px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Flatware.html" href="Flatware.html">Flatware</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class18" title="Flatware.html" href="Flatware.html">餐具</a></p>
               </div>
             </div>
           </div>
@@ -231,8 +223,8 @@ possible requests.<br></p>
           <div id="id31" style="height: 38px; left: 48px; position: absolute; top: 67px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_1"><a class="class19" title="" href="">Titanium<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_1"><a class="class20" title="" href="">Flatware</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_1"><a class="class19" title="" href="">钛<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_1"><a class="class20" title="" href="">餐具</a></p>
               </div>
             </div>
           </div>
@@ -248,8 +240,8 @@ possible requests.<br></p>
           <div id="id32" style="height: 38px; left: 47px; position: absolute; top: 150px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="FantasiaColours.html">Fantasia<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="FantasiaColours.html">Colours</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_2"><a class="class21" title="FantasiaColours.html" href="FantasiaColours.html">绚丽<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_2"><a class="class22" title="FantasiaColours.html" href="FantasiaColours.html">色彩</a></p>
               </div>
             </div>
           </div>

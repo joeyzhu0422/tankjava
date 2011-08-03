@@ -22,13 +22,11 @@
           <div id="id19" style="height: 162px; left: 134px; position: absolute; top: 349px; width: 432px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_432_162" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">Fantasia
- presents 38 different colours, which fit best to cups and dishes of the
- to most of the well known colours of famous porcellaine producers.<br></span></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">绚丽色彩系列有38种颜色可供选择，满足各种不同的茶杯及碗碟的配色，是最知名的彩色瓷器制造商。<br></span></p>
                 <p style="line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3"><br></span></p>
-                <p style="line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">The dishwasher safe nylon-handles are welded by supersonic, a treatment, which keeps them forever undestroyable.<br></span></p>
+                <p style="line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">适用于洗碗机的尼龙-手柄采用超声波技术焊接，确保产品坚固耐用。<br></span></p>
                 <p style="line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3"><br></span></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">There is a wide range of different items avaliable, from fishforks to dessrtknives, cakeservers, servingspoons and much more...</span></p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">Mepra提供各种产品供您选择，从鱼叉到甜点刀，蛋糕刀，公勺等等，一应俱全。</span></p>
               </div>
             </div>
           </div>
@@ -42,7 +40,7 @@
           <div id="id20" style="height: 44px; left: 416px; position: absolute; top: 37px; width: 243px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_243_44" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">Fantasia Colours</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">绚丽色彩</p>
               </div>
             </div>
           </div>
@@ -442,9 +440,9 @@
           <div id="id40" style="height: 162px; left: 188px; position: absolute; top: 1804px; width: 211px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_211_162" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">For all these colours are underplates availiable, which are manufactured in the same resistable nylon material. <br></span></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">所有颜色的餐具均配有底盘，底盘制作工艺同样采用经久耐用的尼龙材质。<br></span></p>
                 <p style="line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3"><br></span></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">By this you have the huge opportunity to arrange nice dinners in individual colours.</span></p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_7"><span style="line-height: 19px;" class="style_3">选择Mepra，尽可能发挥您招待客人的想象力，安排独特的且属于自己的餐桌风情。</span></p>
               </div>
             </div>
           </div>
@@ -454,7 +452,7 @@
           <div id="id41" style="height: 23px; left: 48px; position: absolute; top: 33px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a class="class18" title="Flatware.html" href="Flatware.html">Flatware</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5"><a class="class18" title="Flatware.html" href="Flatware.html">餐具</a></p>
               </div>
             </div>
           </div>
@@ -464,8 +462,8 @@
           <div id="id42" style="height: 38px; left: 48px; position: absolute; top: 67px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_5"><a class="class19" title="TitaniumFlatware.html" href="TitaniumFlatware.html">Titanium<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a class="class20" title="TitaniumFlatware.html" href="TitaniumFlatware.html">Flatware</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_5"><a class="class19" title="TitaniumFlatware.html" href="TitaniumFlatware.html">钛<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_5"><a class="class20" title="TitaniumFlatware.html" href="TitaniumFlatware.html">餐具</a></p>
               </div>
             </div>
           </div>
@@ -481,8 +479,8 @@
           <div id="id43" style="height: 38px; left: 47px; position: absolute; top: 150px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_9"><a class="class21" title="" href="">Fantasia<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_9"><a class="class22" title="" href="">Colours</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_9"><a class="class21" title="" href="">绚丽<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_9"><a class="class22" title="" href="">色彩</a></p>
               </div>
             </div>
           </div>
