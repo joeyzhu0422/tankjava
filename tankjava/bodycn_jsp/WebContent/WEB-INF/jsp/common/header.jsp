@@ -10,15 +10,11 @@
 	 
 	 <div>
 		 <p>
-	     	<a title="Home.html" href="Home.html">
-	     		首页
-	     	</a>
+	     	<a title="Home.html" href="Home.html">首页</a>
 	     </p>
 		 
 	     <p>
-	     	<a title="Products.html" href="Products.html">
-	     		产品
-	     	</a>
+	     	<a title="Products.html" href="Products.html">产品</a>
 	     </p>
 	           
 	     <p>
