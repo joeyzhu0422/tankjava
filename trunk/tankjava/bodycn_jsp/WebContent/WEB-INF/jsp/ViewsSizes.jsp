@@ -194,7 +194,7 @@
           <div id="id30" style="height: 38px; left: 53px; position: absolute; top: 97px; width: 78px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class19" title="Trolleyvideo_flv.html" href="http://www.en.mepra-online.de/Trolleyvideo_flv.html">Video Trolley&nbsp; flv</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class19" title="Trolleyvideo_flv.html" href="Trolleyvideo_flv.html">Video Trolley&nbsp; flv</a></p>
               </div>
             </div>
           </div>
@@ -204,7 +204,7 @@
           <div id="id31" style="height: 50px; left: 53px; position: absolute; top: 142px; width: 78px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_50" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class20" title="Trolleyvideo_mov.html" href="http://www.en.mepra-online.de/Trolleyvideo_mov.html">Video Trolley&nbsp; mov</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_5"><a class="class20" title="Trolleyvideo_mov.html" href="Trolleyvideo_mov.html">Video Trolley&nbsp; mov</a></p>
               </div>
             </div>
           </div>
