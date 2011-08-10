@@ -13,9 +13,16 @@
 	</filter-mapping>
  -->
  
+ <!--  
  	<listener>
  		<listener-class>org.apache.tiles.web.startup.TilesListener</listener-class>
  	</listener>
+-->
+
+ 	<filter>
+ 		<filter-name>tiles</filter-name>
+ 		<filter-class>org.apache.tiles.web.startup.TilesFilter</filter-class>
+ 	</filter>
  
  	<servlet>
  		<servlet-name>tilesServlent</servlet-name>
