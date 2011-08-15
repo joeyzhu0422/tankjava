@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	/*
+	* Licensed to the Apache Software Foundation (ASF) under one
+	* or more contributor license agreements.  See the NOTICE file
+	* distributed with this work for additional information
+	* regarding copyright ownership.  The ASF licenses this file
+	* to you under the Apache License, Version 2.0 (the
+	* "License"); you may not use this file except in compliance
+	* with the License.  You may obtain a copy of the License at
+	*
+	* http://www.apache.org/licenses/LICENSE-2.0
+	*
+	* Unless required by applicable law or agreed to in writing,
+	* software distributed under the License is distributed on an
+	* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+	* KIND, either express or implied.  See the License for the
+	* specific language governing permissions and limitations
+	* under the License.
+	*
+	*/
+-->
+
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+
+	<!-- header -->
+	<definition name="header" template="/WEB-INF/jsp/common/header.jsp" />
+	<definition name="footer" template="/WEB-INF/jsp/common/footer.jsp" />
+	
+	<definition name="standard" template="/WEB-INF/jsp/layout/layout.jsp">
+		<put-attribute name="header" value="header" />
+		<put-attribute name="footer" value="footer" />
+	</definition>
+	
+	<definition name="Home.html" extends="standard">
+		<put-attribute name="title" value="Home" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Home.jsp" />
+	</definition>
+	
+	<definition name="Products.html" extends="standard">
+		<put-attribute name="title" value="Products" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Products.jsp" />
+	</definition>
+	
+	<definition name="Company.html" extends="standard">
+		<put-attribute name="title" value="Company" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Company.jsp" />
+	</definition>
+	
+	<definition name="Catalog_Online.html" extends="standard">
+		<put-attribute name="title" value="Catalog_Online" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Catalog_Online.jsp" />
+	</definition>
+	
+	<definition name="Contact.html" extends="standard">
+		<put-attribute name="title" value="Contact" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Contact.jsp" />
+	</definition>
+	
+	<definition name="Dates.html" extends="standard">
+		<put-attribute name="title" value="Dates" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Dates.jsp" />
+	</definition>
+	
+	<definition name="Ideas.html" extends="standard">
+		<put-attribute name="title" value="Ideas" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Ideas.jsp" />
+	</definition>
+	
+	<definition name="IdeasBakingPizza.html" extends="standard">
+		<put-attribute name="title" value="IdeasBakingPizza" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/IdeasBakingPizza.jsp" />
+	</definition>
+	
+	<definition name="IdeasBarWine.html" extends="standard">
+		<put-attribute name="title" value="IdeasBarWine" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/IdeasBarWine.jsp" />
+	</definition>
+	
+	<definition name="IdeasColourfulLife.html" extends="standard">
+		<put-attribute name="title" value="IdeasColourfulLife" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/IdeasColourfulLife.jsp" />
+	</definition>
+	
+	<definition name="IdeasOutdoor.html" extends="standard">
+		<put-attribute name="title" value="IdeasOutdoor" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/IdeasOutdoor.jsp" />
+	</definition>
+	
+	<definition name="IdeasServingDining.html" extends="standard">
+		<put-attribute name="title" value="IdeasServingDining" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/IdeasServingDining.jsp" />
+	</definition>
+	
+	<definition name="Impressum.html" extends="standard">
+		<put-attribute name="title" value="Impressum" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Impressum.jsp" />
+	</definition>
+	
+	<definition name="Links.html" extends="standard">
+		<put-attribute name="title" value="Links" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Links.jsp" />
+	</definition>
+	
+	<definition name="New_Products.html" extends="standard">
+		<put-attribute name="title" value="New_Products" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/New_Products.jsp" />
+	</definition>
+	
+	<definition name="Pressinfo.html" extends="standard">
+		<put-attribute name="title" value="Pressinfo" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Pressinfo.jsp" />
+	</definition>
+	
+	<definition name="Wheretobuy.html" extends="standard">
+		<put-attribute name="title" value="Wheretobuy" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Wheretobuy.jsp" />
+	</definition>
+	
+	<definition name="TheLuxuryArtMepra.html" extends="standard">
+		<put-attribute name="title" value="TheLuxuryArtMepra" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/TheLuxuryArtMepra.jsp" />
+	</definition>
+	
+	<definition name="Flatware.html" extends="standard">
+		<put-attribute name="title" value="Flatware" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Flatware.jsp" />
+	</definition>
+	
+	<definition name="TitaniumFlatware.html" extends="standard">
+		<put-attribute name="title" value="TitaniumFlatware" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/TitaniumFlatware.jsp" />
+	</definition>
+	
+	<definition name="FantasiaColours.html" extends="standard">
+		<put-attribute name="title" value="FantasiaColours" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/FantasiaColours.jsp" />
+	</definition>
+</tiles-definitions>

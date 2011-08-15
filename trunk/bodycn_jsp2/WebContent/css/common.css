@@ -1,0 +1,145 @@
+a {
+	color: #D6D6D6;
+	text-decoration: none;
+}
+
+a:visited, a.yellow:visited, a.orange:visited {
+	color: #797979;
+	text-decoration: underline;
+}
+
+a:hover, a.yellow:hover, a.orange:hover {
+	color: #FF2600;
+	text-decoration: underline;
+}
+
+a.yellow {
+	color: #FFFB00;
+}
+
+a.orange {
+	color: #FF4C00;
+}
+
+body {
+	background: none repeat scroll 0% 0% #000;
+	margin: 0pt;
+}
+
+#body_content {
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	overflow: hidden;
+	position: relative;
+	word-wrap: break-word;
+	background: rgb(0, 0, 0);
+	text-align: left;
+	width: 700px;
+}
+
+#header_layer {
+	height: 115px;
+	margin-left: 0px;
+	position: relative;
+	width: 700px;
+	z-index: 10;
+}
+
+#header_layer div {
+	width: 700px;
+	padding: 0 0 0 20px;
+	margin: 0 0 30px 0;
+	margin: 0 0 12px 0\9;
+}
+
+#header_layer .logo {
+	height: 51px;
+	float: right;
+	width: 80px;
+	margin: 9px 12px 0 0;
+	margin: 11px 12px 0 0\9;
+	padding: 0;
+}
+
+#header_layer div p {
+	float: left;
+	padding: 0 37px 0 0;
+	padding: 0 30px 0 0\9;
+	margin: 0;
+}
+
+#header_layer div p a {
+	font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif;
+	font-size: 13px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 15px;
+}
+
+#nav_layer {
+	float: left;
+	margin-left: 0px;
+	position: relative;
+	width: 700px;
+	z-index: 0;
+}
+
+#body_layer {
+	margin-left: 0px;
+	position: relative;
+	width: 700px;
+	z-index: 5;
+}
+
+#footer_layer {
+	height: 40px;
+	margin-left: 0px;
+	position: relative;
+	width: 700px;
+	z-index: 15;
+}
+
+#footer_layer p {
+	float: left;
+	text-align: left;
+	margin-right: 16px;
+	display: inline;
+	padding: 10px 12px 0 0;
+}
+
+#footer_layer .left {
+	padding: 10px 0 0 36px;
+	margin-right: 180px;
+}
+
+#footer_layer p.left a {
+	float: left;
+}
+
+#footer_layer p a {
+	float: left;
+	font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif
+		;
+	font-size: 10px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 12px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	opacity: 1.00;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+}
