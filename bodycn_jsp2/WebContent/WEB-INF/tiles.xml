@@ -171,4 +171,34 @@
 		<put-attribute name="title" value="VispeTerese" type="string" />
 		<put-attribute name="main" value="/WEB-INF/jsp/VispeTerese.jsp" />
 	</definition>
+	
+	<definition name="KitchenTools.html" extends="standard">
+		<put-attribute name="title" value="KitchenTools" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/KitchenTools.jsp" />
+	</definition>
+	
+	<definition name="DueOroIce.html" extends="standard">
+		<put-attribute name="title" value="DueOroIce" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/DueOroIce.jsp" />
+	</definition>
+	
+	<definition name="DueOroNero.html" extends="standard">
+		<put-attribute name="title" value="DueOroNero" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/DueOroNero.jsp" />
+	</definition>
+	
+	<definition name="DueBronzo.html" extends="standard">
+		<put-attribute name="title" value="DueBronzo" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/DueBronzo.jsp" />
+	</definition>
+	
+	<definition name="BowlsTrays.html" extends="standard">
+		<put-attribute name="title" value="BowlsTrays" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/BowlsTrays.jsp" />
+	</definition>
+	
+	<definition name="SpecialManufacturing.html" extends="standard">
+		<put-attribute name="title" value="SpecialManufacturing" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/SpecialManufacturing.jsp" />
+	</definition>
 </tiles-definitions>
