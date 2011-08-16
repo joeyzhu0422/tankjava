@@ -26,7 +26,7 @@
 		 </p>
 	          
 		 <p>
-		 	<a title="References_Hotel-Restaurant.html" href="References_Hotel-Restaurant.html">销售参考</a>
+		 	<a title="Wheretobuy.html" href="Wheretobuy.html">Where to buy</a>
 		 </p>
 	
 	     <p>
@@ -50,31 +50,23 @@
 		 </p>
 	
 	     <p>
-	      	<a class="yellow" title="IdeasBreakfast.html" href="IdeasBreakfast.html">早餐</a>
+	      	<a class="yellow" title="IdeasColourfulLife.html" href="IdeasColourfulLife.html">Colourful Life</a>
 	     </p>
 	     
 	      <p>
-		  	<a class="yellow" title="IdeasRoomService.html" href="IdeasRoomService.html">客房服务</a>
+		  	<a class="yellow" title="IdeasBarWine.html" href="IdeasBarWine.html">酒吧</a>
 		 </p>
 	
 	     <p>
-	      	<a class="yellow" title="IdeasRestaurant.html" href="IdeasRestaurant.html">餐厅</a>
+	      	<a class="yellow" title="IdeasBakingPizza.html" href="IdeasBakingPizza.html">Baking Pizza</a>
 		 </p>
-		  	
+		  	 
 	     <p>
-	      	<a class="yellow" title="IdeasBarWine.html" href="IdeasBarWine.html">酒吧</a>
+	      	<a class="yellow" title="IdeasServingDining.html" href="IdeasServingDining.html">Serving & Dining</a>
 	     </p>
 	
 		 <p>
-		  	<a class="yellow" title="IdeasBuffet.html" href="IdeasBuffet.html">自助餐</a>
-		 </p>
-
-	     <p>
-	      	<a class="yellow" title="IdeasPizzeria.html" href="IdeasPizzeria.html">比萨店</a>
-	     </p>
-	          
-		 <p>
-		  	<a class="yellow" title="IdeasSPA.html" href="IdeasSPA.html">会所</a>
+		  	<a class="yellow" title="IdeasOutdoor.html" href="IdeasOutdoor.html">Outdoor</a>
 		 </p>
 	  
 	  	 <p>

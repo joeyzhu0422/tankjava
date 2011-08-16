@@ -161,7 +161,7 @@
           <div id="id25" style="height: 27px; left: 20px; position: absolute; top: 480px; width: 91px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_91_27" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/KitchenTools.html" title="KitchenTools.html">Kitchentools</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="KitchenTools.html" title="KitchenTools.html">Kitchentools</a></p>
               </div>
             </div>
           </div>
@@ -189,7 +189,7 @@
           <div id="id26" style="height: 23px; left: 20px; position: absolute; top: 746px; width: 91px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_91_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/DueOroIce.html" title="DueOroIce.html">Due Oro Ice</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="DueOroIce.html" title="DueOroIce.html">Due Oro Ice</a></p>
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@
           <div id="id27" style="height: 23px; left: 577px; position: absolute; top: 1268px; width: 91px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_91_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/DueOroNero.html" title="DueOroNero.html">Due Oro Nero</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="DueOroNero.html" title="DueOroNero.html">Due Oro Nero</a></p>
               </div>
             </div>
           </div>
@@ -209,7 +209,7 @@
           <div id="id28" style="height: 23px; left: 12px; position: absolute; top: 1032px; width: 91px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_91_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/DueBronzo.html" title="DueBronzo.html">Due Bronzo</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="DueBronzo.html" title="DueBronzo.html">Due Bronzo</a></p>
               </div>
             </div>
           </div>
@@ -225,7 +225,7 @@
           <div id="id29" style="height: 30px; left: 577px; position: absolute; top: 268px; width: 95px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_95_30" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/BowlsTrays.html" title="BowlsTrays.html">Bowls &amp; Trays</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="BowlsTrays.html" title="BowlsTrays.html">Bowls &amp; Trays</a></p>
               </div>
             </div>
           </div>
@@ -243,7 +243,7 @@
           <div id="id30" style="height: 38px; left: 11px; position: absolute; top: 1436px; width: 92px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_92_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9"><a href="http://www.en.mepra.eu/SpecialManufacturing.html" title="SpecialManufacturing.html">Customized items</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9"><a href="SpecialManufacturing.html" title="SpecialManufacturing.html">Customized items</a></p>
               </div>
             </div>
           </div>
