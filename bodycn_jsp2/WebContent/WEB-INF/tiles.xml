@@ -141,4 +141,34 @@
 		<put-attribute name="title" value="FantasiaColours" type="string" />
 		<put-attribute name="main" value="/WEB-INF/jsp/FantasiaColours.jsp" />
 	</definition>
+	
+	<definition name="PressReports.html" extends="standard">
+		<put-attribute name="title" value="PressReports" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/PressReports.jsp" />
+	</definition>
+	
+	<definition name="TrolleysAtHome.html" extends="standard">
+		<put-attribute name="title" value="TrolleysAtHome" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/TrolleysAtHome.jsp" />
+	</definition>
+	
+	<definition name="Winecoolers.html" extends="standard">
+		<put-attribute name="title" value="Winecoolers" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Winecoolers.jsp" />
+	</definition>
+	
+	<definition name="Polycarbonate.html" extends="standard">
+		<put-attribute name="title" value="Polycarbonate" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/Polycarbonate.jsp" />
+	</definition>
+	
+	<definition name="PotsPans.html" extends="standard">
+		<put-attribute name="title" value="PotsPans" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/PotsPans.jsp" />
+	</definition>
+	
+	<definition name="VispeTerese.html" extends="standard">
+		<put-attribute name="title" value="VispeTerese" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/VispeTerese.jsp" />
+	</definition>
 </tiles-definitions>
