@@ -42,8 +42,8 @@ new Paste('widget0', 'Scripts/Widgets/HTMLRegion', 'Scripts/Widgets/SharedResour
           <div id="id17" style="height: 72px; left: 367px; position: absolute; top: 166px; width: 272px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content style_External_272_72" style="padding: 0px; ">
               <div class="style">
-                <p style="padding-top: 0pt; " class="paragraph_style_7"><a href="http://www.en.mepra.eu/PressReports.html" title="PressReports.html">Magazines<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_7"><a href="http://www.en.mepra.eu/PressReports.html" title="PressReports.html">write about MEPRA</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7"><a href="PressReports.html" title="PressReports.html">Magazines<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_7"><a href="PressReports.html" title="PressReports.html">write about MEPRA</a></p>
               </div>
             </div>
           </div>

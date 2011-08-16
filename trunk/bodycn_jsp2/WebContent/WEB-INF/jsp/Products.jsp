@@ -13,7 +13,7 @@
           <div id="id16" style="height: 23px; left: 31px; position: absolute; top: 82px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/Flatware.html" title="Flatware.html">Flatware</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="Flatware.html" title="Flatware.html">Flatware</a></p>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@
           <div id="id17" style="height: 23px; left: 9px; position: absolute; top: 1195px; width: 106px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_106_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/TrolleysAtHome.html" title="TrolleysAtHome.html">Trolleys @ home</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="TrolleysAtHome.html" title="TrolleysAtHome.html">Trolleys @ home</a></p>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@
           <div id="id18" style="height: 23px; left: 27px; position: absolute; top: 350px; width: 80px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_80_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/Winecoolers.html" title="Winecoolers.html">Winecoolers</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="Winecoolers.html" title="Winecoolers.html">Winecoolers</a></p>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
           <div id="id19" style="height: 25px; left: 574px; position: absolute; top: 943px; width: 99px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_99_25" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/Polycarbonate.html" title="Polycarbonate.html">Polycarbonate</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="Polycarbonate.html" title="Polycarbonate.html">Polycarbonate</a></p>
               </div>
             </div>
           </div>
@@ -65,8 +65,8 @@
           <div id="id20" style="height: 38px; left: 31px; position: absolute; top: 116px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/TitaniumFlatware.html" title="TitaniumFlatware.html">Titanium<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/TitaniumFlatware.html" title="TitaniumFlatware.html">Flatware</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6"><a href="TitaniumFlatware.html" title="TitaniumFlatware.html">Titanium<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6"><a href="TitaniumFlatware.html" title="TitaniumFlatware.html">Flatware</a></p>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@
 
 
           <div style="height: 33px; width: 55px;  height: 33px; left: 39px; position: absolute; top: 164px; width: 55px; z-index: 1; " class="tinyText style_SkipStroke_2 shadow_0"><canvas style="position: absolute; top: -3px; left: -3px;" height="43" width="64"></canvas>
-            <a href="http://www.en.mepra.eu/TheLuxuryArtMepra.html" title="TheLuxuryArtMepra.html"><img src="image/Products/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 34px; width: 55px; "></a>
+            <a href="TheLuxuryArtMepra.html" title="TheLuxuryArtMepra.html"><img src="image/Products/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 34px; width: 55px; "></a>
           </div>
           
 
@@ -104,7 +104,7 @@
           <div id="id22" style="height: 26px; left: 579px; position: absolute; top: 90px; width: 92px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_92_26" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8"><a href="http://www.en.mepra.eu/PotsPans.html" title="PotsPans.html">Pots &amp; Pans</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8"><a href="PotsPans.html" title="PotsPans.html">Pots &amp; Pans</a></p>
               </div>
             </div>
           </div>
@@ -120,8 +120,8 @@
           <div id="id23" style="height: 38px; left: 30px; position: absolute; top: 199px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/FantasiaColours.html" title="FantasiaColours.html">Fantasia<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/FantasiaColours.html" title="FantasiaColours.html">Colours</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6"><a href="FantasiaColours.html" title="FantasiaColours.html">Fantasia<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6"><a href="FantasiaColours.html" title="FantasiaColours.html">Colours</a></p>
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@
           <div id="id24" style="height: 30px; left: 577px; position: absolute; top: 613px; width: 95px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_95_30" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="http://www.en.mepra.eu/VispeTerese.html" title="VispeTerese.html">Vispe Terese</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="VispeTerese.html" title="VispeTerese.html">Vispe Terese</a></p>
               </div>
             </div>
           </div>
