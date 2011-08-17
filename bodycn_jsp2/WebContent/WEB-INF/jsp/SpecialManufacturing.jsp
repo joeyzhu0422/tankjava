@@ -80,8 +80,8 @@
 
 
           <div style="height: 162px; width: 243px;  height: 162px; left: 85px; position: absolute; top: 1129px; width: 243px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_7 shadow_0"><canvas style="position: absolute; top: -4px; left: -4px;" height="173" width="255"></canvas>
-            <img src="image/SpecialManufacturing/_PRX9535.jpg" alt="" style="border: medium none; height: 162px; width: 244px; opacity: 0;">
-          <img src="image/SpecialManufacturing/stroke.png" style="position: absolute; left: -1px; top: 1px; width: 2px; height: 160px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/stroke_1.png" style="position: absolute; left: -1px; top: -1px; width: 2px; height: 2px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/stroke_2.png" style="position: absolute; left: 1px; top: -1px; width: 241px; height: 2px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/stroke_3.png" style="position: absolute; left: 242px; top: -1px; width: 3px; height: 2px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/stroke_4.png" style="position: absolute; left: 242px; top: 1px; width: 3px; height: 160px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/stroke_5.png" style="position: absolute; left: 242px; top: 161px; width: 3px; height: 2px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/stroke_6.png" style="position: absolute; left: 1px; top: 161px; width: 241px; height: 2px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/stroke_7.png" style="position: absolute; left: -1px; top: 161px; width: 2px; height: 2px; z-index: auto; opacity: 0;"></div>
+            <img src="image/SpecialManufacturing/_PRX9535.jpg" alt="" style="border: medium none; height: 162px; width: 244px; ">
+          <img src="image/SpecialManufacturing/stroke.png" style="position: absolute; left: -1px; top: 1px; width: 2px; height: 160px; z-index: auto; "><img src="image/SpecialManufacturing/stroke_1.png" style="position: absolute; left: -1px; top: -1px; width: 2px; height: 2px; z-index: auto; "><img src="image/SpecialManufacturing/stroke_2.png" style="position: absolute; left: 1px; top: -1px; width: 241px; height: 2px; z-index: auto; "><img src="image/SpecialManufacturing/stroke_3.png" style="position: absolute; left: 242px; top: -1px; width: 3px; height: 2px; z-index: auto; "><img src="image/SpecialManufacturing/stroke_4.png" style="position: absolute; left: 242px; top: 1px; width: 3px; height: 160px; z-index: auto; "><img src="image/SpecialManufacturing/stroke_5.png" style="position: absolute; left: 242px; top: 161px; width: 3px; height: 2px; z-index: auto; "><img src="image/SpecialManufacturing/stroke_6.png" style="position: absolute; left: 1px; top: 161px; width: 241px; height: 2px; z-index: auto; "><img src="image/SpecialManufacturing/stroke_7.png" style="position: absolute; left: -1px; top: 161px; width: 2px; height: 2px; z-index: auto; "></div>
           
 
 
@@ -102,14 +102,14 @@
 
 
           <div style="height: 33px; width: 55px;  height: 33px; left: 458px; position: absolute; top: 1632px; width: 55px; z-index: 1; " class="tinyText style_SkipStroke_3 shadow_1"><canvas style="position: absolute; top: -3px; left: -3px;" height="43" width="64"></canvas>
-            <a href="http://www.en.mepra-online.de/TheLuxuryArtMepra.html" title="TheLuxuryArtMepra.html"><img src="image/SpecialManufacturing/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 34px; width: 55px; opacity: 0;"></a>
+            <a href="http://www.en.mepra-online.de/TheLuxuryArtMepra.html" title="TheLuxuryArtMepra.html"><img src="image/SpecialManufacturing/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 34px; width: 55px; "></a>
           </div>
           
 
 
           <div style="height: 235px; width: 235px;  height: 235px; left: 358px; position: absolute; top: 1326px; width: 235px; z-index: 1; " class="tinyText style_SkipStroke_4 stroke_9 shadow_2"><canvas style="position: absolute; top: -7px; left: -7px;" height="252" width="252"></canvas>
-            <img src="image/SpecialManufacturing/Casablanca%2520Oro%2520Ice%252072dpi.jpg" alt="" style="border: medium none; height: 235px; width: 235px; opacity: 0;">
-          <div style="position: absolute; left: -4px; top: -4px;"><img src="image/SpecialManufacturing/Modern_C_TL_8.png" style="position: absolute; left: 0px; top: 0px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/Modern_C_BL_8.png" style="position: absolute; left: 0px; top: 239px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/Modern_C_TR_8.png" style="position: absolute; left: 239px; top: 0px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/Modern_C_BR_8.png" style="position: absolute; left: 239px; top: 239px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/Modern_S_L_8.png" style="position: absolute; left: 0px; top: 4px; width: 4px; height: 235px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/Modern_S_R_8.png" style="position: absolute; left: 239px; top: 4px; width: 4px; height: 235px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/Modern_S_T_8.png" style="position: absolute; left: 4px; top: 0px; width: 235px; height: 4px; z-index: auto; opacity: 0;"><img src="image/SpecialManufacturing/Modern_S_B_8.png" style="position: absolute; left: 4px; top: 239px; width: 235px; height: 4px; z-index: auto; opacity: 0;"></div></div>
+            <img src="image/SpecialManufacturing/Casablanca%2520Oro%2520Ice%252072dpi.jpg" alt="" style="border: medium none; height: 235px; width: 235px; ">
+          <div style="position: absolute; left: -4px; top: -4px;"><img src="image/SpecialManufacturing/Modern_C_TL_8.png" style="position: absolute; left: 0px; top: 0px; width: 4px; height: 4px; z-index: auto; "><img src="image/SpecialManufacturing/Modern_C_BL_8.png" style="position: absolute; left: 0px; top: 239px; width: 4px; height: 4px; z-index: auto; "><img src="image/SpecialManufacturing/Modern_C_TR_8.png" style="position: absolute; left: 239px; top: 0px; width: 4px; height: 4px; z-index: auto; "><img src="image/SpecialManufacturing/Modern_C_BR_8.png" style="position: absolute; left: 239px; top: 239px; width: 4px; height: 4px; z-index: auto; "><img src="image/SpecialManufacturing/Modern_S_L_8.png" style="position: absolute; left: 0px; top: 4px; width: 4px; height: 235px; z-index: auto; "><img src="image/SpecialManufacturing/Modern_S_R_8.png" style="position: absolute; left: 239px; top: 4px; width: 4px; height: 235px; z-index: auto; "><img src="image/SpecialManufacturing/Modern_S_T_8.png" style="position: absolute; left: 4px; top: 0px; width: 235px; height: 4px; z-index: auto; "><img src="image/SpecialManufacturing/Modern_S_B_8.png" style="position: absolute; left: 4px; top: 239px; width: 235px; height: 4px; z-index: auto; "></div></div>
           
 
 
@@ -133,13 +133,6 @@
           
 
 
-          <div id="id23" style="height: 38px; left: 51px; position: absolute; top: 52px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1"><a class="class19" title="Products.html" href="http://www.en.mepra-online.de/Products.html">back to products</a></p>
-              </div>
-            </div>
-          </div>
           
 
 
