@@ -22,7 +22,7 @@
 	     </p>
 	          
 		 <p>
-		 	<a title="Hotel_Catalog_Online.html" href="Hotel_Catalog_Online.html">在线目录</a>
+		 	<a title="Catalog_Online.html" href="Catalog_Online.html">在线目录</a>
 		 </p>
 	          
 		 <p>
