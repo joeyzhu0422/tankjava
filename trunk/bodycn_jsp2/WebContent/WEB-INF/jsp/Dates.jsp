@@ -83,9 +83,9 @@
           <div id="id17" style="height: 96px; left: 126px; position: absolute; top: 256px; width: 457px; z-index: 1; " class="style_SkipStroke_4 shape-with-text">
             <div class="text-content style_External_457_96 vertical-align-middle-middlebox" style="padding: 0px; ">
               <div class="style_4 vertical-align-middle-innerbox">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">WE EXHIBIT - WIR STELLEN AUS - NOUS EXPOSONS - <span style="line-height: 14px; " class="style_5">ÐÑÐ¸Ð²ÐµÐ´ÐµÐ¼ - ì°ë¦¬ê° ì ì</span>: <br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">我们参与的展会有 - <span style="line-height: 14px; " class="style_5">巴黎ì</span>: <br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_8"><a onclick="window.open(this.href); return false;" title="http://www.maison-objet.com" href="http://www.maison-objet.com/" onkeypress="window.open(this.href); return false;" class="class16">MAISON &amp; OBJET PARIS / HALL 3 STAND E 51 / 9. - 13 SEPTEMBER 2011<br></a></p>
+                <p class="paragraph_style_8"><a onclick="window.open(this.href); return false;" title="http://www.maison-objet.com" href="http://www.maison-objet.com/" onkeypress="window.open(this.href); return false;" class="class16">MAISON &amp; OBJET / 3号厅E 51展位 / 21. - 25.01. 2011<br></a></p>
               </div>
             </div>
           </div>

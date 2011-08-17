@@ -37,7 +37,7 @@
           <div id="id16" style="height: 41px; left: 55px; position: absolute; top: 79px; width: 620px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
             <div class="text-content style_External_620_41" style="padding: 0px; ">
               <div class="style_3">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">Actual Catalogs online </p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">在线目录 </p>
               </div>
             </div>
           </div>
@@ -47,8 +47,8 @@
           <div id="id17" style="height: 53px; left: 50px; position: absolute; top: 129px; width: 598px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_598_53" style="padding: 0px; ">
               <div class="style_4">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">Here you can view the actual catalogs page by page, General-Catalog and Luxury Art catalog online. <br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_7">For fullscreen-view please click each in the center of the catalogs.</p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">您可在此逐页浏览商品目录以及奢侈艺术系列目录<br></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_7">点击目录的中部进行全屏查看</p>
               </div>
             </div>
           </div>

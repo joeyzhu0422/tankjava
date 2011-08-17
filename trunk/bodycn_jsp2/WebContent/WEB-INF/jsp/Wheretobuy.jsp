@@ -29,7 +29,7 @@
           <div id="id16" style="height: 41px; left: 46px; position: absolute; top: 140px; width: 598px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
             <div class="text-content style_External_598_41" style="padding: 0px; ">
               <div class="style_3">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">Where to buy ?</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">何处购买?</p>
               </div>
             </div>
           </div>
@@ -39,8 +39,8 @@
           <div id="id17" style="height: 165px; left: 45px; position: absolute; top: 215px; width: 374px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_374_165" style="padding: 0px; ">
               <div class="style_4">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">If you want to know, where you can buy MEPRA in more than 50 countries in the world please mail us: <a href="mailto:mepra@mepra.it?subject=Where%20to%20buy%20MEPRA%20in%20...." title="mailto:mepra@mepra.it?subject=Where to buy MEPRA in ....">mepra@mepra.it</a><br></p>
-                <p class="paragraph_style_7">If you are living in Germany or Austria, you can also buy all MEPRA products online: <a title="http://www.meprashop.de" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.meprashop.de/">www.meprashop.de</a><br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">MEPRA在50多个国家和地区均有销售,具体购买地点请发送邮件至:<a href="mailto:mepra@mepra.it?subject=Where%20to%20buy%20MEPRA%20in%20...." title="mailto:mepra@mepra.it?subject=Where to buy MEPRA in ....">mepra@mepra.it</a><br></p>
+                <p class="paragraph_style_7">如果您居住在德国或奥地利,您可选择在网上购买MEPRA产品:<a title="http://www.meprashop.de" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.meprashop.de/">www.meprashop.de</a><br></p>
                 <p style="padding-bottom: 0pt; " class="paragraph_style_7"> </p>
               </div>
             </div>
