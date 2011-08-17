@@ -70,8 +70,8 @@
 
 
           <div style="height: 116px; width: 273px;  height: 116px; left: 373px; position: absolute; top: 738px; width: 273px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_4 shadow_0"><canvas style="position: absolute; top: -7px; left: -7px;" height="133" width="290"></canvas>
-            <img src="image/IdeasBakingPizza/marca_195.jpg" alt="" style="border: medium none; height: 116px; width: 274px; opacity: 0;">
-          <div style="position: absolute; left: -4px; top: -4px;"><img src="image/IdeasBakingPizza/Modern_C_TL_4.png" style="position: absolute; left: 0px; top: 0px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/IdeasBakingPizza/Modern_C_BL_4.png" style="position: absolute; left: 0px; top: 120px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/IdeasBakingPizza/Modern_C_TR_4.png" style="position: absolute; left: 277px; top: 0px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/IdeasBakingPizza/Modern_C_BR_4.png" style="position: absolute; left: 277px; top: 120px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/IdeasBakingPizza/Modern_S_L_4.png" style="position: absolute; left: 0px; top: 4px; width: 4px; height: 116px; z-index: auto; opacity: 0;"><img src="image/IdeasBakingPizza/Modern_S_R_4.png" style="position: absolute; left: 277px; top: 4px; width: 4px; height: 116px; z-index: auto; opacity: 0;"><img src="image/IdeasBakingPizza/Modern_S_T_4.png" style="position: absolute; left: 4px; top: 0px; width: 273px; height: 4px; z-index: auto; opacity: 0;"><img src="image/IdeasBakingPizza/Modern_S_B_4.png" style="position: absolute; left: 4px; top: 120px; width: 273px; height: 4px; z-index: auto; opacity: 0;"></div></div>
+            <img src="image/IdeasBakingPizza/marca_195.jpg" alt="" style="border: medium none; height: 116px; width: 274px; ">
+          <div style="position: absolute; left: -4px; top: -4px;"><img src="image/IdeasBakingPizza/Modern_C_TL_4.png" style="position: absolute; left: 0px; top: 0px; width: 4px; height: 4px; z-index: auto; "><img src="image/IdeasBakingPizza/Modern_C_BL_4.png" style="position: absolute; left: 0px; top: 120px; width: 4px; height: 4px; z-index: auto; "><img src="image/IdeasBakingPizza/Modern_C_TR_4.png" style="position: absolute; left: 277px; top: 0px; width: 4px; height: 4px; z-index: auto; "><img src="image/IdeasBakingPizza/Modern_C_BR_4.png" style="position: absolute; left: 277px; top: 120px; width: 4px; height: 4px; z-index: auto; "><img src="image/IdeasBakingPizza/Modern_S_L_4.png" style="position: absolute; left: 0px; top: 4px; width: 4px; height: 116px; z-index: auto; "><img src="image/IdeasBakingPizza/Modern_S_R_4.png" style="position: absolute; left: 277px; top: 4px; width: 4px; height: 116px; z-index: auto; "><img src="image/IdeasBakingPizza/Modern_S_T_4.png" style="position: absolute; left: 4px; top: 0px; width: 273px; height: 4px; z-index: auto; "><img src="image/IdeasBakingPizza/Modern_S_B_4.png" style="position: absolute; left: 4px; top: 120px; width: 273px; height: 4px; z-index: auto; "></div></div>
           
 
 
@@ -117,7 +117,7 @@
 
           <div style="height: 125px; width: 279px;  height: 125px; left: 369px; position: absolute; top: 1087px; width: 279px; z-index: 1; " class="tinyText shadow_1"><canvas style="position: absolute; top: -3px; left: -3px;" height="134" width="288"></canvas>
             <div style="position: relative; width: 279px; ">
-              <img src="image/IdeasBakingPizza/shapeimage_3.png" alt="" style="height: 125px; left: 0px; position: absolute; top: 0px; width: 279px; opacity: 0;">
+              <img src="image/IdeasBakingPizza/shapeimage_3.png" alt="" style="height: 125px; left: 0px; position: absolute; top: 0px; width: 279px; ">
             </div>
           </div>
           
