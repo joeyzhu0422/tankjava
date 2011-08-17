@@ -19,7 +19,7 @@
           <div style="margin-left: 62px; margin-top: 387px; position: relative; width: 568px; z-index: 1; " class="style_SkipStroke_1 shape-with-text flowDefining">
             <div class="text-content style_External_568_173" style="padding: 0px; ">
               <div class="style_3">
-                <p style="padding-top: 0pt; " class="paragraph_style_6">Welcome to our Retail Collection <br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6">欢迎进入@家用 <br></p>
                 <p class="paragraph_style_7"><br></p>
                 <p class="paragraph_style_7">引领创意新生活<br></p>
                 <p class="paragraph_style_7">MEPRA,世界顶尖生产商, 我们只为您提供最好的产品<br></p>
