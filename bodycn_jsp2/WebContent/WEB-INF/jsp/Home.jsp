@@ -21,13 +21,11 @@
               <div class="style_3">
                 <p style="padding-top: 0pt; " class="paragraph_style_6">Welcome to our Retail Collection <br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">Let yourself be inspired by our products. <br></p>
-                <p class="paragraph_style_7">As one of the leading international manufacturers we supply the best<br></p>
-                <p class="paragraph_style_7">department stores, boutiques, shops, Royal Palais in more than 50 countries all over the world.<br></p>
+                <p class="paragraph_style_7">引领创意新生活<br></p>
+                <p class="paragraph_style_7">MEPRA,世界顶尖生产商, 我们只为您提供最好的产品<br></p>
+                <p class="paragraph_style_7">在世界上50多个国家的各类百货商场中均有出售<br></p>
                 <p class="paragraph_style_8"><br></p>
-                <p class="paragraph_style_7">MEPRA sets standards. The 
-products stand out in comparison with the global competition through 
-exceptional design, innovation, high usage and high quality.<br></p>
+                <p class="paragraph_style_7">独特设计,高度创意,优质耐用使得MEPRA产品在世界竞争市场中脱颖而出<br></p>
               </div>
               <div style="height: 30px; line-height: 30px; " class="tinyText">&nbsp;</div>
             </div>

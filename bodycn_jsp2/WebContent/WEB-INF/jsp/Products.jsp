@@ -13,7 +13,7 @@
           <div id="id16" style="height: 23px; left: 31px; position: absolute; top: 82px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="Flatware.html" title="Flatware.html">Flatware</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="Flatware.html" title="Flatware.html">餐具</a></p>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@
           <div id="id17" style="height: 23px; left: 9px; position: absolute; top: 1195px; width: 106px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_106_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="TrolleysAtHome.html" title="TrolleysAtHome.html">Trolleys @ home</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="TrolleysAtHome.html" title="TrolleysAtHome.html">家用推车</a></p>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@
           <div id="id18" style="height: 23px; left: 27px; position: absolute; top: 350px; width: 80px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_80_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="Winecoolers.html" title="Winecoolers.html">Winecoolers</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="Winecoolers.html" title="Winecoolers.html">冰酒器</a></p>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
           <div id="id19" style="height: 25px; left: 574px; position: absolute; top: 943px; width: 99px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_99_25" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="Polycarbonate.html" title="Polycarbonate.html">Polycarbonate</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="Polycarbonate.html" title="Polycarbonate.html">PC聚碳酸酯</a></p>
               </div>
             </div>
           </div>
@@ -65,8 +65,8 @@
           <div id="id20" style="height: 38px; left: 31px; position: absolute; top: 116px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6"><a href="TitaniumFlatware.html" title="TitaniumFlatware.html">Titanium<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6"><a href="TitaniumFlatware.html" title="TitaniumFlatware.html">Flatware</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6"><a href="TitaniumFlatware.html" title="TitaniumFlatware.html">钛层<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6"><a href="TitaniumFlatware.html" title="TitaniumFlatware.html">餐具</a></p>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@
           <div id="id22" style="height: 26px; left: 579px; position: absolute; top: 90px; width: 92px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_92_26" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8"><a href="PotsPans.html" title="PotsPans.html">Pots &amp; Pans</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8"><a href="PotsPans.html" title="PotsPans.html">锅盘</a></p>
               </div>
             </div>
           </div>
@@ -120,8 +120,8 @@
           <div id="id23" style="height: 38px; left: 30px; position: absolute; top: 199px; width: 78px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_78_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6"><a href="FantasiaColours.html" title="FantasiaColours.html">Fantasia<br></a></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6"><a href="FantasiaColours.html" title="FantasiaColours.html">Colours</a></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6"><a href="FantasiaColours.html" title="FantasiaColours.html">梦幻<br></a></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6"><a href="FantasiaColours.html" title="FantasiaColours.html">色彩</a></p>
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@
           <div id="id25" style="height: 27px; left: 20px; position: absolute; top: 480px; width: 91px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_91_27" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="KitchenTools.html" title="KitchenTools.html">Kitchentools</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="KitchenTools.html" title="KitchenTools.html">厨房设备</a></p>
               </div>
             </div>
           </div>
@@ -225,7 +225,7 @@
           <div id="id29" style="height: 30px; left: 577px; position: absolute; top: 268px; width: 95px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_95_30" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="BowlsTrays.html" title="BowlsTrays.html">Bowls &amp; Trays</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a href="BowlsTrays.html" title="BowlsTrays.html">碗&amp;盘</a></p>
               </div>
             </div>
           </div>
@@ -243,7 +243,7 @@
           <div id="id30" style="height: 38px; left: 11px; position: absolute; top: 1436px; width: 92px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_92_38" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9"><a href="SpecialManufacturing.html" title="SpecialManufacturing.html">Customized items</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_9"><a href="SpecialManufacturing.html" title="SpecialManufacturing.html">定制系列</a></p>
               </div>
             </div>
           </div>

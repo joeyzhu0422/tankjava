@@ -28,7 +28,7 @@
           <div id="id16" style="height: 41px; left: 40px; position: absolute; top: 78px; width: 620px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
             <div class="text-content style_External_620_41" style="padding: 0px; ">
               <div class="style_3">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">Here is MEPRAs ..</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">MEPRA品牌历史</p>
               </div>
             </div>
           </div>
@@ -38,12 +38,7 @@
           <div id="id17" style="height: 89px; left: 95px; position: absolute; top: 136px; width: 510px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_510_89" style="padding: 0px; ">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 19.95px;" class="paragraph_style_7">..
- home, near the south of Lake Garda, in Lumezzane, Italy. All products 
-are designed and manufactured here in our own factories. Around 100 
-employees are working in our family-owned company, which&nbsp; started 
-production since the 40s. MEPRA ships in more than 50 countries around 
-the world.</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 19.95px;" class="paragraph_style_7">--MEPRA建立于意大利Lumezzane的Garda河畔, 其为40年代建立的家族企业,并有100多名员工,向世界50多个国家出口产品</p>
               </div>
             </div>
           </div>
@@ -145,57 +140,17 @@ the world.</p>
           <div id="id18" style="height: 771px; left: 49px; position: absolute; top: 1508px; width: 598px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_598_771" style="padding: 0px; ">
               <div class="style_4">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">The
- three Prandelli brothers, Bortolo, Francesco and Giovanbattista, built 
-the first factory in 1901, directly beside the river in Lumezzane, 
-Italy. This allowed them to run machinery by use of a water mill. They 
-worked metals as subcontractors and as primary manufacturers during the 
-30âs and World War II. After the war, it was necessary to reconvert 
-their production and the three sons of Giovanbattista founded Mepra in 
-1947. <br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">---- 1901年，Prandelli的兄弟们，Bortolo, Francesco 和Giovanbattista在河边建立了他们的第一个工厂。因为临近水源，他们得以利用水磨来发动机器。30年代二战期间,他们是金属制品的转包商。因为战后需要转换产品，兄弟三个就于1947年成立了MEPRA公司。<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">Mepra stands for 
-âMetallurgica Prandelliâ and its founders were the three brothers 
-Pietro, Felice and Giacomo. They built a new and modernized plant in the
- upper side of the valley to produce aluminum and brass flatware. These 
-raw materials were available in great quantities after the war. Each of 
-the three brothers was responsible for a different function: Giacomo for
- the production, Felice for the Sales, and Pietro, who was previously a 
-school teacher, for accounting. In 1950 the Prandelli brothers decided 
-to convert the production to 18/10 stainless steel. This move was highly
- successful. In the following twenty years, the company grew 
-continuously and extended the range to include holloware and 
-kitchenware. <br></p>
+                <p class="paragraph_style_7">MEPRA 指的是"MetallurgicaPrandelli"，它的创始人就是Pietro, Felice 和 Giacomo兄弟三人。他们把这个新的现代化的工厂建立在山谷的上部，专门生产铝制和铜制餐具。因为在战后这些原材料数量庞大。兄弟三个有着不同的分工：Giacomo负责生产，Felice负责销售，以前做过老师的Pietro就负责账目。1950年，Prandelli 兄弟决定生产18/10的不锈钢产品。这个决定给他们带来了巨大的成功。在接下来的二十年时间里，公司不断壮大，产品也扩展到锅（盘子）和厨房用具。<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">Later, Mepra also begun 
-producing silverplated flatware and holloware. In 1972, Gianni, the son 
-of Pietro, joined the family business. At the beginning, he was 
-responsible for production, together with uncle Giacomo. In the 
-following years, he became the main conduit between production and 
-Sales. He became CEO in 1977 and President in 1999. In 1985, Luigi, the 
-son of Felice, joined the company. He was responsible for Marketing and 
-Accounting, and then became CEO. He has also created numerous new 
-successful products and collections. The 80âs were years of great growth
- for Mepra. For the new collections, stainless steel became combined 
-with new materials such as plastic, glass, wood and porcelain. The sale 
-results were so good that, in 1992, Mepra decided to open a new plant 
-dedicated solely to the production of plastic. <br></p>
+                <p class="paragraph_style_7">----后来，MEPRA公司又开始生产镀银的餐具、锅（盘子）类等同类产品。1972年，Pietro 的儿子Gianni参与了公司的经营。刚开始，他和叔叔 Giacomo一起负责公司的生产。后来，他成为了公司负责生产和销售的主管。1977年他成为公司的首席执行官，并于1999年担任了 公司的总裁。1985年，Felice的儿子 Luigi也加入了公司。他主要负责销售和公司的账目，后来成为公司的首席执行官。他也为公司开发出了大量新的产品并为公司带来了巨大的成功。80年代期间MEPRA发展得很快。公司开始把不锈钢产品和一些新的材料，比如说塑料，玻璃，木材，瓷器等结合起来开发新的产品。结果销售获得了极大的成功。1992年，公司决定成立一个新的工厂专门生产塑料制品。 <br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">In the 90âs, in order to 
-respond to the most refined customerâs needs, Mepra developed a network 
-of cooperation with some of the most influential designers including 
-Angelo Mangiarotti and a host of other young talented avant-garde 
-designers who still work for the company full-time or on a project 
-basis. <br></p>
+                <p class="paragraph_style_7">90年代，为了生产出最精致的产品，公司专门开始与许多著名的设计师,如 Angelo Mangiarotti以及一些年轻的、富有创新精神的设计师进行合作;现在很多设计师仍在为MEPRA设计制作产品<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">Today, Research and 
-Development costs represent about 8% of the turnover â one of the 
-highest ratios in our industry. This investment spawns creativity, 
-design and utmost quality in everything we do. From the quality of the 
-raw materials we use, to the thickness to the flawless finishing these 
-are all signatures of Mepra. <br></p>
+                <p class="paragraph_style_7">如今,不断的创新和设计是最好质量的保证。高品质的原材料，精湛的工艺是MEPRA永远的追求。MEPRA每年投入到研究和开发方面的费用占据了公司总收入的8%，这也从另一个角度证明了MEPRA对产品工艺的严格追求。<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_7">At Mepra, we bring you three generations of Italian tradition, design, lifestyle and âMade in Italyâ.</p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_7">在MEPRA，我们将向您展示“意大利制造”的真正精髓,惬意的生活方式和无限的设计创意。</p>
               </div>
             </div>
           </div>

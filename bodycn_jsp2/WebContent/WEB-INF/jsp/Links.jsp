@@ -36,7 +36,7 @@
           <div id="id17" style="height: 28px; left: 13px; position: absolute; top: 302px; width: 668px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_668_28" style="padding: 0px; ">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class16" href="http://www.instyle.com/instyle/package/general/photos/0,,20317220,00.html" title="http://www.instyle.com/instyle/package/general/photos/0,,20317220,00.html">InStyle - Fashionmagazine USA</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class16" href="http://www.instyle.com/instyle/package/general/photos/0,,20317220,00.html" title="http://www.instyle.com/instyle/package/general/photos/0,,20317220,00.html">INStyle- 美国时尚杂志</a></p>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
           <div id="id18" style="height: 28px; left: 13px; position: absolute; top: 331px; width: 668px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_668_28" style="padding: 0px; ">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class17" href="http://www.giovanelliengraving.com/school.html" title="http://www.giovanelliengraving.com/school.html">Cesare Giovanelli - The most famous engraver of the world - Partner of MEPRA</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class17" href="http://www.giovanelliengraving.com/school.html" title="http://www.giovanelliengraving.com/school.html">Cesare Giovanelli -世界顶尖雕刻公司--MEPRA合作伙伴</a></p>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@
           <div id="id19" style="height: 28px; left: 14px; position: absolute; top: 414px; width: 668px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_668_28" style="padding: 0px; ">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a title="http://www.katjabremkamp.com/besteck_13.html" class="class18" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.katjabremkamp.com/besteck_13.html">Designer Katja Bremkamp - MEPRA Flatware âKATJAâ</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a title="http://www.katjabremkamp.com/besteck_13.html" class="class18" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.katjabremkamp.com/besteck_13.html">设计师Katja Bremkamp--MEPRA"KATJA" 餐具</a></p>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@
           <div id="id20" style="height: 28px; left: 15px; position: absolute; top: 441px; width: 668px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_668_28" style="padding: 0px; ">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a title="http://www.german-design-council.de/deutscher-designpreis/designpreis-2009/online-ausstellung.html?id=&amp;mode=Search&amp;compname=MEPRA&amp;prodname=&amp;winner=&amp;category_1=select&amp;category_2=&amp;category_3=&amp;Suchen=Suchen" class="class19" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.german-design-council.de/deutscher-designpreis/designpreis-2009/online-ausstellung.html?id=&amp;mode=Search&amp;compname=MEPRA&amp;prodname=&amp;winner=&amp;category_1=select&amp;category_2=&amp;category_3=&amp;Suchen=Suchen">Designpreis der Bundesrepublik Deutschland 2009 - MEPRA nominated</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a title="http://www.german-design-council.de/deutscher-designpreis/designpreis-2009/online-ausstellung.html?id=&amp;mode=Search&amp;compname=MEPRA&amp;prodname=&amp;winner=&amp;category_1=select&amp;category_2=&amp;category_3=&amp;Suchen=Suchen" class="class19" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.german-design-council.de/deutscher-designpreis/designpreis-2009/online-ausstellung.html?id=&amp;mode=Search&amp;compname=MEPRA&amp;prodname=&amp;winner=&amp;category_1=select&amp;category_2=&amp;category_3=&amp;Suchen=Suchen">Designpreis der Bundesrepublik Deutschland 2009--MEPRA荣获奖项提名</a></p>
               </div>
             </div>
           </div>

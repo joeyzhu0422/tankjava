@@ -37,7 +37,7 @@
           <div id="id16" style="height: 49px; left: 598px; position: absolute; top: 46px; width: 90px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_90_49" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class16" title="IdeasBarWine.html" href="IdeasBarWine.html">Ideas for Bar &amp; Wine</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class16" title="IdeasBarWine.html" href="IdeasBarWine.html">酒廊/酒饮类创意</a></p>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@
           <div id="id17" style="height: 41px; left: 29px; position: absolute; top: 379px; width: 61px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_61_41" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class17" title="IdeasOutdoor.html" href="IdeasOutdoor.html">Ideas for Outdoor </a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class17" title="IdeasOutdoor.html" href="IdeasOutdoor.html">户外创意 </a></p>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@
           <div id="id18" style="height: 57px; left: 583px; position: absolute; top: 212px; width: 95px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_95_57" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class18" title="IdeasServingDining.html" href="IdeasServingDining.html">Ideas for Serving &amp; Dining</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class18" title="IdeasServingDining.html" href="IdeasServingDining.html">餐饮服务创意</a></p>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@
           <div id="id19" style="height: 53px; left: 18px; position: absolute; top: 197px; width: 76px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_76_53" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a class="class19" title="IdeasBakingPizza.html" href="IdeasBakingPizza.html">Ideas for Baking Pizza</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a class="class19" title="IdeasBakingPizza.html" href="IdeasBakingPizza.html">披萨烘烤创意</a></p>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@
           <div id="id20" style="height: 53px; left: 14px; position: absolute; top: 31px; width: 79px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_79_53" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class20" title="IdeasColourfulLife.html" href="IdeasColourfulLife.html">Ideas for Colourful Life</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><a class="class20" title="IdeasColourfulLife.html" href="IdeasColourfulLife.html">炫彩生活创意</a></p>
               </div>
             </div>
           </div>

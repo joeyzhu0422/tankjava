@@ -29,7 +29,7 @@
           <div id="id16" style="height: 89px; left: 15px; position: absolute; top: 346px; width: 644px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
             <div class="text-content style_External_644_89" style="padding: 0px; ">
               <div class="style_3">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">MEPRA-Retail-Distribution </p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">MEPRA-零售 </p>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
           <div id="id17" style="height: 143px; left: 47px; position: absolute; top: 420px; width: 618px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_618_143" style="padding: 0px; ">
               <div class="style">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">MEPRA S.p.A.<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">MEPRA-零售<br></p>
                 <p class="paragraph_style_7">Via Montini 176<br></p>
                 <p class="paragraph_style_7">I-25067 Lumezzane (Brescia)<br></p>
                 <p class="paragraph_style_7">T +39 030 892 1441<br></p>
