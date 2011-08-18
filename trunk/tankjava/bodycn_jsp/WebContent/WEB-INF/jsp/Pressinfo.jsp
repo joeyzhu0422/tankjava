@@ -32,7 +32,7 @@ new Paste('widget0', 'Scripts/Widgets/HTMLRegion', 'Scripts/Widgets/SharedResour
           <div id="id18" style="height: 41px; left: 48px; position: absolute; top: 166px; width: 272px; z-index: 1;" class="style_SkipStroke_1 shape-with-text">
             <div class="text-content style_External_272_41" style="padding: 0px;">
               <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">Press-Releases</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">媒体报道</p>
               </div>
             </div>
           </div>
@@ -42,8 +42,8 @@ new Paste('widget0', 'Scripts/Widgets/HTMLRegion', 'Scripts/Widgets/SharedResour
           <div id="id19" style="height: 72px; left: 367px; position: absolute; top: 166px; width: 272px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content style_External_272_72" style="padding: 0px;">
               <div class="style">
-                <p style="padding-top: 0pt;" class="paragraph_style_7"><a title="PressReports.html" href="http://www.en.mepra-online.de/PressReports.html">Magazines<br></a></p>
-                <p style="padding-bottom: 0pt;" class="paragraph_style_7"><a title="PressReports.html" href="http://www.en.mepra-online.de/PressReports.html">write about MEPRA</a></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_7"><a title="PressReports.html" href="PressReports.html">杂志<br></a></p>
+                <p style="padding-bottom: 0pt;" class="paragraph_style_7"><a title="PressReports.html" href="PressReports.html">如何报道MEPRA</a></p>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ new Paste('widget0', 'Scripts/Widgets/HTMLRegion', 'Scripts/Widgets/SharedResour
           <div id="id20" style="height: 41px; left: 48px; position: absolute; top: 76px; width: 620px; z-index: 1;" class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_620_41" style="padding: 0px;">
               <div class="style_3">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_8">PRESS</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_8">媒体</p>
               </div>
             </div>
           </div>

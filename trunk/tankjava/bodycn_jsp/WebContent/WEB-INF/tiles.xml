@@ -247,4 +247,9 @@
 		<put-attribute name="main" value="/WEB-INF/jsp/Trolleyvideo_mov.jsp" />
 	</definition>
 	
+	<definition name="PressReports.html" extends="standard">
+		<put-attribute name="title" value="PressReports" type="string" />
+		<put-attribute name="main" value="/WEB-INF/jsp/PressReports.jsp" />
+	</definition>
+	
 </tiles-definitions>

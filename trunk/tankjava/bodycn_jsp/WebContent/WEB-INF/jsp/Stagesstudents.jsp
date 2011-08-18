@@ -29,7 +29,7 @@
           <div id="id18" style="height: 41px; left: 19px; position: absolute; top: 151px; width: 620px; z-index: 1;" class="style_SkipStroke_1 shape-with-text">
             <div class="text-content style_External_620_41" style="padding: 0px;">
               <div class="style_3">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">Students @ MEPRA</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">毕业生在Mepra</p>
               </div>
             </div>
           </div>
@@ -39,13 +39,13 @@
           <div id="id19" style="height: 257px; left: 26px; position: absolute; top: 258px; width: 161px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_161_257" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19.95px;" class="paragraph_style_7">Students @ MEPRA<br></p>
-                <p style="line-height: 19.95px;" class="paragraph_style_7">Request for stages<br></p>
+                <p style="padding-top: 0pt; line-height: 19.95px;" class="paragraph_style_7">毕业生在Mepra<br></p>
+                <p style="line-height: 19.95px;" class="paragraph_style_7">对毕业生的要求<br></p>
                 <p style="line-height: 19.95px;" class="paragraph_style_7"><br></p>
-                <p style="line-height: 19.95px;" class="paragraph_style_7">Italian Universities and colleges can insert their request to host students for stages<br></p>
+                <p style="line-height: 19.95px;" class="paragraph_style_7">意大利大学或学院可提交并推荐学生<br></p>
                 <p style="line-height: 19.95px;" class="paragraph_style_7"><br></p>
-                <p style="line-height: 19.95px;" class="paragraph_style_7">Please contact us<br></p>
-                <p style="padding-bottom: 0pt; line-height: 19.95px;" class="paragraph_style_7">We come back to you immediately and talk about possibilities</p>
+                <p style="line-height: 19.95px;" class="paragraph_style_7">请联系我们<br></p>
+                <p style="padding-bottom: 0pt; line-height: 19.95px;" class="paragraph_style_7">我们会尽快跟您联系。</p>
               </div>
             </div>
           </div>
