@@ -131,7 +131,7 @@
           <div id="id16" style="height: 45px; left: 40px; position: absolute; top: 136px; width: 620px; z-index: 1;" class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_620_45" style="padding: 0px;">
               <div class="style_3">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">Some redactional reports about us ... </p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">有关对Mepra的报道</p>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@
           <div id="id17" style="height: 41px; left: 40px; position: absolute; top: 78px; width: 620px; z-index: 1;" class="style_SkipStroke_3 shape-with-text">
             <div class="text-content style_External_620_41" style="padding: 0px;">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">INTERNATIONAL PRESS</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">国际刊物报道</p>
               </div>
             </div>
           </div>

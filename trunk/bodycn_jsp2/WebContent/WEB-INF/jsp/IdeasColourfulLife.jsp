@@ -21,9 +21,9 @@
           <div id="id17" style="height: 104px; left: 134px; position: absolute; top: 325px; width: 428px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_428_104" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6">MEPRA offers a huge selection of colorful accessories in various materials: high-gloss lacquered wood, cutlery with <br></p>
-                <p class="paragraph_style_6">nylon-handles &amp; underplates in 38 colors, painted steel,<br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6">polycarbonate and polypropylene.</p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6">MEPRA根据不同的原材料为您提供多样的彩色创意:高光漆木,尼龙长柄的彩色餐具,<br></p>
+                <p class="paragraph_style_6">搭配38种不同颜色的餐盘,涂漆钢,<br></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6">PC及PP塑料等 </p>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
           <div id="id18" style="height: 75px; left: 426px; position: absolute; top: 38px; width: 244px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_244_75" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Ideas for a Colourful Life</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">多彩生活</p>
               </div>
             </div>
           </div>
@@ -263,7 +263,7 @@
           <div id="id19" style="height: 23px; left: 214px; position: absolute; top: 435px; width: 267px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_267_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">部分产品展示</p>
               </div>
             </div>
           </div>

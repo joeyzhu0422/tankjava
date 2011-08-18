@@ -23,9 +23,8 @@
           <div id="id17" style="height: 43px; left: 74px; position: absolute; top: 373px; width: 536px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_536_43" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">A
- wide range of different bowls &amp; trays, many sizes for each purpose,
- many designs for each individual taste. Here is a small overview:</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">大量不同碗&碟设计,适合各种用途的多种尺寸,符合您品味要求的多种独特设计. 
+部分产品展示</p>
               </div>
             </div>
           </div>
@@ -47,7 +46,7 @@
           <div id="id18" style="height: 46px; left: 94px; position: absolute; top: 32px; width: 211px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_211_46" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Bowls &amp; Trays</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">碗 &amp; 碟</p>
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@
 <div id="footer_layer">
 
 	   <p class="left">
-           <a onclick="window.open(this.href); return false;" title="http://www.en.mepra.eu/Home.html" href="Home.html" onkeypress="window.open(this.href); return false;">Click here to visit our Hotel & Restaurant Division</a>
+           <a onclick="window.open(this.href); return false;" title="http://www.en.mepra.eu/Home.html" href="Home.html" onkeypress="window.open(this.href); return false;">点击此处 查看酒店&餐饮产品</a>
        </p> 
        
         <p>
@@ -20,7 +20,7 @@
        
 
        <p>
-           <a title="Impressum.html" href="Impressum.html">版权说明</a>
+           <a title="Impressum.html" href="Impressum.html">免责申明</a>
        </p>
 
 </div>

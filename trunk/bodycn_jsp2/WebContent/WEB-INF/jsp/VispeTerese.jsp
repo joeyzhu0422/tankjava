@@ -23,12 +23,7 @@
           <div id="id17" style="height: 81px; left: 74px; position: absolute; top: 373px; width: 536px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_536_81" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">Le
- Vispe Terese is a colourful, retro and durable range of bakeware made 
-in Italy. The high quality, non-stick surfaces use no PFOA, a product 
-associated with health and environmental issues. Le Vispe Terese is 
-dishwasher safe and the range comprises a pizza tray, bread pan, 
-roasting pans, quiche tray, plumcake mould and cake tins.</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">Le Vispe Terese 是意大利生产的烘培用具系列,其颜色亮丽,外形时尚,经久耐用,而且不粘锅的锅身未采用任何PFDA原料,是绝对的健康和环保之选.Le Vispe Terese 可安全机洗,产品含括披萨烤盘,面包盘,烤箱盘,肉饼盘,糕点模具以及蛋糕烤盘</p>
               </div>
             </div>
           </div>

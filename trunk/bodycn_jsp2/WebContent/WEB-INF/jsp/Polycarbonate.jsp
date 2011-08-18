@@ -13,16 +13,7 @@
           <div id="id16" style="height: 123px; left: 63px; position: absolute; top: 341px; width: 574px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_574_123" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 19px;" class="paragraph_style_6">The
- stunning and unbreakable 'Polycarbonate' range is produced using the 
-highest quality raw ingredients available in the world. The patented 
-process results in a superb 'glass' look and feel. The range comes in a 
-fantastic array of retro colours and the items available will suit all 
-occasions. As the Mepra Polycarbonate ware is unbreakable, it is perfect
- for pool areas, outdoors, bars &amp; nightclubs, Aged Care Centre, 
-Hospitals and more. Look for the Mepra Polycarbonate Party Plate that 
-holds a champagne or wine glass â great for stand up function or parties
- around the pool.</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; line-height: 19px;" class="paragraph_style_6">抢眼外观和坚不可摧构成了"PC聚碳酸酯"系列的主要特征.该系列产品采用世界上最优质的原材料制作而成, 通过专利加工工艺,产品外观酷似玻璃. 产品含括各种时尚的梦幻色彩,可在任何场合搭配使用. 由于其不易破碎的特性, 产品非常适合在泳池,户外,酒吧&俱乐部,老年人护理中心,医院等场合使用. 可放置醉人香槟和迷人酒杯的MEPRA 聚碳酸酯PC系列晚会托盘, 是各种海滩泳池party的绝佳选择 </p>
               </div>
             </div>
           </div>
@@ -40,19 +31,19 @@ holds a champagne or wine glass â great for stand up function or parties
           <div id="id17" style="height: 109px; left: 441px; position: absolute; top: 42px; width: 242px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_242_109" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_7">SPA Wellness<br></p>
-                <p class="paragraph_style_7">Outdoor<br></p>
-                <p style="padding-bottom: 0pt;" class="paragraph_style_7">Polycarbonate</p>
+                <p style="padding-top: 0pt;" class="paragraph_style_7">SPA健康中心<br></p>
+                <p class="paragraph_style_7">户外<br></p>
+                <p style="padding-bottom: 0pt;" class="paragraph_style_7">聚碳酸酯PC</p>
               </div>
             </div>
           </div>
-          
+           
 
 
           <div id="id18" style="height: 26px; left: 103px; position: absolute; top: 476px; width: 477px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_477_26" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_8">Here is a small selection of our range, for further details look at <a class="class16" href="file:///Users/rosenoegger/Sites/MEPRA-Hotel-Restaurant_EN/IdeasSPA.html" title="file://localhost/Users/rosenoegger/Sites/MEPRA-Hotel-Restaurant_EN/IdeasSPA.html">âIdeas SPAâ</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_8">部分产品展示. 更多内容请参阅<a class="class16" href="file:///Users/rosenoegger/Sites/MEPRA-Hotel-Restaurant_EN/IdeasSPA.html" title="file://localhost/Users/rosenoegger/Sites/MEPRA-Hotel-Restaurant_EN/IdeasSPA.html">"海滩创意"</a></p>
               </div>
             </div>
           </div>
