@@ -12,7 +12,7 @@
           <div id="id16" style="height: 45px; left: 41px; position: absolute; top: 263px; width: 366px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_366_45" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">Ideas for Serving &amp; Dining</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">餐饮创意</p>
               </div>
             </div>
           </div>
@@ -22,13 +22,11 @@
           <div id="id17" style="height: 143px; left: 81px; position: absolute; top: 2073px; width: 528px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_528_143" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">Custom made<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_7">客户定制<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">You may get all shapes of 
-our range covered with a coloured titanium surface of your choice. DonÂ´t
- hesitate to come back to us with your possible requests.<br></p>
+                <p class="paragraph_style_7">各个系列的不同产品均可以根据您的要求选择不同的钛表面颜色.<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p class="paragraph_style_7">Also you may get all flatware in silverplated or golden version.<br></p>
+                <p class="paragraph_style_7">所有的餐具都可以选择银制或金制样式<br></p>
               </div>
             </div>
           </div>
@@ -38,7 +36,7 @@ our range covered with a coloured titanium surface of your choice. DonÂ´t
           <div id="id18" style="height: 26px; left: 47px; position: absolute; top: 526px; width: 234px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_234_26" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">部分产品展示</p>
               </div>
             </div>
           </div>
@@ -48,13 +46,13 @@ our range covered with a coloured titanium surface of your choice. DonÂ´t
           <div id="id19" style="height: 158px; left: 53px; position: absolute; top: 349px; width: 322px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_322_158" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_9">The prevailing standard of quality, design and innovation is extremely demanding.<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_9">高度质感,优秀设计与卓越创新是餐饮器具使用的高端要求<br></p>
                 <p class="paragraph_style_9"><br></p>
-                <p class="paragraph_style_9">MEPRA will more than fulfill these high standards. We produce&nbsp; all products in own factories in northern Italy.<br></p>
+                <p class="paragraph_style_9">MEPRA为您更好地实现这些高端要求.所有产品均产自意大利北部的MEPRA工厂<br></p>
                 <p class="paragraph_style_9"><br></p>
-                <p class="paragraph_style_9">By using our equipment for serving &amp; dining lead customers to a distinctive and lasting experience. <br></p>
+                <p class="paragraph_style_9">使用我们的餐饮器具,将使客人们享受到卓然不同而回味无穷的餐饮之旅<br></p>
                 <p class="paragraph_style_9"><br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_9">Make use from our knowledge and competition!</p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_9">该系列是MEPRA专业制作和行业沉淀的创意之作</p>
               </div>
             </div>
           </div>

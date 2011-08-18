@@ -13,7 +13,7 @@
           <div id="id16" style="height: 41px; left: 53px; position: absolute; top: 262px; width: 323px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_323_41" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">Ideas for Outdoor</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">户外创意</p>
               </div>
             </div>
           </div>
@@ -23,7 +23,7 @@
           <div id="id17" style="height: 23px; left: 53px; position: absolute; top: 510px; width: 228px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_228_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">产品部分展示</p>
               </div>
             </div>
           </div>
@@ -104,14 +104,11 @@
           <div id="id19" style="height: 182px; left: 52px; position: absolute; top: 310px; width: 291px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_291_182" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_10">You are looking for unusual glasses, bowls, plates, cups,<br></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_10">你在寻找易于寻常的玻璃杯和碗盘<br></p>
                 <p style="line-height: 19px;" class="paragraph_style_10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- ... which cannot break?<br></p>
+而且不易破碎?<br></p>
                 <p style="line-height: 19px;" class="paragraph_style_10"><br></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_10">For
- use in a spa area, sauna, swimming pool, a beach restaurant, terrace, 
-outdoor , hiking, sports in general, a golf club, a lawn restaurants, a 
-spa, a beach bar or bar, a fitness center and much more, take this!</p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_10">如果您需要在SPA,桑拿区,游泳馆,海滩餐厅,露天餐厅,户外,徒步旅行,各种运动场合,高尔夫俱乐部,草地餐厅,酒廊,沙滩酒吧,健体中心或更多类似场合使用, 请选用这款MEPRA产品吧!</p>
               </div>
             </div>
           </div>

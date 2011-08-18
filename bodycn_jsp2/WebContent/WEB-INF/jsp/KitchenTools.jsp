@@ -13,7 +13,7 @@
           <div id="id16" style="height: 41px; left: 74px; position: absolute; top: 373px; width: 536px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_536_41" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">High quality tools, which are constructed for daily use in kitchens, dishwasher safe, easy to handle and nice looking.</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6">高度质感,专为厨房日常使用设计;可安全机洗; 操作简易,外表亮丽</p>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@
           <div id="id17" style="height: 46px; left: 112px; position: absolute; top: 32px; width: 211px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_211_46" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">KitchenTools</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">厨房用具</p>
               </div>
             </div>
           </div>

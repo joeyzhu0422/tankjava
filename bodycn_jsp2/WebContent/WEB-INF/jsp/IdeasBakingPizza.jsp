@@ -14,7 +14,7 @@
           <div id="id16" style="height: 75px; left: 53px; position: absolute; top: 212px; width: 336px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_336_75" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">Ideas for Baking &amp; Pizza</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6">烘烤披萨</p>
               </div>
             </div>
           </div>
@@ -24,7 +24,7 @@
           <div id="id17" style="height: 23px; left: 53px; position: absolute; top: 510px; width: 228px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_228_23" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">部分产品展示</p>
               </div>
             </div>
           </div>
@@ -34,11 +34,11 @@
           <div id="id18" style="height: 201px; left: 53px; position: absolute; top: 294px; width: 291px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_291_201" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_8">Pizza dining and preparing has special demands. Knives are needed, which cut Pizzas easily and look nice. <br></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_8">披萨餐饮需要特别的准备要求. 餐刀需要能轻松地切出漂亮的披萨<br></p>
                 <p style="line-height: 19px;" class="paragraph_style_8"><br></p>
-                <p style="line-height: 19px;" class="paragraph_style_8">Show a different lifestyle: You may choose between colourful underplates, flatware, glasses,&nbsp; graters and much more...<br></p>
+                <p style="line-height: 19px;" class="paragraph_style_8">活出别样生活态度: 您可以从多彩的餐盘,餐具,玻璃器具以及其他产品中选择<br></p>
                 <p style="line-height: 19px;" class="paragraph_style_8"><br></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_8">Decide for MEPRA proposals, which show Italian lifestyle how it is.</p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_8">选择MEPRA 选择优质意式生活风度</p>
               </div>
             </div>
           </div>

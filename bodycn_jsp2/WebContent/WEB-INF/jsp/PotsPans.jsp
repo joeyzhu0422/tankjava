@@ -14,15 +14,9 @@
           <div id="id16" style="height: 221px; left: 329px; position: absolute; top: 138px; width: 259px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_259_221" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3">These
- 3-layer aluinox 18/10 pots by Mepra have an aluminum core throughout 
-that evenly distributes heat for uniform cooking with little water and 
-fat resulting in a more wholesome and flavorful food. <br></span></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3">由3层铝制材料制成的18/10锅具,拥有强大的铝制导热中心,可在烹饪过程中均匀分布热量,即便是少量水和肉类烹饪,也能制作出更加健康可口的佳肴<br></span></p>
                 <p style="line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3"><br></span></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3">Other
- benefits: greater control over cooking temperature, energy-saving 
-cooking, useful lip allows accurate pouring, suitable for all types of 
-hobs, especially induction hobs, dishwasher safe.</span></p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3">其他特点: 更好的温度控制功能; 热量储存烹饪;人性化边缘设计; 适合一切烹饪设备,特别是电磁炉;安全机洗</span></p>
               </div>
             </div>
           </div>
@@ -32,7 +26,7 @@ hobs, especially induction hobs, dishwasher safe.</span></p>
           <div id="id17" style="height: 49px; left: 476px; position: absolute; top: 13px; width: 176px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_176_49" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">Pots &amp; Pans</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">锅类</p>
               </div>
             </div>
           </div>
@@ -94,7 +88,7 @@ hobs, especially induction hobs, dishwasher safe.</span></p>
           <div id="id20" style="height: 49px; left: 246px; position: absolute; top: 735px; width: 176px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_176_49" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">â1950â</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_7">"1950"</p>
               </div>
             </div>
           </div>
@@ -124,15 +118,9 @@ hobs, especially induction hobs, dishwasher safe.</span></p>
           <div id="id23" style="height: 244px; left: 330px; position: absolute; top: 491px; width: 311px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_311_244" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_6"><span class="style_3">Toscana
- pots and pans by Mepra are made of an aluminum core sandwiched between 
-and inside layer of 18/10 stainless steel and copper outside, 
-guaranteeing excellent heat conducting properties. <br></span></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_6"><span class="style_3">Toscana系列锅具内层为18/10不锈钢材料,外层为铜,中间加入铝制隔层,造就了良好的锅身导热性<br></span></p>
                 <p class="paragraph_style_6"><span class="style_3"><br></span></p>
-                <p style="padding-bottom: 0pt;" class="paragraph_style_6"><span class="style_3">Other
- benefits: greater control over cooking temperatures, allows gentle 
-cooking with little water and fat for more wholesome and flavorful food,
- dishwasher safe, suitable for all types of hobs except induction hobs.</span></p>
+                <p style="padding-bottom: 0pt;" class="paragraph_style_6"><span class="style_3">其他特点:良好的温度控制功能;可文火烹饪少量食物,更健康可口;安全机洗; 适合除电磁炉外的任意烹饪设备</span></p>
               </div>
             </div>
           </div>
@@ -142,10 +130,7 @@ cooking with little water and fat for more wholesome and flavorful food,
           <div id="id24" style="height: 175px; left: 394px; position: absolute; top: 1119px; width: 251px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_251_175" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><span class="style_3">Energia
- line by Mepra offers unique and practical pots with graduated 
-measurements inside that make cooking easier. The dutch pot can be used 
-on any type of hob or in the oven. Dishwasher and fridge safe.</span></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><span class="style_3">Energia 系列产品拥有独特的设计和实用的功能,内部刻有测量刻度,使得烹饪更加简易精准. 该系列锅具可在任意烹饪设备上使用,甚至也可在烤箱中使用. 可安全使用清洁机和冰箱</span></p>
               </div>
             </div>
           </div>
@@ -155,15 +140,9 @@ on any type of hob or in the oven. Dishwasher and fridge safe.</span></p>
           <div id="id25" style="height: 185px; left: 334px; position: absolute; top: 810px; width: 311px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_311_185" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3">â1950â
- items are designed as a reference to the style of the 50`s. A heavy 
-body of 18/10 stainless steel&nbsp; guarantees an excellent heat 
-conducting property. <br></span></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3">"1950"系列根据50年代的产品样式设计. 18/10不锈钢的重量锅身保证了该系列产品的良好加热性能<br></span></p>
                 <p style="line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3"><br></span></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3">Other
- benefits: greater control over cooking temperatures, allows gentle 
-cooking with little water and fat for more wholesome and flavorful food,
- dishwasher safe, suitable for all types of hobs except induction hobs.</span></p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_6"><span style="line-height: 19px;" class="style_3">其他特点: 良好的温度控制功能;可文火烹饪少量食物,更健康可口;安全机洗; 适合除电磁炉外的任意烹饪设备</span></p>
               </div>
             </div>
           </div>
@@ -173,18 +152,15 @@ cooking with little water and fat for more wholesome and flavorful food,
           <div id="id26" style="height: 344px; left: 75px; position: absolute; top: 1739px; width: 556px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_556_344" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_6"><span class="style_3">Here
- is the new generation of non-stick cookware, worlds first from MEPRA, 
-with body of thick stainless-steel in combination with EXCILON Â®, the 
-innovative white coating. <br></span></p>
-                <p class="paragraph_style_6"><span class="style_3">Safer and more healthy because also of these features:<br></span></p>
-                <p class="paragraph_style_6"><span class="style_3">Excellent non-stick, will not burn during cooking.<br></span></p>
-                <p class="paragraph_style_6"><span class="style_3">Physical hardness is high, excellent heat impact resistance, anti-rust and anti-abrasion.<br></span></p>
-                <p class="paragraph_style_6"><span class="style_3">Easy to remove any residues when washing the pan.<br></span></p>
-                <p class="paragraph_style_6"><span class="style_3">Environment-Friendly: <br>- is a pollution free material and meets the VOC regulations. <br>here is no odour, and no air pollution. <br>- does not cause soil contamination. <br>- is non-stick. Excellent acid, alkali resistance, solvent resistance. PFTE-Free, PFOA-Free.<br></span></p>
-                <p class="paragraph_style_6"><span class="style_3">No harm: <br>- is not containing poisonous materials. <br>- is not containing any corrosive materials. <br></span></p>
-                <p class="paragraph_style_6"><span class="style_3">Frying pans diameter 20-24-28cm - Wok-Pan&nbsp; 28cm with lid <br></span></p>
-                <p class="paragraph_style_6"><span class="style_3">availiable with ergonomic handles and glass-lids in 6 different trend-colours.<br></span></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_6"><span class="style_3">MEPRA世界首创的新一代不粘锅锅具,锅身为加入EXCILON的厚度不锈钢,创新的白底漆工艺. <br></span></p>
+                <p class="paragraph_style_6"><span class="style_3">另外还具有更多健康安全的特点:<br></span></p>
+                <p class="paragraph_style_6"><span class="style_3">不粘锅, 烹饪过程中不会烧伤<br></span></p>
+                <p class="paragraph_style_6"><span class="style_3">良好的抗热,防锈,耐磨物理性能<br></span></p>
+                <p class="paragraph_style_6"><span class="style_3">锅身清洁方便彻底<br></span></p>
+                <p class="paragraph_style_6"><span class="style_3">环保: <br>- 原材料为零污染原料,符合VOC相关条规 <br>无异味 无污浊 <br>-  材料不会导致土壤污染 <br>- 良好的抗酸抗碱性 耐溶剂性 不含PFTE及PFDA<br></span></p>
+                <p class="paragraph_style_6"><span class="style_3">产品无危害: <br>- 不含任何有毒物质 <br>- 不含任何腐蚀性物质<br></span></p>
+                <p class="paragraph_style_6"><span class="style_3">煎锅尺寸20-24-28cm,炒锅  28cm含锅盖<br></span></p>
+                <p class="paragraph_style_6"><span class="style_3">该系列产品拥有人性化手柄设计,并搭配玻璃锅盖,共有6种不同的时尚颜色可供挑选<br></span></p>
               </div>
             </div>
           </div>

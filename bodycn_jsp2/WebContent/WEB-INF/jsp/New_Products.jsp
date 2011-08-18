@@ -13,21 +13,9 @@
           <div id="id16" style="height: 189px; left: 47px; position: absolute; top: 624px; width: 591px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_591_189" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6">"ELICA"
- is the latest MEPRA design of cutlery. "ELICA" means translated into 
-English as much as helical or spiral, and are thus consistent design 
-language of this cutlery again: an essential design feature of this 
-massive, 4mm cutlery is crafted from solid stainless steel, which runs 
-through the entire handle all the parts. This look lends the cutlery an 
-understated elegance and dynamism. Also offers this product with a 
-soulful feel and balance that can be given an idea of figures.<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6">"ELICA"是MEPRA最新的餐具设计系列."ELICA"意为螺旋旋转. 其显著的设计特点为, 仅为4mm厚度的餐具全部由坚固的不锈钢制作而成. 这款设计代表着无尚的优雅和活力,仿如意大利的艺术雕像一般, 为产品注入了灵魂和魅力<br></p>
                 <p class="paragraph_style_6"><br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6">Of
- course, the 18/10 stainless steel cutlery is dishwasher safe and the 
-toughest everyday use, thanks in Italian forging technology, in the 
-demanding hotel and restaurant ideally suited. See all common 
-accessories, from the fish knife and numerous additional items are also 
-available on this model.</p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6">当然,此款18/10不锈钢餐具可用自动清洗机清洗,另外得益于意大利精良的锻造技术,该系列可供酒店和餐厅日常频繁使用. 从鱼叉到其他各种餐具配件,我们都可以制作成ELICA系列的各种样式.</p>
               </div>
             </div>
           </div>
@@ -49,7 +37,7 @@ available on this model.</p>
           <div id="id17" style="height: 45px; left: 417px; position: absolute; top: 36px; width: 221px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_221_45" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">New Products</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">最新产品</p>
               </div>
             </div>
           </div>
@@ -69,7 +57,7 @@ available on this model.</p>
           <div id="id19" style="height: 47px; left: 142px; position: absolute; top: 935px; width: 421px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_421_47" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a class="class16" href="TheLuxuryArtMepra.html" title="TheLuxuryArtMepra.html">The new MEPRA Collection....</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7"><a class="class16" href="TheLuxuryArtMepra.html" title="TheLuxuryArtMepra.html">MEPRA新系列...</a></p>
               </div>
             </div>
           </div>
@@ -85,18 +73,9 @@ available on this model.</p>
           <div id="id20" style="height: 153px; left: 58px; position: absolute; top: 1962px; width: 591px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_591_153" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_6">"ATENA"
- is the other new design of MEPRA cutlery. "Atena" is solid, edgy and 
-factual. " - Looking at this new flatware you guessed the particular 
-material thickness of 4 mm stainless steel, you can see the 
-sophisticated feeling.<br></p>
+                <p style="padding-top: 0pt; " class="paragraph_style_6">"ATENA"是MEPRA餐具的另一款新型设计.稳定坚固就是"ATENA"产品的特点-- 产品厚度仅为4mm,由不锈钢铸成. <br></p>
                 <p class="paragraph_style_6"><br></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_6">Of
- course, the 18/10 stainless steel cutlery is dishwasher safe and the 
-toughest everyday use, thanks in Italian forging technology, in the 
-demanding hotel and restaurant ideally suited. See all common 
-accessories, from the fish knife and numerous additional items are also 
-available on this model.</p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_6">当然,此款18/10不锈钢餐具可用自动清洗机清洗,另外得益于意大利精良的锻造技术,该系列可供酒店和餐厅日常频繁使用. 从鱼叉到其他各种餐具配件,我们都可以制作成ATENA系列的各种样式.</p>
               </div>
             </div>
           </div>
@@ -144,7 +123,7 @@ available on this model.</p>
           <div id="id22" style="height: 45px; left: 36px; position: absolute; top: 2168px; width: 271px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_271_45" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">ECO - CERAMIC</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_7">ECO-陶瓷</p>
               </div>
             </div>
           </div>
@@ -154,20 +133,16 @@ available on this model.</p>
           <div id="id23" style="height: 357px; left: 47px; position: absolute; top: 2817px; width: 591px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_591_357" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_6">This
- is the new ECO CERAMIC collection, the new generation of non-stick 
-cookware, worlds first from MEPRA, with body of thick stainless-steel in
- combination with EXCILON Â®, the innovative white coating.&nbsp; - Safer
- and more healthy because also of these features:<br></p>
-                <p style="line-height: 19px;" class="paragraph_style_6">- Excellent non-stick, will not burn during cooking<br></p>
-                <p style="line-height: 19px;" class="paragraph_style_6">- Physical hardness is high, excellent heat impact resistance, anti-rust and anti-abrasion<span style="line-height: 27.55px;" class="style_3"><br></span></p>
-                <p style="line-height: 19px;" class="paragraph_style_6">- Easy to remove any residues when washing the pan<span style="line-height: 27.55px;" class="style_3"><br></span></p>
+                <p style="padding-top: 0pt; line-height: 19px;" class="paragraph_style_6">MEPRA世界首创的新一代不粘锅锅具,锅身为加入EXCILON材质的厚度不锈钢,并采用了创新的白底涂层工艺. 另外还具有更多健康安全的特点:<br></p>
+                <p style="line-height: 19px;" class="paragraph_style_6">- 不粘锅, 烹饪过程中不会烧伤<br></p>
+                <p style="line-height: 19px;" class="paragraph_style_6">- 良好的抗热,防锈,耐磨物理性能<span style="line-height: 27.55px;" class="style_3"><br></span></p>
+                <p style="line-height: 19px;" class="paragraph_style_6">- 锅身清洁方便彻底<span style="line-height: 27.55px;" class="style_3"><br></span></p>
                 <p style="line-height: 19px;" class="paragraph_style_6"><br></p>
-                <p style="line-height: 19px;" class="paragraph_style_6">Environment-Friendly: <br>- It is a pollution free material and meets the VOC regulations <br>- There is no odour, and no air pollution<br>- It does not cause soil contamination<br>- It is non-stick. Excellent acid, alkali resistance, solvent resistance. PFTE-Free, PFOA-Free<span style="line-height: 27.55px;" class="style_3"><br></span></p>
+                <p style="line-height: 19px;" class="paragraph_style_6">环保: <br>- 原材料为零污染原料,符合VOC相关条规 <br>- 无异味 无污浊<br>- 材料不会导致土壤污染<br>- 良好的抗酸抗碱性 耐溶剂性 不含PFTE及PFDA<span style="line-height: 27.55px;" class="style_3"><br></span></p>
                 <p style="line-height: 19px;" class="paragraph_style_6"><br></p>
-                <p style="line-height: 19px;" class="paragraph_style_6">No harm: <br>- It is not containing poisonous materials <br>- It is not containing any corrosive materials <br></p>
+                <p style="line-height: 19px;" class="paragraph_style_6">产品安全健康: <br>- 不含任何有毒物质 <br>- 不含任何腐蚀性物质 <br></p>
                 <p style="line-height: 19px;" class="paragraph_style_6"><br></p>
-                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_6">Availiable with ergonomic handles and glass-lids in 6 different trend-colours</p>
+                <p style="padding-bottom: 0pt; line-height: 19px;" class="paragraph_style_6">该系列产品拥有人性化手柄设计,并搭配玻璃锅盖,共有6种不同的时尚颜色可供挑选</p>
               </div>
             </div>
           </div>

@@ -63,9 +63,9 @@
           <div id="id17" style="height: 96px; left: 193px; position: absolute; top: 1773px; width: 343px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_343_96" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_6">Custom made<br></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_6">客户定制<br></p>
                 <p class="paragraph_style_6"><br></p>
-                <p style="padding-bottom: 0pt;" class="paragraph_style_6">Each trolley can be configured differently as desired. Describe your needs!</p>
+                <p style="padding-bottom: 0pt;" class="paragraph_style_6">每款推车都可根据您的要求进行设计组装. 告诉我们您的想法!</p>
               </div>
             </div>
           </div>
@@ -75,14 +75,11 @@
           <div id="id18" style="height: 113px; left: 82px; position: absolute; top: 449px; width: 536px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_536_113" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt;" class="paragraph_style_7">In
- the international fine dining scene MEPRA products are the first 
-choice. - The prevailing standard of quality, design and innovation is 
-extremely demanding.<br></p>
-                <p class="paragraph_style_7">MEPRA will more than fulfill these high standards. We produce <br></p>
+                <p style="padding-top: 0pt;" class="paragraph_style_7">在世界顶尖的餐饮场所中,MEPRA是客户们的第一选择. 高度质感,优秀设计与卓越创新是餐饮器具使用的高端要求<br></p>
+                <p class="paragraph_style_7">MEPRA为您更好地实现这些高端要求.所有产品均产自意大利北部的MEPRA工厂 <br></p>
                 <p class="paragraph_style_7">all products in own factories in northern Italy.<br></p>
                 <p class="paragraph_style_7"><br></p>
-                <p style="padding-bottom: 0pt;" class="paragraph_style_7">By using our trolleys lead customers to a distinctive and lasting experience. Profit from our knowledge and competition!</p>
+                <p style="padding-bottom: 0pt;" class="paragraph_style_7">使用我们的推车设备,将使客人们享受到卓然不同而回味无穷的餐饮之旅.该系列是MEPRA专业制作和行业沉淀的创意之作</p>
               </div>
             </div>
           </div>
@@ -92,7 +89,7 @@ extremely demanding.<br></p>
           <div id="id19" style="height: 38px; left: 240px; position: absolute; top: 573px; width: 230px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_230_38" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_8">Here is a small selection of our range</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_8">部分产品展示</p>
               </div>
             </div>
           </div>
@@ -114,7 +111,7 @@ extremely demanding.<br></p>
           <div id="id20" style="height: 41px; left: 419px; position: absolute; top: 313px; width: 271px; z-index: 1;" class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_271_41" style="padding: 0px;">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_9">Trolleys @ home</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_9">家用推车</p>
               </div>
             </div>
           </div>
