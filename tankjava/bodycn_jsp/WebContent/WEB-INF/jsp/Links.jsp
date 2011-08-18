@@ -37,7 +37,7 @@
           <div id="id19" style="height: 28px; left: 13px; position: absolute; top: 302px; width: 668px; z-index: 1;" class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_668_28" style="padding: 0px;">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><a class="class18" title="http://www.instyle.com/instyle/package/general/photos/0,,20317220,00.html" href="http://www.instyle.com/instyle/package/general/photos/0,,20317220,00.html">InStyle - Fashionmagazine USA</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><a class="class18" title="http://www.instyle.com/instyle/package/general/photos/0,,20317220,00.html" href="http://www.instyle.com/instyle/package/general/photos/0,,20317220,00.html">InStyle - 美国时尚杂志</a></p>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@
           <div id="id20" style="height: 28px; left: 13px; position: absolute; top: 331px; width: 668px; z-index: 1;" class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_668_28" style="padding: 0px;">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><a class="class19" title="http://www.giovanelliengraving.com/school.html" href="http://www.giovanelliengraving.com/school.html">Cesare Giovanelli - The most famous engraver of the world - Partner of MEPRA</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><a class="class19" title="http://www.giovanelliengraving.com/school.html" href="http://www.giovanelliengraving.com/school.html">Cesare Giovanelli - 全球知名雕刻师 - Mepra合作伙伴</a></p>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@
           <div id="id21" style="height: 28px; left: 14px; position: absolute; top: 414px; width: 668px; z-index: 1;" class="style_SkipStroke_2 shape-with-text">
             <div class="text-content style_External_668_28" style="padding: 0px;">
               <div class="style_4">
-                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><a onclick="window.open(this.href); return false;" title="http://www.katjabremkamp.com/besteck_13.html" href="http://www.katjabremkamp.com/besteck_13.html" onkeypress="window.open(this.href); return false;" class="class20">Designer Katja Bremkamp - MEPRA Flatware „KATJA“</a></p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt;" class="paragraph_style_6"><a onclick="window.open(this.href); return false;" title="http://www.katjabremkamp.com/besteck_13.html" href="http://www.katjabremkamp.com/besteck_13.html" onkeypress="window.open(this.href); return false;" class="class20">设计师 Katja Bremkamp - 设计MEPRA 餐具“KATJA”系列</a></p>
               </div>
             </div>
           </div>
