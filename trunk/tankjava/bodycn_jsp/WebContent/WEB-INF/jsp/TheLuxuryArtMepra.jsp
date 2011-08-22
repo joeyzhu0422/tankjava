@@ -239,14 +239,14 @@
 
 
           <div style="height: 75px; width: 125px;  height: 75px; left: 274px; position: absolute; top: 352px; width: 125px; z-index: 1; " class="tinyText style_SkipStroke_3 shadow_0"><canvas style="position: absolute; top: -3px; left: -3px;" height="85" width="134"></canvas>
-            <img src="image/TheLuxuryArtMepra/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 76px; width: 125px; opacity: 0;">
+            <img src="image/TheLuxuryArtMepra/Logo%2520LUXURY%2520ART%2520MEPRA.jpg" alt="" style="border: medium none; height: 76px; width: 125px; ">
           </div>
           
 
 
           <div style="height: 245px; width: 245px;  height: 245px; left: 352px; position: absolute; top: 2197px; width: 245px; z-index: 1; " class="tinyText style_SkipStroke_4 stroke_12 shadow_1"><canvas style="position: absolute; top: -7px; left: -7px;" height="262" width="262"></canvas>
             <img src="image/TheLuxuryArtMepra/Casablanca%2520Oro%2520Ice%252072dpi.jpg" alt="" style="border: medium none; height: 245px; width: 245px;">
-          <div style="position: absolute; left: -4px; top: -4px;"><img src="image/TheLuxuryArtMepra/Modern_C_TL_12.png" style="position: absolute; left: 0px; top: 0px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/TheLuxuryArtMepra/Modern_C_BL_12.png" style="position: absolute; left: 0px; top: 249px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/TheLuxuryArtMepra/Modern_C_TR_12.png" style="position: absolute; left: 249px; top: 0px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/TheLuxuryArtMepra/Modern_C_BR_12.png" style="position: absolute; left: 249px; top: 249px; width: 4px; height: 4px; z-index: auto; opacity: 0;"><img src="image/TheLuxuryArtMepra/Modern_S_L_12.png" style="position: absolute; left: 0px; top: 4px; width: 4px; height: 245px; z-index: auto; opacity: 0;"><img src="image/TheLuxuryArtMepra/Modern_S_R_12.png" style="position: absolute; left: 249px; top: 4px; width: 4px; height: 245px; z-index: auto; opacity: 0;"><img src="image/TheLuxuryArtMepra/Modern_S_T_12.png" style="position: absolute; left: 4px; top: 0px; width: 245px; height: 4px; z-index: auto; opacity: 0;"><img src="image/TheLuxuryArtMepra/Modern_S_B_12.png" style="position: absolute; left: 4px; top: 249px; width: 245px; height: 4px; z-index: auto; opacity: 0;"></div></div>
+          <div style="position: absolute; left: -4px; top: -4px;"><img src="image/TheLuxuryArtMepra/Modern_C_TL_12.png" style="position: absolute; left: 0px; top: 0px; width: 4px; height: 4px; z-index: auto; "><img src="image/TheLuxuryArtMepra/Modern_C_BL_12.png" style="position: absolute; left: 0px; top: 249px; width: 4px; height: 4px; z-index: auto; "><img src="image/TheLuxuryArtMepra/Modern_C_TR_12.png" style="position: absolute; left: 249px; top: 0px; width: 4px; height: 4px; z-index: auto; "><img src="image/TheLuxuryArtMepra/Modern_C_BR_12.png" style="position: absolute; left: 249px; top: 249px; width: 4px; height: 4px; z-index: auto; "><img src="image/TheLuxuryArtMepra/Modern_S_L_12.png" style="position: absolute; left: 0px; top: 4px; width: 4px; height: 245px; z-index: auto; "><img src="image/TheLuxuryArtMepra/Modern_S_R_12.png" style="position: absolute; left: 249px; top: 4px; width: 4px; height: 245px; z-index: auto; "><img src="image/TheLuxuryArtMepra/Modern_S_T_12.png" style="position: absolute; left: 4px; top: 0px; width: 245px; height: 4px; z-index: auto; "><img src="image/TheLuxuryArtMepra/Modern_S_B_12.png" style="position: absolute; left: 4px; top: 249px; width: 245px; height: 4px; z-index: auto; "></div></div>
           
 
 
@@ -290,7 +290,7 @@
 
 
           <div style="height: 33px; width: 55px;  height: 33px; left: 56px; position: absolute; top: 115px; width: 55px; z-index: 1; " class="tinyText style_SkipStroke_3 shadow_2"><canvas style="position: absolute; top: -3px; left: -3px;" height="43" width="64"></canvas>
-            <img src="image/TheLuxuryArtMepra/Logo%2520LUXURY%2520ART%2520MEPRA_1.jpg" alt="" style="border: medium none; height: 34px; width: 55px; opacity: 0;">
+            <img src="image/TheLuxuryArtMepra/Logo%2520LUXURY%2520ART%2520MEPRA_1.jpg" alt="" style="border: medium none; height: 34px; width: 55px; ">
           </div>
           
 
