@@ -43,7 +43,7 @@
           <div id="id18" style="height: 87px; left: 52px; position: absolute; top: 307px; width: 323px; z-index: 1; " class="style_SkipStroke shape-with-text">
             <div class="text-content graphic_textbox_layout_style_default_External_323_87" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">MMEPRA提供一系列酒饮类产品,各式各样酒饮器具, 冰酒器,冰桶,托盘, 玻璃杯,搅拌器,调酒器,推车等等</p>
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">MEPRA提供一系列酒饮类产品,各式各样酒饮器具, 冰酒器,冰桶,托盘, 玻璃杯,搅拌器,调酒器,推车等等</p>
               </div>
             </div>
           </div>
